@@ -1,0 +1,149 @@
+PAGE 1
+Options Calculator
+Powered by IVolatility
+The Options Calculator, powered by IVolatility.com, provides fair values and Greeks of any 
+option using IVolatility.com data and 20-minute delayed prices. You may customize all the 
+input parameters (option style, price of the underlying instrument, strike, expiration, implied 
+volatility, interest rate and dividends data) or enter a stock or options symbol and the 
+database will populate all ﬁelds for you. Note that the option's underlying price is 20-minute 
+delayed. If the markets are closed, the previous trading day's market closing price will be 
+used.
+/uni2196
+Choose a Stock Symbol, Index 
+Symbol, or Option Symbol
+Input any stock, index or option symbol. If you 
+don't know the symbol or the option you can 
+browse by company name, instrument, market 
+or exchange via the "Symbol Lookup" icon. 
+Once you select a symbol, data will populate 
+the table with the stock's price and the closest 
+to expiring at-the-money options.
+American-style vs. European-style
+Next, select whether to price the option as an 
+American-style or European-style type option.
+AMERICAN-STYLE: The majority of stock options 
+listed for trading on the options exchanges in the 
+United States are American-style options. This means 
+that the option can be exercised at any time on or 
+before expiration. This early exercise capability is 
+factored into the pricing of the options. There are 
+some index options that are American-style and you 
+should check the product speciﬁcations supplied by 
+the exchange for this information. This Options 
+Calculator uses a binomial model with 100 steps to 
+create a theoretical price for American-style options. 
+EUROPEAN-STYLE: Most (but not all) index options 
+listed for trading on the options exchanges in the 
+United States are European-style options. This 
+means that the option can be exercised only on its 
+expiration date. This inability to exercise until 
+expiration is factored into the pricing of the options. 
+This option calculator uses a Black-Scholes model 
+for European-style options.
+/uni2196
+PAGE 2
+Last Price
+The option's underlying price is 20-minute 
+delayed. If the markets are closed, the 
+previous trading day's market closing price will 
+be used. The user can change it to today's 
+current price or any other price by manually 
+entering the desired price. Notice that the 
+price must be entered in decimal format.
+/uni2196
+Strike
+The strike price of the option shown can be 
+changed manually. The default is the 
+at-the-money strike. 
+ /uni2196
+Expiry
+This will populate a drop down with all 
+potential expiration dates. The default value 
+will be the closest expiry date, or the option 
+with the fewest days to expiration. Expiry date 
+and time are customizable and modiﬁcations 
+will display possible impact to an option’s 
+value.
+/uni2196
+Volatility
+The default Volatility is automatically 
+populated and derived from last night's 
+implied volatility for that particular put and 
+call option series. Users can change the 
+volatility by entering any other value.
+/uni2196
+Interest Rate
+The default risk-free interest rate is derived 
+from last night's treasury market and is the 
+rate that is equivalent to the option's 
+expiration term. Users can change the interest 
+rate by entering any other value.
+/uni2196
+Dividend Amount, Date & Frequency
+Depending upon whether a stock pays a 
+dividend or not, this section may or may not 
+contain data. If there is data within the ﬁelds 
+you can alter it by simply adding in the 
+dividend amount and the corresponding 
+ex-dividend date into the ﬁelds. The 
+calculator will then price the options 
+accordingly.
+/uni2196
+PAGE 3
+Calculation
+At this step, the user is now ready to calculate 
+the call and put prices for this option. Using 
+the values entered, the Greeks are calculated 
+in conjunction with the options prices. The 
+Greeks (Delta, Gamma, Theta, Vega and Rho) 
+are mathematical values that measure the 
+sensitivity of an option's price to stock, time, 
+volatility and interest rate changes.
+DELTA: The theoretical amount an option's price will 
+change for a corresponding one-point change in the 
+price of the underlying security.
+GAMMA: The theoretical change in Delta divided by the 
+dollar change in the price of the underlying security's 
+price. It is the measurement of the rate of change in an 
+option's Delta with respect to the underlying price.
+THETA: A measure of how much an option's price 
+theoretically decays with each passing day with the 
+price of the underlying security and implied volatility 
+remaining unchanged.
+VEGA: The theoretical measure of change in an option's 
+price in response to a one percentage point change in 
+implied volatility.
+RHO: A measure of change in an options price in 
+response to a one percentage change in the risk-free 
+interest rate.
+ALPHA:
+ Alpha is a ratio of Gamma over Theta. Thus 
+Alpha indicates the relative value of owning gamma 
+relative to the current level of theta. It is a measure that 
+allows for comparison of several diﬀerent options on the 
+basis of how much they cost daily to own (daily Theta) 
+versus the potential gamma derived return (proﬁts from 
+movement) from owning them. The greater absolute 
+value of Alpha the more potential for proﬁts exists 
+against the loss from Theta for long positions. The 
+converse is true for short positions.
+Options Price & Implied Volatility 
+On the bottom, left side of the tool, the user 
+has the ability to input a diﬀerent options 
+price. When this is done, the user will notice 
+the corresponding implied volatility reading 
+that would be tied to that option price with all 
+other factors remaining unchanged. In this, 
+users may be able to perform a “what if” 
+simulation to view how option prices might be 
+aﬀected by larger changes in implied volatility 
+levels, with all other factors remaining static. 
+/uni2196 /uni2196
+PAGE 4
+Disclaimer
+The Options Calculator and 20-minute delayed options quotes are provided by IVolatility, 
+and NOT BY OCC. The tool is being provided for educational purposes only. OCC makes 
+no representation as to the timeliness, accuracy or validity of the information and this 
+information should not be construed as a recommendation to purchase or sell a security, 
+or to provide investment advice. For more information or help, please contact us at 
+options@theocc.com.

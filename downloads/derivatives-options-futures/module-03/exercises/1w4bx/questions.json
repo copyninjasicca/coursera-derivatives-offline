@@ -1,0 +1,20 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>True or false: The price and daily change for the underlying are shown in the Option Chain window to the upper right of the display.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>True or false: Option strike prices displayed in the Option Chain window are displayed in the center column.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

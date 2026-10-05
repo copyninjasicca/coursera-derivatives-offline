@@ -1,0 +1,245 @@
+WEBVTT
+
+1
+00:00:05.409 --> 00:00:14.290
+[MUSIC]
+
+2
+00:00:14.290 --> 00:00:16.367
+From a Watchlist in the monitor tab,
+
+3
+00:00:16.367 --> 00:00:20.863
+click the underlying symbol you wish to
+create your option straddle trade for.
+
+4
+00:00:20.863 --> 00:00:23.633
+So long as your tabs are part
+of the same windows group,
+
+5
+00:00:23.633 --> 00:00:26.355
+the underlying will appear
+in the order entry panel.
+
+6
+00:00:27.500 --> 00:00:29.330
+To the right of the order entry panel,
+
+7
+00:00:29.330 --> 00:00:31.860
+select Strategy Builder
+from the drop-down menu.
+
+8
+00:00:33.110 --> 00:00:38.620
+To the lower left of the Strategy Builder
+window, ensure the on button is active.
+
+9
+00:00:38.620 --> 00:00:40.990
+If not, just click it to activate.
+
+10
+00:00:42.300 --> 00:00:46.590
+Above, you will see the option chain
+window populate, with calls to the left
+
+11
+00:00:46.590 --> 00:00:50.620
+and puts to the right of the straight
+column in the middle of the display.
+
+12
+00:00:51.880 --> 00:00:57.210
+Use the tabs above the call area to
+locate different expiration dates.
+
+13
+00:00:57.210 --> 00:00:58.562
+Above the put display,
+
+14
+00:00:58.562 --> 00:01:03.030
+use the strikes drop-down to fine-tune
+the contracts displayed on screen.
+
+15
+00:01:04.330 --> 00:01:05.640
+You will see the price and
+
+16
+00:01:05.640 --> 00:01:09.580
+the daily change of the underlying to
+the upper right corner of the window.
+
+17
+00:01:10.960 --> 00:01:15.220
+Strategy Builder has several predefined
+option combinations available from
+
+18
+00:01:15.220 --> 00:01:18.650
+the strategy drop-down menu to
+the lower right of the screen.
+
+19
+00:01:19.920 --> 00:01:24.203
+Select Straddle from the list and
+notice the icon shown in the lower part of
+
+20
+00:01:24.203 --> 00:01:28.437
+the display, instructing you to click
+on a leg to display the Straddle.
+
+21
+00:01:28.437 --> 00:01:32.566
+Notice that when the cursor is placed
+above the bid price of a call,
+
+22
+00:01:32.566 --> 00:01:36.702
+the software automatically
+highlights the pertinent element for
+
+23
+00:01:36.702 --> 00:01:38.569
+the rest of the combination.
+
+24
+00:01:38.569 --> 00:01:43.401
+For a short straddle, TWS knows that
+selling a call requires the sale of a put
+
+25
+00:01:43.401 --> 00:01:46.320
+at the same strike and expiration.
+
+26
+00:01:46.320 --> 00:01:48.810
+Hence, both legs display in red.
+
+27
+00:01:50.050 --> 00:01:53.159
+Move the cursor above
+the ask price on a call and
+
+28
+00:01:53.159 --> 00:01:57.320
+see the related leg on the put
+side also moves to the ask price.
+
+29
+00:01:58.800 --> 00:02:02.147
+Locate the design strike you want to
+build your short straddle for and
+
+30
+00:02:02.147 --> 00:02:04.580
+click on the bid price of the call.
+
+31
+00:02:04.580 --> 00:02:09.440
+Note that a straddle combines the same
+strike and same expiration column to put.
+
+32
+00:02:10.700 --> 00:02:14.240
+Both call and put legs move
+down to the Strategy Builder.
+
+33
+00:02:14.240 --> 00:02:18.610
+Note that clicking on the ask price
+would have generated the long straddle.
+
+34
+00:02:20.040 --> 00:02:22.680
+With both legs of the short
+straddle in position.
+
+35
+00:02:22.680 --> 00:02:27.488
+Below the bid/ask column, you will see
+the price quote for the combination.
+
+36
+00:02:27.488 --> 00:02:32.354
+This is the combined price of both legs,
+and in the case of the short straddle,
+
+37
+00:02:32.354 --> 00:02:33.770
+represents a credit.
+
+38
+00:02:35.060 --> 00:02:39.256
+Use the Order Entry panel at the bottom
+of the page to create the order.
+
+39
+00:02:39.256 --> 00:02:42.295
+Define the quantity of straddle
+combinations to trade.
+
+40
+00:02:43.535 --> 00:02:45.905
+Choose the right order type
+from the drop-down menu.
+
+41
+00:02:47.245 --> 00:02:51.279
+If using a limit price, choose the value
+by clicking in the input field or
+
+42
+00:02:51.279 --> 00:02:52.875
+simply typing in the value.
+
+43
+00:02:54.145 --> 00:02:56.989
+Select from the time in force
+drop-down whether this is a day or
+
+44
+00:02:56.989 --> 00:02:58.445
+a good-til-canceled order.
+
+45
+00:02:59.705 --> 00:03:01.740
+Your order is ready to review.
+
+46
+00:03:01.740 --> 00:03:04.660
+Click the submit button to
+generate an order confirmation.
+
+47
+00:03:06.030 --> 00:03:08.670
+When you have reviewed the details,
+click transmit.
+
+48
+00:03:09.880 --> 00:03:12.658
+The order is sent for
+execution at the exchange and
+
+49
+00:03:12.658 --> 00:03:16.110
+will appear in the activity panel
+to the lower left of mosaic.
+
+50
+00:03:17.340 --> 00:03:20.257
+To pause or interact with an active order,
+
+51
+00:03:20.257 --> 00:03:24.562
+click on it in the activity panel and
+make the relevant choice.
+
+52
+00:03:24.562 --> 00:03:27.896
+[MUSIC]

@@ -1,0 +1,81 @@
+{
+  "status": "pass",
+  "testCount": 16,
+  "checks": [
+    {
+      "name": "Signed stock/covered-call expiry cost, value and PnL are hand-computed",
+      "status": "pass"
+    },
+    {
+      "name": "Long put, short stock and nonstandard option contract multiplier",
+      "status": "pass"
+    },
+    {
+      "name": "Pre-expiry BSM portfolio Greeks use quantity sign and multiplier",
+      "status": "pass"
+    },
+    {
+      "name": "Per-leg IV scenarios distinguish 10% relative (22%) and absolute (30%)",
+      "status": "pass"
+    },
+    {
+      "name": "Different expiries and expired leg explanation use scenario intrinsic",
+      "status": "pass"
+    },
+    {
+      "name": "Injection works for type-specific American Greeks without hidden BSM fallback",
+      "status": "pass"
+    },
+    {
+      "name": "American model integration, cash dividend timing aliases and price-only parity",
+      "status": "pass"
+    },
+    {
+      "name": "European cash-dividend price and Greeks match European-exercise escrowed lattice",
+      "status": "pass"
+    },
+    {
+      "name": "Scenario curve shares one baseline and returns identical prices to individual scenarios",
+      "status": "pass"
+    },
+    {
+      "name": "Marks value without replacing model Greeks, and expiry ignores marks",
+      "status": "pass"
+    },
+    {
+      "name": "Import sorts dates, accepts safe numeric strings and uses dated quote chain",
+      "status": "pass"
+    },
+    {
+      "name": "Import rejects duplicate/invalid records, crossed quotes, bad OHLC, HTML and numeric expressions",
+      "status": "pass"
+    },
+    {
+      "name": "Historical volatility of known log returns matches sample and population formula",
+      "status": "pass"
+    },
+    {
+      "name": "History ordering, symbol selection, adjusted closes and insufficient window validation",
+      "status": "pass"
+    },
+    {
+      "name": "Input validation rejects unsupported legs, mixed underlying and unsafe values",
+      "status": "pass"
+    },
+    {
+      "name": "Browser globals expose valuation without CommonJS and extreme price ratios stay finite",
+      "status": "pass"
+    }
+  ],
+  "sourceBasis": [
+    "Archived OIC Profit and Loss Simulator guide: quantity scaling, contract size, relative/absolute IV scenarios, BSM/CRR style distinction",
+    "Archived OIC Historical and Implied Volatility guide: annualized historical volatility"
+  ],
+  "limitations": [
+    "Single underlying per valuation; cash flows, transaction costs and historical settlement omitted",
+    "Cash-dividend European/American legs use per-leg escrowed approximation; residual-stock diffusion varies with leg expiry, not one globally consistent dividend process",
+    "Imported quotes and imported contract IV only; no live feed or proprietary IVX",
+    "HV uses consecutive available observations, not reconstructed missing trading dates; return window and sample/population divisor explicit",
+    "Expiry gamma/theta are undefined; ATM expiry delta is undefined; aggregate affected Greeks return null"
+  ]
+}

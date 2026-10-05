@@ -1,0 +1,20 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>True or false: A short strangle involves the purchase of a call and a put with different strike prices but the same expiration date.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>True or false: A short strangle can only be entered using a market order type.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

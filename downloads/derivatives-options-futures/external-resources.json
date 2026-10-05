@@ -1,0 +1,137 @@
+[
+  {
+    "url": "https://www.optionseducation.org/theoptionseducationcenter/occ-learning",
+    "status": "saved_landing",
+    "file": "external/occ-learning.html",
+    "note": "Public learning introduction saved; linked courses and embedded video need online access/account."
+  },
+  {
+    "url": "http://www.theocc.com/about/publications/character-risks.jsp",
+    "status": "unavailable",
+    "resolved_url": "https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document",
+    "note": "Official page accessible; PDF browser download timed out and direct download returned 403."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/optionscalculator",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/options-calculator/index.html",
+    "note": "Legacy course URL. Authenticated original review now completed; original guide and resources preserved. Local model is independent and numerical differences remain.",
+    "resolved_url": "https://www.optionseducation.org/toolsoptionquotes/options-calculator"
+  },
+  {
+    "url": "http://www.optionsclearing.com/about/publications/character-risks.jsp",
+    "status": "unavailable",
+    "resolved_url": "https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document",
+    "note": "Official page accessible; PDF browser download timed out and direct download returned 403."
+  },
+  {
+    "url": "https://optionseducation.org",
+    "status": "reference_only",
+    "note": "Reference to entire external website; not a course attachment."
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.cmegroup.com/education/courses/introduction-to-futures.html",
+    "status": "saved",
+    "file": "external/cme-introduction-to-futures.html",
+    "resolved_url": "https://www.cmegroup.com/education/courses/introduction-to-futures"
+  },
+  {
+    "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract.html",
+    "status": "saved",
+    "file": "external/cme-futures-contract.html",
+    "resolved_url": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract"
+  },
+  {
+    "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html",
+    "status": "saved",
+    "file": "external/cme-futures-margin.html",
+    "resolved_url": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed"
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",
+    "status": "unavailable",
+    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+  },
+  {
+    "url": "https://www.cmegroup.com/trading_tools/simulator",
+    "status": "online_only",
+    "note": "Trading simulator referenced by supplementary CME pages depends on live service; not copied. Independent futures P&L and margin tool supplied."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/trending-options-volume",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/trending-options-volume/index.html",
+    "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/options-monitor",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/options-monitor/index.html",
+    "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/stock-monitor",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/stock-monitor/index.html",
+    "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/options-calculator",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/options-calculator/index.html",
+    "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/pnl-calculator",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/pnl-calculator/index.html",
+    "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/probability-calculator",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/probability-calculator/index.html",
+    "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  },
+  {
+    "url": "https://www.optionseducation.org/toolsoptionquotes/historical-and-implied-volatility-new",
+    "status": "original_resources_saved_server_required",
+    "file": "oic-original/historical-and-implied-volatility-new/index.html",
+    "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  }
+]

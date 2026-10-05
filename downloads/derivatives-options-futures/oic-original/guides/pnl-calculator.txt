@@ -1,0 +1,178 @@
+PAGE 1
+Proﬁt and Loss Simulator
+Powered by IVolatility
+The Position Proﬁt and Loss Simulator, powered by IVolatility.com, allows users to explore the 
+potential proﬁt and loss of hypothetical trades. The user can enter multiple trades, also 
+known as legs, and can customize variables such as stock price, volatility, interest rates, 
+days to expiration and dividends to model theoretical changes. Note that all data is 
+provided with a 20-minute delay. If the markets are closed, the previous trading day's 
+market closing price will be used.
+Choose a Stock Symbol, Index 
+Symbol, or Option Symbol
+Input any stock, index or option symbol and 
+select ‘Find Chain.’ Once entered, an options 
+chain pop up window will appear listing all 
+options on the underlying security. 
+Users can add a position to the PnL simulator 
+from the Options Chains as follows: 
+• To add the underlying stock or ETF, click 
+the ‘Add Stock to Calculator’ on the 
+bottom left of the Options Chains window.
+Note: users will not be able to add the 
+underlying if the underlying is an index but can 
+instead use a tradeable ETF for an index. 
+• To add option legs, click on the bid price 
+link to sell, or the ask price link to enter a 
+buy.
+/uni2196
+Position Leg Details
+Once all desired legs of the positions are 
+entered users can check the details of each 
+leg and make any corrections. All changes are 
+made in the Position Details window.
+/uni2196
+/uni2196
+PAGE 2
+The user can adjust the price of the 
+options/stock manually by typing in the price 
+column. By default, the column shows a 
+20-minute delayed price from the time the leg 
+was added. 
+The quantity column allows the user to enter 
+the desired quantity for each leg. The user can 
+also change the expiry, strike, and type of 
+each leg.
+Delete any leg by clicking on the (X) icon in the 
+ﬁrst column.
+The other Greek values in the table are 
+calculated and are not available for editing.
+The Greeks are represented in shares 
+equivalent. The absolute values of the Greeks 
+are multiplied by the standard contract size 
+and the quantity of options selected in the 
+QTY column.
+/uni2196
+IMPLIED VOLATILITY OR IV: Implied Volatility is the
+market's best approximation of future volatility, and it is 
+obtained by plugging the current option price into an 
+option pricing model and backsolving to arrive at the 
+option’s implied volatility.
+DELTA: The theoretical amount an option's price will 
+change for a corresponding one-point change in the 
+price of the underlying security.
+GAMMA: The theoretical change in Delta divided by the 
+dollar change in the price of the underlying security's 
+price. It is the measurement of the rate of change of an 
+option’s Delta with respect to the underlying price.
+THETA: A measure of how much an option's price 
+theoretically decays with each passing day with the 
+price of the underlying security and implied volatility 
+remaining unchanged.
+VEGA: The theoretical measure of change in an option's 
+price in response to a one percentage point change in 
+implied volatility.
+Total Position
+The Total Position window shows the summed 
+total position Greeks as well as the Bid/Ask 
+and Mid price of all options in the position.
+Underlying Price - The user can enter prices 
+and view how those price changes will aﬀect 
+the net Greeks and PnL.
+Price - The Bid/Ask prices will be used 
+according to the strategy (Bid for Sell and Ask 
+for Buy). 
+Mid-price - The mid-price will be used for all 
+position legs. 
+Invert Chart - The legs will be switched from 
+buy to sell and vice-versa.
+/uni2196
+/uni2196
+PAGE 3
+Simulation Panel
+To change the volatility assumption the user 
+can manipulate the slider in the ﬁrst window of 
+the Simulation Panel. The user can also enter a 
+number in the text entry ﬁeld or drag the slider.
+Changes in volatility can be made in “Relative” 
+terms or “Absolute”. For example, if the current 
+IV is 20 a 10% relative move would translate to 
+22%. The 2% is added to the original 20% 
+because the relative move is positive. 
+To simulate changes in volatility in absolute 
+terms, choose "Absolute" from the drop-down 
+menu. After a 10% absolute change, for 
+example, volatility would equal 30% (10 + 20). 
+To see how time to expiration aﬀects the 
+position, use the horizontal slider located 
+above the volatility slider. Changes can be 
+made by typing in the number of days in the 
+text-entry ﬁeld. The user can also drag the 
+horizontal slider with their mouse or click on 
+the calendar icon and choose a date.
+Days to expiration always populates with 
+today’s date.
+Interest Rates 
+By default, the tool uses SOFR rates in the PnL 
+calculation. However, the user can input their 
+own rates on the ﬁrst window of the ‘Advanced 
+Settings’ panel to view how diﬀerent interest 
+rate assumptions will impact the position. 
+/uni2196
+/uni2196
+Dividends 
+Dividends and dividend yields are provided 
+from the iVolatility database. The user can 
+check and edit them through the “Div/Size” 
+simulation window. The contract size can be 
+edited. The default for the contract size is 100.
+/uni2196
+/uni2196
+PAGE 4
+Disclaimer
+The Proﬁt and Loss Simulator and 20-minute delayed options quotes are provided by 
+IVolatility, and NOT BY OCC. The tool is being provided for educational purposes only. OCC 
+makes no representation as to the timeliness, accuracy or validity of the information and this 
+information should not be construed as a recommendation to purchase or sell a security, or 
+to provide investment advice. For more information or help, please contact us at 
+options@theocc.com.
+Stock Price/ PnL Scenario
+A table summary of various PnL’s across 
+diﬀerent price points is displayed to the left of 
+the chart. At breakeven the proﬁt is equal to 
+zero. The table defaults to today’s date and 
+will change when various inputs are changed 
+(time, price, and expiration). If the user wants 
+to simulate breakeven(s) at expiration, move 
+the days to expiration slider all the way to the 
+right or type "0" in the "Days to Expire" ﬁeld.
+To calculate the PnL for option positions the 
+theoretical option price according to the 
+simulated stock price is used. The Black- 
+Scholes model is used for European-style 
+options and for early exercise of 
+American-style options with an underlying 
+without dividends and for all others  Cox- 
+Ross-Rubinstein binomial tree model is used.
+Interactive Chart
+Once the strategy is entered into the 
+calculator the line graph will be drawn in the 
+main window automatically. The chart will 
+display the proﬁt and loss as of the day the 
+trade was entered. 
+The blue horizontal bold line on the graph 
+shows your breakeven point, i.e., where your 
+proﬁt would equal zero.
+The user can slide the pointer over the line 
+graph and a crosshair will appear. Use this 
+feature to pinpoint exact proﬁts at a given 
+price level for the underlying. If the user clicks 
+on the chart, it will ﬁx the crosshair and display 
+the proﬁt or loss at that speciﬁc underlying 
+price. Click the mouse again to release the 
+crosshair.
+To zoom in or zoom out on the graph, use the 
+"+” and “-" icons. The user can also drag the 
+graph up or down, left or right, to see any 
+portion of the picture.
+/uni2196
+/uni2196

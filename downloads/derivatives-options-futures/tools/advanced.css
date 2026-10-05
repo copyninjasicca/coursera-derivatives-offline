@@ -1,0 +1,5 @@
+
+.table-scroll{max-width:100%;overflow:auto;margin:18px 0}.leg-table{min-width:1080px}.leg-table input{width:90px}.leg-table select{min-width:88px}.scenario-controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:end}.scenario-controls label{font-size:13px}.scenario-controls input,.scenario-controls select,.form-grid textarea{width:100%;margin-top:5px}textarea{line-height:1.6}.tool-grid>div,.tool-grid>form{min-width:0}.metric{display:block}.results{font-size:14px}.status-line{border-left:3px solid var(--green);padding-left:16px}.scenario-controls button{min-height:45px}@media(max-width:760px){.scenario-controls{grid-template-columns:1fr 1fr}.results th,.results td{padding:7px}.leg-table th,.leg-table td{padding:7px}.tool-nav button{font-size:13px;padding:.4rem .65rem}.toolbar input[type=file]{min-width:0;width:100%;font-size:13px}.form-grid label{min-width:0}.metric{font-size:32px}}
+.notice textarea{display:block;width:100%;margin-top:12px;font:12px/1.5 monospace}
+
+#port-cash{display:block;width:100%;margin-top:8px}

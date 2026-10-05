@@ -1,0 +1,17 @@
+[MUSIC] The short straddle seller is hoping for
+a lack of movement in the price of the underlying shares and
+is indifferent to direction. It is a fairly pure ban on decreasing
+volatility, and benefits from decay. A short straddle is created when
+an investor sells an equal number of calls and ports with the same strike and
+expiration. It may be used when investors expect
+a decrease in either implied volatility or a lack of movement in the price
+of the underlying equity. Profit is limited to the initial premium
+received while loss is potentially unlimited. The direction of the stock does
+not matter to the straddle seller, as long as the movement up or down from the strike stays within
+the price received for the straddle. The maximum gain is
+the cost of the trade and occurs if the stock closes
+at the strike price. Time decay helps a straddle seller. The combination has two breakeven
+points equal to the strike price plus the cost of the trade, and the strike
+price minus the cost of the trade. The straddle seller, loses money if the
+underlying price exceeds a range around the strike price,
+beyond the total premium received. [MUSIC]

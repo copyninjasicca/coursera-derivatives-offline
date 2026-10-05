@@ -1,0 +1,2402 @@
+{
+  "checkedOn": "2026-10-05",
+  "fullOriginalEquivalence": false,
+  "originalEvidence": "Preserved authenticated original UI observations from this session. Fresh pricing service eventually loaded, and additional nominal one-year, fractional-day and boundary observations were preserved.",
+  "precisionPolicy": "Half of the original display increment, unchanged across models. Different units are not aggregated.",
+  "pricing": [
+    {
+      "name": "European stock case with zero cash dividend shown",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 95,
+        "days": 91.25,
+        "years": 0.25,
+        "rate": 0.1,
+        "volatility": 0.5,
+        "yield": 0
+      },
+      "mapping_note": "Original stock UI uses regular cash dividends; zero amount was shown. Local q=0 is a comparison assumption, not proof of identical server dividend handling.",
+      "variants": [
+        {
+          "model": "European BSM",
+          "steps": null,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 13.7343,
+              "local": 13.695272738608132,
+              "difference": -0.039027261391867185,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 6.3712,
+              "local": 6.3497143812997265,
+              "difference": -0.021485618700273434,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.6665,
+              "local": 0.6664651640893665,
+              "difference": -0.00003483591063346836,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.3335,
+              "local": -0.3335348359106335,
+              "difference": -0.00003483591063346836,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0145,
+              "local": 0.0145474604602216,
+              "difference": 0.00004746046022159958,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0145,
+              "local": 0.0145474604602216,
+              "difference": 0.00004746046022159958,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0642,
+              "local": -0.0643272601159174,
+              "difference": -0.00012726011591740471,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0388,
+              "local": -0.03894248158367313,
+              "difference": -0.00014248158367313052,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.226,
+              "local": -0.22614767726788224,
+              "difference": -0.00014767726788222912,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.3741,
+              "local": -0.3735627486647053,
+              "difference": 0.0005372513352946973,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1824,
+              "local": 0.18184325575277,
+              "difference": -0.0005567442472300121,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1824,
+              "local": 0.18184325575277,
+              "difference": -0.0005567442472300121,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.1331,
+              "local": 0.1323781091758213,
+              "difference": -0.0007218908241787003,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.0999,
+              "local": -0.0992579949309077,
+              "difference": 0.0006420050690923024,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "European index case with continuous yield",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 100,
+        "days": 180.51041666666666,
+        "years": 0.49454908675799086,
+        "rate": 0.03,
+        "volatility": 0.2,
+        "yield": 0.02
+      },
+      "mapping_note": "Continuous yield input shown in original UI.",
+      "variants": [
+        {
+          "model": "European BSM",
+          "steps": null,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 5.7854,
+              "local": 5.785217442855071,
+              "difference": -0.00018255714492898534,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 5.2962,
+              "local": 5.296744684764242,
+              "difference": 0.0005446847642422981,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.5366,
+              "local": 0.5366704839887135,
+              "difference": 0.00007048398871356554,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.4534,
+              "local": -0.4534872891590113,
+              "difference": -0.00008728915901129453,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0279,
+              "local": 0.027929521479695314,
+              "difference": 0.000029521479695312353,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0279,
+              "local": 0.027929521479695314,
+              "difference": 0.000029521479695312353,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0163,
+              "local": -0.016298680155183903,
+              "difference": 0.0000013198448160951781,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0136,
+              "local": -0.013626067578731851,
+              "difference": -0.00002606757873185178,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.7137,
+              "local": -1.713606329701006,
+              "difference": 0.00009367029899398638,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -2.0504,
+              "local": -2.049712532124008,
+              "difference": 0.0006874678759918318,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.2762,
+              "local": 0.27625038682742015,
+              "difference": 0.000050386827420145774,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.2762,
+              "local": 0.27625038682742015,
+              "difference": 0.000050386827420145774,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.2368,
+              "local": 0.23679915771598348,
+              "difference": -8.422840165334122e-7,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.2505,
+              "local": -0.2504667271763499,
+              "difference": 0.000033272823650121186,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "European index case at spot 110",
+      "style": "European",
+      "parameters": {
+        "spot": 110,
+        "strike": 100,
+        "days": 180.51041666666666,
+        "years": 0.49454908675799086,
+        "rate": 0.03,
+        "volatility": 0.2,
+        "yield": 0.02
+      },
+      "mapping_note": "Continuous yield input shown in original UI.",
+      "variants": [
+        {
+          "model": "European BSM",
+          "steps": null,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 12.4238,
+              "local": 12.424160645500535,
+              "difference": 0.0003606455005353837,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 2.034,
+              "local": 2.03411015593246,
+              "difference": 0.0001101559324601098,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.7755,
+              "local": 0.775517375961164,
+              "difference": 0.0000173759611640234,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.2146,
+              "local": -0.21464039718656083,
+              "difference": -0.00004039718656081992,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0188,
+              "local": 0.018789300237268353,
+              "difference": -0.000010699762731648105,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0188,
+              "local": 0.018789300237268353,
+              "difference": -0.000010699762731648105,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0138,
+              "local": -0.013773575209893711,
+              "difference": 0.000026424790106288273,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0116,
+              "local": -0.011643514837906167,
+              "difference": -0.000043514837906167766,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.3645,
+              "local": -1.3641556350432378,
+              "difference": 0.0003443649567622664,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.614,
+              "local": -1.613713771042628,
+              "difference": 0.000286228957372181,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.2249,
+              "local": 0.2248719968105389,
+              "difference": -0.000028003189461084377,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.2249,
+              "local": 0.2248719968105389,
+              "difference": -0.000028003189461084377,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.3604,
+              "local": 0.3604409780415332,
+              "difference": 0.00004097804153319062,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.1268,
+              "local": -0.1268249068508002,
+              "difference": -0.000024906850800199276,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "American stock case at the same displayed standard inputs",
+      "style": "American",
+      "parameters": {
+        "spot": 100,
+        "strike": 95,
+        "days": 91.25,
+        "years": 0.25,
+        "rate": 0.1,
+        "volatility": 0.5,
+        "yield": 0
+      },
+      "mapping_note": "Original stock UI uses regular cash dividends; zero amount was shown. Local q=0 is a comparison assumption, not proof of identical server dividend handling.",
+      "variants": [
+        {
+          "model": "American CRR",
+          "steps": 100,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 13.7343,
+              "local": 13.676702363570069,
+              "difference": -0.05759763642993043,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 6.528,
+              "local": 6.486857299444898,
+              "difference": -0.04114270055510172,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.6665,
+              "local": 0.6665313562099109,
+              "difference": 0.000031356209910904376,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.3445,
+              "local": -0.3444675683872437,
+              "difference": 0.000032431612756289585,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0145,
+              "local": 0.014649471481783879,
+              "difference": 0.0001494714817838784,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0153,
+              "local": 0.015406405408294962,
+              "difference": 0.00010640540829496246,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0642,
+              "local": -0.06468351418622452,
+              "difference": -0.00048351418622452624,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0413,
+              "local": -0.041546973552196644,
+              "difference": -0.00024697355219664013,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.226,
+              "local": -0.22647921446580493,
+              "difference": -0.000479214465804928,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.3716,
+              "local": -0.37081895722054115,
+              "difference": 0.0007810427794588404,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1824,
+              "local": 0.17798206082049717,
+              "difference": -0.004417939179502839,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1831,
+              "local": 0.18085807887988992,
+              "difference": -0.0022419211201100964,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.1331,
+              "local": 0.1324410830556566,
+              "difference": -0.0006589169443433907,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.0812,
+              "local": -0.0809236592950846,
+              "difference": 0.00027634070491538987,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            }
+          ]
+        },
+        {
+          "model": "American CRR",
+          "steps": 400,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 13.7343,
+              "local": 13.691712280255778,
+              "difference": -0.04258771974422082,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 6.528,
+              "local": 6.497552658676256,
+              "difference": -0.03044734132374316,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.6665,
+              "local": 0.6664738720303949,
+              "difference": -0.000026127969605105328,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.3445,
+              "local": -0.3443992030008614,
+              "difference": 0.00010079699913856377,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0145,
+              "local": 0.014571151177919446,
+              "difference": 0.000071151177919445,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0153,
+              "local": 0.015328456306253449,
+              "difference": 0.000028456306253449304,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0642,
+              "local": -0.06440960675254158,
+              "difference": -0.00020960675254158567,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0413,
+              "local": -0.04127896736148102,
+              "difference": 0.000021032638518984903,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.226,
+              "local": -0.22622636455305595,
+              "difference": -0.00022636455305594105,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.3716,
+              "local": -0.3713381725860957,
+              "difference": 0.000261827413904292,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1824,
+              "local": 0.18010948165645502,
+              "difference": -0.0022905183435449894,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1831,
+              "local": 0.18160367162999158,
+              "difference": -0.0014963283700084318,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.1331,
+              "local": 0.13238918725555493,
+              "difference": -0.0007108127444450663,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.0812,
+              "local": -0.08134279140294964,
+              "difference": -0.0001427914029496491,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            }
+          ]
+        },
+        {
+          "model": "American CRR",
+          "steps": 1000,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 13.7343,
+              "local": 13.696308389138542,
+              "difference": -0.0379916108614573,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 6.528,
+              "local": 6.501025329690089,
+              "difference": -0.026974670309910742,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.6665,
+              "local": 0.6664505028861915,
+              "difference": -0.000049497113808527615,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.3445,
+              "local": -0.34438802734500884,
+              "difference": 0.00011197265499113263,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0145,
+              "local": 0.014553294998636718,
+              "difference": 0.00005329499863671733,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0153,
+              "local": 0.01531050364512096,
+              "difference": 0.000010503645120960373,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0642,
+              "local": -0.06434655599518893,
+              "difference": -0.0001465559951889378,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0413,
+              "local": -0.04121684041090987,
+              "difference": 0.00008315958909013016,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.226,
+              "local": -0.2261705350590145,
+              "difference": -0.00017053505901448718,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -0.3716,
+              "local": -0.3714623317188659,
+              "difference": 0.00013766828113409568,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1824,
+              "local": 0.18126136325232878,
+              "difference": -0.001138636747671229,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.1831,
+              "local": 0.18243731558988507,
+              "difference": -0.0006626844101149387,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.1331,
+              "local": 0.13237185464731738,
+              "difference": -0.0007281453526826187,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.0812,
+              "local": -0.0814235494788651,
+              "difference": -0.0002235494788651038,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fresh European index, one-year nominal horizon",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 100,
+        "days": 365,
+        "years": 1,
+        "rate": 0.05,
+        "volatility": 0.2,
+        "yield": 0
+      },
+      "mapping_note": "Fresh authenticated SPX index case. Inputs were entered through the original UI and outputs captured after calculation.",
+      "variants": [
+        {
+          "model": "European BSM",
+          "steps": null,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 10.4394,
+              "local": 10.45058357218555,
+              "difference": 0.011183572185551327,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 5.6015,
+              "local": 5.573526022256964,
+              "difference": -0.027973977743036116,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.636,
+              "local": 0.636830651175619,
+              "difference": 0.0008306511756189794,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.364,
+              "local": -0.363169348824381,
+              "difference": 0.0008306511756189794,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0188,
+              "local": 0.018762017345846895,
+              "difference": -0.00003798265415310559,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0188,
+              "local": 0.018762017345846895,
+              "difference": -0.00003798265415310559,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0175,
+              "local": -0.01757267820941972,
+              "difference": -0.00007267820941971731,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0046,
+              "local": -0.0045421381477661,
+              "difference": 0.00005786185223389997,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.0729,
+              "local": -1.0676811537918927,
+              "difference": 0.005218846208107308,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -4.0906,
+              "local": -4.130657574797537,
+              "difference": -0.04005757479753669,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.3761,
+              "local": 0.3752403469169379,
+              "difference": -0.000859653083062073,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.3761,
+              "local": 0.3752403469169379,
+              "difference": -0.000859653083062073,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.5331,
+              "local": 0.5323248154537634,
+              "difference": -0.0007751845462365958,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.4212,
+              "local": -0.4189046090469506,
+              "difference": 0.0022953909530494254,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fresh European index, half-day boundary",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 100,
+        "days": 0.5,
+        "years": 0.0013698630136986301,
+        "rate": 0.05,
+        "volatility": 0.2,
+        "yield": 0
+      },
+      "mapping_note": "Fresh authenticated SPX index case. Inputs were entered through the original UI and outputs captured after calculation.",
+      "variants": [
+        {
+          "model": "European BSM",
+          "steps": null,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 0.3111,
+              "local": 0.2987367190376915,
+              "difference": -0.012363280962308487,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 0.3036,
+              "local": 0.2918876385294311,
+              "difference": -0.011712361470568866,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.5054,
+              "local": 0.5051677861526034,
+              "difference": -0.00023221384739657847,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.4946,
+              "local": -0.4948322138473966,
+              "difference": -0.00023221384739663398,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.5178,
+              "local": 0.5388961254553103,
+              "difference": 0.021096125455310255,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.5178,
+              "local": 0.5388961254553103,
+              "difference": 0.021096125455310255,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.2907,
+              "local": -0.3021647320160909,
+              "difference": -0.011464732016090884,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.2768,
+              "local": -0.2884670401093112,
+              "difference": -0.011667040109311189,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.7812,
+              "local": -1.78345143676997,
+              "difference": -0.0022514367699701943,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.8706,
+              "local": -1.868137605083416,
+              "difference": 0.0024623949165840653,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.0154,
+              "local": 0.014764277409734527,
+              "difference": -0.0006357225902654737,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.0154,
+              "local": 0.014764277409734527,
+              "difference": -0.0006357225902654737,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.0007,
+              "local": 0.0006879183821400362,
+              "difference": -0.000012081617859963762,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.0007,
+              "local": -0.0006818508085379328,
+              "difference": 0.000018149191462067194,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fresh European index, zero-rate one-year symmetry",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 100,
+        "days": 365,
+        "years": 1,
+        "rate": 0,
+        "volatility": 0.2,
+        "yield": 0
+      },
+      "mapping_note": "Fresh authenticated SPX index case. Inputs were entered through the original UI and outputs captured after calculation.",
+      "variants": [
+        {
+          "model": "European BSM",
+          "steps": null,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 7.9769,
+              "local": 7.965567455405804,
+              "difference": -0.01133254459419586,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 7.9769,
+              "local": 7.965567455405804,
+              "difference": -0.01133254459419586,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.5399,
+              "local": 0.539827837277029,
+              "difference": -0.00007216272297105863,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.4601,
+              "local": -0.460172162722971,
+              "difference": -0.00007216272297100312,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0198,
+              "local": 0.01984762737385059,
+              "difference": 0.00004762737385058738,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0198,
+              "local": 0.01984762737385059,
+              "difference": 0.00004762737385058738,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0109,
+              "local": -0.010875412259644158,
+              "difference": 0.00002458774035584213,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0109,
+              "local": -0.010875412259644158,
+              "difference": 0.00002458774035584213,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.825,
+              "local": -1.8250000000000002,
+              "difference": -2.220446049250313e-16,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.825,
+              "local": -1.8250000000000002,
+              "difference": -2.220446049250313e-16,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.3975,
+              "local": 0.39695254747701175,
+              "difference": -0.0005474525229882676,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.3975,
+              "local": 0.39695254747701175,
+              "difference": -0.0005474525229882676,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.4614,
+              "local": 0.46017216272297096,
+              "difference": -0.0012278372770290202,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": -0.5414,
+              "local": -0.539827837277029,
+              "difference": 0.0015721627229710045,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fresh European index, expiry intrinsic boundary",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 95,
+        "days": 0,
+        "years": 0,
+        "rate": 0,
+        "volatility": 0.2,
+        "yield": 0
+      },
+      "mapping_note": "Fresh authenticated SPX index case. Inputs were entered through the original UI and outputs captured after calculation.",
+      "variants": [
+        {
+          "model": "European BSM",
+          "steps": null,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 5,
+              "local": 5,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 1,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.825,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": -1.825,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.0027,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fresh American index, deep ITM put exercise",
+      "style": "American",
+      "parameters": {
+        "spot": 80,
+        "strike": 100,
+        "days": 365,
+        "years": 1,
+        "rate": 0.05,
+        "volatility": 0.2,
+        "yield": 0
+      },
+      "mapping_note": "Fresh authenticated SPX index case. Inputs were entered through the original UI and outputs captured after calculation.",
+      "variants": [
+        {
+          "model": "American CRR",
+          "steps": 100,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 1.8597,
+              "local": 1.8630282187552167,
+              "difference": 0.0033282187552168274,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 20,
+              "local": 20,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.2217,
+              "local": 0.22120025243587546,
+              "difference": -0.0004997475641245475,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.9994,
+              "local": -1,
+              "difference": -0.0006000000000000449,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0186,
+              "local": 0.0185909874298383,
+              "difference": -0.000009012570161698319,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0097,
+              "local": 0,
+              "difference": -0.0097,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0087,
+              "local": -0.00868848216390423,
+              "difference": 0.000011517836095769826,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -2.1433,
+              "local": -2.139727869509064,
+              "difference": 0.0035721304909359652,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.2383,
+              "local": 0.2426305517216487,
+              "difference": 0.004330551721648701,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.1592,
+              "local": 0.15832992554741798,
+              "difference": -0.0008700744525820259,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            }
+          ]
+        },
+        {
+          "model": "American CRR",
+          "steps": 400,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 1.8597,
+              "local": 1.85755000444502,
+              "difference": -0.0021499955549799665,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 20,
+              "local": 20,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.2217,
+              "local": 0.22158223116401757,
+              "difference": -0.00011776883598244026,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.9994,
+              "local": -1,
+              "difference": -0.0006000000000000449,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0186,
+              "local": 0.018600193454960934,
+              "difference": 1.93454960936007e-7,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0097,
+              "local": 0,
+              "difference": -0.0097,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0087,
+              "local": -0.00869664708676389,
+              "difference": 0.000003352913236109867,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -2.1433,
+              "local": -2.138777539135747,
+              "difference": 0.0045224608642531194,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.2383,
+              "local": 0.22906197829190567,
+              "difference": -0.009238021708094346,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.1592,
+              "local": 0.15869029075398222,
+              "difference": -0.0005097092460177866,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            }
+          ]
+        },
+        {
+          "model": "American CRR",
+          "steps": 1000,
+          "rows": [
+            {
+              "metric": "Option Value",
+              "original": 1.8597,
+              "local": 1.8596382459301102,
+              "difference": -0.00006175406988973009,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Option Value",
+              "original": 20,
+              "local": 20,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Delta",
+              "original": 0.2217,
+              "local": 0.22184198437556757,
+              "difference": 0.00014198437556756094,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Delta",
+              "original": -0.9994,
+              "local": -1,
+              "difference": -0.0006000000000000449,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0186,
+              "local": 0.018597755152499888,
+              "difference": -0.0000022448475001102253,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Gamma",
+              "original": 0.0097,
+              "local": 0,
+              "difference": -0.0097,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Put"
+            },
+            {
+              "metric": "Theta",
+              "original": -0.0087,
+              "local": -0.008698352560892469,
+              "difference": 0.0000016474391075303046,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Call"
+            },
+            {
+              "metric": "Theta",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Alpha",
+              "original": -2.1433,
+              "local": -2.1380778742074487,
+              "difference": 0.005222125792551324,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Alpha",
+              "original": 0,
+              "local": null,
+              "difference": null,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": null,
+              "side": "Put"
+            },
+            {
+              "metric": "Vega",
+              "original": 0.2383,
+              "local": 0.24046785695720718,
+              "difference": 0.0021678569572071704,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Vega",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            },
+            {
+              "metric": "Rho",
+              "original": 0.1592,
+              "local": 0.1588772109100911,
+              "difference": -0.00032278908990890365,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": false,
+              "side": "Call"
+            },
+            {
+              "metric": "Rho",
+              "original": 0,
+              "local": 0,
+              "difference": 0,
+              "tolerance": 0.00005,
+              "unit": "per share; daily theta; vega/rho per percentage point",
+              "matches_display_precision": true,
+              "side": "Put"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "impliedVolatility": [
+    {
+      "metric": "call IV",
+      "original": 50.28,
+      "local": 50.21458484095837,
+      "difference": -0.06541515904162765,
+      "tolerance": 0.005,
+      "unit": "volatility percentage points",
+      "matches_display_precision": false
+    },
+    {
+      "metric": "put IV",
+      "original": 90.19,
+      "local": 90.09341838087461,
+      "difference": -0.09658161912538787,
+      "tolerance": 0.005,
+      "unit": "volatility percentage points",
+      "matches_display_precision": false
+    }
+  ],
+  "probability": {
+    "inputs": {
+      "spot": 100,
+      "price1": 90,
+      "price2": 110,
+      "days": 180,
+      "hours": 12,
+      "minutes": 15,
+      "rate": 0.03,
+      "dividendYield": 0.02,
+      "volatility": 0.2
+    },
+    "variants": [
+      {
+        "driftConvention": "risk-neutral",
+        "model": {
+          "driftConvention": "risk-neutral",
+          "inputRate": 0.03,
+          "inputDividendYield": 0.02,
+          "effectiveRate": 0.03,
+          "logDrift": -0.010000000000000005,
+          "monitoring": "continuous",
+          "dayCount": "ACT/365"
+        },
+        "rows": [
+          {
+            "metric": "Terminal below",
+            "original": 23,
+            "local": 23.763097832423544,
+            "difference": 0.7630978324235436,
+            "tolerance": 0.5,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Terminal between",
+            "original": 52,
+            "local": 52.43875894719467,
+            "difference": 0.4387589471946711,
+            "tolerance": 0.5,
+            "unit": "percentage points",
+            "matches_display_precision": true
+          },
+          {
+            "metric": "Terminal above",
+            "original": 25,
+            "local": 23.79814322038179,
+            "difference": -1.2018567796182111,
+            "tolerance": 0.5,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Touch price1",
+            "original": 45.38,
+            "local": 46.57803015915532,
+            "difference": 1.1980301591553157,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Touch price2",
+            "original": 49.8,
+            "local": 48.61473880320498,
+            "difference": -1.1852611967950182,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Touch both",
+            "original": 6.97,
+            "local": 6.439951420254319,
+            "difference": -0.5300485797456806,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Touch either",
+            "original": 53.77,
+            "local": 88.75281754210597,
+            "difference": 34.98281754210597,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Touch neither",
+            "original": 46.23,
+            "local": 11.247182457894034,
+            "difference": -34.98281754210596,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation -3",
+            "original": 65.55,
+            "local": 65.25349386514154,
+            "difference": -0.2965061348584612,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation -2",
+            "original": 75.45,
+            "local": 75.10806617316186,
+            "difference": -0.3419338268381438,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation -1",
+            "original": 86.85,
+            "local": 86.45087443027491,
+            "difference": -0.3991255697250864,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation 1",
+            "original": 115.06,
+            "local": 114.53415360723928,
+            "difference": -0.5258463927607266,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation 2",
+            "original": 132.44,
+            "local": 131.8310833439533,
+            "difference": -0.6089166560466879,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation 3",
+            "original": 152.44,
+            "local": 151.7401926698471,
+            "difference": -0.6998073301529075,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          }
+        ],
+        "localUnionResidual": 0,
+        "terminalSum": 1
+      },
+      {
+        "driftConvention": "zero-log",
+        "model": {
+          "driftConvention": "zero-log",
+          "inputRate": 0.03,
+          "inputDividendYield": 0.02,
+          "effectiveRate": 0.04000000000000001,
+          "logDrift": 0,
+          "monitoring": "continuous",
+          "dayCount": "ACT/365"
+        },
+        "rows": [
+          {
+            "metric": "Terminal below",
+            "original": 23,
+            "local": 22.689670411380785,
+            "difference": -0.310329588619215,
+            "tolerance": 0.5,
+            "unit": "percentage points",
+            "matches_display_precision": true
+          },
+          {
+            "metric": "Terminal between",
+            "original": 52,
+            "local": 52.41060566662388,
+            "difference": 0.41060566662388,
+            "tolerance": 0.5,
+            "unit": "percentage points",
+            "matches_display_precision": true
+          },
+          {
+            "metric": "Terminal above",
+            "original": 25,
+            "local": 24.899723921995328,
+            "difference": -0.10027607800467209,
+            "tolerance": 0.5,
+            "unit": "percentage points",
+            "matches_display_precision": true
+          },
+          {
+            "metric": "Touch price1",
+            "original": 45.38,
+            "local": 45.37934082276157,
+            "difference": -0.0006591772384325623,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": true
+          },
+          {
+            "metric": "Touch price2",
+            "original": 49.8,
+            "local": 49.799447843990656,
+            "difference": -0.0005521560093413314,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": true
+          },
+          {
+            "metric": "Touch both",
+            "original": 6.97,
+            "local": 6.418142086036728,
+            "difference": -0.5518579139632713,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Touch either",
+            "original": 53.77,
+            "local": 88.7606465807155,
+            "difference": 34.9906465807155,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Touch neither",
+            "original": 46.23,
+            "local": 11.239353419284503,
+            "difference": -34.99064658071549,
+            "tolerance": 0.005,
+            "unit": "percentage points",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation -3",
+            "original": 65.55,
+            "local": 65.57700372128532,
+            "difference": 0.027003721285325355,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation -2",
+            "original": 75.45,
+            "local": 75.48043243653979,
+            "difference": 0.030432436539783225,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation -1",
+            "original": 86.85,
+            "local": 86.87947538776913,
+            "difference": 0.02947538776913916,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation 1",
+            "original": 115.06,
+            "local": 115.1019841610117,
+            "difference": 0.04198416101169755,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation 2",
+            "original": 132.44,
+            "local": 132.48466757801782,
+            "difference": 0.04466757801782251,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          },
+          {
+            "metric": "Deviation 3",
+            "original": 152.44,
+            "local": 152.49248109141888,
+            "difference": 0.05248109141888335,
+            "tolerance": 0.005,
+            "unit": "price units",
+            "matches_display_precision": false
+          }
+        ],
+        "localUnionResidual": 0,
+        "terminalSum": 1
+      }
+    ],
+    "originalUnion": {
+      "marginalUnionPercent": 88.21000000000001,
+      "displayedEitherPercent": 53.77,
+      "consistent": false,
+      "cause": "Unresolved vendor interpretation or capture/service behavior; not corrected by fitting."
+    },
+    "interpretation": "Zero log drift matches the three terminal percentages and two individual touch percentages in one saved sample. This is an optional hypothesis, not an established vendor convention. Joint events and deviation intervals remain different."
+  },
+  "position": {
+    "cost": {
+      "metric": "100 shares × entry price 100",
+      "original": 10000,
+      "local": 10000,
+      "difference": 0,
+      "tolerance": 0,
+      "unit": "currency units",
+      "matches_display_precision": true
+    },
+    "originalDisplayedDeltaPercent": 100,
+    "deltaComparison": "Original percentage label does not establish agreement with a local position delta of 100 spot-unit sensitivity.",
+    "fullOriginalOptionValuationVerified": false
+  },
+  "unverified": [
+    "Original cash-dividend numerical examples and exact American tree/Greek convention",
+    "Additional original probability samples and joint-event semantics",
+    "Original option-leg P&L scenario values and Greeks",
+    "Original live feeds, market rankings and proprietary IVX"
+  ],
+  "modelValidation": {
+    "bsm": "../validation-report.json",
+    "american": "../oic-original/american-validation.json",
+    "probability": "../oic-original/probability-validation.json",
+    "portfolio": "../oic-original/portfolio-validation.json"
+  }
+}

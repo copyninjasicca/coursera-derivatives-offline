@@ -1,0 +1,21 @@
+[MUSIC] Our aim in this derivatives course was to
+show you how to practically invest and trading these often complex option and
+future financial instruments. You should now know that an equity
+option is essentially derived from the future performance of a stock,
+exchange traded fund or similar product. This is the derivative nature of options. You should also have the skills to
+distinguish between call and put options. Identify the components of an options
+contract on a trading platform. Discern what you're able to do in
+the options market as a contract writer or owner. Interpret different stock
+options positions and tell whether a given position is in or
+out of the money. Well, for futures, you should now be
+able to describe examples of futures contracts and their use for
+producers and hedgers. You should be able to outline the basic
+mechanics of the futures market, including futures contracts and the role of the
+futures marketplace for price discovery. You should also be aware that
+margin requirements can and will change from time to time, especially
+in the event of market volatility. You should now have a basic understanding
+of the options and futures markets. Which will help you advance
+to more nuanced features and complex trading strategies
+specific to these asset classes. I'm Steven Levine with
+Interactive Brokers. We thank you for
+participating in this derivatives course. [MUSIC]

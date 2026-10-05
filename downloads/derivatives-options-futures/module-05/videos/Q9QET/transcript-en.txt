@@ -1,0 +1,31 @@
+[MUSIC] One of the more interesting
+aspects of the futures market is how exchanges create
+a commoditized contract. Take wood for example, you might go to
+a hardware store to buy wood for shelving, have a look at what they have in stock and
+find their supply, fall short of the needs of your project. In the commodity markets, the exchange
+standardizes the requirements for product. For example, lumber is of a specific
+quality type in length and oil has to be of a certain
+blend quality and grade. The advantage is that when investors are
+trading contracts with the same underlying qualities and characteristics, it doesn't
+matter who the buyer or seller is, since everyone is trading
+the same product. The exchange also defines when contracts
+start trading, what hours they can be traded, and importantly,
+when the life of the contract expires, and what happens where and when,
+in the settlement and delivery chain. Buyers and sellers generally know that the contract
+they're trading has a specific lifecycle. And in most cases the contract
+is not held until expiration. Rather, producers and end users are the ones who tend to
+take delivery and deliver products. Everyone else simply migrates to
+the next actively traded contract month. By creating the product and the venue,
+the exchange can provide a marketplace for commodities and products that
+few investors actually ever see. Let's take a look at an example of what a
+standardized futures contract looks like. Here's an example of a NYMEX
+traded crude oil contract, that is designed to cover 1000 barrels or 42,000 gallons of what refiners
+greatest delight, sweet crude oil. Trading months, delivery dates and locations are detailed in
+the contract specifications. And investors are also made
+aware of delivery windows, settlement dates and
+other crucial pieces of information, including when they could be physically
+delivered if still holding the contract. Remember the futures exchange facilitates
+trading the highly detailed and commoditized product and as a central
+counterpart to transactions removes uncertainty on the delivery process, as well as provides a guaranty
+of settlement to all traders who in turn are required to post margin,
+which is the subject of our next video. Come back and join us. [MUSIC]

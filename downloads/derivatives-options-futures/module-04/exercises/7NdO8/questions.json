@@ -1,0 +1,56 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>True or false: For a short strangle, TWS knows that selling a call requires the sale of a lower strike put at the same expiration. Hence, both legs display in red. </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>True or false: An investor expecting an underlying share price to remain confined within a specific range might enter a short strangle strategy using options.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>True or false: A short straddle involves the sale of an out-the-money call and an out-the-money put with the same expiration.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>True or false: An investor expecting an underlying share price to remain confined within a specific range might enter a short straddle strategy using options.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>True or false: A short straddle options strategy involves writing or selling an equal number of call and put options at the same strike price using the same expiration month.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 6,
+    "prompt_html": "<div><p><span><span>True or false: A short strangle options strategy involves writing or selling an equal number of call and put options at the different strike prices using the same expiration month.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

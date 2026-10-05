@@ -1,0 +1,90 @@
+- banner:
+  - link "Go to the Home page":
+    - /url: /
+    - img "The Options Industry Council"
+  - button "Explore":
+    - generic: Explore
+  - button "Go to Login":
+    - generic: 
+    - generic: Profile
+- main:
+  - heading "Stock Monitor" [level=1]
+  - heading "The Stock Monitor, powered by iVolatility, allows you to monitor key advanced metrics on stocks and indexes, including option volume, 30-day implied volatility (IVX), 20-day historical volatility (HV) and more. Users can also create and save personalized lists for easy reference each time you log in. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For further questions, contact us at options@theocc.com. While this tool is accessible on various devices, it is designed with specific features and functionalities that are optimized for desktop usage." [level=2]:
+    - text: The Stock Monitor, powered by iVolatility, allows you to monitor key advanced metrics on stocks and indexes, including option volume, 30-day implied volatility (IVX), 20-day historical volatility (HV) and more. Users can also create and save personalized lists for easy reference each time you log in.
+    - strong:
+      - emphasis
+    - text: Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay.
+    - emphasis: OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For further questions, contact us at options@theocc.com.
+    - text: While this tool is accessible on various devices, it is designed with specific features and functionalities that are optimized for desktop usage.
+  - iframe:
+    - button "Add to group" [disabled]:
+    - button "Remove selected stocks" [disabled]:
+    - button "Calculators"
+    - combobox "Group":
+      - text: Group|
+      - textbox "Group name": All USA
+    - button:
+    - button:
+    - button "Delete group" [disabled]:
+    - combobox
+    - button:
+    - paragraph
+- contentinfo:
+  - navigation:
+    - 'link "Go to: OCC"':
+      - /url: https://www.theocc.com/
+      - img "OCC"
+      - text: "A Service Of:"
+    - paragraph: "OCC Participant Exchanges:"
+    - 'link "Go to: BOX"':
+      - /url: https://boxoptions.com/
+      - img "BOX"
+    - 'link "Go to: Cboe"':
+      - /url: https://www.cboe.com/
+      - img "Cboe"
+    - 'link "Go to: MEMX"':
+      - /url: https://memx.com/
+      - img "MEMX"
+    - 'link "Go to: Miax"':
+      - /url: https://www.miaxoptions.com/
+      - img "Miax"
+    - 'link "Go to: NASDAQ"':
+      - /url: https://www.nasdaq.com/
+      - img "NASDAQ"
+    - 'link "Go to: NYSE"':
+      - /url: https://www.nyse.com/markets/nyse
+      - img "NYSE"
+  - paragraph: OCC 125 South Franklin Street, Suite 1200 | Chicago, IL 60606
+  - paragraph
+  - paragraph:
+    - text: This web site discusses exchange-traded options issued by The Options Clearing Corporation. No statement in this web site is to be construed as a recommendation to purchase or sell a security, or to provide investment advice. Options involve risk and are not suitable for all investors. Prior to buying or selling an option, a person must receive a copy of
+    - strong:
+      - link "Characteristics and Risks of Standardized Options":
+        - /url: https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document
+    - text: . Copies of this document may be obtained from your broker, from any exchange on which options are traded or by contacting The Options Clearing Corporation, 125 S. Franklin Street, Suite 1200, Chicago, IL 60606.
+    - text: All OIC material is provided for educational purposes only. Completing or viewing any OIC content does not guarantee that an individual has obtained a minimum level of knowledge or skill, is not an indication of investor suitability to trade options, and should not be used to determine an individual’s trading or investing competency or sophistication. Any strategies discussed, including examples using actual securities and price data, are strictly for illustrative and educational purposes. Past performance is not a guarantee of future results.
+  - text: ©2026 The Options Clearing Corporation. All rights reserved.
+  - paragraph:
+    - text: User acknowledges review of the
+    - strong:
+      - link "Terms and Conditions":
+        - /url: /specialpages/termsandconditions
+    - text: and
+    - link "Privacy Policy":
+      - /url: /specialpages/privacypolicy
+      - generic: Privacy Policy
+    - text: governing this site. Continued use constitutes acceptance of the terms and conditions stated therein.
+  - paragraph
+  - navigation:
+    - link "Facebook":
+      - /url: https://www.facebook.com/OptionsIndustryCouncil/
+      - generic: Facebook
+    - link "Twitter":
+      - /url: https://twitter.com/Options_Edu
+      - generic: Twitter
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/showcase/the-options-industry-council-oic-
+      - generic: LinkedIn
+    - link "Youtube":
+      - /url: https://www.youtube.com/user/OptionsEdu
+      - generic: Youtube

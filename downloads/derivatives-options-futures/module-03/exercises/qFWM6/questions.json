@@ -1,0 +1,38 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>True or false: For a covered put strategy, the quote display shows the price of the stock leg plus the premium received for the put option</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>True or false: A covered put transaction can be created within the Strategy Builder in TWS.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>True or false: A covered put position involves a short stock position plus a short call option.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>True or false: A covered put strategy is used when an investor is mildly bearish on a stock and is taking a short position in the underlying stock while writing an option that would take delivery at a lower price under specific conditions.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

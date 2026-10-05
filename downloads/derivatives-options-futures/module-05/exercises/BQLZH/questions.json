@@ -1,0 +1,13 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>What was established by Congress in the mid-1970s to serve as a federal regulator for the Futures Markets?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>CFA</span></span></p></div>",
+      "<div><p><span><span>CTA</span></span></p></div>",
+      "<div><p><span><span>CFTC</span></span></p></div>",
+      "<div><p><span><span>FTC</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>True or false: To change the number of put options displayed in the Option Chain window, access the Strike Price menu above the Put display area and select the desired number of strikes.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>True or false: Using the mouse to hover above any ask price in the Option Chain will cause a blue backdrop to appear. When hovering above a bid price, the background turns red.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>True or false: When buying or selling option contracts the user can only enter a market order.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

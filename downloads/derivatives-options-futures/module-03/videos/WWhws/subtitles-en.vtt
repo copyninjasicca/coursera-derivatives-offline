@@ -1,0 +1,385 @@
+WEBVTT
+
+1
+00:00:14.030 --> 00:00:16.965
+From the watchlist
+on the monitor tab,
+
+2
+00:00:16.965 --> 00:00:18.840
+click the underlying
+symbol you wish
+
+3
+00:00:18.840 --> 00:00:21.540
+to create your covered
+coal trade for.
+
+4
+00:00:21.540 --> 00:00:24.920
+So long has your tabs or parts
+of the same Windows group,
+
+5
+00:00:24.920 --> 00:00:28.470
+the underlying will appear
+in the order entry panel.
+
+6
+00:00:28.470 --> 00:00:30.855
+To the right of the
+order entry panel,
+
+7
+00:00:30.855 --> 00:00:34.410
+select "Strategy Builder"
+from the dropdown menu.
+
+8
+00:00:34.410 --> 00:00:38.340
+You will see the option chain
+window populate the screen.
+
+9
+00:00:38.340 --> 00:00:39.600
+To the lower left,
+
+10
+00:00:39.600 --> 00:00:43.615
+ensure that the Strategy
+Builder button set to on.
+
+11
+00:00:43.615 --> 00:00:45.605
+If you see off,
+
+12
+00:00:45.605 --> 00:00:48.070
+just click the
+button to activate.
+
+13
+00:00:48.070 --> 00:00:50.600
+To create a covered call, first,
+
+14
+00:00:50.600 --> 00:00:51.680
+the call option must be
+
+15
+00:00:51.680 --> 00:00:54.820
+identified before the
+stock leg is added.
+
+16
+00:00:54.820 --> 00:00:57.740
+Strategy builder
+displays option chains
+
+17
+00:00:57.740 --> 00:00:59.000
+at the top of the page with
+
+18
+00:00:59.000 --> 00:01:00.860
+Call options to the left and Put
+
+19
+00:01:00.860 --> 00:01:03.935
+options to the rights of
+the central strike column.
+
+20
+00:01:03.935 --> 00:01:06.695
+You'll see the price
+and daily change of the
+
+21
+00:01:06.695 --> 00:01:09.580
+underlying to the upper
+right of the Window.
+
+22
+00:01:09.580 --> 00:01:11.290
+Above the call area,
+
+23
+00:01:11.290 --> 00:01:14.090
+you'll see tabs for
+different explorations.
+
+24
+00:01:14.090 --> 00:01:17.765
+Click a tab or to locate
+additional expiration dates,
+
+25
+00:01:17.765 --> 00:01:19.945
+click on the "More" tab.
+
+26
+00:01:19.945 --> 00:01:21.620
+Above the put area,
+
+27
+00:01:21.620 --> 00:01:24.335
+you will see a dropdown
+menu for strike prices.
+
+28
+00:01:24.335 --> 00:01:26.570
+Access this menu to change or
+
+29
+00:01:26.570 --> 00:01:30.620
+refine the number of strike
+prices displayed on the page.
+
+30
+00:01:30.620 --> 00:01:32.525
+Hovering the cursor above
+
+31
+00:01:32.525 --> 00:01:35.585
+any bid price displays
+a red background.
+
+32
+00:01:35.585 --> 00:01:38.450
+This indicates that by
+clicking on the field,
+
+33
+00:01:38.450 --> 00:01:41.255
+it would create an order
+to sell that option.
+
+34
+00:01:41.255 --> 00:01:43.715
+Hovering above any asked price,
+
+35
+00:01:43.715 --> 00:01:45.394
+displays a blue background
+
+36
+00:01:45.394 --> 00:01:47.870
+indicating that by
+clicking on this field,
+
+37
+00:01:47.870 --> 00:01:50.815
+it would create an order
+to buy the option.
+
+38
+00:01:50.815 --> 00:01:53.250
+When a single strike
+is clicked upon,
+
+39
+00:01:53.250 --> 00:01:54.710
+the selected leg then
+
+40
+00:01:54.710 --> 00:01:57.230
+populates the strategy
+builder a panel beneath
+
+41
+00:01:57.230 --> 00:01:59.180
+the ocean chains
+window where it can be
+
+42
+00:01:59.180 --> 00:02:02.150
+manipulated before the
+order is submitted.
+
+43
+00:02:02.150 --> 00:02:06.170
+Locate the desired option
+strike you want to transact.
+
+44
+00:02:06.170 --> 00:02:08.645
+Click on the relevant
+price field,
+
+45
+00:02:08.645 --> 00:02:10.730
+and specifically the bid price of
+
+46
+00:02:10.730 --> 00:02:12.080
+the call option to move
+
+47
+00:02:12.080 --> 00:02:14.870
+the leg down to the
+Strategy Builder.
+
+48
+00:02:14.870 --> 00:02:17.150
+To include the underlying stock,
+
+49
+00:02:17.150 --> 00:02:21.080
+expand the plus symbol in the
+order entry panel beneath.
+
+50
+00:02:21.080 --> 00:02:24.955
+Locate Stock Leg and
+click on the field.
+
+51
+00:02:24.955 --> 00:02:26.670
+The underlying is added to
+
+52
+00:02:26.670 --> 00:02:28.380
+the Strategy Builder display
+
+53
+00:02:28.380 --> 00:02:31.170
+beneath the short
+call option leg.
+
+54
+00:02:31.170 --> 00:02:33.620
+Close the advanced display in
+
+55
+00:02:33.620 --> 00:02:37.565
+the order entry panel below
+by clicking the red X button.
+
+56
+00:02:37.565 --> 00:02:40.185
+Now the two pieces of
+the covered call are
+
+57
+00:02:40.185 --> 00:02:42.815
+displayed and below
+the bid-ask column,
+
+58
+00:02:42.815 --> 00:02:46.055
+you'll see the price quote
+for the combination.
+
+59
+00:02:46.055 --> 00:02:48.725
+This is the price
+of the Stock Leg
+
+60
+00:02:48.725 --> 00:02:51.890
+minus the premium received
+for the call option.
+
+61
+00:02:51.890 --> 00:02:53.720
+Use the order entry panel at
+
+62
+00:02:53.720 --> 00:02:56.330
+the bottom of the page
+to create the order.
+
+63
+00:02:56.330 --> 00:02:59.435
+Define the quantity
+of options to trade.
+
+64
+00:02:59.435 --> 00:03:01.790
+Generally, one options contract
+
+65
+00:03:01.790 --> 00:03:04.160
+covers 100 shares of stock.
+
+66
+00:03:04.160 --> 00:03:06.380
+By selecting a number of options,
+
+67
+00:03:06.380 --> 00:03:07.790
+the software will compute
+
+68
+00:03:07.790 --> 00:03:11.075
+the correct number of
+underlying shares to transact.
+
+69
+00:03:11.075 --> 00:03:15.155
+Choose the right order type
+from the dropdown menu.
+
+70
+00:03:15.155 --> 00:03:17.030
+If using a limit price,
+
+71
+00:03:17.030 --> 00:03:18.560
+choose the value by clicking in
+
+72
+00:03:18.560 --> 00:03:21.905
+the input field or simply
+typing in the value.
+
+73
+00:03:21.905 --> 00:03:24.949
+Select from the time
+enforced dropdown,
+
+74
+00:03:24.949 --> 00:03:28.085
+whether this is a
+day or GTC order.
+
+75
+00:03:28.085 --> 00:03:30.695
+Your order is ready to review.
+
+76
+00:03:30.695 --> 00:03:32.360
+Click the "Submit" button to
+
+77
+00:03:32.360 --> 00:03:34.660
+generate an order confirmation.
+
+78
+00:03:34.660 --> 00:03:38.360
+When you have reviewed the
+details, click "Transmit".
+
+79
+00:03:38.360 --> 00:03:41.570
+The order is sent for execution
+at the exchange and will
+
+80
+00:03:41.570 --> 00:03:45.304
+appear in the activity panel
+to the lower left of mosaic.
+
+81
+00:03:45.304 --> 00:03:48.770
+To pause or interact
+with an active order,
+
+82
+00:03:48.770 --> 00:03:50.270
+click on it in they Activity
+
+83
+00:03:50.270 --> 00:03:53.610
+panel and make the
+relevant choice.

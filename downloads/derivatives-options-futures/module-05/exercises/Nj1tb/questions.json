@@ -1,0 +1,12 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>If we take a look at the prevailing market price for the current corn contract, for instance, and compare it with, say, the price of a futures contract that expires in a year, we can note the difference between these prices as the?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>basis</span></span></p></div>",
+      "<div><p><span><span>futures differential</span></span></p></div>",
+      "<div><p><span><span>forward price</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

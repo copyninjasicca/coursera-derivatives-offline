@@ -1,0 +1,220 @@
+PAGE 1
+Options Monitor
+Powered by IVolatility
+The Options Monitor, powered by iVolatility, allows users to explore quotes for stocks, ETFs 
+and indexes, while viewing a variety of key options data, including the Greeks, implied 
+volatility, bid-ask spreads and volume. Expirations can be changed to display additional 
+data, including LEAPS®, weekly options and quarterlies. Plus, access to the Options Calcula-
+tor and Probability Calculator is available directly from within the monitor. Note that all data 
+for US stocks, options, dividends and interest rates are provided with a 20-minute delay. If 
+the markets are closed, the previous trading day's market closing price will be used.
+Choose a Stock Symbol, Index 
+Symbol, or Option Symbol
+Input any stock, index or option symbol. If you 
+don't know the symbol or the option you can 
+browse by company name, instrument, market 
+or exchange via the "Symbol Lookup" icon. 
+Once you select a symbol, data will populate 
+the rectangular box to the right of the search 
+box, as well as the horizontal list of all 
+available option expirations below.
+/uni2196
+Data Displayed
+To the right of the search box, various metrics 
+for the selected symbol are displayed. Hover 
+over each for a deﬁnition and additional detail 
+on how those metrics are gathered and 
+calculated. Available Metrics include:
+• Price / Open / High / Low
+• Implied Volatility Index (IVX) 30 / IVX 30 Chng 
+/ Implied Volatility Percentile (IVP) 30 / 
+• Historical Volatility (HV) 20
+• Options Volume (OV) / AvgOV1MO / Call OV 
+/ Put OV
+• Open Interest (OI) / Avg OI 1Mo / Shares 
+Outstanding (SO) / Share Volume (SV)
+Available expirations will be listed horizontally 
+below this large box and each expiration date 
+is clickable to zoom in on that month 
+individually, or the user can click the ‘Show All’ 
+expiration dates to have all months appear in 
+the table below. 
+See glossary in appendix for more. 
+/uni2196
+/uni2196
+PAGE 2
+Data Displayed Continued...
+The drop downs below this display of 
+available expiration months allows for further 
+customization of the display including: 
+• Expirations
+• Mid Price 
+• Number of strikes represented per month
+• Calls & Puts
+The green gear icon lists viewable column 
+data for the table below. It includes metrics 
+such as the Greeks, implied volatility levels, 
+previous close, size, time, etc.  All of these can 
+be toggled on or oﬀ to be added or 
+subtracted from the view in the table below.
+The below table will then populate data for 
+each month of options and display the pricing 
+matrix with information as selected by the user 
+in the settings.  
+The header for each month includes these 
+defaults:
+• Expiry date of the option
+• DTE – how many days are left before the 
+option expires
+• Forward price – the forward price of the 
+underlying being used to calculate the 
+option values for that month.
+Calculators
+At any point, a user may click on the green 
+calculator symbol on each strike to bring up 
+the options and probability calculator function 
+for that option strike. The ﬁelds in the 
+calculator will be pre populated with data 
+from the strike used to activate the calculator.
+See Options Calculator and Probability 
+Calculator for more information.
+/uni2196
+/uni2196
+PAGE 3
+Glossary
+ALPHA: Alpha is an option Greek. Alpha is a ratio of 
+Gamma over Theta. Thus Alpha indicates the relative 
+value of owning gamma relative to the current level of 
+theta. It is a measure that allows for comparison of 
+several diﬀerent options on the basis of how much they 
+cost daily to own (daily Theta) versus the potential 
+Gamma derived return (proﬁts from movement) from 
+owning them. The greater absolute value of Alpha the 
+more potential for proﬁts exists against the loss from 
+Theta for long positions. The converse is true for short 
+positions.
+AVERAGE OF PUTS AND CALLS IV: This number is 
+derived internally by ﬁnding a simple average or a 
+mean of the put and call implied volatility.
+CALL BID/ ASK MEAN: This number is calculated by 
+ﬁnding a simple average of the market maker's bid and 
+ask price for call options only.
+CALL/ PUT VOLATILITY RATIO: This is a variation of the 
+traditional volume based Put/Call Ratio. However, in 
+this particular case, the Put/Call Ratio is based on a 
+Vega weighting of implied volatility. The ratio is arrived 
+at by dividing the Vega weighted implied call volatility 
+by the Vega weighted implied put volatility. This helps 
+express the bullish/bearish sentiment of market 
+participants.
+CHANGE VS. YESTERDAY: When in the implied Volatility 
+section, this number can be derived by comparing the 
+implied volatility index last ﬁgure to its previous night's 
+level. However, when in the historical volatility section 
+this number is derived by taking the historical volatility 
+last ﬁgure and comparing to its previous night's level. In 
+both cases, the diﬀerences are then expressed as 
+simple numerical changes.
+% CHANGE VS. YESTERDAY: The IV index % change 
+number is derived by comparing the implied volatility 
+index last ﬁgure shown on the screen against the 
+previous night's level, this diﬀerence is then expressed 
+as a percent. In the case of HV % change, this number is 
+calculated by taking the diﬀerence between the 
+historical volatility last ﬁgure shown on the screen and 
+the previous night's level. The diﬀerence is then 
+expressed as a percentage. 
+DELTA: Delta is an option Greek. The theoretical amount 
+an option's price will change for a corresponding 
+one-point change in the price of the underlying 
+security.
+GAMMA: Gamma is an option Greek. The theoretical 
+change in Delta divided by the dollar change in the 
+price of the underlying security's price. It is the 
+measurement of the rate of change in an options price 
+with respect to the underlying price.
+HISTORICAL VOLATILITY OR HV: Historical volatility is 
+the volatility that actually occurred to the underlying 
+stock over some previous time period. It can be derived 
+in several diﬀerent fashions. The most common way to 
+calculate historical volatility is to use the daily closing 
+prices and compare them over some past time period.
+IMPLIED VOLATILITY OR IV: Implied Volatility is the 
+market's best approximation of future volatility, and it is 
+obtained by plugging the current option price into an 
+option pricing model and backsolving to arrive at the 
+options implied volatility.
+IMPLIED VOLATILITY AS A % OF THE LATEST 30 DAY HV 
+LEVEL: This ﬁgure is calculated by taking the implied 
+volatility last and dividing it by the 30 day historical 
+level. The resulting ﬁgure is then expressed as a 
+percentage.
+IMPLIED VOLATILITY INDEX (IV INDEX or "IVX"): IVX is the 
+composite measure of the stock's implied volatility 
+calculated from an option's price using IVolatility 
+proprietary methodology. Example: IVX30 is calculated 
+for the forward 30 calendar days.
+OPEN INTEREST:  Open interest is deﬁned as the number 
+of outstanding contracts on a particular option class (all 
+put or call contracts on the same underlying stock or 
+index) or series (all options on the same underlying stock 
+or index having the same strike price and expiration 
+date) that are still open. As of the reporting date, these 
+options have not been exercised, closed out or allowed 
+to expire.
+OPTION PRICING MODEL:  An option model is used to 
+assess an option's price. The Black-Scholes model led 
+the way in the pricing of equity options back in 1973. 
+However, as options trading has grown, various 
+reﬁnements to the Black-Scholes model have been 
+introduced. Nevertheless, most models still incorporate 
+the following factors into their pricing assumptions: the 
+underlying security price, the strike price, the time until 
+expiration, any dividends to be paid, the level of interest 
+rates, and the implied volatility.
+OPTION VALUE: This is the option's price as determined 
+by the parameters input into the option model. The 
+inputs consist of the following: the underlying security 
+price, the strike price, the time until expiration, any 
+dividends to be paid, the level of interest rates, and the 
+implied volatility.
+PUT BID/ ASK MEAN: This number is calculated by 
+ﬁnding a simple average of the market maker's bid and 
+ask spread for put options only.
+PAGE 4
+Glossary Continued...
+RHO: Rho is an option Greek. A measure of change in an 
+options price in response to a one percentage point 
+change in the risk-free interest rate.
+STRIKE PRICE: The stated price per share for which the 
+underlying stock may be purchased (in the case of a 
+call) or sold (in the case of a put) by the option holder 
+upon exercise of the option contract.
+THETA: Theta is an option Greek. A measure of how 
+much an option's price theoretically decays with each 
+passing day with the price of the underlying security 
+and implied volatility remaining unchanged.
+VEGA: Vega is an option Greek. The measure of 
+theoretical change in an option's price in response to a 
+one percentage point change in implied volatility.
+VOLATILITY: Volatility can be deﬁned as the propensity 
+of the underlying security's market price to change in 
+either direction and is based on the standard deviation 
+of the asset's return. It is quoted as an annualized 
+percentage rate. Volatility is a variable that appears in 
+option pricing formulas and therefore the greater the 
+volatility, the greater the premium of an option. There 
+are several diﬀerent types of volatility. These include 
+historical, implied, actual, seasonal and forecasted 
+volatility. 
+VOLUME: Volume is deﬁned as the actual number of 
+stock shares or option contracts that traded on that 
+particular day.
+Disclaimer
+The Probability Calculator and 20-minute delayed options quotes are provided by IVolatility, 
+and NOT BY OCC. The tool is being provided for educational purposes only. OCC makes no 
+representation as to the timeliness, accuracy or validity of the information and this informa-
+tion should not be construed as a recommendation to purchase or sell a security, or to 
+provide investment advice. For more information or help, please contact us at 
+options@theocc.com.
+LEAPS® is a registered trademark of Cboe Exchange Inc.

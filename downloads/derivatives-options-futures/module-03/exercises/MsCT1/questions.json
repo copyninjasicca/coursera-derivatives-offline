@@ -1,0 +1,105 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Which of the following is a Greek variable commonly associated with measuring the sensitivity of option prices?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Kappa</span></span></p></div>",
+      "<div><p><span><span>Alpha</span></span></p></div>",
+      "<div><p><span><span>Rho</span></span></p></div>",
+      "<div><p><span><span>Phi</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>What is the \"strike price\"?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The pre-determined price at which an option contract may be exercised. </span></span></p></div>",
+      "<div><p><span><span>Higher for a call than for a put.</span></span></p></div>",
+      "<div><p><span><span>The price at which the underlying asset closes on expiration day.</span></span></p></div>",
+      "<div><p><span><span>The difference between the price of the underlying at expiration and the value of the call or put option.\n</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>True or false: A long call position would suit a bearish investor.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>True or false: A short put position would suit a bullish investor.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>True or false: A covered call position would suit a bearish investor.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 6,
+    "prompt_html": "<div><p><span><span>True or false: The maximum profit on a covered call position is equal to the gain on the stock plus the value of the premium received from the sale of the short call option.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 7,
+    "prompt_html": "<div><p><span><span>True or false: The maximum loss on a long put position is equal to the value of the premium paid.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 8,
+    "prompt_html": "<div><p><span><span>True or false: A covered put position would suit a bearish investor.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 9,
+    "prompt_html": "<div><p><span><span>True or false: The maximum profit on a covered put position is equal to the gain on the stock plus the value of the premium received from the sale of the short put option.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 10,
+    "prompt_html": "<div><p><span><span>True or false: A short put position involves the sale of a put position and is therefore a mildly bullish position</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 11,
+    "prompt_html": "<div><p><span><span>True or false: A long put position would suit a bearish investor.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

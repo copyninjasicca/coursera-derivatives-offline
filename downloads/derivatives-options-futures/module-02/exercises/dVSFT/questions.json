@@ -1,0 +1,21 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>True or false: Each option strategy or stock and option combination has a unique profit and loss profile. \n</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>How best to define the Call/Put parity equation?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The combined prices of calls and puts at the same strike with the same expiration always sum to the same value. </span></span></p></div>",
+      "<div><p><span><span>The prices of call options and put options the same distance from the stock price with the same number of days to expiration will always face identical premiums. \n</span></span></p></div>",
+      "<div><p><span><span>With certain available information, including the forward value of a stock’s price, the investor can efficiently calculate call and put prices. </span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

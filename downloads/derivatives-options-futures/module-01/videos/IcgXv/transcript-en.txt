@@ -1,0 +1,58 @@
+[MUSIC] You should now have a
+better understanding of the basic components of
+stock option contracts, as well as the common
+language used by buyers and sellers
+of these products. But now you may be asking, what do I have to gain or lose
+by trading in this market? Well, before buying
+or selling an option, you should note that as a rule, investors are required
+among other actions, to read a copy of
+the characteristics and risks of
+standardized options, also known as the Options
+Disclosure Document or ODD. This booklet which relates
+solely to options issued by the Options Clearing
+Corporation or OCC, provides insights into
+the options market, including the risks faced
+by both buyers and sellers, margin requirements, tax considerations,
+and other topics. Among other functions and
+services the OCC serves as a central counterparty and all listed options transactions. Meaning it provides a guarantee
+that a trade will settle, should an option writer fail to satisfy their part
+of the contract. You can find out more
+about the OCC from their website as well as obtain the options
+disclosure document. In general, the
+advantages and risks of trading options mainly depend on your reason for using them. Are you looking more
+generating additional income, for example, or hedging
+an existing position? Are you bullish or bearish on the market and want to speculate on a stock price over a
+fixed period of time? Well we'll dig more deeply into these subjects later
+in the course. It's important to note that what you stand to gain or lose in the options market is largely tied to your
+market strategy, as well as at what price the underlying security needs to be for you to break-even. That is neither gain nor
+lose on your investment. Some of the main motives for options traders to enter the
+market include the potential for enjoying games that
+are relatively lower cost and buying the underlying security outright in
+the stock market, as well as generating
+additional income and protection against
+existing exposure. Taking a closer look at the
+four basic options contracts, we can see that as a buyer, your maximum gain is equivalent to the seller's maximum loss. In other words, while
+the risk faced by a contract holder is limited to the premium paid
+to the seller, the writer's risk
+can be substantial. Recall that as an option seller, you may receive a
+relatively small premium and exchange for acting as either buyer or seller to the holder of the
+option contract. If the contract owner
+approves correct and is locked in at a better
+price to buy or sell, it may cost you more as an option seller in the
+open market to fulfill your obligation to sell
+the required shares for that delivery unless
+you already hold them. If you're an unhedged
+seller of a call option, you could feasibly
+face unlimited losses. For that reason, options trading is not suitable
+for all investors. There are naturally
+several other advantages for traders to engage
+in the options market, as well as numerous additional
+risks that you may face. Given this, we urge
+you to conduct your own due diligence depending on your
+financial conditions, investment objectives,
+or other requirements. As you progress
+through the course, you'll also gain a
+further understanding of the nuances that
+underlie the upsides and pitfalls of options
+trading for a host of popular trading strategies
+and combinations. Come back and join us. [MUSIC]

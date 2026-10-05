@@ -1,0 +1,4127 @@
+- banner:
+  - link "Go to the Home page":
+    - /url: /
+    - img "The Options Industry Council"
+  - button "Explore":
+    - generic: Explore
+  - button "Go to Login":
+    - generic: 
+    - generic: Profile
+- main:
+  - heading "Position Profit & Loss Simulator" [level=1]
+  - heading "The P&L Simulator, powered by iVolatility, allows you to explore the potential profit and loss of hypothetical trades. Customize variables such as stock price, volatility, interest rates, days to expiration and dividends to model theoretical results. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For more information view these help files. For further questions, contact us at options@theocc.com. While our tool is accessible on various devices, we have designed it with specific features and functionalities that are optimized for desktop usage." [level=2]:
+    - text: The P&L Simulator, powered by iVolatility, allows you to explore the potential profit and loss of hypothetical trades. Customize variables such as stock price, volatility, interest rates, days to expiration and dividends to model theoretical results. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay.
+    - emphasis:
+      - text: OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For more information
+      - link "view these help files":
+        - /url: /getContentAsset/32e86622-8ffb-4dd9-87c0-4b6f718d2551/50c2bc4c-a8ff-46ba-95c2-0e74752d147f/PnL-Simulator-User-Guide_Final_12-12-23.pdf?language=en-US
+        - strong: view these help files
+      - text: . For further questions, contact us at options@theocc.com.
+    - strong: While our tool is accessible on various devices, we have designed it with specific features and functionalities that are optimized for desktop usage.
+  - iframe [active]:
+    - main:
+      - text: SPY @
+      - textbox "Last Price": <redacted>
+      - button "Increase"
+      - button "Decrease"
+      - generic: State Street SPDR S&P 500 ETF Trust
+      - text: Show Stocks
+      - checkbox "Show Stocks" [checked]
+      - textbox "Title"
+      - button "Export to PDF"
+      - combobox "Symbol search": SPY
+      - generic: Symbol |
+      - table:
+        - rowgroup:
+          - row "Total position Bid Mid Ask Delta Gamma Theta Vega Strategy Cost":
+            - cell "Total position":
+              - heading "Total position" [level=2]
+            - cell "Bid"
+            - cell "Mid"
+            - cell "Ask"
+            - cell
+            - cell "Delta"
+            - cell "Gamma"
+            - cell "Theta"
+            - cell "Vega"
+            - cell
+            - cell "Strategy Cost"
+            - cell
+          - row "$100.00 $100.00 $100.00 100.00% 0.00% 0.00% 0.00% $10,000.00 debit":
+            - cell "$100.00"
+            - cell "$100.00"
+            - cell "$100.00"
+            - cell "100.00%"
+            - cell "0.00%"
+            - cell "0.00%"
+            - cell "0.00%"
+            - cell "$10,000.00 debit"
+          - row "Positions Close Chain Add stock leg Remove all":
+            - cell "Positions Close Chain Add stock leg Remove all":
+              - heading "Positions" [level=2]
+              - button "Close Chain"
+              - button "Add stock leg"
+              - button "Remove all"
+          - row "Action Expiry Strike Type Quantity Price IV Delta Gamma Theta Vega Moneyness Position Cost":
+            - cell "Action"
+            - cell "Expiry"
+            - cell "Strike"
+            - cell "Type"
+            - cell "Quantity"
+            - cell "Price"
+            - cell "IV"
+            - cell "Delta"
+            - cell "Gamma"
+            - cell "Theta"
+            - cell "Vega"
+            - cell "Moneyness"
+            - cell "Position Cost"
+            - cell
+          - row "BUY Sell — — STOCK 100 Increase Decrease $100.00 Increase Decrease — 100.00% — — — — -$10,000.00 Delete position 1":
+            - cell "BUY Sell":
+              - generic: BUY
+              - button "Sell"
+            - cell "—"
+            - cell "—"
+            - cell "STOCK"
+            - cell "100 Increase Decrease":
+              - textbox "Quantity": "100"
+              - button "Increase"
+              - button "Decrease"
+            - cell "$100.00 Increase Decrease":
+              - textbox "Price": $100.00
+              - button "Increase"
+              - button "Decrease"
+            - cell "—"
+            - cell "100.00%"
+            - cell "—"
+            - cell "—"
+            - cell "—"
+            - cell "—"
+            - cell "-$10,000.00"
+            - cell "Delete position 1":
+              - button "Delete position 1"
+      - text: Expirations |
+      - combobox "Expiration date":
+        - option "2026-10-05" [selected]
+        - option "2026-10-09"
+        - option "2026-10-16"
+        - option "2026-10-23"
+        - option "2026-10-30"
+        - option "2026-11-20"
+        - option "2026-11-30"
+        - option "2026-12-18"
+        - option "2026-12-31"
+        - option "2027-01-15"
+        - option "2027-01-29"
+        - option "2027-02-26"
+        - option "2027-03-19"
+        - option "2027-03-31"
+        - option "2027-06-17"
+        - option "2027-06-30"
+        - option "2027-09-17"
+        - option "2027-12-17"
+        - option "2028-01-21"
+        - option "2028-06-16"
+        - option "2028-12-15"
+        - option "2029-01-19"
+      - table:
+        - rowgroup:
+          - row "Volume IV Last CALL Bid Ask Strike Bid Ask Last PUT IV Volume":
+            - cell "Volume"
+            - cell "IV"
+            - cell "Last CALL":
+              - text: Last
+              - generic: CALL
+            - cell "Bid"
+            - cell "Ask"
+            - cell "Strike"
+            - cell "Bid"
+            - cell "Ask"
+            - cell "Last PUT":
+              - text: Last
+              - generic: PUT
+            - cell "IV"
+            - cell "Volume"
+        - rowgroup:
+          - row "4 465.14 220.58 220.29 Sell CALL at strike 550 220.67 Buy CALL at strike 550 550.00 Sell PUT at strike 550 0.00 Buy PUT at strike 550 0.01 0.00 465.14 0":
+            - cell "4":
+              - generic: "4"
+            - cell "465.14"
+            - cell "220.58"
+            - cell "220.29 Sell CALL at strike 550":
+              - generic: "220.29"
+              - button "Sell CALL at strike 550": Sell
+            - cell "220.67 Buy CALL at strike 550":
+              - generic: "220.67"
+              - button "Buy CALL at strike 550": Buy
+            - cell "550.00"
+            - cell "Sell PUT at strike 550 0.00":
+              - button "Sell PUT at strike 550": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 550 0.01":
+              - button "Buy PUT at strike 550": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "465.14"
+            - cell "0":
+              - generic: "0"
+          - row "0 465.14 215.64 215.49 Sell CALL at strike 555 215.77 Buy CALL at strike 555 555.00 Sell PUT at strike 555 0.00 Buy PUT at strike 555 0.01 0.00 465.14 0":
+            - cell "0":
+              - generic: "0"
+            - cell "465.14"
+            - cell "215.64"
+            - cell "215.49 Sell CALL at strike 555":
+              - generic: "215.49"
+              - button "Sell CALL at strike 555": Sell
+            - cell "215.77 Buy CALL at strike 555":
+              - generic: "215.77"
+              - button "Buy CALL at strike 555": Buy
+            - cell "555.00"
+            - cell "Sell PUT at strike 555 0.00":
+              - button "Sell PUT at strike 555": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 555 0.01":
+              - button "Buy PUT at strike 555": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "465.14"
+            - cell "0":
+              - generic: "0"
+          - row "2 465.14 210.42 210.49 Sell CALL at strike 560 210.85 Buy CALL at strike 560 560.00 Sell PUT at strike 560 0.00 Buy PUT at strike 560 0.01 0.00 465.14 0":
+            - cell "2":
+              - generic: "2"
+            - cell "465.14"
+            - cell "210.42"
+            - cell "210.49 Sell CALL at strike 560":
+              - generic: "210.49"
+              - button "Sell CALL at strike 560": Sell
+            - cell "210.85 Buy CALL at strike 560":
+              - generic: "210.85"
+              - button "Buy CALL at strike 560": Buy
+            - cell "560.00"
+            - cell "Sell PUT at strike 560 0.00":
+              - button "Sell PUT at strike 560": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 560 0.01":
+              - button "Buy PUT at strike 560": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "465.14"
+            - cell "0":
+              - generic: "0"
+          - row "2 447.96 205.48 205.49 Sell CALL at strike 565 205.82 Buy CALL at strike 565 565.00 Sell PUT at strike 565 0.00 Buy PUT at strike 565 0.01 0.00 447.96 0":
+            - cell "2":
+              - generic: "2"
+            - cell "447.96"
+            - cell "205.48"
+            - cell "205.49 Sell CALL at strike 565":
+              - generic: "205.49"
+              - button "Sell CALL at strike 565": Sell
+            - cell "205.82 Buy CALL at strike 565":
+              - generic: "205.82"
+              - button "Buy CALL at strike 565": Buy
+            - cell "565.00"
+            - cell "Sell PUT at strike 565 0.00":
+              - button "Sell PUT at strike 565": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 565 0.01":
+              - button "Buy PUT at strike 565": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "447.96"
+            - cell "0":
+              - generic: "0"
+          - row "2 436.36 200.66 200.49 Sell CALL at strike 570 200.82 Buy CALL at strike 570 570.00 Sell PUT at strike 570 0.00 Buy PUT at strike 570 0.01 0.00 369.38 0":
+            - cell "2":
+              - generic: "2"
+            - cell "436.36"
+            - cell "200.66"
+            - cell "200.49 Sell CALL at strike 570":
+              - generic: "200.49"
+              - button "Sell CALL at strike 570": Sell
+            - cell "200.82 Buy CALL at strike 570":
+              - generic: "200.82"
+              - button "Buy CALL at strike 570": Buy
+            - cell "570.00"
+            - cell "Sell PUT at strike 570 0.00":
+              - button "Sell PUT at strike 570": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 570 0.01":
+              - button "Buy PUT at strike 570": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "369.38"
+            - cell "0":
+              - generic: "0"
+          - row "2 424.92 195.72 195.49 Sell CALL at strike 575 195.80 Buy CALL at strike 575 575.00 Sell PUT at strike 575 0.00 Buy PUT at strike 575 0.01 0.00 369.38 0":
+            - cell "2":
+              - generic: "2"
+            - cell "424.92"
+            - cell "195.72"
+            - cell "195.49 Sell CALL at strike 575":
+              - generic: "195.49"
+              - button "Sell CALL at strike 575": Sell
+            - cell "195.80 Buy CALL at strike 575":
+              - generic: "195.80"
+              - button "Buy CALL at strike 575": Buy
+            - cell "575.00"
+            - cell "Sell PUT at strike 575 0.00":
+              - button "Sell PUT at strike 575": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 575 0.01":
+              - button "Buy PUT at strike 575": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "369.38"
+            - cell "0":
+              - generic: "0"
+          - row "3 413.48 190.78 190.49 Sell CALL at strike 580 190.78 Buy CALL at strike 580 580.00 Sell PUT at strike 580 0.00 Buy PUT at strike 580 0.01 0.00 413.48 0":
+            - cell "3":
+              - generic: "3"
+            - cell "413.48"
+            - cell "190.78"
+            - cell "190.49 Sell CALL at strike 580":
+              - generic: "190.49"
+              - button "Sell CALL at strike 580": Sell
+            - cell "190.78 Buy CALL at strike 580":
+              - generic: "190.78"
+              - button "Buy CALL at strike 580": Buy
+            - cell "580.00"
+            - cell "Sell PUT at strike 580 0.00":
+              - button "Sell PUT at strike 580": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 580 0.01":
+              - button "Buy PUT at strike 580": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "413.48"
+            - cell "0":
+              - generic: "0"
+          - row "2 402.04 185.66 185.49 Sell CALL at strike 585 185.82 Buy CALL at strike 585 585.00 Sell PUT at strike 585 0.00 Buy PUT at strike 585 0.01 0.00 402.04 0":
+            - cell "2":
+              - generic: "2"
+            - cell "402.04"
+            - cell "185.66"
+            - cell "185.49 Sell CALL at strike 585":
+              - generic: "185.49"
+              - button "Sell CALL at strike 585": Sell
+            - cell "185.82 Buy CALL at strike 585":
+              - generic: "185.82"
+              - button "Buy CALL at strike 585": Buy
+            - cell "585.00"
+            - cell "Sell PUT at strike 585 0.00":
+              - button "Sell PUT at strike 585": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 585 0.01":
+              - button "Buy PUT at strike 585": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "402.04"
+            - cell "0":
+              - generic: "0"
+          - row "3 392.41 180.61 180.49 Sell CALL at strike 590 180.83 Buy CALL at strike 590 590.00 Sell PUT at strike 590 0.00 Buy PUT at strike 590 0.01 0.00 392.41 0":
+            - cell "3":
+              - generic: "3"
+            - cell "392.41"
+            - cell "180.61"
+            - cell "180.49 Sell CALL at strike 590":
+              - generic: "180.49"
+              - button "Sell CALL at strike 590": Sell
+            - cell "180.83 Buy CALL at strike 590":
+              - generic: "180.83"
+              - button "Buy CALL at strike 590": Buy
+            - cell "590.00"
+            - cell "Sell PUT at strike 590 0.00":
+              - button "Sell PUT at strike 590": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 590 0.01":
+              - button "Buy PUT at strike 590": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "392.41"
+            - cell "0":
+              - generic: "0"
+          - row "3 380.89 175.67 175.47 Sell CALL at strike 595 175.74 Buy CALL at strike 595 595.00 Sell PUT at strike 595 0.00 Buy PUT at strike 595 0.01 0.00 380.89 0":
+            - cell "3":
+              - generic: "3"
+            - cell "380.89"
+            - cell "175.67"
+            - cell "175.47 Sell CALL at strike 595":
+              - generic: "175.47"
+              - button "Sell CALL at strike 595": Sell
+            - cell "175.74 Buy CALL at strike 595":
+              - generic: "175.74"
+              - button "Buy CALL at strike 595": Buy
+            - cell "595.00"
+            - cell "Sell PUT at strike 595 0.00":
+              - button "Sell PUT at strike 595": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 595 0.01":
+              - button "Buy PUT at strike 595": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "380.89"
+            - cell "0":
+              - generic: "0"
+          - row "0 369.38 0.00 170.45 Sell CALL at strike 600 170.74 Buy CALL at strike 600 600.00 Sell PUT at strike 600 0.00 Buy PUT at strike 600 0.01 0.00 369.38 0":
+            - cell "0":
+              - generic: "0"
+            - cell "369.38"
+            - cell "0.00"
+            - cell "170.45 Sell CALL at strike 600":
+              - generic: "170.45"
+              - button "Sell CALL at strike 600": Sell
+            - cell "170.74 Buy CALL at strike 600":
+              - generic: "170.74"
+              - button "Buy CALL at strike 600": Buy
+            - cell "600.00"
+            - cell "Sell PUT at strike 600 0.00":
+              - button "Sell PUT at strike 600": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 600 0.01":
+              - button "Buy PUT at strike 600": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "369.38"
+            - cell "0":
+              - generic: "0"
+          - row "0 357.86 0.00 165.41 Sell CALL at strike 605 165.67 Buy CALL at strike 605 605.00 Sell PUT at strike 605 0.00 Buy PUT at strike 605 0.01 0.00 357.86 0":
+            - cell "0":
+              - generic: "0"
+            - cell "357.86"
+            - cell "0.00"
+            - cell "165.41 Sell CALL at strike 605":
+              - generic: "165.41"
+              - button "Sell CALL at strike 605": Sell
+            - cell "165.67 Buy CALL at strike 605":
+              - generic: "165.67"
+              - button "Buy CALL at strike 605": Buy
+            - cell "605.00"
+            - cell "Sell PUT at strike 605 0.00":
+              - button "Sell PUT at strike 605": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 605 0.01":
+              - button "Buy PUT at strike 605": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "357.86"
+            - cell "0":
+              - generic: "0"
+          - row "0 346.35 0.00 160.49 Sell CALL at strike 610 160.82 Buy CALL at strike 610 610.00 Sell PUT at strike 610 0.00 Buy PUT at strike 610 0.01 0.00 346.35 0":
+            - cell "0":
+              - generic: "0"
+            - cell "346.35"
+            - cell "0.00"
+            - cell "160.49 Sell CALL at strike 610":
+              - generic: "160.49"
+              - button "Sell CALL at strike 610": Sell
+            - cell "160.82 Buy CALL at strike 610":
+              - generic: "160.82"
+              - button "Buy CALL at strike 610": Buy
+            - cell "610.00"
+            - cell "Sell PUT at strike 610 0.00":
+              - button "Sell PUT at strike 610": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 610 0.01":
+              - button "Buy PUT at strike 610": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "346.35"
+            - cell "0":
+              - generic: "0"
+          - row "0 336.85 0.00 155.49 Sell CALL at strike 615 155.78 Buy CALL at strike 615 615.00 Sell PUT at strike 615 0.00 Buy PUT at strike 615 0.01 0.00 336.85 0":
+            - cell "0":
+              - generic: "0"
+            - cell "336.85"
+            - cell "0.00"
+            - cell "155.49 Sell CALL at strike 615":
+              - generic: "155.49"
+              - button "Sell CALL at strike 615": Sell
+            - cell "155.78 Buy CALL at strike 615":
+              - generic: "155.78"
+              - button "Buy CALL at strike 615": Buy
+            - cell "615.00"
+            - cell "Sell PUT at strike 615 0.00":
+              - button "Sell PUT at strike 615": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 615 0.01":
+              - button "Buy PUT at strike 615": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "336.85"
+            - cell "0":
+              - generic: "0"
+          - row "0 325.48 0.00 150.47 Sell CALL at strike 620 150.78 Buy CALL at strike 620 620.00 Sell PUT at strike 620 0.00 Buy PUT at strike 620 0.01 0.00 327.34 0":
+            - cell "0":
+              - generic: "0"
+            - cell "325.48"
+            - cell "0.00"
+            - cell "150.47 Sell CALL at strike 620":
+              - generic: "150.47"
+              - button "Sell CALL at strike 620": Sell
+            - cell "150.78 Buy CALL at strike 620":
+              - generic: "150.78"
+              - button "Buy CALL at strike 620": Buy
+            - cell "620.00"
+            - cell "Sell PUT at strike 620 0.00":
+              - button "Sell PUT at strike 620": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 620 0.01":
+              - button "Buy PUT at strike 620": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "327.34"
+            - cell "0":
+              - generic: "0"
+          - row "0 316.09 0.00 145.45 Sell CALL at strike 625 145.74 Buy CALL at strike 625 625.00 Sell PUT at strike 625 0.00 Buy PUT at strike 625 0.01 0.00 316.09 0":
+            - cell "0":
+              - generic: "0"
+            - cell "316.09"
+            - cell "0.00"
+            - cell "145.45 Sell CALL at strike 625":
+              - generic: "145.45"
+              - button "Sell CALL at strike 625": Sell
+            - cell "145.74 Buy CALL at strike 625":
+              - generic: "145.74"
+              - button "Buy CALL at strike 625": Buy
+            - cell "625.00"
+            - cell "Sell PUT at strike 625 0.00":
+              - button "Sell PUT at strike 625": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 625 0.01":
+              - button "Buy PUT at strike 625": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "316.09"
+            - cell "0":
+              - generic: "0"
+          - row "0 304.83 0.00 140.46 Sell CALL at strike 630 140.80 Buy CALL at strike 630 630.00 Sell PUT at strike 630 0.00 Buy PUT at strike 630 0.01 0.00 304.83 0":
+            - cell "0":
+              - generic: "0"
+            - cell "304.83"
+            - cell "0.00"
+            - cell "140.46 Sell CALL at strike 630":
+              - generic: "140.46"
+              - button "Sell CALL at strike 630": Sell
+            - cell "140.80 Buy CALL at strike 630":
+              - generic: "140.80"
+              - button "Buy CALL at strike 630": Buy
+            - cell "630.00"
+            - cell "Sell PUT at strike 630 0.00":
+              - button "Sell PUT at strike 630": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 630 0.01":
+              - button "Buy PUT at strike 630": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "304.83"
+            - cell "0":
+              - generic: "0"
+          - row "0 293.57 0.00 135.47 Sell CALL at strike 635 135.82 Buy CALL at strike 635 635.00 Sell PUT at strike 635 0.00 Buy PUT at strike 635 0.01 0.00 293.57 0":
+            - cell "0":
+              - generic: "0"
+            - cell "293.57"
+            - cell "0.00"
+            - cell "135.47 Sell CALL at strike 635":
+              - generic: "135.47"
+              - button "Sell CALL at strike 635": Sell
+            - cell "135.82 Buy CALL at strike 635":
+              - generic: "135.82"
+              - button "Buy CALL at strike 635": Buy
+            - cell "635.00"
+            - cell "Sell PUT at strike 635 0.00":
+              - button "Sell PUT at strike 635": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 635 0.01":
+              - button "Buy PUT at strike 635": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "293.57"
+            - cell "0":
+              - generic: "0"
+          - row "0 282.31 0.00 130.49 Sell CALL at strike 640 130.79 Buy CALL at strike 640 640.00 Sell PUT at strike 640 0.00 Buy PUT at strike 640 0.01 0.00 282.31 0":
+            - cell "0":
+              - generic: "0"
+            - cell "282.31"
+            - cell "0.00"
+            - cell "130.49 Sell CALL at strike 640":
+              - generic: "130.49"
+              - button "Sell CALL at strike 640": Sell
+            - cell "130.79 Buy CALL at strike 640":
+              - generic: "130.79"
+              - button "Buy CALL at strike 640": Buy
+            - cell "640.00"
+            - cell "Sell PUT at strike 640 0.00":
+              - button "Sell PUT at strike 640": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 640 0.01":
+              - button "Buy PUT at strike 640": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "282.31"
+            - cell "0":
+              - generic: "0"
+          - row "0 271.06 0.00 125.49 Sell CALL at strike 645 125.82 Buy CALL at strike 645 645.00 Sell PUT at strike 645 0.00 Buy PUT at strike 645 0.01 0.00 271.06 0":
+            - cell "0":
+              - generic: "0"
+            - cell "271.06"
+            - cell "0.00"
+            - cell "125.49 Sell CALL at strike 645":
+              - generic: "125.49"
+              - button "Sell CALL at strike 645": Sell
+            - cell "125.82 Buy CALL at strike 645":
+              - generic: "125.82"
+              - button "Buy CALL at strike 645": Buy
+            - cell "645.00"
+            - cell "Sell PUT at strike 645 0.00":
+              - button "Sell PUT at strike 645": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 645 0.01":
+              - button "Buy PUT at strike 645": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "271.06"
+            - cell "0":
+              - generic: "0"
+          - row "0 260.54 0.00 120.49 Sell CALL at strike 650 120.76 Buy CALL at strike 650 650.00 Sell PUT at strike 650 0.00 Buy PUT at strike 650 0.01 0.00 260.54 0":
+            - cell "0":
+              - generic: "0"
+            - cell "260.54"
+            - cell "0.00"
+            - cell "120.49 Sell CALL at strike 650":
+              - generic: "120.49"
+              - button "Sell CALL at strike 650": Sell
+            - cell "120.76 Buy CALL at strike 650":
+              - generic: "120.76"
+              - button "Buy CALL at strike 650": Buy
+            - cell "650.00"
+            - cell "Sell PUT at strike 650 0.00":
+              - button "Sell PUT at strike 650": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 650 0.01":
+              - button "Buy PUT at strike 650": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "260.54"
+            - cell "0":
+              - generic: "0"
+          - row "21 250.02 115.72 115.49 Sell CALL at strike 655 115.82 Buy CALL at strike 655 655.00 Sell PUT at strike 655 0.00 Buy PUT at strike 655 0.01 0.00 250.02 0":
+            - cell "21":
+              - generic: "21"
+            - cell "250.02"
+            - cell "115.72"
+            - cell "115.49 Sell CALL at strike 655":
+              - generic: "115.49"
+              - button "Sell CALL at strike 655": Sell
+            - cell "115.82 Buy CALL at strike 655":
+              - generic: "115.82"
+              - button "Buy CALL at strike 655": Buy
+            - cell "655.00"
+            - cell "Sell PUT at strike 655 0.00":
+              - button "Sell PUT at strike 655": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 655 0.01":
+              - button "Buy PUT at strike 655": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "250.02"
+            - cell "0":
+              - generic: "0"
+          - row "2 239.85 110.64 110.48 Sell CALL at strike 660 110.78 Buy CALL at strike 660 660.00 Sell PUT at strike 660 0.00 Buy PUT at strike 660 0.01 0.00 239.85 0":
+            - cell "2":
+              - generic: "2"
+            - cell "239.85"
+            - cell "110.64"
+            - cell "110.48 Sell CALL at strike 660":
+              - generic: "110.48"
+              - button "Sell CALL at strike 660": Sell
+            - cell "110.78 Buy CALL at strike 660":
+              - generic: "110.78"
+              - button "Buy CALL at strike 660": Buy
+            - cell "660.00"
+            - cell "Sell PUT at strike 660 0.00":
+              - button "Sell PUT at strike 660": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 660 0.01":
+              - button "Buy PUT at strike 660": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "239.85"
+            - cell "0":
+              - generic: "0"
+          - row "0 229.68 0.00 105.43 Sell CALL at strike 665 105.67 Buy CALL at strike 665 665.00 Sell PUT at strike 665 0.00 Buy PUT at strike 665 0.01 0.00 229.68 0":
+            - cell "0":
+              - generic: "0"
+            - cell "229.68"
+            - cell "0.00"
+            - cell "105.43 Sell CALL at strike 665":
+              - generic: "105.43"
+              - button "Sell CALL at strike 665": Sell
+            - cell "105.67 Buy CALL at strike 665":
+              - generic: "105.67"
+              - button "Buy CALL at strike 665": Buy
+            - cell "665.00"
+            - cell "Sell PUT at strike 665 0.00":
+              - button "Sell PUT at strike 665": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 665 0.01":
+              - button "Buy PUT at strike 665": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "229.68"
+            - cell "0":
+              - generic: "0"
+          - row "0 219.52 0.00 100.44 Sell CALL at strike 670 100.67 Buy CALL at strike 670 670.00 Sell PUT at strike 670 0.00 Buy PUT at strike 670 0.01 0.00 219.52 0":
+            - cell "0":
+              - generic: "0"
+            - cell "219.52"
+            - cell "0.00"
+            - cell "100.44 Sell CALL at strike 670":
+              - generic: "100.44"
+              - button "Sell CALL at strike 670": Sell
+            - cell "100.67 Buy CALL at strike 670":
+              - generic: "100.67"
+              - button "Buy CALL at strike 670": Buy
+            - cell "670.00"
+            - cell "Sell PUT at strike 670 0.00":
+              - button "Sell PUT at strike 670": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 670 0.01":
+              - button "Buy PUT at strike 670": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "219.52"
+            - cell "0":
+              - generic: "0"
+          - row "0 209.35 0.00 95.49 Sell CALL at strike 675 95.74 Buy CALL at strike 675 675.00 Sell PUT at strike 675 0.00 Buy PUT at strike 675 0.01 0.00 204.77 0":
+            - cell "0":
+              - generic: "0"
+            - cell "209.35"
+            - cell "0.00"
+            - cell "95.49 Sell CALL at strike 675":
+              - generic: "95.49"
+              - button "Sell CALL at strike 675": Sell
+            - cell "95.74 Buy CALL at strike 675":
+              - generic: "95.74"
+              - button "Buy CALL at strike 675": Buy
+            - cell "675.00"
+            - cell "Sell PUT at strike 675 0.00":
+              - button "Sell PUT at strike 675": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 675 0.01":
+              - button "Buy PUT at strike 675": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "204.77"
+            - cell "0":
+              - generic: "0"
+          - row "0 199.18 0.00 90.46 Sell CALL at strike 680 90.80 Buy CALL at strike 680 680.00 Sell PUT at strike 680 0.00 Buy PUT at strike 680 0.01 0.00 199.18 0":
+            - cell "0":
+              - generic: "0"
+            - cell "199.18"
+            - cell "0.00"
+            - cell "90.46 Sell CALL at strike 680":
+              - generic: "90.46"
+              - button "Sell CALL at strike 680": Sell
+            - cell "90.80 Buy CALL at strike 680":
+              - generic: "90.80"
+              - button "Buy CALL at strike 680": Buy
+            - cell "680.00"
+            - cell "Sell PUT at strike 680 0.00":
+              - button "Sell PUT at strike 680": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 680 0.01":
+              - button "Buy PUT at strike 680": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "199.18"
+            - cell "0":
+              - generic: "0"
+          - row "0 189.01 0.00 85.49 Sell CALL at strike 685 85.81 Buy CALL at strike 685 685.00 Sell PUT at strike 685 0.00 Buy PUT at strike 685 0.01 0.00 189.01 0":
+            - cell "0":
+              - generic: "0"
+            - cell "189.01"
+            - cell "0.00"
+            - cell "85.49 Sell CALL at strike 685":
+              - generic: "85.49"
+              - button "Sell CALL at strike 685": Sell
+            - cell "85.81 Buy CALL at strike 685":
+              - generic: "85.81"
+              - button "Buy CALL at strike 685": Buy
+            - cell "685.00"
+            - cell "Sell PUT at strike 685 0.00":
+              - button "Sell PUT at strike 685": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 685 0.01":
+              - button "Buy PUT at strike 685": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "189.01"
+            - cell "0":
+              - generic: "0"
+          - row "2 178.85 80.69 80.45 Sell CALL at strike 690 80.74 Buy CALL at strike 690 690.00 Sell PUT at strike 690 0.00 Buy PUT at strike 690 0.01 0.00 178.85 0":
+            - cell "2":
+              - generic: "2"
+            - cell "178.85"
+            - cell "80.69"
+            - cell "80.45 Sell CALL at strike 690":
+              - generic: "80.45"
+              - button "Sell CALL at strike 690": Sell
+            - cell "80.74 Buy CALL at strike 690":
+              - generic: "80.74"
+              - button "Buy CALL at strike 690": Buy
+            - cell "690.00"
+            - cell "Sell PUT at strike 690 0.00":
+              - button "Sell PUT at strike 690": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 690 0.01":
+              - button "Buy PUT at strike 690": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "178.85"
+            - cell "0":
+              - generic: "0"
+          - row "1 168.68 75.43 75.49 Sell CALL at strike 695 75.79 Buy CALL at strike 695 695.00 Sell PUT at strike 695 0.00 Buy PUT at strike 695 0.01 0.00 168.68 0":
+            - cell "1":
+              - generic: "1"
+            - cell "168.68"
+            - cell "75.43"
+            - cell "75.49 Sell CALL at strike 695":
+              - generic: "75.49"
+              - button "Sell CALL at strike 695": Sell
+            - cell "75.79 Buy CALL at strike 695":
+              - generic: "75.79"
+              - button "Buy CALL at strike 695": Buy
+            - cell "695.00"
+            - cell "Sell PUT at strike 695 0.00":
+              - button "Sell PUT at strike 695": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 695 0.01":
+              - button "Buy PUT at strike 695": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "168.68"
+            - cell "0":
+              - generic: "0"
+          - row "0 158.51 0.00 70.41 Sell CALL at strike 700 70.67 Buy CALL at strike 700 700.00 Sell PUT at strike 700 0.00 Buy PUT at strike 700 0.01 0.00 158.51 0":
+            - cell "0":
+              - generic: "0"
+            - cell "158.51"
+            - cell "0.00"
+            - cell "70.41 Sell CALL at strike 700":
+              - generic: "70.41"
+              - button "Sell CALL at strike 700": Sell
+            - cell "70.67 Buy CALL at strike 700":
+              - generic: "70.67"
+              - button "Buy CALL at strike 700": Buy
+            - cell "700.00"
+            - cell "Sell PUT at strike 700 0.00":
+              - button "Sell PUT at strike 700": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 700 0.01":
+              - button "Buy PUT at strike 700": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "158.51"
+            - cell "0":
+              - generic: "0"
+          - row "0 148.34 0.00 65.48 Sell CALL at strike 705 65.85 Buy CALL at strike 705 705.00 Sell PUT at strike 705 0.00 Buy PUT at strike 705 0.01 0.00 148.34 0":
+            - cell "0":
+              - generic: "0"
+            - cell "148.34"
+            - cell "0.00"
+            - cell "65.48 Sell CALL at strike 705":
+              - generic: "65.48"
+              - button "Sell CALL at strike 705": Sell
+            - cell "65.85 Buy CALL at strike 705":
+              - generic: "65.85"
+              - button "Buy CALL at strike 705": Buy
+            - cell "705.00"
+            - cell "Sell PUT at strike 705 0.00":
+              - button "Sell PUT at strike 705": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 705 0.01":
+              - button "Buy PUT at strike 705": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "148.34"
+            - cell "0":
+              - generic: "0"
+          - row "0 137.20 0.00 60.49 Sell CALL at strike 710 60.67 Buy CALL at strike 710 710.00 Sell PUT at strike 710 0.00 Buy PUT at strike 710 0.01 0.00 136.25 0":
+            - cell "0":
+              - generic: "0"
+            - cell "137.20"
+            - cell "0.00"
+            - cell "60.49 Sell CALL at strike 710":
+              - generic: "60.49"
+              - button "Sell CALL at strike 710": Sell
+            - cell "60.67 Buy CALL at strike 710":
+              - generic: "60.67"
+              - button "Buy CALL at strike 710": Buy
+            - cell "710.00"
+            - cell "Sell PUT at strike 710 0.00":
+              - button "Sell PUT at strike 710": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 710 0.01":
+              - button "Buy PUT at strike 710": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "136.25"
+            - cell "0":
+              - generic: "0"
+          - row "2 126.07 55.60 55.49 Sell CALL at strike 715 55.67 Buy CALL at strike 715 715.00 Sell PUT at strike 715 0.00 Buy PUT at strike 715 0.01 0.01 124.17 2":
+            - cell "2":
+              - generic: "2"
+            - cell "126.07"
+            - cell "55.60"
+            - cell "55.49 Sell CALL at strike 715":
+              - generic: "55.49"
+              - button "Sell CALL at strike 715": Sell
+            - cell "55.67 Buy CALL at strike 715":
+              - generic: "55.67"
+              - button "Buy CALL at strike 715": Buy
+            - cell "715.00"
+            - cell "Sell PUT at strike 715 0.00":
+              - button "Sell PUT at strike 715": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 715 0.01":
+              - button "Buy PUT at strike 715": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "124.17"
+            - cell "2":
+              - generic: "2"
+          - row "0 114.93 0.00 50.49 Sell CALL at strike 720 50.68 Buy CALL at strike 720 720.00 Sell PUT at strike 720 0.00 Buy PUT at strike 720 0.01 0.00 112.08 0":
+            - cell "0":
+              - generic: "0"
+            - cell "114.93"
+            - cell "0.00"
+            - cell "50.49 Sell CALL at strike 720":
+              - generic: "50.49"
+              - button "Sell CALL at strike 720": Sell
+            - cell "50.68 Buy CALL at strike 720":
+              - generic: "50.68"
+              - button "Buy CALL at strike 720": Buy
+            - cell "720.00"
+            - cell "Sell PUT at strike 720 0.00":
+              - button "Sell PUT at strike 720": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 720 0.01":
+              - button "Buy PUT at strike 720": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "112.08"
+            - cell "0":
+              - generic: "0"
+          - row "1 108.24 47.79 47.49 Sell CALL at strike 723 47.67 Buy CALL at strike 723 723.00 Sell PUT at strike 723 0.00 Buy PUT at strike 723 0.01 0.00 104.83 0":
+            - cell "1":
+              - generic: "1"
+            - cell "108.24"
+            - cell "47.79"
+            - cell "47.49 Sell CALL at strike 723":
+              - generic: "47.49"
+              - button "Sell CALL at strike 723": Sell
+            - cell "47.67 Buy CALL at strike 723":
+              - generic: "47.67"
+              - button "Buy CALL at strike 723": Buy
+            - cell "723.00"
+            - cell "Sell PUT at strike 723 0.00":
+              - button "Sell PUT at strike 723": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 723 0.01":
+              - button "Buy PUT at strike 723": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "104.83"
+            - cell "0":
+              - generic: "0"
+          - row "0 106.02 0.00 46.49 Sell CALL at strike 724 46.68 Buy CALL at strike 724 724.00 Sell PUT at strike 724 0.00 Buy PUT at strike 724 0.01 0.00 102.41 0":
+            - cell "0":
+              - generic: "0"
+            - cell "106.02"
+            - cell "0.00"
+            - cell "46.49 Sell CALL at strike 724":
+              - generic: "46.49"
+              - button "Sell CALL at strike 724": Sell
+            - cell "46.68 Buy CALL at strike 724":
+              - generic: "46.68"
+              - button "Buy CALL at strike 724": Buy
+            - cell "724.00"
+            - cell "Sell PUT at strike 724 0.00":
+              - button "Sell PUT at strike 724": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 724 0.01":
+              - button "Buy PUT at strike 724": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "102.41"
+            - cell "0":
+              - generic: "0"
+          - row "0 103.79 0.00 45.49 Sell CALL at strike 725 45.70 Buy CALL at strike 725 725.00 Sell PUT at strike 725 0.00 Buy PUT at strike 725 0.01 0.01 99.99 2":
+            - cell "0":
+              - generic: "0"
+            - cell "103.79"
+            - cell "0.00"
+            - cell "45.49 Sell CALL at strike 725":
+              - generic: "45.49"
+              - button "Sell CALL at strike 725": Sell
+            - cell "45.70 Buy CALL at strike 725":
+              - generic: "45.70"
+              - button "Buy CALL at strike 725": Buy
+            - cell "725.00"
+            - cell "Sell PUT at strike 725 0.00":
+              - button "Sell PUT at strike 725": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 725 0.01":
+              - button "Buy PUT at strike 725": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "99.99"
+            - cell "2":
+              - generic: "2"
+          - row "2 101.56 44.59 44.49 Sell CALL at strike 726 44.67 Buy CALL at strike 726 726.00 Sell PUT at strike 726 0.00 Buy PUT at strike 726 0.01 0.00 97.58 0":
+            - cell "2":
+              - generic: "2"
+            - cell "101.56"
+            - cell "44.59"
+            - cell "44.49 Sell CALL at strike 726":
+              - generic: "44.49"
+              - button "Sell CALL at strike 726": Sell
+            - cell "44.67 Buy CALL at strike 726":
+              - generic: "44.67"
+              - button "Buy CALL at strike 726": Buy
+            - cell "726.00"
+            - cell "Sell PUT at strike 726 0.00":
+              - button "Sell PUT at strike 726": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 726 0.01":
+              - button "Buy PUT at strike 726": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "97.58"
+            - cell "0":
+              - generic: "0"
+          - row "6 99.33 43.64 43.49 Sell CALL at strike 727 43.68 Buy CALL at strike 727 727.00 Sell PUT at strike 727 0.00 Buy PUT at strike 727 0.01 0.02 95.16 1":
+            - cell "6":
+              - generic: "6"
+            - cell "99.33"
+            - cell "43.64"
+            - cell "43.49 Sell CALL at strike 727":
+              - generic: "43.49"
+              - button "Sell CALL at strike 727": Sell
+            - cell "43.68 Buy CALL at strike 727":
+              - generic: "43.68"
+              - button "Buy CALL at strike 727": Buy
+            - cell "727.00"
+            - cell "Sell PUT at strike 727 0.00":
+              - button "Sell PUT at strike 727": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 727 0.01":
+              - button "Buy PUT at strike 727": Buy
+              - generic: "0.01"
+            - cell "0.02"
+            - cell "95.16"
+            - cell "1":
+              - generic: "1"
+          - row "3 97.11 42.62 42.49 Sell CALL at strike 728 42.68 Buy CALL at strike 728 728.00 Sell PUT at strike 728 0.00 Buy PUT at strike 728 0.01 0.00 92.74 0":
+            - cell "3":
+              - generic: "3"
+            - cell "97.11"
+            - cell "42.62"
+            - cell "42.49 Sell CALL at strike 728":
+              - generic: "42.49"
+              - button "Sell CALL at strike 728": Sell
+            - cell "42.68 Buy CALL at strike 728":
+              - generic: "42.68"
+              - button "Buy CALL at strike 728": Buy
+            - cell "728.00"
+            - cell "Sell PUT at strike 728 0.00":
+              - button "Sell PUT at strike 728": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 728 0.01":
+              - button "Buy PUT at strike 728": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "92.74"
+            - cell "0":
+              - generic: "0"
+          - row "0 94.88 0.00 41.49 Sell CALL at strike 729 41.68 Buy CALL at strike 729 729.00 Sell PUT at strike 729 0.00 Buy PUT at strike 729 0.01 0.00 90.32 0":
+            - cell "0":
+              - generic: "0"
+            - cell "94.88"
+            - cell "0.00"
+            - cell "41.49 Sell CALL at strike 729":
+              - generic: "41.49"
+              - button "Sell CALL at strike 729": Sell
+            - cell "41.68 Buy CALL at strike 729":
+              - generic: "41.68"
+              - button "Buy CALL at strike 729": Buy
+            - cell "729.00"
+            - cell "Sell PUT at strike 729 0.00":
+              - button "Sell PUT at strike 729": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 729 0.01":
+              - button "Buy PUT at strike 729": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "90.32"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.65 0.00 40.49 Sell CALL at strike 730 40.68 Buy CALL at strike 730 730.00 Sell PUT at strike 730 0.00 Buy PUT at strike 730 0.01 0.00 87.91 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.65"
+            - cell "0.00"
+            - cell "40.49 Sell CALL at strike 730":
+              - generic: "40.49"
+              - button "Sell CALL at strike 730": Sell
+            - cell "40.68 Buy CALL at strike 730":
+              - generic: "40.68"
+              - button "Buy CALL at strike 730": Buy
+            - cell "730.00"
+            - cell "Sell PUT at strike 730 0.00":
+              - button "Sell PUT at strike 730": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 730 0.01":
+              - button "Buy PUT at strike 730": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "87.91"
+            - cell "0":
+              - generic: "0"
+          - row "0 90.42 0.00 39.49 Sell CALL at strike 731 39.74 Buy CALL at strike 731 731.00 Sell PUT at strike 731 0.00 Buy PUT at strike 731 0.01 0.00 85.49 0":
+            - cell "0":
+              - generic: "0"
+            - cell "90.42"
+            - cell "0.00"
+            - cell "39.49 Sell CALL at strike 731":
+              - generic: "39.49"
+              - button "Sell CALL at strike 731": Sell
+            - cell "39.74 Buy CALL at strike 731":
+              - generic: "39.74"
+              - button "Buy CALL at strike 731": Buy
+            - cell "731.00"
+            - cell "Sell PUT at strike 731 0.00":
+              - button "Sell PUT at strike 731": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 731 0.01":
+              - button "Buy PUT at strike 731": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "85.49"
+            - cell "0":
+              - generic: "0"
+          - row "0 79.68 0.00 38.47 Sell CALL at strike 732 38.68 Buy CALL at strike 732 732.00 Sell PUT at strike 732 0.00 Buy PUT at strike 732 0.01 0.00 83.07 0":
+            - cell "0":
+              - generic: "0"
+            - cell "79.68"
+            - cell "0.00"
+            - cell "38.47 Sell CALL at strike 732":
+              - generic: "38.47"
+              - button "Sell CALL at strike 732": Sell
+            - cell "38.68 Buy CALL at strike 732":
+              - generic: "38.68"
+              - button "Buy CALL at strike 732": Buy
+            - cell "732.00"
+            - cell "Sell PUT at strike 732 0.00":
+              - button "Sell PUT at strike 732": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 732 0.01":
+              - button "Buy PUT at strike 732": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "83.07"
+            - cell "0":
+              - generic: "0"
+          - row "7 77.48 37.62 37.47 Sell CALL at strike 733 37.68 Buy CALL at strike 733 733.00 Sell PUT at strike 733 0.00 Buy PUT at strike 733 0.01 0.00 80.66 0":
+            - cell "7":
+              - generic: "7"
+            - cell "77.48"
+            - cell "37.62"
+            - cell "37.47 Sell CALL at strike 733":
+              - generic: "37.47"
+              - button "Sell CALL at strike 733": Sell
+            - cell "37.68 Buy CALL at strike 733":
+              - generic: "37.68"
+              - button "Buy CALL at strike 733": Buy
+            - cell "733.00"
+            - cell "Sell PUT at strike 733 0.00":
+              - button "Sell PUT at strike 733": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 733 0.01":
+              - button "Buy PUT at strike 733": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "80.66"
+            - cell "0":
+              - generic: "0"
+          - row "1 83.74 36.66 36.49 Sell CALL at strike 734 36.68 Buy CALL at strike 734 734.00 Sell PUT at strike 734 0.00 Buy PUT at strike 734 0.01 0.01 78.24 15":
+            - cell "1":
+              - generic: "1"
+            - cell "83.74"
+            - cell "36.66"
+            - cell "36.49 Sell CALL at strike 734":
+              - generic: "36.49"
+              - button "Sell CALL at strike 734": Sell
+            - cell "36.68 Buy CALL at strike 734":
+              - generic: "36.68"
+              - button "Buy CALL at strike 734": Buy
+            - cell "734.00"
+            - cell "Sell PUT at strike 734 0.00":
+              - button "Sell PUT at strike 734": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 734 0.01":
+              - button "Buy PUT at strike 734": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "78.24"
+            - cell "15":
+              - generic: "15"
+          - row "1 81.51 35.65 35.49 Sell CALL at strike 735 35.69 Buy CALL at strike 735 735.00 Sell PUT at strike 735 0.00 Buy PUT at strike 735 0.01 0.00 75.82 0":
+            - cell "1":
+              - generic: "1"
+            - cell "81.51"
+            - cell "35.65"
+            - cell "35.49 Sell CALL at strike 735":
+              - generic: "35.49"
+              - button "Sell CALL at strike 735": Sell
+            - cell "35.69 Buy CALL at strike 735":
+              - generic: "35.69"
+              - button "Buy CALL at strike 735": Buy
+            - cell "735.00"
+            - cell "Sell PUT at strike 735 0.00":
+              - button "Sell PUT at strike 735": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 735 0.01":
+              - button "Buy PUT at strike 735": Buy
+              - generic: "0.01"
+            - cell "0.00"
+            - cell "75.82"
+            - cell "0":
+              - generic: "0"
+          - row "3 79.29 34.46 34.49 Sell CALL at strike 736 34.68 Buy CALL at strike 736 736.00 Sell PUT at strike 736 0.00 Buy PUT at strike 736 0.01 0.01 73.40 25":
+            - cell "3":
+              - generic: "3"
+            - cell "79.29"
+            - cell "34.46"
+            - cell "34.49 Sell CALL at strike 736":
+              - generic: "34.49"
+              - button "Sell CALL at strike 736": Sell
+            - cell "34.68 Buy CALL at strike 736":
+              - generic: "34.68"
+              - button "Buy CALL at strike 736": Buy
+            - cell "736.00"
+            - cell "Sell PUT at strike 736 0.00":
+              - button "Sell PUT at strike 736": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 736 0.01":
+              - button "Buy PUT at strike 736": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "73.40"
+            - cell "25":
+              - generic: "25"
+          - row "0 77.06 0.00 33.50 Sell CALL at strike 737 33.69 Buy CALL at strike 737 737.00 Sell PUT at strike 737 0.00 Buy PUT at strike 737 0.01 0.01 70.99 10":
+            - cell "0":
+              - generic: "0"
+            - cell "77.06"
+            - cell "0.00"
+            - cell "33.50 Sell CALL at strike 737":
+              - generic: "33.50"
+              - button "Sell CALL at strike 737": Sell
+            - cell "33.69 Buy CALL at strike 737":
+              - generic: "33.69"
+              - button "Buy CALL at strike 737": Buy
+            - cell "737.00"
+            - cell "Sell PUT at strike 737 0.00":
+              - button "Sell PUT at strike 737": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 737 0.01":
+              - button "Buy PUT at strike 737": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "70.99"
+            - cell "10":
+              - generic: "10"
+          - row "108 74.83 32.66 32.50 Sell CALL at strike 738 32.68 Buy CALL at strike 738 738.00 Sell PUT at strike 738 0.00 Buy PUT at strike 738 0.01 0.01 68.57 5":
+            - cell "108":
+              - generic: "108"
+            - cell "74.83"
+            - cell "32.66"
+            - cell "32.50 Sell CALL at strike 738":
+              - generic: "32.50"
+              - button "Sell CALL at strike 738": Sell
+            - cell "32.68 Buy CALL at strike 738":
+              - generic: "32.68"
+              - button "Buy CALL at strike 738": Buy
+            - cell "738.00"
+            - cell "Sell PUT at strike 738 0.00":
+              - button "Sell PUT at strike 738": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 738 0.01":
+              - button "Buy PUT at strike 738": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "68.57"
+            - cell "5":
+              - generic: "5"
+          - row "0 64.31 0.00 31.48 Sell CALL at strike 739 31.69 Buy CALL at strike 739 739.00 Sell PUT at strike 739 0.00 Buy PUT at strike 739 0.01 0.01 66.15 5":
+            - cell "0":
+              - generic: "0"
+            - cell "64.31"
+            - cell "0.00"
+            - cell "31.48 Sell CALL at strike 739":
+              - generic: "31.48"
+              - button "Sell CALL at strike 739": Sell
+            - cell "31.69 Buy CALL at strike 739":
+              - generic: "31.69"
+              - button "Buy CALL at strike 739": Buy
+            - cell "739.00"
+            - cell "Sell PUT at strike 739 0.00":
+              - button "Sell PUT at strike 739": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 739 0.01":
+              - button "Buy PUT at strike 739": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "66.15"
+            - cell "5":
+              - generic: "5"
+          - row "0 70.38 0.00 30.49 Sell CALL at strike 740 30.69 Buy CALL at strike 740 740.00 Sell PUT at strike 740 0.00 Buy PUT at strike 740 0.01 0.01 63.73 14":
+            - cell "0":
+              - generic: "0"
+            - cell "70.38"
+            - cell "0.00"
+            - cell "30.49 Sell CALL at strike 740":
+              - generic: "30.49"
+              - button "Sell CALL at strike 740": Sell
+            - cell "30.69 Buy CALL at strike 740":
+              - generic: "30.69"
+              - button "Buy CALL at strike 740": Buy
+            - cell "740.00"
+            - cell "Sell PUT at strike 740 0.00":
+              - button "Sell PUT at strike 740": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 740 0.01":
+              - button "Buy PUT at strike 740": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "63.73"
+            - cell "14":
+              - generic: "14"
+          - row "92 68.15 29.66 29.50 Sell CALL at strike 741 29.68 Buy CALL at strike 741 741.00 Sell PUT at strike 741 0.00 Buy PUT at strike 741 0.01 0.01 61.32 122":
+            - cell "92":
+              - generic: "92"
+            - cell "68.15"
+            - cell "29.66"
+            - cell "29.50 Sell CALL at strike 741":
+              - generic: "29.50"
+              - button "Sell CALL at strike 741": Sell
+            - cell "29.68 Buy CALL at strike 741":
+              - generic: "29.68"
+              - button "Buy CALL at strike 741": Buy
+            - cell "741.00"
+            - cell "Sell PUT at strike 741 0.00":
+              - button "Sell PUT at strike 741": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 741 0.01":
+              - button "Buy PUT at strike 741": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "61.32"
+            - cell "122":
+              - generic: "122"
+          - row "197 65.92 28.56 28.50 Sell CALL at strike 742 28.68 Buy CALL at strike 742 742.00 Sell PUT at strike 742 0.00 Buy PUT at strike 742 0.01 0.01 58.90 163":
+            - cell "197":
+              - generic: "197"
+            - cell "65.92"
+            - cell "28.56"
+            - cell "28.50 Sell CALL at strike 742":
+              - generic: "28.50"
+              - button "Sell CALL at strike 742": Sell
+            - cell "28.68 Buy CALL at strike 742":
+              - generic: "28.68"
+              - button "Buy CALL at strike 742": Buy
+            - cell "742.00"
+            - cell "Sell PUT at strike 742 0.00":
+              - button "Sell PUT at strike 742": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 742 0.01":
+              - button "Buy PUT at strike 742": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "58.90"
+            - cell "163":
+              - generic: "163"
+          - row "3 63.69 27.56 27.50 Sell CALL at strike 743 27.68 Buy CALL at strike 743 743.00 Sell PUT at strike 743 0.00 Buy PUT at strike 743 0.01 0.01 56.48 101":
+            - cell "3":
+              - generic: "3"
+            - cell "63.69"
+            - cell "27.56"
+            - cell "27.50 Sell CALL at strike 743":
+              - generic: "27.50"
+              - button "Sell CALL at strike 743": Sell
+            - cell "27.68 Buy CALL at strike 743":
+              - generic: "27.68"
+              - button "Buy CALL at strike 743": Buy
+            - cell "743.00"
+            - cell "Sell PUT at strike 743 0.00":
+              - button "Sell PUT at strike 743": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 743 0.01":
+              - button "Buy PUT at strike 743": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "56.48"
+            - cell "101":
+              - generic: "101"
+          - row "0 61.47 0.00 26.50 Sell CALL at strike 744 26.70 Buy CALL at strike 744 744.00 Sell PUT at strike 744 0.00 Buy PUT at strike 744 0.01 0.01 54.06 456":
+            - cell "0":
+              - generic: "0"
+            - cell "61.47"
+            - cell "0.00"
+            - cell "26.50 Sell CALL at strike 744":
+              - generic: "26.50"
+              - button "Sell CALL at strike 744": Sell
+            - cell "26.70 Buy CALL at strike 744":
+              - generic: "26.70"
+              - button "Buy CALL at strike 744": Buy
+            - cell "744.00"
+            - cell "Sell PUT at strike 744 0.00":
+              - button "Sell PUT at strike 744": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 744 0.01":
+              - button "Buy PUT at strike 744": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "54.06"
+            - cell "456":
+              - generic: "456"
+          - row "4 59.24 25.65 25.50 Sell CALL at strike 745 25.68 Buy CALL at strike 745 745.00 Sell PUT at strike 745 0.00 Buy PUT at strike 745 0.01 0.01 51.65 6":
+            - cell "4":
+              - generic: "4"
+            - cell "59.24"
+            - cell "25.65"
+            - cell "25.50 Sell CALL at strike 745":
+              - generic: "25.50"
+              - button "Sell CALL at strike 745": Sell
+            - cell "25.68 Buy CALL at strike 745":
+              - generic: "25.68"
+              - button "Buy CALL at strike 745": Buy
+            - cell "745.00"
+            - cell "Sell PUT at strike 745 0.00":
+              - button "Sell PUT at strike 745": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 745 0.01":
+              - button "Buy PUT at strike 745": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "51.65"
+            - cell "6":
+              - generic: "6"
+          - row "1 57.01 24.67 24.50 Sell CALL at strike 746 24.69 Buy CALL at strike 746 746.00 Sell PUT at strike 746 0.00 Buy PUT at strike 746 0.01 0.01 49.23 3 515":
+            - cell "1":
+              - generic: "1"
+            - cell "57.01"
+            - cell "24.67"
+            - cell "24.50 Sell CALL at strike 746":
+              - generic: "24.50"
+              - button "Sell CALL at strike 746": Sell
+            - cell "24.69 Buy CALL at strike 746":
+              - generic: "24.69"
+              - button "Buy CALL at strike 746": Buy
+            - cell "746.00"
+            - cell "Sell PUT at strike 746 0.00":
+              - button "Sell PUT at strike 746": Sell
+              - generic: "0.00"
+            - cell "Buy PUT at strike 746 0.01":
+              - button "Buy PUT at strike 746": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "49.23"
+            - cell "3 515":
+              - generic: 3 515
+          - row "214 54.78 23.80 23.50 Sell CALL at strike 747 23.69 Buy CALL at strike 747 747.00 Sell PUT at strike 747 0.01 Buy PUT at strike 747 0.01 0.01 46.75 4 299":
+            - cell "214":
+              - generic: "214"
+            - cell "54.78"
+            - cell "23.80"
+            - cell "23.50 Sell CALL at strike 747":
+              - generic: "23.50"
+              - button "Sell CALL at strike 747": Sell
+            - cell "23.69 Buy CALL at strike 747":
+              - generic: "23.69"
+              - button "Buy CALL at strike 747": Buy
+            - cell "747.00"
+            - cell "Sell PUT at strike 747 0.01":
+              - button "Sell PUT at strike 747": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 747 0.01":
+              - button "Buy PUT at strike 747": Buy
+              - generic: "0.01"
+            - cell "0.01"
+            - cell "46.75"
+            - cell "4 299":
+              - generic: 4 299
+          - row "0 52.55 0.00 22.50 Sell CALL at strike 748 22.70 Buy CALL at strike 748 748.00 Sell PUT at strike 748 0.01 Buy PUT at strike 748 0.02 0.01 44.39 2 106":
+            - cell "0":
+              - generic: "0"
+            - cell "52.55"
+            - cell "0.00"
+            - cell "22.50 Sell CALL at strike 748":
+              - generic: "22.50"
+              - button "Sell CALL at strike 748": Sell
+            - cell "22.70 Buy CALL at strike 748":
+              - generic: "22.70"
+              - button "Buy CALL at strike 748": Buy
+            - cell "748.00"
+            - cell "Sell PUT at strike 748 0.01":
+              - button "Sell PUT at strike 748": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 748 0.02":
+              - button "Buy PUT at strike 748": Buy
+              - generic: "0.02"
+            - cell "0.01"
+            - cell "44.39"
+            - cell "2 106":
+              - generic: 2 106
+          - row "4 49.99 21.66 21.50 Sell CALL at strike 749 21.69 Buy CALL at strike 749 749.00 Sell PUT at strike 749 0.01 Buy PUT at strike 749 0.02 0.01 42.62 510":
+            - cell "4":
+              - generic: "4"
+            - cell "49.99"
+            - cell "21.66"
+            - cell "21.50 Sell CALL at strike 749":
+              - generic: "21.50"
+              - button "Sell CALL at strike 749": Sell
+            - cell "21.69 Buy CALL at strike 749":
+              - generic: "21.69"
+              - button "Buy CALL at strike 749": Buy
+            - cell "749.00"
+            - cell "Sell PUT at strike 749 0.01":
+              - button "Sell PUT at strike 749": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 749 0.02":
+              - button "Buy PUT at strike 749": Buy
+              - generic: "0.02"
+            - cell "0.01"
+            - cell "42.62"
+            - cell "510":
+              - generic: "510"
+          - row "59 47.97 20.70 20.50 Sell CALL at strike 750 20.69 Buy CALL at strike 750 750.00 Sell PUT at strike 750 0.01 Buy PUT at strike 750 0.02 0.01 40.84 361":
+            - cell "59":
+              - generic: "59"
+            - cell "47.97"
+            - cell "20.70"
+            - cell "20.50 Sell CALL at strike 750":
+              - generic: "20.50"
+              - button "Sell CALL at strike 750": Sell
+            - cell "20.69 Buy CALL at strike 750":
+              - generic: "20.69"
+              - button "Buy CALL at strike 750": Buy
+            - cell "750.00"
+            - cell "Sell PUT at strike 750 0.01":
+              - button "Sell PUT at strike 750": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 750 0.02":
+              - button "Buy PUT at strike 750": Buy
+              - generic: "0.02"
+            - cell "0.01"
+            - cell "40.84"
+            - cell "361":
+              - generic: "361"
+          - row "8 45.94 19.54 19.50 Sell CALL at strike 751 19.69 Buy CALL at strike 751 751.00 Sell PUT at strike 751 0.01 Buy PUT at strike 751 0.02 0.01 39.06 443":
+            - cell "8":
+              - generic: "8"
+            - cell "45.94"
+            - cell "19.54"
+            - cell "19.50 Sell CALL at strike 751":
+              - generic: "19.50"
+              - button "Sell CALL at strike 751": Sell
+            - cell "19.69 Buy CALL at strike 751":
+              - generic: "19.69"
+              - button "Buy CALL at strike 751": Buy
+            - cell "751.00"
+            - cell "Sell PUT at strike 751 0.01":
+              - button "Sell PUT at strike 751": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 751 0.02":
+              - button "Buy PUT at strike 751": Buy
+              - generic: "0.02"
+            - cell "0.01"
+            - cell "39.06"
+            - cell "443":
+              - generic: "443"
+          - row "5 43.91 18.64 18.50 Sell CALL at strike 752 18.69 Buy CALL at strike 752 752.00 Sell PUT at strike 752 0.01 Buy PUT at strike 752 0.02 0.01 37.27 431":
+            - cell "5":
+              - generic: "5"
+            - cell "43.91"
+            - cell "18.64"
+            - cell "18.50 Sell CALL at strike 752":
+              - generic: "18.50"
+              - button "Sell CALL at strike 752": Sell
+            - cell "18.69 Buy CALL at strike 752":
+              - generic: "18.69"
+              - button "Buy CALL at strike 752": Buy
+            - cell "752.00"
+            - cell "Sell PUT at strike 752 0.01":
+              - button "Sell PUT at strike 752": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 752 0.02":
+              - button "Buy PUT at strike 752": Buy
+              - generic: "0.02"
+            - cell "0.01"
+            - cell "37.27"
+            - cell "431":
+              - generic: "431"
+          - row "0 41.86 0.00 17.50 Sell CALL at strike 753 17.69 Buy CALL at strike 753 753.00 Sell PUT at strike 753 0.01 Buy PUT at strike 753 0.02 0.02 35.47 159":
+            - cell "0":
+              - generic: "0"
+            - cell "41.86"
+            - cell "0.00"
+            - cell "17.50 Sell CALL at strike 753":
+              - generic: "17.50"
+              - button "Sell CALL at strike 753": Sell
+            - cell "17.69 Buy CALL at strike 753":
+              - generic: "17.69"
+              - button "Buy CALL at strike 753": Buy
+            - cell "753.00"
+            - cell "Sell PUT at strike 753 0.01":
+              - button "Sell PUT at strike 753": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 753 0.02":
+              - button "Buy PUT at strike 753": Buy
+              - generic: "0.02"
+            - cell "0.02"
+            - cell "35.47"
+            - cell "159":
+              - generic: "159"
+          - row "4 39.80 16.53 16.50 Sell CALL at strike 754 16.69 Buy CALL at strike 754 754.00 Sell PUT at strike 754 0.01 Buy PUT at strike 754 0.02 0.02 33.67 112":
+            - cell "4":
+              - generic: "4"
+            - cell "39.80"
+            - cell "16.53"
+            - cell "16.50 Sell CALL at strike 754":
+              - generic: "16.50"
+              - button "Sell CALL at strike 754": Sell
+            - cell "16.69 Buy CALL at strike 754":
+              - generic: "16.69"
+              - button "Buy CALL at strike 754": Buy
+            - cell "754.00"
+            - cell "Sell PUT at strike 754 0.01":
+              - button "Sell PUT at strike 754": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 754 0.02":
+              - button "Buy PUT at strike 754": Buy
+              - generic: "0.02"
+            - cell "0.02"
+            - cell "33.67"
+            - cell "112":
+              - generic: "112"
+          - row "16 38.17 15.70 15.50 Sell CALL at strike 755 15.70 Buy CALL at strike 755 755.00 Sell PUT at strike 755 0.01 Buy PUT at strike 755 0.02 0.02 31.85 1 710":
+            - cell "16":
+              - generic: "16"
+            - cell "38.17"
+            - cell "15.70"
+            - cell "15.50 Sell CALL at strike 755":
+              - generic: "15.50"
+              - button "Sell CALL at strike 755": Sell
+            - cell "15.70 Buy CALL at strike 755":
+              - generic: "15.70"
+              - button "Buy CALL at strike 755": Buy
+            - cell "755.00"
+            - cell "Sell PUT at strike 755 0.01":
+              - button "Sell PUT at strike 755": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 755 0.02":
+              - button "Buy PUT at strike 755": Buy
+              - generic: "0.02"
+            - cell "0.02"
+            - cell "31.85"
+            - cell "1 710":
+              - generic: 1 710
+          - row "11 35.66 14.70 14.51 Sell CALL at strike 756 14.68 Buy CALL at strike 756 756.00 Sell PUT at strike 756 0.01 Buy PUT at strike 756 0.02 0.01 30.03 4 764":
+            - cell "11":
+              - generic: "11"
+            - cell "35.66"
+            - cell "14.70"
+            - cell "14.51 Sell CALL at strike 756":
+              - generic: "14.51"
+              - button "Sell CALL at strike 756": Sell
+            - cell "14.68 Buy CALL at strike 756":
+              - generic: "14.68"
+              - button "Buy CALL at strike 756": Buy
+            - cell "756.00"
+            - cell "Sell PUT at strike 756 0.01":
+              - button "Sell PUT at strike 756": Sell
+              - generic: "0.01"
+            - cell "Buy PUT at strike 756 0.02":
+              - button "Buy PUT at strike 756": Buy
+              - generic: "0.02"
+            - cell "0.01"
+            - cell "30.03"
+            - cell "4 764":
+              - generic: 4 764
+          - row "26 33.56 13.61 13.51 Sell CALL at strike 757 13.68 Buy CALL at strike 757 757.00 Sell PUT at strike 757 0.02 Buy PUT at strike 757 0.03 0.03 29.03 627":
+            - cell "26":
+              - generic: "26"
+            - cell "33.56"
+            - cell "13.61"
+            - cell "13.51 Sell CALL at strike 757":
+              - generic: "13.51"
+              - button "Sell CALL at strike 757": Sell
+            - cell "13.68 Buy CALL at strike 757":
+              - generic: "13.68"
+              - button "Buy CALL at strike 757": Buy
+            - cell "757.00"
+            - cell "Sell PUT at strike 757 0.02":
+              - button "Sell PUT at strike 757": Sell
+              - generic: "0.02"
+            - cell "Buy PUT at strike 757 0.03":
+              - button "Buy PUT at strike 757": Buy
+              - generic: "0.03"
+            - cell "0.03"
+            - cell "29.03"
+            - cell "627":
+              - generic: "627"
+          - row "7 32.19 12.86 12.51 Sell CALL at strike 758 12.70 Buy CALL at strike 758 758.00 Sell PUT at strike 758 0.02 Buy PUT at strike 758 0.03 0.03 27.14 1 466":
+            - cell "7":
+              - generic: "7"
+            - cell "32.19"
+            - cell "12.86"
+            - cell "12.51 Sell CALL at strike 758":
+              - generic: "12.51"
+              - button "Sell CALL at strike 758": Sell
+            - cell "12.70 Buy CALL at strike 758":
+              - generic: "12.70"
+              - button "Buy CALL at strike 758": Buy
+            - cell "758.00"
+            - cell "Sell PUT at strike 758 0.02":
+              - button "Sell PUT at strike 758": Sell
+              - generic: "0.02"
+            - cell "Buy PUT at strike 758 0.03":
+              - button "Buy PUT at strike 758": Buy
+              - generic: "0.03"
+            - cell "0.03"
+            - cell "27.14"
+            - cell "1 466":
+              - generic: 1 466
+          - row "40 26.70 11.60 11.51 Sell CALL at strike 759 11.62 Buy CALL at strike 759 759.00 Sell PUT at strike 759 0.03 Buy PUT at strike 759 0.04 0.04 26.48 2 310":
+            - cell "40":
+              - generic: "40"
+            - cell "26.70"
+            - cell "11.60"
+            - cell "11.51 Sell CALL at strike 759":
+              - generic: "11.51"
+              - button "Sell CALL at strike 759": Sell
+            - cell "11.62 Buy CALL at strike 759":
+              - generic: "11.62"
+              - button "Buy CALL at strike 759": Buy
+            - cell "759.00"
+            - cell "Sell PUT at strike 759 0.03":
+              - button "Sell PUT at strike 759": Sell
+              - generic: "0.03"
+            - cell "Buy PUT at strike 759 0.04":
+              - button "Buy PUT at strike 759": Buy
+              - generic: "0.04"
+            - cell "0.04"
+            - cell "26.48"
+            - cell "2 310":
+              - generic: 2 310
+          - row "765 23.58 10.60 10.55 Sell CALL at strike 760 10.56 Buy CALL at strike 760 760.00 Sell PUT at strike 760 0.03 Buy PUT at strike 760 0.04 0.03 24.49 5 928":
+            - cell "765":
+              - generic: "765"
+            - cell "23.58"
+            - cell "10.60"
+            - cell "10.55 Sell CALL at strike 760":
+              - generic: "10.55"
+              - button "Sell CALL at strike 760": Sell
+            - cell "10.56 Buy CALL at strike 760":
+              - generic: "10.56"
+              - button "Buy CALL at strike 760": Buy
+            - cell "760.00"
+            - cell "Sell PUT at strike 760 0.03":
+              - button "Sell PUT at strike 760": Sell
+              - generic: "0.03"
+            - cell "Buy PUT at strike 760 0.04":
+              - button "Buy PUT at strike 760": Buy
+              - generic: "0.04"
+            - cell "0.03"
+            - cell "24.49"
+            - cell "5 928":
+              - generic: 5 928
+          - row "138 23.55 9.60 9.53 Sell CALL at strike 761 9.62 Buy CALL at strike 761 761.00 Sell PUT at strike 761 0.04 Buy PUT at strike 761 0.05 0.04 23.39 3 474":
+            - cell "138":
+              - generic: "138"
+            - cell "23.55"
+            - cell "9.60"
+            - cell "9.53 Sell CALL at strike 761":
+              - generic: "9.53"
+              - button "Sell CALL at strike 761": Sell
+            - cell "9.62 Buy CALL at strike 761":
+              - generic: "9.62"
+              - button "Buy CALL at strike 761": Buy
+            - cell "761.00"
+            - cell "Sell PUT at strike 761 0.04":
+              - button "Sell PUT at strike 761": Sell
+              - generic: "0.04"
+            - cell "Buy PUT at strike 761 0.05":
+              - button "Buy PUT at strike 761": Buy
+              - generic: "0.05"
+            - cell "0.04"
+            - cell "23.39"
+            - cell "3 474":
+              - generic: 3 474
+          - row "76 24.95 8.69 8.54 Sell CALL at strike 762 8.73 Buy CALL at strike 762 762.00 Sell PUT at strike 762 0.05 Buy PUT at strike 762 0.06 0.05 22.04 5 577":
+            - cell "76":
+              - generic: "76"
+            - cell "24.95"
+            - cell "8.69"
+            - cell "8.54 Sell CALL at strike 762":
+              - generic: "8.54"
+              - button "Sell CALL at strike 762": Sell
+            - cell "8.73 Buy CALL at strike 762":
+              - generic: "8.73"
+              - button "Buy CALL at strike 762": Buy
+            - cell "762.00"
+            - cell "Sell PUT at strike 762 0.05":
+              - button "Sell PUT at strike 762": Sell
+              - generic: "0.05"
+            - cell "Buy PUT at strike 762 0.06":
+              - button "Buy PUT at strike 762": Buy
+              - generic: "0.06"
+            - cell "0.05"
+            - cell "22.04"
+            - cell "5 577":
+              - generic: 5 577
+          - row "412 20.59 7.64 7.56 Sell CALL at strike 763 7.63 Buy CALL at strike 763 763.00 Sell PUT at strike 763 0.06 Buy PUT at strike 763 0.07 0.06 20.48 11 153":
+            - cell "412":
+              - generic: "412"
+            - cell "20.59"
+            - cell "7.64"
+            - cell "7.56 Sell CALL at strike 763":
+              - generic: "7.56"
+              - button "Sell CALL at strike 763": Sell
+            - cell "7.63 Buy CALL at strike 763":
+              - generic: "7.63"
+              - button "Buy CALL at strike 763": Buy
+            - cell "763.00"
+            - cell "Sell PUT at strike 763 0.06":
+              - button "Sell PUT at strike 763": Sell
+              - generic: "0.06"
+            - cell "Buy PUT at strike 763 0.07":
+              - button "Buy PUT at strike 763": Buy
+              - generic: "0.07"
+            - cell "0.06"
+            - cell "20.48"
+            - cell "11 153":
+              - generic: 11 153
+          - row "1 035 19.75 6.76 6.62 Sell CALL at strike 764 6.63 Buy CALL at strike 764 764.00 Sell PUT at strike 764 0.09 Buy PUT at strike 764 0.10 0.10 19.66 21 600":
+            - cell "1 035":
+              - generic: 1 035
+            - cell "19.75"
+            - cell "6.76"
+            - cell "6.62 Sell CALL at strike 764":
+              - generic: "6.62"
+              - button "Sell CALL at strike 764": Sell
+            - cell "6.63 Buy CALL at strike 764":
+              - generic: "6.63"
+              - button "Buy CALL at strike 764": Buy
+            - cell "764.00"
+            - cell "Sell PUT at strike 764 0.09":
+              - button "Sell PUT at strike 764": Sell
+              - generic: "0.09"
+            - cell "Buy PUT at strike 764 0.10":
+              - button "Buy PUT at strike 764": Buy
+              - generic: "0.10"
+            - cell "0.10"
+            - cell "19.66"
+            - cell "21 600":
+              - generic: 21 600
+          - row "1 198 19.08 5.69 5.67 Sell CALL at strike 765 5.68 Buy CALL at strike 765 765.00 Sell PUT at strike 765 0.13 Buy PUT at strike 765 0.14 0.14 18.69 16 358":
+            - cell "1 198":
+              - generic: 1 198
+            - cell "19.08"
+            - cell "5.69"
+            - cell "5.67 Sell CALL at strike 765":
+              - generic: "5.67"
+              - button "Sell CALL at strike 765": Sell
+            - cell "5.68 Buy CALL at strike 765":
+              - generic: "5.68"
+              - button "Buy CALL at strike 765": Buy
+            - cell "765.00"
+            - cell "Sell PUT at strike 765 0.13":
+              - button "Sell PUT at strike 765": Sell
+              - generic: "0.13"
+            - cell "Buy PUT at strike 765 0.14":
+              - button "Buy PUT at strike 765": Buy
+              - generic: "0.14"
+            - cell "0.14"
+            - cell "18.69"
+            - cell "16 358":
+              - generic: 16 358
+          - row "1 245 18.04 4.75 4.73 Sell CALL at strike 766 4.74 Buy CALL at strike 766 766.00 Sell PUT at strike 766 0.20 Buy PUT at strike 766 0.21 0.21 17.99 8 187":
+            - cell "1 245":
+              - generic: 1 245
+            - cell "18.04"
+            - cell "4.75"
+            - cell "4.73 Sell CALL at strike 766":
+              - generic: "4.73"
+              - button "Sell CALL at strike 766": Sell
+            - cell "4.74 Buy CALL at strike 766":
+              - generic: "4.74"
+              - button "Buy CALL at strike 766": Buy
+            - cell "766.00"
+            - cell "Sell PUT at strike 766 0.20":
+              - button "Sell PUT at strike 766": Sell
+              - generic: "0.20"
+            - cell "Buy PUT at strike 766 0.21":
+              - button "Buy PUT at strike 766": Buy
+              - generic: "0.21"
+            - cell "0.21"
+            - cell "17.99"
+            - cell "8 187":
+              - generic: 8 187
+          - row "1 745 17.41 3.82 3.84 Sell CALL at strike 767 3.85 Buy CALL at strike 767 767.00 Sell PUT at strike 767 0.31 Buy PUT at strike 767 0.32 0.32 17.38 15 459":
+            - cell "1 745":
+              - generic: 1 745
+            - cell "17.41"
+            - cell "3.82"
+            - cell "3.84 Sell CALL at strike 767":
+              - generic: "3.84"
+              - button "Sell CALL at strike 767": Sell
+            - cell "3.85 Buy CALL at strike 767":
+              - generic: "3.85"
+              - button "Buy CALL at strike 767": Buy
+            - cell "767.00"
+            - cell "Sell PUT at strike 767 0.31":
+              - button "Sell PUT at strike 767": Sell
+              - generic: "0.31"
+            - cell "Buy PUT at strike 767 0.32":
+              - button "Buy PUT at strike 767": Buy
+              - generic: "0.32"
+            - cell "0.32"
+            - cell "17.38"
+            - cell "15 459":
+              - generic: 15 459
+          - row "5 597 16.59 3.00 2.99 Sell CALL at strike 768 3.00 Buy CALL at strike 768 768.00 Sell PUT at strike 768 0.46 Buy PUT at strike 768 0.47 0.47 16.55 21 174":
+            - cell "5 597":
+              - generic: 5 597
+            - cell "16.59"
+            - cell "3.00"
+            - cell "2.99 Sell CALL at strike 768":
+              - generic: "2.99"
+              - button "Sell CALL at strike 768": Sell
+            - cell "3.00 Buy CALL at strike 768":
+              - generic: "3.00"
+              - button "Buy CALL at strike 768": Buy
+            - cell "768.00"
+            - cell "Sell PUT at strike 768 0.46":
+              - button "Sell PUT at strike 768": Sell
+              - generic: "0.46"
+            - cell "Buy PUT at strike 768 0.47":
+              - button "Buy PUT at strike 768": Buy
+              - generic: "0.47"
+            - cell "0.47"
+            - cell "16.55"
+            - cell "21 174":
+              - generic: 21 174
+          - row "11 050 16.06 2.23 2.23 Sell CALL at strike 769 2.24 Buy CALL at strike 769 769.00 Sell PUT at strike 769 0.70 Buy PUT at strike 769 0.71 0.70 16.03 30 345":
+            - cell "11 050":
+              - generic: 11 050
+            - cell "16.06"
+            - cell "2.23"
+            - cell "2.23 Sell CALL at strike 769":
+              - generic: "2.23"
+              - button "Sell CALL at strike 769": Sell
+            - cell "2.24 Buy CALL at strike 769":
+              - generic: "2.24"
+              - button "Buy CALL at strike 769": Buy
+            - cell "769.00"
+            - cell "Sell PUT at strike 769 0.70":
+              - button "Sell PUT at strike 769": Sell
+              - generic: "0.70"
+            - cell "Buy PUT at strike 769 0.71":
+              - button "Buy PUT at strike 769": Buy
+              - generic: "0.71"
+            - cell "0.70"
+            - cell "16.03"
+            - cell "30 345":
+              - generic: 30 345
+          - row "29 580 15.56 1.57 1.57 Sell CALL at strike 770 1.58 Buy CALL at strike 770 770.00 Sell PUT at strike 770 1.04 Buy PUT at strike 770 1.05 1.05 15.54 53 013":
+            - cell "29 580":
+              - generic: 29 580
+            - cell "15.56"
+            - cell "1.57"
+            - cell "1.57 Sell CALL at strike 770":
+              - generic: "1.57"
+              - button "Sell CALL at strike 770": Sell
+            - cell "1.58 Buy CALL at strike 770":
+              - generic: "1.58"
+              - button "Buy CALL at strike 770": Buy
+            - cell "770.00"
+            - cell "Sell PUT at strike 770 1.04":
+              - button "Sell PUT at strike 770": Sell
+              - generic: "1.04"
+            - cell "Buy PUT at strike 770 1.05":
+              - button "Buy PUT at strike 770": Buy
+              - generic: "1.05"
+            - cell "1.05"
+            - cell "15.54"
+            - cell "53 013":
+              - generic: 53 013
+          - row "66 887 15.11 1.04 1.03 Sell CALL at strike 771 1.04 Buy CALL at strike 771 771.00 Sell PUT at strike 771 1.50 Buy PUT at strike 771 1.51 1.51 15.08 19 884":
+            - cell "66 887":
+              - generic: 66 887
+            - cell "15.11"
+            - cell "1.04"
+            - cell "1.03 Sell CALL at strike 771":
+              - generic: "1.03"
+              - button "Sell CALL at strike 771": Sell
+            - cell "1.04 Buy CALL at strike 771":
+              - generic: "1.04"
+              - button "Buy CALL at strike 771": Buy
+            - cell "771.00"
+            - cell "Sell PUT at strike 771 1.50":
+              - button "Sell PUT at strike 771": Sell
+              - generic: "1.50"
+            - cell "Buy PUT at strike 771 1.51":
+              - button "Buy PUT at strike 771": Buy
+              - generic: "1.51"
+            - cell "1.51"
+            - cell "15.08"
+            - cell "19 884":
+              - generic: 19 884
+          - row "45 612 14.82 0.64 0.63 Sell CALL at strike 772 0.64 Buy CALL at strike 772 772.00 Sell PUT at strike 772 2.10 Buy PUT at strike 772 2.11 2.10 14.78 6 566":
+            - cell "45 612":
+              - generic: 45 612
+            - cell "14.82"
+            - cell "0.64"
+            - cell "0.63 Sell CALL at strike 772":
+              - generic: "0.63"
+              - button "Sell CALL at strike 772": Sell
+            - cell "0.64 Buy CALL at strike 772":
+              - generic: "0.64"
+              - button "Buy CALL at strike 772": Buy
+            - cell "772.00"
+            - cell "Sell PUT at strike 772 2.10":
+              - button "Sell PUT at strike 772": Sell
+              - generic: "2.10"
+            - cell "Buy PUT at strike 772 2.11":
+              - button "Buy PUT at strike 772": Buy
+              - generic: "2.11"
+            - cell "2.10"
+            - cell "14.78"
+            - cell "6 566":
+              - generic: 6 566
+          - row "29 094 14.69 0.36 0.36 Sell CALL at strike 773 0.37 Buy CALL at strike 773 773.00 Sell PUT at strike 773 2.83 Buy PUT at strike 773 2.84 2.82 14.66 3 000":
+            - cell "29 094":
+              - generic: 29 094
+            - cell "14.69"
+            - cell "0.36"
+            - cell "0.36 Sell CALL at strike 773":
+              - generic: "0.36"
+              - button "Sell CALL at strike 773": Sell
+            - cell "0.37 Buy CALL at strike 773":
+              - generic: "0.37"
+              - button "Buy CALL at strike 773": Buy
+            - cell "773.00"
+            - cell "Sell PUT at strike 773 2.83":
+              - button "Sell PUT at strike 773": Sell
+              - generic: "2.83"
+            - cell "Buy PUT at strike 773 2.84":
+              - button "Buy PUT at strike 773": Buy
+              - generic: "2.84"
+            - cell "2.82"
+            - cell "14.66"
+            - cell "3 000":
+              - generic: 3 000
+          - row "38 091 14.62 0.20 0.19 Sell CALL at strike 774 0.20 Buy CALL at strike 774 774.00 Sell PUT at strike 774 3.66 Buy PUT at strike 774 3.67 3.69 14.59 1 952":
+            - cell "38 091":
+              - generic: 38 091
+            - cell "14.62"
+            - cell "0.20"
+            - cell "0.19 Sell CALL at strike 774":
+              - generic: "0.19"
+              - button "Sell CALL at strike 774": Sell
+            - cell "0.20 Buy CALL at strike 774":
+              - generic: "0.20"
+              - button "Buy CALL at strike 774": Buy
+            - cell "774.00"
+            - cell "Sell PUT at strike 774 3.66":
+              - button "Sell PUT at strike 774": Sell
+              - generic: "3.66"
+            - cell "Buy PUT at strike 774 3.67":
+              - button "Buy PUT at strike 774": Buy
+              - generic: "3.67"
+            - cell "3.69"
+            - cell "14.59"
+            - cell "1 952":
+              - generic: 1 952
+          - row "26 345 14.88 0.11 0.10 Sell CALL at strike 775 0.11 Buy CALL at strike 775 775.00 Sell PUT at strike 775 4.57 Buy PUT at strike 775 4.58 4.51 14.83 1 333":
+            - cell "26 345":
+              - generic: 26 345
+            - cell "14.88"
+            - cell "0.11"
+            - cell "0.10 Sell CALL at strike 775":
+              - generic: "0.10"
+              - button "Sell CALL at strike 775": Sell
+            - cell "0.11 Buy CALL at strike 775":
+              - generic: "0.11"
+              - button "Buy CALL at strike 775": Buy
+            - cell "775.00"
+            - cell "Sell PUT at strike 775 4.57":
+              - button "Sell PUT at strike 775": Sell
+              - generic: "4.57"
+            - cell "Buy PUT at strike 775 4.58":
+              - button "Buy PUT at strike 775": Buy
+              - generic: "4.58"
+            - cell "4.51"
+            - cell "14.83"
+            - cell "1 333":
+              - generic: 1 333
+          - row "16 706 15.69 0.06 0.06 Sell CALL at strike 776 0.07 Buy CALL at strike 776 776.00 Sell PUT at strike 776 5.53 Buy PUT at strike 776 5.54 5.41 15.62 1 286":
+            - cell "16 706":
+              - generic: 16 706
+            - cell "15.69"
+            - cell "0.06"
+            - cell "0.06 Sell CALL at strike 776":
+              - generic: "0.06"
+              - button "Sell CALL at strike 776": Sell
+            - cell "0.07 Buy CALL at strike 776":
+              - generic: "0.07"
+              - button "Buy CALL at strike 776": Buy
+            - cell "776.00"
+            - cell "Sell PUT at strike 776 5.53":
+              - button "Sell PUT at strike 776": Sell
+              - generic: "5.53"
+            - cell "Buy PUT at strike 776 5.54":
+              - button "Buy PUT at strike 776": Buy
+              - generic: "5.54"
+            - cell "5.41"
+            - cell "15.62"
+            - cell "1 286":
+              - generic: 1 286
+          - row "7 681 16.07 0.03 0.03 Sell CALL at strike 777 0.04 Buy CALL at strike 777 777.00 Sell PUT at strike 777 6.50 Buy PUT at strike 777 6.51 6.49 15.96 972":
+            - cell "7 681":
+              - generic: 7 681
+            - cell "16.07"
+            - cell "0.03"
+            - cell "0.03 Sell CALL at strike 777":
+              - generic: "0.03"
+              - button "Sell CALL at strike 777": Sell
+            - cell "0.04 Buy CALL at strike 777":
+              - generic: "0.04"
+              - button "Buy CALL at strike 777": Buy
+            - cell "777.00"
+            - cell "Sell PUT at strike 777 6.50":
+              - button "Sell PUT at strike 777": Sell
+              - generic: "6.50"
+            - cell "Buy PUT at strike 777 6.51":
+              - button "Buy PUT at strike 777": Buy
+              - generic: "6.51"
+            - cell "6.49"
+            - cell "15.96"
+            - cell "972":
+              - generic: "972"
+          - row "3 162 17.20 0.03 0.02 Sell CALL at strike 778 0.03 Buy CALL at strike 778 778.00 Sell PUT at strike 778 7.49 Buy PUT at strike 778 7.50 7.29 17.04 288":
+            - cell "3 162":
+              - generic: 3 162
+            - cell "17.20"
+            - cell "0.03"
+            - cell "0.02 Sell CALL at strike 778":
+              - generic: "0.02"
+              - button "Sell CALL at strike 778": Sell
+            - cell "0.03 Buy CALL at strike 778":
+              - generic: "0.03"
+              - button "Buy CALL at strike 778": Buy
+            - cell "778.00"
+            - cell "Sell PUT at strike 778 7.49":
+              - button "Sell PUT at strike 778": Sell
+              - generic: "7.49"
+            - cell "Buy PUT at strike 778 7.50":
+              - button "Buy PUT at strike 778": Buy
+              - generic: "7.50"
+            - cell "7.29"
+            - cell "17.04"
+            - cell "288":
+              - generic: "288"
+          - row "2 533 18.53 0.02 0.01 Sell CALL at strike 779 0.02 Buy CALL at strike 779 779.00 Sell PUT at strike 779 8.33 Buy PUT at strike 779 8.53 8.49 18.53 53":
+            - cell "2 533":
+              - generic: 2 533
+            - cell "18.53"
+            - cell "0.02"
+            - cell "0.01 Sell CALL at strike 779":
+              - generic: "0.01"
+              - button "Sell CALL at strike 779": Sell
+            - cell "0.02 Buy CALL at strike 779":
+              - generic: "0.02"
+              - button "Buy CALL at strike 779": Buy
+            - cell "779.00"
+            - cell "Sell PUT at strike 779 8.33":
+              - button "Sell PUT at strike 779": Sell
+              - generic: "8.33"
+            - cell "Buy PUT at strike 779 8.53":
+              - button "Buy PUT at strike 779": Buy
+              - generic: "8.53"
+            - cell "8.49"
+            - cell "18.53"
+            - cell "53":
+              - generic: "53"
+          - row "2 698 20.39 0.01 0.01 Sell CALL at strike 780 0.02 Buy CALL at strike 780 780.00 Sell PUT at strike 780 9.33 Buy PUT at strike 780 9.55 9.38 22.65 111":
+            - cell "2 698":
+              - generic: 2 698
+            - cell "20.39"
+            - cell "0.01"
+            - cell "0.01 Sell CALL at strike 780":
+              - generic: "0.01"
+              - button "Sell CALL at strike 780": Sell
+            - cell "0.02 Buy CALL at strike 780":
+              - generic: "0.02"
+              - button "Buy CALL at strike 780": Buy
+            - cell "780.00"
+            - cell "Sell PUT at strike 780 9.33":
+              - button "Sell PUT at strike 780": Sell
+              - generic: "9.33"
+            - cell "Buy PUT at strike 780 9.55":
+              - button "Buy PUT at strike 780": Buy
+              - generic: "9.55"
+            - cell "9.38"
+            - cell "22.65"
+            - cell "111":
+              - generic: "111"
+          - row "3 678 22.60 0.01 0.00 Sell CALL at strike 781 0.01 Buy CALL at strike 781 781.00 Sell PUT at strike 781 10.32 Buy PUT at strike 781 10.52 10.35 22.60 2":
+            - cell "3 678":
+              - generic: 3 678
+            - cell "22.60"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 781":
+              - generic: "0.00"
+              - button "Sell CALL at strike 781": Sell
+            - cell "0.01 Buy CALL at strike 781":
+              - generic: "0.01"
+              - button "Buy CALL at strike 781": Buy
+            - cell "781.00"
+            - cell "Sell PUT at strike 781 10.32":
+              - button "Sell PUT at strike 781": Sell
+              - generic: "10.32"
+            - cell "Buy PUT at strike 781 10.52":
+              - button "Buy PUT at strike 781": Buy
+              - generic: "10.52"
+            - cell "10.35"
+            - cell "22.60"
+            - cell "2":
+              - generic: "2"
+          - row "277 25.59 0.01 0.00 Sell CALL at strike 782 0.01 Buy CALL at strike 782 782.00 Sell PUT at strike 782 11.32 Buy PUT at strike 782 11.52 0.00 24.81 0":
+            - cell "277":
+              - generic: "277"
+            - cell "25.59"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 782":
+              - generic: "0.00"
+              - button "Sell CALL at strike 782": Sell
+            - cell "0.01 Buy CALL at strike 782":
+              - generic: "0.01"
+              - button "Buy CALL at strike 782": Buy
+            - cell "782.00"
+            - cell "Sell PUT at strike 782 11.32":
+              - button "Sell PUT at strike 782": Sell
+              - generic: "11.32"
+            - cell "Buy PUT at strike 782 11.52":
+              - button "Buy PUT at strike 782": Buy
+              - generic: "11.52"
+            - cell "0.00"
+            - cell "24.81"
+            - cell "0":
+              - generic: "0"
+          - row "9 27.03 0.01 0.00 Sell CALL at strike 783 0.01 Buy CALL at strike 783 783.00 Sell PUT at strike 783 12.35 Buy PUT at strike 783 12.52 0.00 27.03 0":
+            - cell "9":
+              - generic: "9"
+            - cell "27.03"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 783":
+              - generic: "0.00"
+              - button "Sell CALL at strike 783": Sell
+            - cell "0.01 Buy CALL at strike 783":
+              - generic: "0.01"
+              - button "Buy CALL at strike 783": Buy
+            - cell "783.00"
+            - cell "Sell PUT at strike 783 12.35":
+              - button "Sell PUT at strike 783": Sell
+              - generic: "12.35"
+            - cell "Buy PUT at strike 783 12.52":
+              - button "Buy PUT at strike 783": Buy
+              - generic: "12.52"
+            - cell "0.00"
+            - cell "27.03"
+            - cell "0":
+              - generic: "0"
+          - row "38 31.50 0.01 0.00 Sell CALL at strike 784 0.01 Buy CALL at strike 784 784.00 Sell PUT at strike 784 13.36 Buy PUT at strike 784 13.54 13.36 31.50 2":
+            - cell "38":
+              - generic: "38"
+            - cell "31.50"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 784":
+              - generic: "0.00"
+              - button "Sell CALL at strike 784": Sell
+            - cell "0.01 Buy CALL at strike 784":
+              - generic: "0.01"
+              - button "Buy CALL at strike 784": Buy
+            - cell "784.00"
+            - cell "Sell PUT at strike 784 13.36":
+              - button "Sell PUT at strike 784": Sell
+              - generic: "13.36"
+            - cell "Buy PUT at strike 784 13.54":
+              - button "Buy PUT at strike 784": Buy
+              - generic: "13.54"
+            - cell "13.36"
+            - cell "31.50"
+            - cell "2":
+              - generic: "2"
+          - row "72 31.45 0.01 0.00 Sell CALL at strike 785 0.01 Buy CALL at strike 785 785.00 Sell PUT at strike 785 14.33 Buy PUT at strike 785 14.52 0.00 31.45 0":
+            - cell "72":
+              - generic: "72"
+            - cell "31.45"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 785":
+              - generic: "0.00"
+              - button "Sell CALL at strike 785": Sell
+            - cell "0.01 Buy CALL at strike 785":
+              - generic: "0.01"
+              - button "Buy CALL at strike 785": Buy
+            - cell "785.00"
+            - cell "Sell PUT at strike 785 14.33":
+              - button "Sell PUT at strike 785": Sell
+              - generic: "14.33"
+            - cell "Buy PUT at strike 785 14.52":
+              - button "Buy PUT at strike 785": Buy
+              - generic: "14.52"
+            - cell "0.00"
+            - cell "31.45"
+            - cell "0":
+              - generic: "0"
+          - row "3 33.67 0.01 0.00 Sell CALL at strike 786 0.01 Buy CALL at strike 786 786.00 Sell PUT at strike 786 15.32 Buy PUT at strike 786 15.52 0.00 33.67 0":
+            - cell "3":
+              - generic: "3"
+            - cell "33.67"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 786":
+              - generic: "0.00"
+              - button "Sell CALL at strike 786": Sell
+            - cell "0.01 Buy CALL at strike 786":
+              - generic: "0.01"
+              - button "Buy CALL at strike 786": Buy
+            - cell "786.00"
+            - cell "Sell PUT at strike 786 15.32":
+              - button "Sell PUT at strike 786": Sell
+              - generic: "15.32"
+            - cell "Buy PUT at strike 786 15.52":
+              - button "Buy PUT at strike 786": Buy
+              - generic: "15.52"
+            - cell "0.00"
+            - cell "33.67"
+            - cell "0":
+              - generic: "0"
+          - row "38 35.88 0.01 0.00 Sell CALL at strike 787 0.01 Buy CALL at strike 787 787.00 Sell PUT at strike 787 16.33 Buy PUT at strike 787 16.52 16.09 35.88 45":
+            - cell "38":
+              - generic: "38"
+            - cell "35.88"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 787":
+              - generic: "0.00"
+              - button "Sell CALL at strike 787": Sell
+            - cell "0.01 Buy CALL at strike 787":
+              - generic: "0.01"
+              - button "Buy CALL at strike 787": Buy
+            - cell "787.00"
+            - cell "Sell PUT at strike 787 16.33":
+              - button "Sell PUT at strike 787": Sell
+              - generic: "16.33"
+            - cell "Buy PUT at strike 787 16.52":
+              - button "Buy PUT at strike 787": Buy
+              - generic: "16.52"
+            - cell "16.09"
+            - cell "35.88"
+            - cell "45":
+              - generic: "45"
+          - row "5 38.09 0.01 0.00 Sell CALL at strike 788 0.01 Buy CALL at strike 788 788.00 Sell PUT at strike 788 17.33 Buy PUT at strike 788 17.51 17.37 38.09 114":
+            - cell "5":
+              - generic: "5"
+            - cell "38.09"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 788":
+              - generic: "0.00"
+              - button "Sell CALL at strike 788": Sell
+            - cell "0.01 Buy CALL at strike 788":
+              - generic: "0.01"
+              - button "Buy CALL at strike 788": Buy
+            - cell "788.00"
+            - cell "Sell PUT at strike 788 17.33":
+              - button "Sell PUT at strike 788": Sell
+              - generic: "17.33"
+            - cell "Buy PUT at strike 788 17.51":
+              - button "Buy PUT at strike 788": Buy
+              - generic: "17.51"
+            - cell "17.37"
+            - cell "38.09"
+            - cell "114":
+              - generic: "114"
+          - row "2 40.31 0.01 0.00 Sell CALL at strike 789 0.01 Buy CALL at strike 789 789.00 Sell PUT at strike 789 18.33 Buy PUT at strike 789 18.52 0.00 40.31 0":
+            - cell "2":
+              - generic: "2"
+            - cell "40.31"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 789":
+              - generic: "0.00"
+              - button "Sell CALL at strike 789": Sell
+            - cell "0.01 Buy CALL at strike 789":
+              - generic: "0.01"
+              - button "Buy CALL at strike 789": Buy
+            - cell "789.00"
+            - cell "Sell PUT at strike 789 18.33":
+              - button "Sell PUT at strike 789": Sell
+              - generic: "18.33"
+            - cell "Buy PUT at strike 789 18.52":
+              - button "Buy PUT at strike 789": Buy
+              - generic: "18.52"
+            - cell "0.00"
+            - cell "40.31"
+            - cell "0":
+              - generic: "0"
+          - row "2 42.52 0.01 0.00 Sell CALL at strike 790 0.01 Buy CALL at strike 790 790.00 Sell PUT at strike 790 19.33 Buy PUT at strike 790 19.51 0.00 42.52 0":
+            - cell "2":
+              - generic: "2"
+            - cell "42.52"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 790":
+              - generic: "0.00"
+              - button "Sell CALL at strike 790": Sell
+            - cell "0.01 Buy CALL at strike 790":
+              - generic: "0.01"
+              - button "Buy CALL at strike 790": Buy
+            - cell "790.00"
+            - cell "Sell PUT at strike 790 19.33":
+              - button "Sell PUT at strike 790": Sell
+              - generic: "19.33"
+            - cell "Buy PUT at strike 790 19.51":
+              - button "Buy PUT at strike 790": Buy
+              - generic: "19.51"
+            - cell "0.00"
+            - cell "42.52"
+            - cell "0":
+              - generic: "0"
+          - row "2 44.73 0.01 0.00 Sell CALL at strike 791 0.01 Buy CALL at strike 791 791.00 Sell PUT at strike 791 20.33 Buy PUT at strike 791 20.52 20.52 44.73 4":
+            - cell "2":
+              - generic: "2"
+            - cell "44.73"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 791":
+              - generic: "0.00"
+              - button "Sell CALL at strike 791": Sell
+            - cell "0.01 Buy CALL at strike 791":
+              - generic: "0.01"
+              - button "Buy CALL at strike 791": Buy
+            - cell "791.00"
+            - cell "Sell PUT at strike 791 20.33":
+              - button "Sell PUT at strike 791": Sell
+              - generic: "20.33"
+            - cell "Buy PUT at strike 791 20.52":
+              - button "Buy PUT at strike 791": Buy
+              - generic: "20.52"
+            - cell "20.52"
+            - cell "44.73"
+            - cell "4":
+              - generic: "4"
+          - row "8 46.95 0.02 0.00 Sell CALL at strike 792 0.01 Buy CALL at strike 792 792.00 Sell PUT at strike 792 21.33 Buy PUT at strike 792 21.51 21.44 46.95 1":
+            - cell "8":
+              - generic: "8"
+            - cell "46.95"
+            - cell "0.02"
+            - cell "0.00 Sell CALL at strike 792":
+              - generic: "0.00"
+              - button "Sell CALL at strike 792": Sell
+            - cell "0.01 Buy CALL at strike 792":
+              - generic: "0.01"
+              - button "Buy CALL at strike 792": Buy
+            - cell "792.00"
+            - cell "Sell PUT at strike 792 21.33":
+              - button "Sell PUT at strike 792": Sell
+              - generic: "21.33"
+            - cell "Buy PUT at strike 792 21.51":
+              - button "Buy PUT at strike 792": Buy
+              - generic: "21.51"
+            - cell "21.44"
+            - cell "46.95"
+            - cell "1":
+              - generic: "1"
+          - row "2 49.16 0.01 0.00 Sell CALL at strike 793 0.01 Buy CALL at strike 793 793.00 Sell PUT at strike 793 22.33 Buy PUT at strike 793 22.51 0.00 49.16 0":
+            - cell "2":
+              - generic: "2"
+            - cell "49.16"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 793":
+              - generic: "0.00"
+              - button "Sell CALL at strike 793": Sell
+            - cell "0.01 Buy CALL at strike 793":
+              - generic: "0.01"
+              - button "Buy CALL at strike 793": Buy
+            - cell "793.00"
+            - cell "Sell PUT at strike 793 22.33":
+              - button "Sell PUT at strike 793": Sell
+              - generic: "22.33"
+            - cell "Buy PUT at strike 793 22.51":
+              - button "Buy PUT at strike 793": Buy
+              - generic: "22.51"
+            - cell "0.00"
+            - cell "49.16"
+            - cell "0":
+              - generic: "0"
+          - row "19 51.37 0.01 0.00 Sell CALL at strike 794 0.01 Buy CALL at strike 794 794.00 Sell PUT at strike 794 23.33 Buy PUT at strike 794 23.51 0.00 51.37 0":
+            - cell "19":
+              - generic: "19"
+            - cell "51.37"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 794":
+              - generic: "0.00"
+              - button "Sell CALL at strike 794": Sell
+            - cell "0.01 Buy CALL at strike 794":
+              - generic: "0.01"
+              - button "Buy CALL at strike 794": Buy
+            - cell "794.00"
+            - cell "Sell PUT at strike 794 23.33":
+              - button "Sell PUT at strike 794": Sell
+              - generic: "23.33"
+            - cell "Buy PUT at strike 794 23.51":
+              - button "Buy PUT at strike 794": Buy
+              - generic: "23.51"
+            - cell "0.00"
+            - cell "51.37"
+            - cell "0":
+              - generic: "0"
+          - row "2 53.59 0.01 0.00 Sell CALL at strike 795 0.01 Buy CALL at strike 795 795.00 Sell PUT at strike 795 24.33 Buy PUT at strike 795 24.58 0.00 53.59 0":
+            - cell "2":
+              - generic: "2"
+            - cell "53.59"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 795":
+              - generic: "0.00"
+              - button "Sell CALL at strike 795": Sell
+            - cell "0.01 Buy CALL at strike 795":
+              - generic: "0.01"
+              - button "Buy CALL at strike 795": Buy
+            - cell "795.00"
+            - cell "Sell PUT at strike 795 24.33":
+              - button "Sell PUT at strike 795": Sell
+              - generic: "24.33"
+            - cell "Buy PUT at strike 795 24.58":
+              - button "Buy PUT at strike 795": Buy
+              - generic: "24.58"
+            - cell "0.00"
+            - cell "53.59"
+            - cell "0":
+              - generic: "0"
+          - row "24 55.80 0.01 0.00 Sell CALL at strike 796 0.01 Buy CALL at strike 796 796.00 Sell PUT at strike 796 25.33 Buy PUT at strike 796 25.54 25.35 55.80 5":
+            - cell "24":
+              - generic: "24"
+            - cell "55.80"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 796":
+              - generic: "0.00"
+              - button "Sell CALL at strike 796": Sell
+            - cell "0.01 Buy CALL at strike 796":
+              - generic: "0.01"
+              - button "Buy CALL at strike 796": Buy
+            - cell "796.00"
+            - cell "Sell PUT at strike 796 25.33":
+              - button "Sell PUT at strike 796": Sell
+              - generic: "25.33"
+            - cell "Buy PUT at strike 796 25.54":
+              - button "Buy PUT at strike 796": Buy
+              - generic: "25.54"
+            - cell "25.35"
+            - cell "55.80"
+            - cell "5":
+              - generic: "5"
+          - row "10 58.01 0.01 0.00 Sell CALL at strike 797 0.01 Buy CALL at strike 797 797.00 Sell PUT at strike 797 26.33 Buy PUT at strike 797 26.51 0.00 58.01 0":
+            - cell "10":
+              - generic: "10"
+            - cell "58.01"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 797":
+              - generic: "0.00"
+              - button "Sell CALL at strike 797": Sell
+            - cell "0.01 Buy CALL at strike 797":
+              - generic: "0.01"
+              - button "Buy CALL at strike 797": Buy
+            - cell "797.00"
+            - cell "Sell PUT at strike 797 26.33":
+              - button "Sell PUT at strike 797": Sell
+              - generic: "26.33"
+            - cell "Buy PUT at strike 797 26.51":
+              - button "Buy PUT at strike 797": Buy
+              - generic: "26.51"
+            - cell "0.00"
+            - cell "58.01"
+            - cell "0":
+              - generic: "0"
+          - row "0 60.23 0.00 0.00 Sell CALL at strike 798 0.01 Buy CALL at strike 798 798.00 Sell PUT at strike 798 27.33 Buy PUT at strike 798 27.54 0.00 60.23 0":
+            - cell "0":
+              - generic: "0"
+            - cell "60.23"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 798":
+              - generic: "0.00"
+              - button "Sell CALL at strike 798": Sell
+            - cell "0.01 Buy CALL at strike 798":
+              - generic: "0.01"
+              - button "Buy CALL at strike 798": Buy
+            - cell "798.00"
+            - cell "Sell PUT at strike 798 27.33":
+              - button "Sell PUT at strike 798": Sell
+              - generic: "27.33"
+            - cell "Buy PUT at strike 798 27.54":
+              - button "Buy PUT at strike 798": Buy
+              - generic: "27.54"
+            - cell "0.00"
+            - cell "60.23"
+            - cell "0":
+              - generic: "0"
+          - row "0 62.44 0.00 0.00 Sell CALL at strike 799 0.01 Buy CALL at strike 799 799.00 Sell PUT at strike 799 28.33 Buy PUT at strike 799 28.54 0.00 62.44 0":
+            - cell "0":
+              - generic: "0"
+            - cell "62.44"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 799":
+              - generic: "0.00"
+              - button "Sell CALL at strike 799": Sell
+            - cell "0.01 Buy CALL at strike 799":
+              - generic: "0.01"
+              - button "Buy CALL at strike 799": Buy
+            - cell "799.00"
+            - cell "Sell PUT at strike 799 28.33":
+              - button "Sell PUT at strike 799": Sell
+              - generic: "28.33"
+            - cell "Buy PUT at strike 799 28.54":
+              - button "Buy PUT at strike 799": Buy
+              - generic: "28.54"
+            - cell "0.00"
+            - cell "62.44"
+            - cell "0":
+              - generic: "0"
+          - row "0 64.65 0.00 0.00 Sell CALL at strike 800 0.01 Buy CALL at strike 800 800.00 Sell PUT at strike 800 29.26 Buy PUT at strike 800 29.53 29.47 60.00 4":
+            - cell "0":
+              - generic: "0"
+            - cell "64.65"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 800":
+              - generic: "0.00"
+              - button "Sell CALL at strike 800": Sell
+            - cell "0.01 Buy CALL at strike 800":
+              - generic: "0.01"
+              - button "Buy CALL at strike 800": Buy
+            - cell "800.00"
+            - cell "Sell PUT at strike 800 29.26":
+              - button "Sell PUT at strike 800": Sell
+              - generic: "29.26"
+            - cell "Buy PUT at strike 800 29.53":
+              - button "Buy PUT at strike 800": Buy
+              - generic: "29.53"
+            - cell "29.47"
+            - cell "60.00"
+            - cell "4":
+              - generic: "4"
+          - row "0 61.32 0.00 0.00 Sell CALL at strike 801 0.01 Buy CALL at strike 801 801.00 Sell PUT at strike 801 30.33 Buy PUT at strike 801 30.51 30.17 66.87 2":
+            - cell "0":
+              - generic: "0"
+            - cell "61.32"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 801":
+              - generic: "0.00"
+              - button "Sell CALL at strike 801": Sell
+            - cell "0.01 Buy CALL at strike 801":
+              - generic: "0.01"
+              - button "Buy CALL at strike 801": Buy
+            - cell "801.00"
+            - cell "Sell PUT at strike 801 30.33":
+              - button "Sell PUT at strike 801": Sell
+              - generic: "30.33"
+            - cell "Buy PUT at strike 801 30.51":
+              - button "Buy PUT at strike 801": Buy
+              - generic: "30.51"
+            - cell "30.17"
+            - cell "66.87"
+            - cell "2":
+              - generic: "2"
+          - row "0 69.08 0.00 0.00 Sell CALL at strike 802 0.01 Buy CALL at strike 802 802.00 Sell PUT at strike 802 31.33 Buy PUT at strike 802 31.58 0.00 69.08 0":
+            - cell "0":
+              - generic: "0"
+            - cell "69.08"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 802":
+              - generic: "0.00"
+              - button "Sell CALL at strike 802": Sell
+            - cell "0.01 Buy CALL at strike 802":
+              - generic: "0.01"
+              - button "Buy CALL at strike 802": Buy
+            - cell "802.00"
+            - cell "Sell PUT at strike 802 31.33":
+              - button "Sell PUT at strike 802": Sell
+              - generic: "31.33"
+            - cell "Buy PUT at strike 802 31.58":
+              - button "Buy PUT at strike 802": Buy
+              - generic: "31.58"
+            - cell "0.00"
+            - cell "69.08"
+            - cell "0":
+              - generic: "0"
+          - row "0 71.30 0.00 0.00 Sell CALL at strike 803 0.01 Buy CALL at strike 803 803.00 Sell PUT at strike 803 32.33 Buy PUT at strike 803 32.51 32.22 71.30 8":
+            - cell "0":
+              - generic: "0"
+            - cell "71.30"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 803":
+              - generic: "0.00"
+              - button "Sell CALL at strike 803": Sell
+            - cell "0.01 Buy CALL at strike 803":
+              - generic: "0.01"
+              - button "Buy CALL at strike 803": Buy
+            - cell "803.00"
+            - cell "Sell PUT at strike 803 32.33":
+              - button "Sell PUT at strike 803": Sell
+              - generic: "32.33"
+            - cell "Buy PUT at strike 803 32.51":
+              - button "Buy PUT at strike 803": Buy
+              - generic: "32.51"
+            - cell "32.22"
+            - cell "71.30"
+            - cell "8":
+              - generic: "8"
+          - row "0 73.51 0.00 0.00 Sell CALL at strike 804 0.01 Buy CALL at strike 804 804.00 Sell PUT at strike 804 33.31 Buy PUT at strike 804 33.51 33.41 73.51 5":
+            - cell "0":
+              - generic: "0"
+            - cell "73.51"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 804":
+              - generic: "0.00"
+              - button "Sell CALL at strike 804": Sell
+            - cell "0.01 Buy CALL at strike 804":
+              - generic: "0.01"
+              - button "Buy CALL at strike 804": Buy
+            - cell "804.00"
+            - cell "Sell PUT at strike 804 33.31":
+              - button "Sell PUT at strike 804": Sell
+              - generic: "33.31"
+            - cell "Buy PUT at strike 804 33.51":
+              - button "Buy PUT at strike 804": Buy
+              - generic: "33.51"
+            - cell "33.41"
+            - cell "73.51"
+            - cell "5":
+              - generic: "5"
+          - row "0 75.72 0.00 0.00 Sell CALL at strike 805 0.01 Buy CALL at strike 805 805.00 Sell PUT at strike 805 34.33 Buy PUT at strike 805 34.80 0.00 75.72 0":
+            - cell "0":
+              - generic: "0"
+            - cell "75.72"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 805":
+              - generic: "0.00"
+              - button "Sell CALL at strike 805": Sell
+            - cell "0.01 Buy CALL at strike 805":
+              - generic: "0.01"
+              - button "Buy CALL at strike 805": Buy
+            - cell "805.00"
+            - cell "Sell PUT at strike 805 34.33":
+              - button "Sell PUT at strike 805": Sell
+              - generic: "34.33"
+            - cell "Buy PUT at strike 805 34.80":
+              - button "Buy PUT at strike 805": Buy
+              - generic: "34.80"
+            - cell "0.00"
+            - cell "75.72"
+            - cell "0":
+              - generic: "0"
+          - row "0 73.61 0.00 0.00 Sell CALL at strike 806 0.01 Buy CALL at strike 806 806.00 Sell PUT at strike 806 35.33 Buy PUT at strike 806 35.51 35.50 73.61 8":
+            - cell "0":
+              - generic: "0"
+            - cell "73.61"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 806":
+              - generic: "0.00"
+              - button "Sell CALL at strike 806": Sell
+            - cell "0.01 Buy CALL at strike 806":
+              - generic: "0.01"
+              - button "Buy CALL at strike 806": Buy
+            - cell "806.00"
+            - cell "Sell PUT at strike 806 35.33":
+              - button "Sell PUT at strike 806": Sell
+              - generic: "35.33"
+            - cell "Buy PUT at strike 806 35.51":
+              - button "Buy PUT at strike 806": Buy
+              - generic: "35.51"
+            - cell "35.50"
+            - cell "73.61"
+            - cell "8":
+              - generic: "8"
+          - row "0 71.49 0.00 0.00 Sell CALL at strike 807 0.01 Buy CALL at strike 807 807.00 Sell PUT at strike 807 36.33 Buy PUT at strike 807 36.54 0.00 71.49 0":
+            - cell "0":
+              - generic: "0"
+            - cell "71.49"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 807":
+              - generic: "0.00"
+              - button "Sell CALL at strike 807": Sell
+            - cell "0.01 Buy CALL at strike 807":
+              - generic: "0.01"
+              - button "Buy CALL at strike 807": Buy
+            - cell "807.00"
+            - cell "Sell PUT at strike 807 36.33":
+              - button "Sell PUT at strike 807": Sell
+              - generic: "36.33"
+            - cell "Buy PUT at strike 807 36.54":
+              - button "Buy PUT at strike 807": Buy
+              - generic: "36.54"
+            - cell "0.00"
+            - cell "71.49"
+            - cell "0":
+              - generic: "0"
+          - row "0 75.17 0.00 0.00 Sell CALL at strike 808 0.01 Buy CALL at strike 808 808.00 Sell PUT at strike 808 37.33 Buy PUT at strike 808 37.56 0.00 69.38 0":
+            - cell "0":
+              - generic: "0"
+            - cell "75.17"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 808":
+              - generic: "0.00"
+              - button "Sell CALL at strike 808": Sell
+            - cell "0.01 Buy CALL at strike 808":
+              - generic: "0.01"
+              - button "Buy CALL at strike 808": Buy
+            - cell "808.00"
+            - cell "Sell PUT at strike 808 37.33":
+              - button "Sell PUT at strike 808": Sell
+              - generic: "37.33"
+            - cell "Buy PUT at strike 808 37.56":
+              - button "Buy PUT at strike 808": Buy
+              - generic: "37.56"
+            - cell "0.00"
+            - cell "69.38"
+            - cell "0":
+              - generic: "0"
+          - row "0 67.27 0.00 0.00 Sell CALL at strike 809 0.01 Buy CALL at strike 809 809.00 Sell PUT at strike 809 38.33 Buy PUT at strike 809 38.51 0.00 67.27 0":
+            - cell "0":
+              - generic: "0"
+            - cell "67.27"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 809":
+              - generic: "0.00"
+              - button "Sell CALL at strike 809": Sell
+            - cell "0.01 Buy CALL at strike 809":
+              - generic: "0.01"
+              - button "Buy CALL at strike 809": Buy
+            - cell "809.00"
+            - cell "Sell PUT at strike 809 38.33":
+              - button "Sell PUT at strike 809": Sell
+              - generic: "38.33"
+            - cell "Buy PUT at strike 809 38.51":
+              - button "Buy PUT at strike 809": Buy
+              - generic: "38.51"
+            - cell "0.00"
+            - cell "67.27"
+            - cell "0":
+              - generic: "0"
+          - row "0 65.15 0.00 0.00 Sell CALL at strike 810 0.01 Buy CALL at strike 810 810.00 Sell PUT at strike 810 39.33 Buy PUT at strike 810 39.63 0.00 65.15 0":
+            - cell "0":
+              - generic: "0"
+            - cell "65.15"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 810":
+              - generic: "0.00"
+              - button "Sell CALL at strike 810": Sell
+            - cell "0.01 Buy CALL at strike 810":
+              - generic: "0.01"
+              - button "Buy CALL at strike 810": Buy
+            - cell "810.00"
+            - cell "Sell PUT at strike 810 39.33":
+              - button "Sell PUT at strike 810": Sell
+              - generic: "39.33"
+            - cell "Buy PUT at strike 810 39.63":
+              - button "Buy PUT at strike 810": Buy
+              - generic: "39.63"
+            - cell "0.00"
+            - cell "65.15"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 811 0.01 Buy CALL at strike 811 811.00 Sell PUT at strike 811 40.33 Buy PUT at strike 811 40.90 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 811":
+              - generic: "0.00"
+              - button "Sell CALL at strike 811": Sell
+            - cell "0.01 Buy CALL at strike 811":
+              - generic: "0.01"
+              - button "Buy CALL at strike 811": Buy
+            - cell "811.00"
+            - cell "Sell PUT at strike 811 40.33":
+              - button "Sell PUT at strike 811": Sell
+              - generic: "40.33"
+            - cell "Buy PUT at strike 811 40.90":
+              - button "Buy PUT at strike 811": Buy
+              - generic: "40.90"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 812 0.01 Buy CALL at strike 812 812.00 Sell PUT at strike 812 41.18 Buy PUT at strike 812 41.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 812":
+              - generic: "0.00"
+              - button "Sell CALL at strike 812": Sell
+            - cell "0.01 Buy CALL at strike 812":
+              - generic: "0.01"
+              - button "Buy CALL at strike 812": Buy
+            - cell "812.00"
+            - cell "Sell PUT at strike 812 41.18":
+              - button "Sell PUT at strike 812": Sell
+              - generic: "41.18"
+            - cell "Buy PUT at strike 812 41.51":
+              - button "Buy PUT at strike 812": Buy
+              - generic: "41.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 813 0.01 Buy CALL at strike 813 813.00 Sell PUT at strike 813 42.24 Buy PUT at strike 813 42.52 42.32 92.12 1":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 813":
+              - generic: "0.00"
+              - button "Sell CALL at strike 813": Sell
+            - cell "0.01 Buy CALL at strike 813":
+              - generic: "0.01"
+              - button "Buy CALL at strike 813": Buy
+            - cell "813.00"
+            - cell "Sell PUT at strike 813 42.24":
+              - button "Sell PUT at strike 813": Sell
+              - generic: "42.24"
+            - cell "Buy PUT at strike 813 42.52":
+              - button "Buy PUT at strike 813": Buy
+              - generic: "42.52"
+            - cell "42.32"
+            - cell "92.12"
+            - cell "1":
+              - generic: "1"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 814 0.01 Buy CALL at strike 814 814.00 Sell PUT at strike 814 43.19 Buy PUT at strike 814 43.51 43.26 92.12 1":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 814":
+              - generic: "0.00"
+              - button "Sell CALL at strike 814": Sell
+            - cell "0.01 Buy CALL at strike 814":
+              - generic: "0.01"
+              - button "Buy CALL at strike 814": Buy
+            - cell "814.00"
+            - cell "Sell PUT at strike 814 43.19":
+              - button "Sell PUT at strike 814": Sell
+              - generic: "43.19"
+            - cell "Buy PUT at strike 814 43.51":
+              - button "Buy PUT at strike 814": Buy
+              - generic: "43.51"
+            - cell "43.26"
+            - cell "92.12"
+            - cell "1":
+              - generic: "1"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 815 0.01 Buy CALL at strike 815 815.00 Sell PUT at strike 815 44.19 Buy PUT at strike 815 44.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 815":
+              - generic: "0.00"
+              - button "Sell CALL at strike 815": Sell
+            - cell "0.01 Buy CALL at strike 815":
+              - generic: "0.01"
+              - button "Buy CALL at strike 815": Buy
+            - cell "815.00"
+            - cell "Sell PUT at strike 815 44.19":
+              - button "Sell PUT at strike 815": Sell
+              - generic: "44.19"
+            - cell "Buy PUT at strike 815 44.51":
+              - button "Buy PUT at strike 815": Buy
+              - generic: "44.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 816 0.01 Buy CALL at strike 816 816.00 Sell PUT at strike 816 45.23 Buy PUT at strike 816 45.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 816":
+              - generic: "0.00"
+              - button "Sell CALL at strike 816": Sell
+            - cell "0.01 Buy CALL at strike 816":
+              - generic: "0.01"
+              - button "Buy CALL at strike 816": Buy
+            - cell "816.00"
+            - cell "Sell PUT at strike 816 45.23":
+              - button "Sell PUT at strike 816": Sell
+              - generic: "45.23"
+            - cell "Buy PUT at strike 816 45.52":
+              - button "Buy PUT at strike 816": Buy
+              - generic: "45.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 817 0.01 Buy CALL at strike 817 817.00 Sell PUT at strike 817 46.20 Buy PUT at strike 817 46.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 817":
+              - generic: "0.00"
+              - button "Sell CALL at strike 817": Sell
+            - cell "0.01 Buy CALL at strike 817":
+              - generic: "0.01"
+              - button "Buy CALL at strike 817": Buy
+            - cell "817.00"
+            - cell "Sell PUT at strike 817 46.20":
+              - button "Sell PUT at strike 817": Sell
+              - generic: "46.20"
+            - cell "Buy PUT at strike 817 46.52":
+              - button "Buy PUT at strike 817": Buy
+              - generic: "46.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 818 0.01 Buy CALL at strike 818 818.00 Sell PUT at strike 818 47.19 Buy PUT at strike 818 47.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 818":
+              - generic: "0.00"
+              - button "Sell CALL at strike 818": Sell
+            - cell "0.01 Buy CALL at strike 818":
+              - generic: "0.01"
+              - button "Buy CALL at strike 818": Buy
+            - cell "818.00"
+            - cell "Sell PUT at strike 818 47.19":
+              - button "Sell PUT at strike 818": Sell
+              - generic: "47.19"
+            - cell "Buy PUT at strike 818 47.52":
+              - button "Buy PUT at strike 818": Buy
+              - generic: "47.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 819 0.01 Buy CALL at strike 819 819.00 Sell PUT at strike 819 48.19 Buy PUT at strike 819 48.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 819":
+              - generic: "0.00"
+              - button "Sell CALL at strike 819": Sell
+            - cell "0.01 Buy CALL at strike 819":
+              - generic: "0.01"
+              - button "Buy CALL at strike 819": Buy
+            - cell "819.00"
+            - cell "Sell PUT at strike 819 48.19":
+              - button "Sell PUT at strike 819": Sell
+              - generic: "48.19"
+            - cell "Buy PUT at strike 819 48.51":
+              - button "Buy PUT at strike 819": Buy
+              - generic: "48.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "1 92.12 0.01 0.00 Sell CALL at strike 820 0.01 Buy CALL at strike 820 820.00 Sell PUT at strike 820 49.18 Buy PUT at strike 820 49.51 0.00 92.12 0":
+            - cell "1":
+              - generic: "1"
+            - cell "92.12"
+            - cell "0.01"
+            - cell "0.00 Sell CALL at strike 820":
+              - generic: "0.00"
+              - button "Sell CALL at strike 820": Sell
+            - cell "0.01 Buy CALL at strike 820":
+              - generic: "0.01"
+              - button "Buy CALL at strike 820": Buy
+            - cell "820.00"
+            - cell "Sell PUT at strike 820 49.18":
+              - button "Sell PUT at strike 820": Sell
+              - generic: "49.18"
+            - cell "Buy PUT at strike 820 49.51":
+              - button "Buy PUT at strike 820": Buy
+              - generic: "49.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 821 0.01 Buy CALL at strike 821 821.00 Sell PUT at strike 821 50.23 Buy PUT at strike 821 50.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 821":
+              - generic: "0.00"
+              - button "Sell CALL at strike 821": Sell
+            - cell "0.01 Buy CALL at strike 821":
+              - generic: "0.01"
+              - button "Buy CALL at strike 821": Buy
+            - cell "821.00"
+            - cell "Sell PUT at strike 821 50.23":
+              - button "Sell PUT at strike 821": Sell
+              - generic: "50.23"
+            - cell "Buy PUT at strike 821 50.52":
+              - button "Buy PUT at strike 821": Buy
+              - generic: "50.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 822 0.01 Buy CALL at strike 822 822.00 Sell PUT at strike 822 51.19 Buy PUT at strike 822 51.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 822":
+              - generic: "0.00"
+              - button "Sell CALL at strike 822": Sell
+            - cell "0.01 Buy CALL at strike 822":
+              - generic: "0.01"
+              - button "Buy CALL at strike 822": Buy
+            - cell "822.00"
+            - cell "Sell PUT at strike 822 51.19":
+              - button "Sell PUT at strike 822": Sell
+              - generic: "51.19"
+            - cell "Buy PUT at strike 822 51.51":
+              - button "Buy PUT at strike 822": Buy
+              - generic: "51.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 823 0.01 Buy CALL at strike 823 823.00 Sell PUT at strike 823 52.23 Buy PUT at strike 823 52.54 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 823":
+              - generic: "0.00"
+              - button "Sell CALL at strike 823": Sell
+            - cell "0.01 Buy CALL at strike 823":
+              - generic: "0.01"
+              - button "Buy CALL at strike 823": Buy
+            - cell "823.00"
+            - cell "Sell PUT at strike 823 52.23":
+              - button "Sell PUT at strike 823": Sell
+              - generic: "52.23"
+            - cell "Buy PUT at strike 823 52.54":
+              - button "Buy PUT at strike 823": Buy
+              - generic: "52.54"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 824 0.01 Buy CALL at strike 824 824.00 Sell PUT at strike 824 53.23 Buy PUT at strike 824 53.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 824":
+              - generic: "0.00"
+              - button "Sell CALL at strike 824": Sell
+            - cell "0.01 Buy CALL at strike 824":
+              - generic: "0.01"
+              - button "Buy CALL at strike 824": Buy
+            - cell "824.00"
+            - cell "Sell PUT at strike 824 53.23":
+              - button "Sell PUT at strike 824": Sell
+              - generic: "53.23"
+            - cell "Buy PUT at strike 824 53.52":
+              - button "Buy PUT at strike 824": Buy
+              - generic: "53.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 825 0.01 Buy CALL at strike 825 825.00 Sell PUT at strike 825 54.17 Buy PUT at strike 825 54.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 825":
+              - generic: "0.00"
+              - button "Sell CALL at strike 825": Sell
+            - cell "0.01 Buy CALL at strike 825":
+              - generic: "0.01"
+              - button "Buy CALL at strike 825": Buy
+            - cell "825.00"
+            - cell "Sell PUT at strike 825 54.17":
+              - button "Sell PUT at strike 825": Sell
+              - generic: "54.17"
+            - cell "Buy PUT at strike 825 54.51":
+              - button "Buy PUT at strike 825": Buy
+              - generic: "54.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 826 0.01 Buy CALL at strike 826 826.00 Sell PUT at strike 826 55.18 Buy PUT at strike 826 55.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 826":
+              - generic: "0.00"
+              - button "Sell CALL at strike 826": Sell
+            - cell "0.01 Buy CALL at strike 826":
+              - generic: "0.01"
+              - button "Buy CALL at strike 826": Buy
+            - cell "826.00"
+            - cell "Sell PUT at strike 826 55.18":
+              - button "Sell PUT at strike 826": Sell
+              - generic: "55.18"
+            - cell "Buy PUT at strike 826 55.51":
+              - button "Buy PUT at strike 826": Buy
+              - generic: "55.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 827 0.01 Buy CALL at strike 827 827.00 Sell PUT at strike 827 56.18 Buy PUT at strike 827 56.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 827":
+              - generic: "0.00"
+              - button "Sell CALL at strike 827": Sell
+            - cell "0.01 Buy CALL at strike 827":
+              - generic: "0.01"
+              - button "Buy CALL at strike 827": Buy
+            - cell "827.00"
+            - cell "Sell PUT at strike 827 56.18":
+              - button "Sell PUT at strike 827": Sell
+              - generic: "56.18"
+            - cell "Buy PUT at strike 827 56.51":
+              - button "Buy PUT at strike 827": Buy
+              - generic: "56.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 828 0.01 Buy CALL at strike 828 828.00 Sell PUT at strike 828 57.19 Buy PUT at strike 828 57.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 828":
+              - generic: "0.00"
+              - button "Sell CALL at strike 828": Sell
+            - cell "0.01 Buy CALL at strike 828":
+              - generic: "0.01"
+              - button "Buy CALL at strike 828": Buy
+            - cell "828.00"
+            - cell "Sell PUT at strike 828 57.19":
+              - button "Sell PUT at strike 828": Sell
+              - generic: "57.19"
+            - cell "Buy PUT at strike 828 57.51":
+              - button "Buy PUT at strike 828": Buy
+              - generic: "57.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 829 0.01 Buy CALL at strike 829 829.00 Sell PUT at strike 829 58.25 Buy PUT at strike 829 58.51 58.60 92.12 1":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 829":
+              - generic: "0.00"
+              - button "Sell CALL at strike 829": Sell
+            - cell "0.01 Buy CALL at strike 829":
+              - generic: "0.01"
+              - button "Buy CALL at strike 829": Buy
+            - cell "829.00"
+            - cell "Sell PUT at strike 829 58.25":
+              - button "Sell PUT at strike 829": Sell
+              - generic: "58.25"
+            - cell "Buy PUT at strike 829 58.51":
+              - button "Buy PUT at strike 829": Buy
+              - generic: "58.51"
+            - cell "58.60"
+            - cell "92.12"
+            - cell "1":
+              - generic: "1"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 830 0.01 Buy CALL at strike 830 830.00 Sell PUT at strike 830 59.19 Buy PUT at strike 830 59.51 59.55 92.12 1":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 830":
+              - generic: "0.00"
+              - button "Sell CALL at strike 830": Sell
+            - cell "0.01 Buy CALL at strike 830":
+              - generic: "0.01"
+              - button "Buy CALL at strike 830": Buy
+            - cell "830.00"
+            - cell "Sell PUT at strike 830 59.19":
+              - button "Sell PUT at strike 830": Sell
+              - generic: "59.19"
+            - cell "Buy PUT at strike 830 59.51":
+              - button "Buy PUT at strike 830": Buy
+              - generic: "59.51"
+            - cell "59.55"
+            - cell "92.12"
+            - cell "1":
+              - generic: "1"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 831 0.01 Buy CALL at strike 831 831.00 Sell PUT at strike 831 60.19 Buy PUT at strike 831 60.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 831":
+              - generic: "0.00"
+              - button "Sell CALL at strike 831": Sell
+            - cell "0.01 Buy CALL at strike 831":
+              - generic: "0.01"
+              - button "Buy CALL at strike 831": Buy
+            - cell "831.00"
+            - cell "Sell PUT at strike 831 60.19":
+              - button "Sell PUT at strike 831": Sell
+              - generic: "60.19"
+            - cell "Buy PUT at strike 831 60.52":
+              - button "Buy PUT at strike 831": Buy
+              - generic: "60.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 832 0.01 Buy CALL at strike 832 832.00 Sell PUT at strike 832 61.19 Buy PUT at strike 832 61.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 832":
+              - generic: "0.00"
+              - button "Sell CALL at strike 832": Sell
+            - cell "0.01 Buy CALL at strike 832":
+              - generic: "0.01"
+              - button "Buy CALL at strike 832": Buy
+            - cell "832.00"
+            - cell "Sell PUT at strike 832 61.19":
+              - button "Sell PUT at strike 832": Sell
+              - generic: "61.19"
+            - cell "Buy PUT at strike 832 61.52":
+              - button "Buy PUT at strike 832": Buy
+              - generic: "61.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 833 0.01 Buy CALL at strike 833 833.00 Sell PUT at strike 833 62.28 Buy PUT at strike 833 62.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 833":
+              - generic: "0.00"
+              - button "Sell CALL at strike 833": Sell
+            - cell "0.01 Buy CALL at strike 833":
+              - generic: "0.01"
+              - button "Buy CALL at strike 833": Buy
+            - cell "833.00"
+            - cell "Sell PUT at strike 833 62.28":
+              - button "Sell PUT at strike 833": Sell
+              - generic: "62.28"
+            - cell "Buy PUT at strike 833 62.51":
+              - button "Buy PUT at strike 833": Buy
+              - generic: "62.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 834 0.01 Buy CALL at strike 834 834.00 Sell PUT at strike 834 63.19 Buy PUT at strike 834 63.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 834":
+              - generic: "0.00"
+              - button "Sell CALL at strike 834": Sell
+            - cell "0.01 Buy CALL at strike 834":
+              - generic: "0.01"
+              - button "Buy CALL at strike 834": Buy
+            - cell "834.00"
+            - cell "Sell PUT at strike 834 63.19":
+              - button "Sell PUT at strike 834": Sell
+              - generic: "63.19"
+            - cell "Buy PUT at strike 834 63.52":
+              - button "Buy PUT at strike 834": Buy
+              - generic: "63.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 835 0.01 Buy CALL at strike 835 835.00 Sell PUT at strike 835 64.17 Buy PUT at strike 835 64.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 835":
+              - generic: "0.00"
+              - button "Sell CALL at strike 835": Sell
+            - cell "0.01 Buy CALL at strike 835":
+              - generic: "0.01"
+              - button "Buy CALL at strike 835": Buy
+            - cell "835.00"
+            - cell "Sell PUT at strike 835 64.17":
+              - button "Sell PUT at strike 835": Sell
+              - generic: "64.17"
+            - cell "Buy PUT at strike 835 64.51":
+              - button "Buy PUT at strike 835": Buy
+              - generic: "64.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 836 0.01 Buy CALL at strike 836 836.00 Sell PUT at strike 836 65.18 Buy PUT at strike 836 65.51 65.56 92.12 1":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 836":
+              - generic: "0.00"
+              - button "Sell CALL at strike 836": Sell
+            - cell "0.01 Buy CALL at strike 836":
+              - generic: "0.01"
+              - button "Buy CALL at strike 836": Buy
+            - cell "836.00"
+            - cell "Sell PUT at strike 836 65.18":
+              - button "Sell PUT at strike 836": Sell
+              - generic: "65.18"
+            - cell "Buy PUT at strike 836 65.51":
+              - button "Buy PUT at strike 836": Buy
+              - generic: "65.51"
+            - cell "65.56"
+            - cell "92.12"
+            - cell "1":
+              - generic: "1"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 837 0.01 Buy CALL at strike 837 837.00 Sell PUT at strike 837 66.25 Buy PUT at strike 837 66.51 66.50 92.12 1":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 837":
+              - generic: "0.00"
+              - button "Sell CALL at strike 837": Sell
+            - cell "0.01 Buy CALL at strike 837":
+              - generic: "0.01"
+              - button "Buy CALL at strike 837": Buy
+            - cell "837.00"
+            - cell "Sell PUT at strike 837 66.25":
+              - button "Sell PUT at strike 837": Sell
+              - generic: "66.25"
+            - cell "Buy PUT at strike 837 66.51":
+              - button "Buy PUT at strike 837": Buy
+              - generic: "66.51"
+            - cell "66.50"
+            - cell "92.12"
+            - cell "1":
+              - generic: "1"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 838 0.01 Buy CALL at strike 838 838.00 Sell PUT at strike 838 67.25 Buy PUT at strike 838 67.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 838":
+              - generic: "0.00"
+              - button "Sell CALL at strike 838": Sell
+            - cell "0.01 Buy CALL at strike 838":
+              - generic: "0.01"
+              - button "Buy CALL at strike 838": Buy
+            - cell "838.00"
+            - cell "Sell PUT at strike 838 67.25":
+              - button "Sell PUT at strike 838": Sell
+              - generic: "67.25"
+            - cell "Buy PUT at strike 838 67.51":
+              - button "Buy PUT at strike 838": Buy
+              - generic: "67.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 839 0.01 Buy CALL at strike 839 839.00 Sell PUT at strike 839 68.25 Buy PUT at strike 839 68.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 839":
+              - generic: "0.00"
+              - button "Sell CALL at strike 839": Sell
+            - cell "0.01 Buy CALL at strike 839":
+              - generic: "0.01"
+              - button "Buy CALL at strike 839": Buy
+            - cell "839.00"
+            - cell "Sell PUT at strike 839 68.25":
+              - button "Sell PUT at strike 839": Sell
+              - generic: "68.25"
+            - cell "Buy PUT at strike 839 68.51":
+              - button "Buy PUT at strike 839": Buy
+              - generic: "68.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 840 0.01 Buy CALL at strike 840 840.00 Sell PUT at strike 840 69.23 Buy PUT at strike 840 69.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 840":
+              - generic: "0.00"
+              - button "Sell CALL at strike 840": Sell
+            - cell "0.01 Buy CALL at strike 840":
+              - generic: "0.01"
+              - button "Buy CALL at strike 840": Buy
+            - cell "840.00"
+            - cell "Sell PUT at strike 840 69.23":
+              - button "Sell PUT at strike 840": Sell
+              - generic: "69.23"
+            - cell "Buy PUT at strike 840 69.51":
+              - button "Buy PUT at strike 840": Buy
+              - generic: "69.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 845 0.01 Buy CALL at strike 845 845.00 Sell PUT at strike 845 74.30 Buy PUT at strike 845 74.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 845":
+              - generic: "0.00"
+              - button "Sell CALL at strike 845": Sell
+            - cell "0.01 Buy CALL at strike 845":
+              - generic: "0.01"
+              - button "Buy CALL at strike 845": Buy
+            - cell "845.00"
+            - cell "Sell PUT at strike 845 74.30":
+              - button "Sell PUT at strike 845": Sell
+              - generic: "74.30"
+            - cell "Buy PUT at strike 845 74.51":
+              - button "Buy PUT at strike 845": Buy
+              - generic: "74.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 850 0.01 Buy CALL at strike 850 850.00 Sell PUT at strike 850 79.20 Buy PUT at strike 850 79.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 850":
+              - generic: "0.00"
+              - button "Sell CALL at strike 850": Sell
+            - cell "0.01 Buy CALL at strike 850":
+              - generic: "0.01"
+              - button "Buy CALL at strike 850": Buy
+            - cell "850.00"
+            - cell "Sell PUT at strike 850 79.20":
+              - button "Sell PUT at strike 850": Sell
+              - generic: "79.20"
+            - cell "Buy PUT at strike 850 79.51":
+              - button "Buy PUT at strike 850": Buy
+              - generic: "79.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 855 0.01 Buy CALL at strike 855 855.00 Sell PUT at strike 855 84.20 Buy PUT at strike 855 84.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 855":
+              - generic: "0.00"
+              - button "Sell CALL at strike 855": Sell
+            - cell "0.01 Buy CALL at strike 855":
+              - generic: "0.01"
+              - button "Buy CALL at strike 855": Buy
+            - cell "855.00"
+            - cell "Sell PUT at strike 855 84.20":
+              - button "Sell PUT at strike 855": Sell
+              - generic: "84.20"
+            - cell "Buy PUT at strike 855 84.51":
+              - button "Buy PUT at strike 855": Buy
+              - generic: "84.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 860 0.01 Buy CALL at strike 860 860.00 Sell PUT at strike 860 89.16 Buy PUT at strike 860 89.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 860":
+              - generic: "0.00"
+              - button "Sell CALL at strike 860": Sell
+            - cell "0.01 Buy CALL at strike 860":
+              - generic: "0.01"
+              - button "Buy CALL at strike 860": Buy
+            - cell "860.00"
+            - cell "Sell PUT at strike 860 89.16":
+              - button "Sell PUT at strike 860": Sell
+              - generic: "89.16"
+            - cell "Buy PUT at strike 860 89.51":
+              - button "Buy PUT at strike 860": Buy
+              - generic: "89.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 865 0.01 Buy CALL at strike 865 865.00 Sell PUT at strike 865 94.20 Buy PUT at strike 865 94.54 94.06 92.12 1":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 865":
+              - generic: "0.00"
+              - button "Sell CALL at strike 865": Sell
+            - cell "0.01 Buy CALL at strike 865":
+              - generic: "0.01"
+              - button "Buy CALL at strike 865": Buy
+            - cell "865.00"
+            - cell "Sell PUT at strike 865 94.20":
+              - button "Sell PUT at strike 865": Sell
+              - generic: "94.20"
+            - cell "Buy PUT at strike 865 94.54":
+              - button "Buy PUT at strike 865": Buy
+              - generic: "94.54"
+            - cell "94.06"
+            - cell "92.12"
+            - cell "1":
+              - generic: "1"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 870 0.01 Buy CALL at strike 870 870.00 Sell PUT at strike 870 99.17 Buy PUT at strike 870 99.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 870":
+              - generic: "0.00"
+              - button "Sell CALL at strike 870": Sell
+            - cell "0.01 Buy CALL at strike 870":
+              - generic: "0.01"
+              - button "Buy CALL at strike 870": Buy
+            - cell "870.00"
+            - cell "Sell PUT at strike 870 99.17":
+              - button "Sell PUT at strike 870": Sell
+              - generic: "99.17"
+            - cell "Buy PUT at strike 870 99.51":
+              - button "Buy PUT at strike 870": Buy
+              - generic: "99.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 875 0.01 Buy CALL at strike 875 875.00 Sell PUT at strike 875 104.23 Buy PUT at strike 875 104.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 875":
+              - generic: "0.00"
+              - button "Sell CALL at strike 875": Sell
+            - cell "0.01 Buy CALL at strike 875":
+              - generic: "0.01"
+              - button "Buy CALL at strike 875": Buy
+            - cell "875.00"
+            - cell "Sell PUT at strike 875 104.23":
+              - button "Sell PUT at strike 875": Sell
+              - generic: "104.23"
+            - cell "Buy PUT at strike 875 104.52":
+              - button "Buy PUT at strike 875": Buy
+              - generic: "104.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 880 0.01 Buy CALL at strike 880 880.00 Sell PUT at strike 880 109.23 Buy PUT at strike 880 109.54 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 880":
+              - generic: "0.00"
+              - button "Sell CALL at strike 880": Sell
+            - cell "0.01 Buy CALL at strike 880":
+              - generic: "0.01"
+              - button "Buy CALL at strike 880": Buy
+            - cell "880.00"
+            - cell "Sell PUT at strike 880 109.23":
+              - button "Sell PUT at strike 880": Sell
+              - generic: "109.23"
+            - cell "Buy PUT at strike 880 109.54":
+              - button "Buy PUT at strike 880": Buy
+              - generic: "109.54"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 121.30 0.00 0.00 Sell CALL at strike 885 0.01 Buy CALL at strike 885 885.00 Sell PUT at strike 885 114.19 Buy PUT at strike 885 114.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "121.30"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 885":
+              - generic: "0.00"
+              - button "Sell CALL at strike 885": Sell
+            - cell "0.01 Buy CALL at strike 885":
+              - generic: "0.01"
+              - button "Buy CALL at strike 885": Buy
+            - cell "885.00"
+            - cell "Sell PUT at strike 885 114.19":
+              - button "Sell PUT at strike 885": Sell
+              - generic: "114.19"
+            - cell "Buy PUT at strike 885 114.51":
+              - button "Buy PUT at strike 885": Buy
+              - generic: "114.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 890 0.01 Buy CALL at strike 890 890.00 Sell PUT at strike 890 119.18 Buy PUT at strike 890 119.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 890":
+              - generic: "0.00"
+              - button "Sell CALL at strike 890": Sell
+            - cell "0.01 Buy CALL at strike 890":
+              - generic: "0.01"
+              - button "Buy CALL at strike 890": Buy
+            - cell "890.00"
+            - cell "Sell PUT at strike 890 119.18":
+              - button "Sell PUT at strike 890": Sell
+              - generic: "119.18"
+            - cell "Buy PUT at strike 890 119.51":
+              - button "Buy PUT at strike 890": Buy
+              - generic: "119.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 895 0.01 Buy CALL at strike 895 895.00 Sell PUT at strike 895 124.23 Buy PUT at strike 895 124.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 895":
+              - generic: "0.00"
+              - button "Sell CALL at strike 895": Sell
+            - cell "0.01 Buy CALL at strike 895":
+              - generic: "0.01"
+              - button "Buy CALL at strike 895": Buy
+            - cell "895.00"
+            - cell "Sell PUT at strike 895 124.23":
+              - button "Sell PUT at strike 895": Sell
+              - generic: "124.23"
+            - cell "Buy PUT at strike 895 124.52":
+              - button "Buy PUT at strike 895": Buy
+              - generic: "124.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 900 0.01 Buy CALL at strike 900 900.00 Sell PUT at strike 900 129.19 Buy PUT at strike 900 129.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 900":
+              - generic: "0.00"
+              - button "Sell CALL at strike 900": Sell
+            - cell "0.01 Buy CALL at strike 900":
+              - generic: "0.01"
+              - button "Buy CALL at strike 900": Buy
+            - cell "900.00"
+            - cell "Sell PUT at strike 900 129.19":
+              - button "Sell PUT at strike 900": Sell
+              - generic: "129.19"
+            - cell "Buy PUT at strike 900 129.51":
+              - button "Buy PUT at strike 900": Buy
+              - generic: "129.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 905 0.01 Buy CALL at strike 905 905.00 Sell PUT at strike 905 134.20 Buy PUT at strike 905 134.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 905":
+              - generic: "0.00"
+              - button "Sell CALL at strike 905": Sell
+            - cell "0.01 Buy CALL at strike 905":
+              - generic: "0.01"
+              - button "Buy CALL at strike 905": Buy
+            - cell "905.00"
+            - cell "Sell PUT at strike 905 134.20":
+              - button "Sell PUT at strike 905": Sell
+              - generic: "134.20"
+            - cell "Buy PUT at strike 905 134.51":
+              - button "Buy PUT at strike 905": Buy
+              - generic: "134.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 910 0.01 Buy CALL at strike 910 910.00 Sell PUT at strike 910 139.19 Buy PUT at strike 910 139.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 910":
+              - generic: "0.00"
+              - button "Sell CALL at strike 910": Sell
+            - cell "0.01 Buy CALL at strike 910":
+              - generic: "0.01"
+              - button "Buy CALL at strike 910": Buy
+            - cell "910.00"
+            - cell "Sell PUT at strike 910 139.19":
+              - button "Sell PUT at strike 910": Sell
+              - generic: "139.19"
+            - cell "Buy PUT at strike 910 139.51":
+              - button "Buy PUT at strike 910": Buy
+              - generic: "139.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 915 0.01 Buy CALL at strike 915 915.00 Sell PUT at strike 915 144.19 Buy PUT at strike 915 144.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 915":
+              - generic: "0.00"
+              - button "Sell CALL at strike 915": Sell
+            - cell "0.01 Buy CALL at strike 915":
+              - generic: "0.01"
+              - button "Buy CALL at strike 915": Buy
+            - cell "915.00"
+            - cell "Sell PUT at strike 915 144.19":
+              - button "Sell PUT at strike 915": Sell
+              - generic: "144.19"
+            - cell "Buy PUT at strike 915 144.52":
+              - button "Buy PUT at strike 915": Buy
+              - generic: "144.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 920 0.01 Buy CALL at strike 920 920.00 Sell PUT at strike 920 149.17 Buy PUT at strike 920 149.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 920":
+              - generic: "0.00"
+              - button "Sell CALL at strike 920": Sell
+            - cell "0.01 Buy CALL at strike 920":
+              - generic: "0.01"
+              - button "Buy CALL at strike 920": Buy
+            - cell "920.00"
+            - cell "Sell PUT at strike 920 149.17":
+              - button "Sell PUT at strike 920": Sell
+              - generic: "149.17"
+            - cell "Buy PUT at strike 920 149.51":
+              - button "Buy PUT at strike 920": Buy
+              - generic: "149.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 925 0.01 Buy CALL at strike 925 925.00 Sell PUT at strike 925 154.21 Buy PUT at strike 925 154.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 925":
+              - generic: "0.00"
+              - button "Sell CALL at strike 925": Sell
+            - cell "0.01 Buy CALL at strike 925":
+              - generic: "0.01"
+              - button "Buy CALL at strike 925": Buy
+            - cell "925.00"
+            - cell "Sell PUT at strike 925 154.21":
+              - button "Sell PUT at strike 925": Sell
+              - generic: "154.21"
+            - cell "Buy PUT at strike 925 154.52":
+              - button "Buy PUT at strike 925": Buy
+              - generic: "154.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 930 0.01 Buy CALL at strike 930 930.00 Sell PUT at strike 930 159.22 Buy PUT at strike 930 159.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 930":
+              - generic: "0.00"
+              - button "Sell CALL at strike 930": Sell
+            - cell "0.01 Buy CALL at strike 930":
+              - generic: "0.01"
+              - button "Buy CALL at strike 930": Buy
+            - cell "930.00"
+            - cell "Sell PUT at strike 930 159.22":
+              - button "Sell PUT at strike 930": Sell
+              - generic: "159.22"
+            - cell "Buy PUT at strike 930 159.52":
+              - button "Buy PUT at strike 930": Buy
+              - generic: "159.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 935 0.01 Buy CALL at strike 935 935.00 Sell PUT at strike 935 164.17 Buy PUT at strike 935 164.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 935":
+              - generic: "0.00"
+              - button "Sell CALL at strike 935": Sell
+            - cell "0.01 Buy CALL at strike 935":
+              - generic: "0.01"
+              - button "Buy CALL at strike 935": Buy
+            - cell "935.00"
+            - cell "Sell PUT at strike 935 164.17":
+              - button "Sell PUT at strike 935": Sell
+              - generic: "164.17"
+            - cell "Buy PUT at strike 935 164.51":
+              - button "Buy PUT at strike 935": Buy
+              - generic: "164.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 940 0.01 Buy CALL at strike 940 940.00 Sell PUT at strike 940 169.25 Buy PUT at strike 940 169.51 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 940":
+              - generic: "0.00"
+              - button "Sell CALL at strike 940": Sell
+            - cell "0.01 Buy CALL at strike 940":
+              - generic: "0.01"
+              - button "Buy CALL at strike 940": Buy
+            - cell "940.00"
+            - cell "Sell PUT at strike 940 169.25":
+              - button "Sell PUT at strike 940": Sell
+              - generic: "169.25"
+            - cell "Buy PUT at strike 940 169.51":
+              - button "Buy PUT at strike 940": Buy
+              - generic: "169.51"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 945 0.01 Buy CALL at strike 945 945.00 Sell PUT at strike 945 174.19 Buy PUT at strike 945 174.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 945":
+              - generic: "0.00"
+              - button "Sell CALL at strike 945": Sell
+            - cell "0.01 Buy CALL at strike 945":
+              - generic: "0.01"
+              - button "Buy CALL at strike 945": Buy
+            - cell "945.00"
+            - cell "Sell PUT at strike 945 174.19":
+              - button "Sell PUT at strike 945": Sell
+              - generic: "174.19"
+            - cell "Buy PUT at strike 945 174.52":
+              - button "Buy PUT at strike 945": Buy
+              - generic: "174.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+          - row "0 92.12 0.00 0.00 Sell CALL at strike 950 0.01 Buy CALL at strike 950 950.00 Sell PUT at strike 950 179.21 Buy PUT at strike 950 179.52 0.00 92.12 0":
+            - cell "0":
+              - generic: "0"
+            - cell "92.12"
+            - cell "0.00"
+            - cell "0.00 Sell CALL at strike 950":
+              - generic: "0.00"
+              - button "Sell CALL at strike 950": Sell
+            - cell "0.01 Buy CALL at strike 950":
+              - generic: "0.01"
+              - button "Buy CALL at strike 950": Buy
+            - cell "950.00"
+            - cell "Sell PUT at strike 950 179.21":
+              - button "Sell PUT at strike 950": Sell
+              - generic: "179.21"
+            - cell "Buy PUT at strike 950 179.52":
+              - button "Buy PUT at strike 950": Buy
+              - generic: "179.52"
+            - cell "0.00"
+            - cell "92.12"
+            - cell "0":
+              - generic: "0"
+      - table:
+        - rowgroup:
+          - row "Stock Price ($) Profit/Loss ($)":
+            - cell "Stock Price ($)"
+            - cell "Profit/Loss ($)"
+        - rowgroup:
+          - row "$300.00 $20,000.00":
+            - cell "$300.00"
+            - cell "$20,000.00"
+          - row "$270.00 $17,000.00":
+            - cell "$270.00"
+            - cell "$17,000.00"
+          - row "$240.00 $14,000.00":
+            - cell "$240.00"
+            - cell "$14,000.00"
+          - row "$210.00 $11,000.00":
+            - cell "$210.00"
+            - cell "$11,000.00"
+          - row "$180.00 $8,000.00":
+            - cell "$180.00"
+            - cell "$8,000.00"
+          - row "$150.00 $5,000.00":
+            - cell "$150.00"
+            - cell "$5,000.00"
+          - row "$120.00 $2,000.00":
+            - cell "$120.00"
+            - cell "$2,000.00"
+          - row "$100.00 $0.00":
+            - cell "$100.00"
+            - cell "$0.00"
+          - row "$90.00 -$1,000.00":
+            - cell "$90.00"
+            - cell "-$1,000.00"
+          - row "$60.00 -$4,000.00":
+            - cell "$60.00"
+            - cell "-$4,000.00"
+          - row "$30.00 -$7,000.00":
+            - cell "$30.00"
+            - cell "-$7,000.00"
+      - generic: Current
+      - generic: Expire
+      - text: Price
+      - radio "Price" [checked]
+      - text: Mid-Price
+      - radio "Mid-Price"
+      - text: Invert chart
+      - checkbox "Invert chart"
+      - generic: Days to Expiry
+      - textbox "Days to Expiry": "0"
+      - button "Increase"
+      - button "Decrease"
+      - button "Select date":
+      - slider "Days to Expiry": "0"
+      - button "Pay Off Diagram"
+      - generic: Today 10/05/26
+      - generic: Expiration 10/05/26
+      - generic: Volatility % Change
+      - textbox "Volatility % Change": 0.00%
+      - button "Increase"
+      - button "Decrease"
+      - combobox "Volatility type":
+        - option "Relative" [selected]
+        - option "Absolute"
+      - slider "Volatility % Change": "0"
+      - generic: "-100%"
+      - generic: +100%
+      - button "Advanced Settings"
+      - button "Reset"
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+- contentinfo:
+  - navigation:
+    - 'link "Go to: OCC"':
+      - /url: https://www.theocc.com/
+      - img "OCC"
+      - text: "A Service Of:"
+    - paragraph: "OCC Participant Exchanges:"
+    - 'link "Go to: BOX"':
+      - /url: https://boxoptions.com/
+      - img "BOX"
+    - 'link "Go to: Cboe"':
+      - /url: https://www.cboe.com/
+      - img "Cboe"
+    - 'link "Go to: MEMX"':
+      - /url: https://memx.com/
+      - img "MEMX"
+    - 'link "Go to: Miax"':
+      - /url: https://www.miaxoptions.com/
+      - img "Miax"
+    - 'link "Go to: NASDAQ"':
+      - /url: https://www.nasdaq.com/
+      - img "NASDAQ"
+    - 'link "Go to: NYSE"':
+      - /url: https://www.nyse.com/markets/nyse
+      - img "NYSE"
+  - paragraph: OCC 125 South Franklin Street, Suite 1200 | Chicago, IL 60606
+  - paragraph
+  - paragraph:
+    - text: This web site discusses exchange-traded options issued by The Options Clearing Corporation. No statement in this web site is to be construed as a recommendation to purchase or sell a security, or to provide investment advice. Options involve risk and are not suitable for all investors. Prior to buying or selling an option, a person must receive a copy of
+    - strong:
+      - link "Characteristics and Risks of Standardized Options":
+        - /url: https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document
+    - text: . Copies of this document may be obtained from your broker, from any exchange on which options are traded or by contacting The Options Clearing Corporation, 125 S. Franklin Street, Suite 1200, Chicago, IL 60606.
+    - text: All OIC material is provided for educational purposes only. Completing or viewing any OIC content does not guarantee that an individual has obtained a minimum level of knowledge or skill, is not an indication of investor suitability to trade options, and should not be used to determine an individual’s trading or investing competency or sophistication. Any strategies discussed, including examples using actual securities and price data, are strictly for illustrative and educational purposes. Past performance is not a guarantee of future results.
+  - text: ©2026 The Options Clearing Corporation. All rights reserved.
+  - paragraph:
+    - text: User acknowledges review of the
+    - strong:
+      - link "Terms and Conditions":
+        - /url: /specialpages/termsandconditions
+    - text: and
+    - link "Privacy Policy":
+      - /url: /specialpages/privacypolicy
+      - generic: Privacy Policy
+    - text: governing this site. Continued use constitutes acceptance of the terms and conditions stated therein.
+  - paragraph
+  - navigation:
+    - link "Facebook":
+      - /url: https://www.facebook.com/OptionsIndustryCouncil/
+      - generic: Facebook
+    - link "Twitter":
+      - /url: https://twitter.com/Options_Edu
+      - generic: Twitter
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/showcase/the-options-industry-council-oic-
+      - generic: LinkedIn
+    - link "Youtube":
+      - /url: https://www.youtube.com/user/OptionsEdu
+      - generic: Youtube

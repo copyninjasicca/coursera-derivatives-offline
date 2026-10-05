@@ -1,0 +1,62 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Options-related data on the IBKR TWS Option Chain may include:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Contract sizes.</span></span></p></div>",
+      "<div><p><span><span>Expiration dates.</span></span></p></div>",
+      "<div><p><span><span>Bid and ask prices.</span></span></p></div>",
+      "<div><p><span><span>All of these.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>As a standard in the U.S., there are typically 100 shares of stock for each option contract.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>Strike prices are generally set by the exchange where the option is listed.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>In a put option contract, if the prevailing market price is above the strike price:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The option is at-the-money.</span></span></p></div>",
+      "<div><p><span><span>The option is in-the-money.</span></span></p></div>",
+      "<div><p><span><span>The option is out-of-the-money.</span></span></p></div>",
+      "<div><p><span><span>The option cannot be exercised.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>In a call option contract, if the prevailing market price is below the strike price:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The option is at-the-money.</span></span></p></div>",
+      "<div><p><span><span>The option is out-of-the-money.</span></span></p></div>",
+      "<div><p><span><span>The option is in-the-money.</span></span></p></div>",
+      "<div><p><span><span>The option cannot be exercised.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 6,
+    "prompt_html": "<div><p><span><span>A class of options refers to the same options series with both the expiry date and exercise price in common.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

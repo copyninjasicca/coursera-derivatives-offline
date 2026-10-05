@@ -1,0 +1,53 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Two main types of options contracts are:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Calls and strikes.</span></span></p></div>",
+      "<div><p><span><span>Calls and puts.</span></span></p></div>",
+      "<div><p><span><span>Premiums and puts.</span></span></p></div>",
+      "<div><p><span><span>None of these.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>A holder of a call contract is obligated to buy stock at a pre-determined price before the contract expires.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>The premium for a put contract is set at a fixed price:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>An owner of a call option contract may:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Sell the option to another buyer during the lifetime of the contract.</span></span></p></div>",
+      "<div><p><span><span>Sell stock at the prevailing market price to the contract writer when exercising their right.</span></span></p></div>",
+      "<div><p><span><span>Under no circumstances allow the contract to expire worthless.</span></span></p></div>",
+      "<div><p><span><span>Avoid paying a premium when exercising their right.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>If an option expires worthless at expiry,</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The premium paid to the holder will be the buyer’s maximum loss.</span></span></p></div>",
+      "<div><p><span><span>The premium paid to the owner will be the writer’s maximum loss.</span></span></p></div>",
+      "<div><p><span><span>The premium paid to the seller will be the holder’s maximum loss.</span></span></p></div>",
+      "<div><p><span><span>The premium received by the buyer will be the writer’s maximum gain.</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

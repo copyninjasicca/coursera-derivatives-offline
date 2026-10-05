@@ -1,0 +1,12 @@
+This module will focus on some basic strategies
+to use in bull markets when prices rise and in bear
+markets when prices fall. As you may have gathered
+from earlier lessons, the characteristics
+of options requires skill and precision when
+making investment decisions. In this module we'll
+offer an explanation of several strategies for either
+type of market outlook. We'll also walk you through what they're designed to achieve. We'll further provide a practical demonstration
+of how to set up each trade using IBKR's
+Trader Workstation. By the end of this module, you should have a clear
+understanding how to use options to plan for both
+up and down markets. Let's get started.

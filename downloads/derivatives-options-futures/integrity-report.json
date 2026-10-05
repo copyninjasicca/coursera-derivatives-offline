@@ -1,0 +1,156 @@
+{
+  "checked_on": "2026-10-05",
+  "passed": true,
+  "checks": 2097,
+  "course_pages": 84,
+  "inventory": {
+    "video": 34,
+    "exercise": 34,
+    "reading": 16
+  },
+  "questions": 124,
+  "choices": 383,
+  "reading_images": 7,
+  "video_duration_seconds": 6894.237456,
+  "indexed_file_bytes": 514560039,
+  "local_links_checked": 930,
+  "automatic_remote_loads": [],
+  "calculator_checks_passed": 188,
+  "american_checks_passed": 91,
+  "probability_checks_passed": 1003,
+  "portfolio_test_groups_passed": 16,
+  "advanced_browser_validation": {
+    "checkedOn": "2026-10-05",
+    "passed": true,
+    "method": "Actual in-app-browser controls on loopback HTTP, default 438px viewport",
+    "checks": [
+      {
+        "name": "American 100-step call/put UI",
+        "observed": "13.676702 / 6.486857 for S100 K95 T.25 r10% vol50% q0"
+      },
+      {
+        "name": "Probability risk-neutral default",
+        "observed": "Terminal sum 100%; ordinary union residual 0"
+      },
+      {
+        "name": "Probability zero-log alternative",
+        "observed": "Touch1 45.3793%, Touch2 49.7994%, Both 6.4181%"
+      },
+      {
+        "name": "Probability invalid reversed targets",
+        "observed": "Visible error, results and consistency text cleared"
+      },
+      {
+        "name": "Covered call expiry arithmetic",
+        "observed": "100 shares @100, short 1 call K100 entry5 multiplier100; S110 elapsed90: cost9500 value10000 pnl500"
+      },
+      {
+        "name": "American cash schedule portfolio",
+        "observed": "Schedule45 days/1.25, defaultS100: short call model3.7673, pnl123.27"
+      },
+      {
+        "name": "Position JSON file import",
+        "observed": "Imported dated cash leg, American style and expiry scenario; pnl500"
+      },
+      {
+        "name": "Position JSON export preview",
+        "observed": "Parsed version1 JSON retains input legs, normalized cash schedule, market and elapsed scenario; derived values removed"
+      },
+      {
+        "name": "Market JSON file import",
+        "observed": "Template accepted;45 prices,4 quotes, source/as-of retained"
+      },
+      {
+        "name": "Market invalid date rejection",
+        "observed": "2026-02-30 rejected with visible date error"
+      },
+      {
+        "name": "Synthetic market/HV analysis",
+        "observed": "AsOf2026-10-02; HV8.7273% sample/20 returns/252; call volume600,put560,total1160; two curve paths"
+      },
+      {
+        "name": "Market export preview",
+        "observed": "Version1 source,45 prices and4 quotes retained"
+      },
+      {
+        "name": "Responsive page",
+        "observed": "scrollWidth=clientWidth=438; wide result/leg tables scroll inside containers"
+      },
+      {
+        "name": "Console errors",
+        "observed": "No error/warn entries after tested calculator interactions"
+      },
+      {
+        "name": "Current implementation report navigation",
+        "observed": "Report opens from lab; full coverage, all model evidence and nine pricing cases render; page fits438px viewport."
+      }
+    ],
+    "limits": [
+      "Blob download event did not fire in the in-app browser; exports provide persistent download links and copyable read-only JSON as a verified fallback.",
+      "Computer was not physically disconnected; local assets and CSP connect-src none are separately audited.",
+      "Original option-engine equivalence remains unproven."
+    ]
+  },
+  "original_tools_inventoried": 7,
+  "original_pdf_guides": 5,
+  "original_guide_pages": 18,
+  "original_full_equivalence": false,
+  "original_server_engines_offline": 0,
+  "original_frontend_resource_files": 26,
+  "authorization_jwt_leaks": [],
+  "modules": [
+    {
+      "module": 1,
+      "videos": 5,
+      "readings": 1,
+      "assignments": 6,
+      "questions": 36
+    },
+    {
+      "module": 2,
+      "videos": 4,
+      "readings": 3,
+      "assignments": 4,
+      "questions": 14
+    },
+    {
+      "module": 3,
+      "videos": 11,
+      "readings": 6,
+      "assignments": 11,
+      "questions": 43
+    },
+    {
+      "module": 4,
+      "videos": 5,
+      "readings": 3,
+      "assignments": 5,
+      "questions": 16
+    },
+    {
+      "module": 5,
+      "videos": 9,
+      "readings": 3,
+      "assignments": 8,
+      "questions": 15
+    }
+  ],
+  "errors": [],
+  "browser_checks": [
+    "Course search and video filter",
+    "Local Greeks video playback with English captions",
+    "Studied marker survives reload",
+    "Local answer selection survives reload and can be cleared",
+    "Progress JSON export creates a valid file and import restores a studied marker",
+    "Option price/Greeks, implied volatility, covered put payoff and futures margin UI",
+    "OIC archive navigation, comparison table and original guide link",
+    "New Alpha row renders locally; IV inversion of 13.7343 returns 50.214585%",
+    "Archive comparison page fits the default 438px viewport without page overflow"
+  ],
+  "limits": [
+    "ffprobe container/stream inspection, not full decoding of every frame",
+    "Only currently accessible assignment variants",
+    "Browser validation used loopback HTTP; direct file navigation is unsupported by the in-app browser",
+    "External source restrictions listed separately"
+  ]
+}

@@ -1,0 +1,37 @@
+The concept of a forward
+market is based on participants facilitating
+the purchase and sale of products that
+will not be produced or won't be available until some specific time in the future. In general, whether
+you're a speculator willing to assume risk in
+order to make a profit, or you're an investor
+who's adopting a hedging strategy to
+protect a position, futures allow you to lock
+into prevailing prices. The forward or future price
+must take into account multiple factors that can
+influence the price of the product and the structure
+of the end product, whether physical or
+purely financial, must be clearly specified
+in the contract. Over many decades,
+exchange traded futures contracts have grown into popular investment vehicle. Any futures market is based
+on some underlying product, often a physical commodity and offer producers and
+end users the ability to hedge against
+adverse price movements in the value of the end product. Some other products available on global futures markets include metals such as gold and silver. Energy-related products such as crude oil and natural gas. Grains such as corn, soy beans, and rice. Soft commodities such as coffee, cocoa, sugar, and frozen
+concentrated orange juice, as well as financial products,
+including interest rates, currencies, and equity indices, among several others in
+each of these category. Sellers of these
+products may wish to lock into as higher prices as possible to make sure that at least they make
+a profit at the minimum, or at worst, that they cover
+the cost of production. While end users may wish to hedge against rising prices
+in order to ensure a reasonable price
+for any commodity and control as best they
+can the cost they face. The more producers,
+buyers and sellers and hedgers that interact
+in any futures market, the more speculators
+are drawn in. Creating additional liquidity and generally improving
+market conditions. In this module we'll
+introduce you to some of the risks faced by investors
+in the futures market. How certain of those
+risks are mitigated, as well as the difference between spot and forward prices, and contango and backwardation. We'll also provide you
+with other insights about the mechanics
+of trading futures, including the roles of
+commoditized contracts, as well as margin requirements. Come back and join us.

@@ -1,0 +1,106 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Similar to how a movie derivative’s value would be based on the future box office performance of a film, traders use options to speculate on the future performance of:\n</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Stocks</span></span></p></div>",
+      "<div><p><span><span>Bonds</span></span></p></div>",
+      "<div><p><span><span>All of these</span></span></p></div>",
+      "<div><p><span><span>Indexes</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>Buyers and sellers of stock options typically conduct the same fundamental and / or technical analysis that fixed income portfolio managers use.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>Which term is NOT associated with a buyer of an options contract?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Owner</span></span></p></div>",
+      "<div><p><span><span>Writer</span></span></p></div>",
+      "<div><p><span><span>Holder</span></span></p></div>",
+      "<div><p><span><span>Long an option position</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>A holder of a call option contract has the obligation to buy shares at, or before, that contract expires.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>A put option contract on the underlying stock of Houston-based company Texas Petroleum (ticker “TPM”) has a strike price of $2.50 and expires in March 2021. Which is the correct way to express the key components of this contract?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>TPM Mar'21 2.50 Put</span></span></p></div>",
+      "<div><p><span><span>TPM Mar Put 2.50</span></span></p></div>",
+      "<div><p><span><span>TPM 2.50 Mar 2021 Put</span></span></p></div>",
+      "<div><p><span><span>TPM Put Mar 2021 2.50</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 6,
+    "prompt_html": "<div><p><span><span>How many shares of stock would I expect to receive if I buy five call option contracts and exercise my right to purchase them at a strike price of $2.50, when the market price for the shares is $2.75?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>250 shares </span></span></p></div>",
+      "<div><p><span><span>None</span></span></p></div>",
+      "<div><p><span><span>100 shares</span></span></p></div>",
+      "<div><p><span><span>500 shares</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 7,
+    "prompt_html": "<div><p><span><span>I sold four TMP Mar 2.50 Calls to a buyer, when the market price for the underlying TMP shares were worth $2.00 apiece. Although the buyer of these contracts did not exercise their right to purchase the shares, the prevailing market price for TPM has moved to 2.25 over the life of the contracts, which have now expired. At this point, how many shares would I need to deliver to the buyer?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>400 shares </span></span></p></div>",
+      "<div><p><span><span>None</span></span></p></div>",
+      "<div><p><span><span>200 shares</span></span></p></div>",
+      "<div><p><span><span>500 shares</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 8,
+    "prompt_html": "<div><p><span><span>Call options and put options on U.S.-based oil giant Texas Petroleum (ticker “TPM”) are referred to as two separate options series.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 9,
+    "prompt_html": "<div><p><span><span> Before buying or selling an option, investors are required to read:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Introduction to Standardized Options Trading by Sam Kingsman </span></span></p></div>",
+      "<div><p><span><span>A Primer on Options Strategies and Critical Risks by Carol Bernhardt</span></span></p></div>",
+      "<div><p><span><span>The Characteristics and Mechanics of the Options Market</span></span></p></div>",
+      "<div><p><span><span>The Characteristics and Risks of Standardized Options</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 10,
+    "prompt_html": "<div><p><span><span>If, as a seller of a call option, you need to buy shares in the open market in order to deliver them to the contract holder, you could face:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>No risk because you are unhedged</span></span></p></div>",
+      "<div><p><span><span>Limited losses given the stock held in your portfolio</span></span></p></div>",
+      "<div><p><span><span>Unlimited losses</span></span></p></div>",
+      "<div><p><span><span>Unlimited gains</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

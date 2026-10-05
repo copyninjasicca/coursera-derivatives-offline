@@ -1,0 +1,371 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-10-05T15:09:38.652Z",
+  "model": "Independent CRR / explicit escrowed cash-dividend approximation",
+  "originalEngineReproduced": false,
+  "checks": 91,
+  "references": [
+    {
+      "name": "Andersen-Lake-Offengenden premium r=5%",
+      "type": "put",
+      "args": {
+        "S": 100,
+        "K": 100,
+        "T": 1,
+        "sigma": 0.25,
+        "r": 0.05,
+        "q": 0.05,
+        "steps": 4000
+      },
+      "premium": true,
+      "expected": 0.1069526779971959,
+      "tolerance": 0.001,
+      "source": "https://github.com/lballabio/QuantLib/blob/master/test-suite/americanoption.cpp",
+      "sourceTest": "testAndersenLakeHighPrecisionExample",
+      "actual": 0.10644892120816074,
+      "modelPrice": 9.568941517375242,
+      "error": -0.0005037567890351646
+    },
+    {
+      "name": "Andersen-Lake-Offengenden premium r=7.5%",
+      "type": "put",
+      "args": {
+        "S": 100,
+        "K": 100,
+        "T": 1,
+        "sigma": 0.25,
+        "r": 0.075,
+        "q": 0.05,
+        "steps": 4000
+      },
+      "premium": true,
+      "expected": 0.3671111267813689,
+      "tolerance": 0.001,
+      "source": "https://github.com/lballabio/QuantLib/blob/master/test-suite/americanoption.cpp",
+      "sourceTest": "testAndersenLakeHighPrecisionExample",
+      "actual": 0.366787879982196,
+      "modelPrice": 8.584612475788786,
+      "error": -0.0003232467991729493
+    },
+    {
+      "name": "No-dividend American call",
+      "type": "call",
+      "args": {
+        "S": 100,
+        "K": 100,
+        "T": 1,
+        "sigma": 0.25,
+        "r": 0.05,
+        "q": 0,
+        "steps": 4000
+      },
+      "expected": 12.335998930368724,
+      "tolerance": 0.001,
+      "source": "https://github.com/lballabio/QuantLib/blob/master/test-suite/americanoption.cpp",
+      "sourceTest": "testQdAmericanEngines edge case",
+      "actual": 12.335380937854122,
+      "modelPrice": 12.335380937854122,
+      "error": -0.0006179925146021503
+    },
+    {
+      "name": "Zero-volatility call",
+      "type": "call",
+      "args": {
+        "S": 100,
+        "K": 50,
+        "T": 1,
+        "sigma": 0,
+        "r": 0.05,
+        "q": 0.01,
+        "steps": 4000
+      },
+      "expected": 51.44351214988111,
+      "tolerance": 1e-10,
+      "source": "https://github.com/lballabio/QuantLib/blob/master/test-suite/americanoption.cpp",
+      "sourceTest": "testQdAmericanEngines edge case",
+      "actual": 51.44351214988111,
+      "modelPrice": 51.44351214988111,
+      "error": 0
+    },
+    {
+      "name": "Deterministic interior optimal exercise",
+      "type": "put",
+      "args": {
+        "S": 100,
+        "K": 120,
+        "T": 40,
+        "sigma": 0,
+        "r": 0.01,
+        "q": 0.5,
+        "steps": 4000
+      },
+      "expected": 108.9809045611846,
+      "tolerance": 1e-10,
+      "source": "https://github.com/lballabio/QuantLib/blob/master/test-suite/americanoption.cpp",
+      "sourceTest": "testQdAmericanEngines edge case",
+      "actual": 108.98090456118459,
+      "modelPrice": 108.98090456118459,
+      "error": -1.4210854715202004e-14
+    },
+    {
+      "name": "Hull cash-dividend European reference",
+      "type": "call",
+      "args": {
+        "S": 40,
+        "K": 40,
+        "T": 0.5,
+        "sigma": 0.3,
+        "r": 0.09,
+        "q": 0,
+        "exercise": "european",
+        "dividends": [
+          {
+            "timeYears": 0.16666666666666666,
+            "amount": 0.5
+          },
+          {
+            "timeYears": 0.4166666666666667,
+            "amount": 0.5
+          }
+        ],
+        "steps": 4000
+      },
+      "expected": 3.67,
+      "tolerance": 0.01,
+      "source": "https://github.com/lballabio/QuantLib/blob/master/test-suite/dividendoption.cpp",
+      "sourceTest": "testEuropeanKnownValue; Actual360 source inputs converted to fractional years",
+      "actual": 3.671371468049254,
+      "modelPrice": 3.671371468049254,
+      "error": 0.0013714680492542541
+    }
+  ],
+  "convergence": [
+    {
+      "args": {
+        "S": 100,
+        "K": 100,
+        "T": 1,
+        "r": 0.05,
+        "q": 0,
+        "sigma": 0.2,
+        "steps": 1000
+      },
+      "rows": [
+        {
+          "steps": 100,
+          "call": 10.430611662249667,
+          "put": 6.082354409142235,
+          "callChange": null,
+          "putChange": null
+        },
+        {
+          "steps": 400,
+          "call": 10.445585841286523,
+          "put": 6.088405897038023,
+          "callChange": 0.014974179036855162,
+          "putChange": 0.006051487895788021
+        },
+        {
+          "steps": 1000,
+          "call": 10.448584103762839,
+          "put": 6.089595282978479,
+          "callChange": 0.0029982624763160715,
+          "putChange": 0.0011893859404557006
+        }
+      ],
+      "europeanCall": 10.45058357218555,
+      "errors": [
+        0.019971909935883048,
+        0.004997730899027886,
+        0.0019994684227118142
+      ]
+    },
+    {
+      "args": {
+        "S": 80,
+        "K": 90,
+        "T": 0.5,
+        "r": 0.05,
+        "q": 0,
+        "sigma": 0.2,
+        "steps": 1000
+      },
+      "rows": [
+        {
+          "steps": 100,
+          "call": 1.8174739686001713,
+          "put": 10.39992579700669,
+          "callChange": null,
+          "putChange": null
+        },
+        {
+          "steps": 400,
+          "call": 1.8212194099978796,
+          "put": 10.400164083082164,
+          "callChange": 0.0037454413977082712,
+          "putChange": 0.00023828607547393688
+        },
+        {
+          "steps": 1000,
+          "call": 1.8200543566048306,
+          "put": 10.39953402338697,
+          "callChange": -0.0011650533930489537,
+          "putChange": -0.0006300596951938076
+        }
+      ],
+      "europeanCall": 1.8202934597689016,
+      "errors": [
+        0.0028194911687302593,
+        0.0009259502289780119,
+        0.0002391031640709418
+      ]
+    },
+    {
+      "args": {
+        "S": 120,
+        "K": 110,
+        "T": 2,
+        "r": 0.02,
+        "q": 0,
+        "sigma": 0.2,
+        "steps": 1000
+      },
+      "rows": [
+        {
+          "steps": 100,
+          "call": 21.12271109653322,
+          "put": 7.059749441741713,
+          "callChange": null,
+          "putChange": null
+        },
+        {
+          "steps": 400,
+          "call": 21.091918537686524,
+          "put": 7.0302442225549,
+          "callChange": -0.030792558846695073,
+          "putChange": -0.029505219186813036
+        },
+        {
+          "steps": 1000,
+          "call": 21.095039615794548,
+          "put": 7.0326323890855065,
+          "callChange": 0.003121078108023312,
+          "putChange": 0.0023881665306069166
+        }
+      ],
+      "europeanCall": 21.095276106404,
+      "errors": [
+        0.027434990129219017,
+        0.003357568717476056,
+        0.00023649060945274414
+      ]
+    },
+    {
+      "args": {
+        "S": 100,
+        "K": 100,
+        "T": 1,
+        "r": 0.05,
+        "q": 0.05,
+        "sigma": 0.2,
+        "steps": 1000
+      },
+      "rows": [
+        {
+          "steps": 100,
+          "call": 7.646614764588021,
+          "put": 7.64661476458803,
+          "callChange": null,
+          "putChange": null
+        },
+        {
+          "steps": 400,
+          "call": 7.658590929973578,
+          "put": 7.658590929973559,
+          "callChange": 0.011976165385557458,
+          "putChange": 0.011976165385529036
+        },
+        {
+          "steps": 1000,
+          "call": 7.660998962241594,
+          "put": 7.6609989622416,
+          "callChange": 0.0024080322680157806,
+          "putChange": 0.002408032268041538
+        },
+        {
+          "steps": 4000,
+          "call": 7.662206023629421,
+          "put": 7.66220602362935,
+          "callChange": 0.001207061387827224,
+          "putChange": 0.0012070613877499525
+        }
+      ]
+    },
+    {
+      "args": {
+        "S": 100,
+        "K": 100,
+        "T": 1,
+        "r": 0.05,
+        "q": 0,
+        "sigma": 0.2,
+        "steps": 1000,
+        "dividends": [
+          {
+            "timeYears": 0.3,
+            "amount": 2
+          },
+          {
+            "timeYears": 0.6,
+            "amount": 2
+          }
+        ]
+      },
+      "rows": [
+        {
+          "steps": 100,
+          "call": 8.08987109647603,
+          "put": 7.658900983106208,
+          "callChange": null,
+          "putChange": null
+        },
+        {
+          "steps": 400,
+          "call": 8.105430512851882,
+          "put": 7.664159026991302,
+          "callChange": 0.015559416375852564,
+          "putChange": 0.00525804388509421
+        },
+        {
+          "steps": 1000,
+          "call": 8.110381561112963,
+          "put": 7.666526726653598,
+          "callChange": 0.004951048261080615,
+          "putChange": 0.0023676996622956636
+        },
+        {
+          "steps": 4000,
+          "call": 8.110798594480205,
+          "put": 7.6662755619485,
+          "callChange": 0.00041703336724197015,
+          "putChange": -0.0002511647050980059
+        }
+      ]
+    }
+  ],
+  "groups": [
+    "Primary-source reference values (external cached research values; no original OIC engine comparison)",
+    "Convergence at 100/400/1000 steps, with 4000-step yield/cash checks",
+    "Greek accuracy and theta/day, vega/rho/1pp units; European tree parity",
+    "IV round trips, unsupported prices and non-unique exercise-price IV",
+    "Monotonicity, exercise around dividends, expiry, deterministic and low-volatility boundaries",
+    "Input validation and API overloads"
+  ],
+  "limitations": [
+    "No original OIC-engine numerical agreement claim.",
+    "Cash prices converge within the escrowed approximation, not to an exact fixed-cash-dividend jump-diffusion price.",
+    "Grid rounding retains cash present value but approximates exercise timing.",
+    "Lattice Greeks can oscillate near exercise boundaries; compare step counts.",
+    "Near-zero volatility and expiry return null Greeks; immediate exercise may make IV non-unique."
+  ]
+}

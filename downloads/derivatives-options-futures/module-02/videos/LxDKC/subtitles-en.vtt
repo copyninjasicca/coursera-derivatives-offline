@@ -1,0 +1,89 @@
+WEBVTT
+
+1
+00:00:05.222 --> 00:00:13.040
+[MUSIC]
+
+2
+00:00:20.844 --> 00:00:23.172
+In this module we're
+going to get technical,
+
+3
+00:00:23.172 --> 00:00:26.348
+as we teach you about the mechanics
+behind the options market.
+
+4
+00:00:26.348 --> 00:00:30.459
+Some investors may be satisfied knowing
+that call options are associated
+
+5
+00:00:30.459 --> 00:00:31.662
+with rising prices.
+
+6
+00:00:31.662 --> 00:00:35.710
+And that put options are associated
+with falling prices.
+
+7
+00:00:35.710 --> 00:00:40.014
+But behind the scenes there's a lot
+going on with how option prices move.
+
+8
+00:00:40.014 --> 00:00:44.867
+We'll start the module with a note about
+some algebraic logic behind options
+
+9
+00:00:44.867 --> 00:00:46.817
+known as, put/call parity.
+
+10
+00:00:46.817 --> 00:00:49.738
+And then we're going to take
+a deep dive into what factors
+
+11
+00:00:49.738 --> 00:00:52.610
+are important in determining
+the price of an option.
+
+12
+00:00:52.610 --> 00:00:56.875
+We'll also help you visualize the payout
+of an option trade with respect to
+
+13
+00:00:56.875 --> 00:00:58.917
+the price of the underlying asset.
+
+14
+00:00:58.917 --> 00:00:59.874
+And finally,
+
+15
+00:00:59.874 --> 00:01:04.911
+we'll walk you through a series of
+risk variables known as option Greeks.
+
+16
+00:01:04.911 --> 00:01:10.666
+These values are important since they tell
+investors how much or how little the value
+
+17
+00:01:10.666 --> 00:01:16.275
+of an option will change with respect to
+changes in price, time, or volatility.
+
+18
+00:01:16.275 --> 00:01:17.889
+Let's get started.
+
+19
+00:01:17.889 --> 00:01:21.466
+[MUSIC]

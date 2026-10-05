@@ -1,0 +1,53 @@
+From the watch list
+on the Monitor tab, click the underlying
+symbol you wish to create your options
+strangled tried for. As long as your tabs are part
+of the same Windows group, the underlying will appear
+in the order entry panel. To the right of the
+order entry panel, select a strategy builder
+from the dropdown menu. To the lower left
+of the strategy, Build a window, ensure
+the on button is active. If not, just click
+it to activate. Above you will see the
+option chain window populate with calls to the left and put to the right of the strike column in the
+middle of the display. Use the tabs above the call area to locate different
+expiration dates. Above the put display, use the strikes dropdown to fine tune the contracts
+displayed on screen. You will see the price
+and daily change of the underlying to the upper
+right of the window. Strategy builder has several predefined
+option combinations available from the
+strategy dropdown menu to the lower right of the screen. Reveal the list by clicking
+on the dropdown menu. Select Strangle from the list, and notice the icon shown
+in the lower part of the display instructing you to click on a leg to
+display the strangle. Notice that when the cursor is placed above the bid
+price of a call, the software
+automatically highlights the pertinent element for
+the rest of the combination. For a short strangle, TWS knows that sending
+a call requires the sale of a lower strike
+put at the same expiration. Hence, both legs display in red. Move the cursor above the
+Ask Price on a call and see the related leg on the put side also moves
+to the ask price. Locate the desired
+call strike you want to build your
+short strangled for. Scroll the mouse
+wheel up and you will see the call leg remain static, but the put leg widen
+to a lower strike. Scroll the mouse wheel down to narrow the legs and
+the combination. When you have correctly
+defined both legs, click on the bid price
+for the call side to move both call and put legs down
+to the strategy builder. Note that clicking
+on the ask price would have generated
+the long strangle. With both legs of the
+short strangling position below the bid ask column, you will see the price
+quote for the combination. This is the combined
+price of both legs and in the case of the short
+strangle represents a credit. Use the order entry panel at the bottom of the page
+to create your order. Define the quantity of strangle
+combinations to trade, choose the right order type
+from the dropdown menu. If using a limit price, choose the value by clicking in the input field or simply
+typing in the value. Select from the time
+enforced dropdown, whether this is a day or
+good till canceled order. Your order is ready to review. Click the "Submit" button to generate an order confirmation. When you have reviewed the
+details, click "Transmit". The order is sent
+for execution at the exchange and will appear in the activity panel to
+the lower left of mosaic. To pause or interact
+with an active order, click on it in the activity panel and make the relevant choice.

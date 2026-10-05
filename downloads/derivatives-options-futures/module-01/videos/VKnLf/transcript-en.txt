@@ -1,0 +1,60 @@
+[MUSIC] Now that we've covered some of the basic
+ideas that broadly defined stock options. Let's now address some specific terms and
+meanings as well as examine the roles and obligations of buyers and
+sellers of options contracts. A stock option is basically a contract
+whereby a buyer and seller agree to a specified number of shares of
+a particular stock at a fixed price. And over a defined period. There are two main types of
+option contracts, calls and puts. We'll explore how these types of options
+are used by traders in a later video. But for now,
+we can define a call contract, as one that gives the holder
+of the contract the right. But not the obligation to buy
+a stock at a predetermined price, over a given period of time. While a put option offers its holder the
+right but again not the obligation to sell the stock at a predetermined price,
+over a given period of time. Stock options have buyers and sellers not unlike any other
+other financial transaction. Each with their own responsibilities for
+their side of the contract. For example, if you purchase an options
+contract, you are then considered the holder or owner of that contract and
+long in an option position. As the contract owner again you have
+the right but not the obligation to buy or sell the underlying stock. Depending on the type of option that
+you've bought, whether a call or a put. And as a buyer you'll pay what is
+called a premium to the seller. We'll take a closer look at this premium
+in our next video, but for now you should keep in mind that this payment is the same
+as the market price for the contract. And this can fluctuate,
+with certain changes in market dynamics. Now as the contract owner, you have the choice to exercise your
+option under the terms of your agreement. That is you can take delivery or
+deliver, that certain number of underlying shares at or
+before the time the contract expires. Or you can let the contract
+expire at its expiration date, without exercising that right. The option holder also has the right
+to sell the option to another buyer, during the lifetime of the contract,
+or allow it to expire worthless. Now on the other side of
+the contract is the seller, who may be referred to as the contract
+writer, and short the option position. As the contract writer, you are obligated
+to fulfill the terms of your contract with its holder, should the buyer
+decide to exercise their right. The premium you receive from the buyer
+is essentially in exchange for this obligation. So what happens if a buyer
+exercises their right. Well, depending on the type of contract
+sold, you as an options contract writer. Would be required to either buy or sell the underlying shares at the
+predetermined price that was agreed upon. Since there are a lot of moving parts on
+options contract, let's map it all out. An options contract has two sides,
+a buyer and a seller. In the case of a call, the owner has a right to purchase
+stock at a predetermined fixed price. And for that right is exercised at or
+before expiry, the seller is required to sell that
+stock to the buyer at that price. Regardless of what that stocks price
+is in the market at that time. For a put option, the buyer has a right to
+sell stock at a predetermined fixed price. And if that right is exercised, the writer is obligated to buy
+it under the same conditions. So what happens in the event
+the option expires worthless. Well, if you're a buyer
+of an options contract, you're going to pay that
+premium to the writer. Or if the option expires worthless, that payment will end up
+being your maximum loss. Now, if you're the seller receiving this
+premium and an option expires worthless. This payment will be the most
+you'll gain from the transaction. However since options don't
+always expire worthless, there are several strategies a trader may
+use to generate income or mitigate risk. Or face other potential positive or
+adverse outcomes. And these will be discussed
+further along in the course. We'll also discuss how to
+calculate your breakeven point. That is determining at what price
+the underlying security in your options contract needs to be trading at. So that you don't lose or
+make any gain from your investment. In the meantime in our next video, we'll show you how you can identify
+options on a trading platform. And we'll also further define their
+key components and characteristics. We'll look forward to seeing you there.

@@ -1,0 +1,40 @@
+As you go through the
+examples that follow, you may notice that
+some strategies use different mixes of products, yet have similar risk
+reward structures. This is because the
+prices of puts and calls are inextricably
+linked to each other and the price of the
+underlying stock through an equation known
+as put-call parity. The call price plus the
+strike price is equal to the forward value of a stock
+price plus the put price. It is important to use the
+forward value of the stock, which is adjusted for
+interest rates and dividends, rather than strictly the
+current price of the stock. We can calculate the
+forward value this way. The forward value equals the current value multiplied by one plus the interest rate times the days until
+expiration divided by 365, less dividends. In a low rates environment, the forward value of
+a stock that pays no dividends is roughly
+equal to the current value. If interest rates are high
+or a stock is hard to borrow or the stock pays a dividend during the
+life of the option, the forward value may differ meaningfully from the
+current stock price. When we examined the
+put-call parity formula, simple algebra shows
+us to demonstrate how different structures
+have similar payoffs. For example, the call
+price is equal to the forward value minus the strike price
+plus the put price, that shows that the value
+of a call is the same as being longer stock
+and longer put. You will notice that those path graphs
+look quite similar. As you go through
+the study guide, keep this equation
+in mind when you see other similar looking graphs. If we structure the
+equation this way, we see that a long call
+and short put with the same strike and exploration creates a synthetic future. The forward value equals
+the strike price plus the call price minus
+the put price. The difference between
+the forward value and the current value of a stock is a function of
+interest rates and dividends. Because option
+prices are based on the forward value of
+the underlying product, it is crucial that options investors consider the effects of dividends and interest rates when implementing
+their strategies. Keep this in mind
+as we move forward.

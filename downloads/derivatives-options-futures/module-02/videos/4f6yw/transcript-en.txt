@@ -1,0 +1,143 @@
+Call options conveyed
+to the buyer the right, but not the obligation to
+purchase a set number of shares of an underlying assets
+at a predetermined price, known as the strike price, prior to the time that the
+option contract expires. A call option buyer
+does this with the expectation that the price of the underlying asset will rise at some point prior
+to expiration. The buyer of the option pays a premium to the
+seller for this right. For a call option,
+the premium can be shown as a fixed cost
+beneath the chart. If the market price of the underlying asset rises
+above the strike price, the cost of the premium is
+offset by an increase in the option's value and the option may become increasingly
+profitable. If not, an option, buyer can lose the
+entire premium. The option seller may have
+unlimited risk of loss. Options involved risk and are not suitable for all investors. For more information, read the characteristics and risks
+of standardized options. For a copy call 312-542-6901. Put options convey to
+the buyer the right, but not the obligation
+to sell a set number of shares of an underlying asset
+at a predetermined price, the strike price prior to the time that they
+option contract expires. A put option buyer does this with the expectation that the price of the underlying asset will fall at some point in the future. The buyer of the option pays a premium to the
+seller for this right. For a put option, the
+premium can be shown as a fixed cost
+beneath the chart. As the market price of the underlying asset decreases
+beneath the strike price, the cost of the premium is
+offset by an increase in the option's value and the option becomes
+increasingly profitable. Options provide investors
+with more leverage and thus more risk that
+is available with stocks given identical
+investments. Profits and losses are magnified. However, option holders,
+unlike shareholders, do not receive the underlying
+companies dividends or voting rights. For example, assume an
+investor buys 1,000 shares of Company XYZ Corp at $10 each for an initial capital
+outlay of $10,000. If the share price
+increase to $11, the investors capital
+would increase to $11,000 for a 10 percent gain. With option contracts at 10 percent move in the value
+of the underlying asset could translates into
+a larger increase or decrease in the
+price of the option. In the example, a
+premium of $0.50 is paid for a call option with
+a strike price of $10.25. If the market value of the underlying asset
+price rises to $11, the option value rises to $0.75 and can be sold for
+an increase of 50 percent. Option premiums and the
+subsequent changes in option values can be predicted
+through a pricing model, such as Black Shoals. Because we don't want to
+overwhelm you with formulas, we will simplify things by taking you through the basic inputs of an option pricing model
+and let you see how each input impacts
+an option's value. Standard inputs of an option pricing model
+are, strike price, interest rate,
+implied volatility, underlying asset price,
+and time to expiration. The strike price represents
+the predetermined price at which an option
+contract may be exercised, where a call option buyer can buy the underlying asset
+from an option seller or a put option buyer can sell the underlying asset
+to an option seller. Consider a company whose
+share price is $32.90. An investor who expects the share price to
+rise is considering buying a call option at
+strike prices of $33 or $35. The investor expects
+the share price to rise within the
+following 90 days. The question the
+investor faces is, what price should be paid for the rights conveyed
+by the call option. The probability of the
+share price rising to the $33 strike is greater than the probability of
+the shares rising to $35. Therefore, the premium costs for the $33 strike option
+would be higher than the premium cost of
+the $35 strike option. The opposite is true for put options since they
+convey selling rates. In this case, the
+price of a put option at the $28 strike would be more costly than a put option
+offering the right to sell at a lower $25 strike. The rate of interest
+is a factor in determining the premium
+cost of an option. That's because investors
+are faced with an allocation choice
+between various assets, including the risk-free rates of interest on government
+securities. Investors tend to set the
+value in the calculator at the rates available on government bills for the
+period of the option. While the rate of
+interest is a factor, it's significance in the
+current market is fairly low. Having already noted
+the importance of the relationship between underlying assets and strike
+price to an option's price, It would stand to reason
+that the outlook on future underlying
+asset price movements would affect the
+price of an option. The greater the forecasted
+price movements or implied volatility, the greater the probability that an option will increase
+or decrease in value. Therefore, the greater
+the implied volatility, the greater the potential for the option's price to change. Implied volatility does not suggest whether prices
+will go up or down, only that prices will move. Implied volatility or
+a future outlook on price movements should not be confused with
+historic volatility. While historic volatility may be a guide to determining
+an implied volatility, an options pricing model
+requires an estimate of implied volatility during
+the option contract period. Option market participants
+know the underlying price, strike price, interest rates, and number of days to expiration. Current option prices are readily available from
+the exchanges and therefore implied
+volatility can be backed into by an
+options pricing model. Knowing implied volatility
+across a range of different underlying
+assets, strike prices, call options and put options allows a trader to easily compare options and to determine if price opportunities
+exist in the market. The relationship between
+the strike price and the underlying asset will have a strong influence on
+the price of an option. For a call option, the higher the
+underlying asset price in relation to the strike price, the higher the option premium. The payout at exercise of
+the option is the difference between the underlying asset
+price and the strike price. Options with an
+underlying asset price below the strike are
+out of the money, at the strike are at the money, and above the strike
+are in the money. For a put option, the lower the
+underlying asset price in relation to the strike price, the higher the option premium. The payout to the exercise of the option is the difference between underlying asset
+price and the strike price. Options with an
+underlying asset price above the strike price are out of the money at the strike at the money and below the
+strike in the money. Remember that even though the
+option may be in the money, it may still result in
+a loss when considering both the premium and commission
+paid for the option. While we are not factoring these costs in for the
+sake of simplicity, they should be considered
+when determining the break-even point for
+the option contract. An option expiring today
+would be worth the amount by which it
+is in the money. If it is at the money, or out the money, then it has no current
+intrinsic value. An option that has time before expiration generally
+has extrinsic value. The extrinsic value represents
+the probability that an option's underlying
+asset value will move in the future, giving it the
+potential to produce an increase in intrinsic value. Of the more time
+until expiration, the greater the probability that an underlying asset move will increase an option's
+intrinsic value. Therefore, for both
+puts and calls, the greater the time
+until expiration, the greater the extrinsic value. An options premium or
+market value is equal to its intrinsic value plus
+its extrinsic value. At option expiration, there is no extrinsic value remaining and so the options
+market value will be equal to its intrinsic value. Two of the factors
+that could affect an options price are option
+style and dividends. Options style determines when
+an option can be exercised. American style options can be exercised at any time
+prior to, up to, and including the
+day of expiration, while European style options can only be exercised at expiration. All models in these lessons assume American style options, which is the most common
+type of US option. Dividends tend to affect
+an option's price most when there are changes in
+the dividend amount and around ex-dividend date due to the value of the dividend upon exercise up until the
+ex-dividend date. Now that we have covered
+the option pricing model, you should have a better
+understanding of how changes in all of the inputs may
+affect an option's price. You should also
+note that rarely do these inputs move in isolation.

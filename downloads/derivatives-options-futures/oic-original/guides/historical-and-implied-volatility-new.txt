@@ -1,0 +1,49 @@
+PAGE 1
+Implie
+d and Historical Volatility Chart
+IMPLIED VOLATILITY (IV30): Reﬂects market expectations for future volatility based on options premiums.
+HISTORICAL VOLATILITY (HV20): Measures past price ﬂuctuations over a 20-day period.
+ANALYSIS: This comparison of implied and historical volatility can directly impact options pricing. Implied 
+volatility is typically used to gauge potential price swings in the future, while historical volatility measures 
+past movements.
+Note: Both volatility measures are annualized for standardized comparison.
+Historical and Implied 
+Volatility Calculator
+Powered by IVolatility
+The Volatility Charts Tool, allows users to explore detailed analytics on any selected symbol, 
+including a price and volume chart, and a comparison of 30-day implied volatility (IV30) to 
+20-day historical volatility (HV20) for the past year. It also includes an analytical table with 
+parameters such as volatilies and correlation to the S&P 500®, enabling quick assessments 
+of trends, volatility, and potential movements in the asset
+Price and Volume Chart
+DATA PRESENTED: A daily price chart for the past year with trading volumes.
+DETAILS: Each data point represents a single trading day, and volume reﬂects the total number of shares 
+traded.
+PURPOSE: Quickly visualize price trends and volume dynamics, identifying any peaks or dips that might 
+inﬂuence trading decisions.
+PAGE 2
+The table provides key insights, such as: 
+HISTORICAL VOLATILITY (HV): Actual volatility experienced by the asset over speciﬁc periods.
+IMPLIED VOLATILITY (IV): Market-derived estimate of future volatility, based on recent options trades.
+IV INDEX CALL: Vega-weighted average implied volatility, using call options.
+IV INDEX PUT: Vega-weighted average implied volatility, using put options.
+IV INDEX MEAN: Average of the IV Index Call and IV Index Put, giving a balanced view of volatility.
+30-DAY HISTORICAL CORRELATION TO S&P 500: Shows the correlation over a 30-day period, balancing
+responsiveness to market changes and stability.
+Timeframes: Data is presented for the current day, past week, and over a year, with each metric
+Analytical Data Table
+PAGE 3
+Disclaimer
+The Historical and Implied Volatility Tool and 20-minute delayed options quotes are 
+provided by IVolatility, and NOT BY OCC. The tool is being provided for educational 
+purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the 
+information and this information should not be construed as a recommendation to purchase 
+or sell a security, or to provide investment advice. For more information or help, please 
+contact us at options@theocc.com.
+Options involve risks and are not suitable for everyone. Individuals should not enter into 
+options transactions until they have read and understood the risk disclosure document, 
+Characteristics and Risks of Standardized Options, available by visiting 
+OptionsEducation.org. To obtain a copy, contact your broker or The Options Industry 
+Council at 125 South Franklin Street, Chicago, IL 60606. Individuals should not enter into 
+options transactions until they have read and understood this document. Past 
+performance is not a guarantee of future results.

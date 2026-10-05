@@ -1,0 +1,2122 @@
+{
+  "title": "Derivatives - Options & Futures",
+  "provider": "Interactive Brokers",
+  "captured_on": "2026-10-05",
+  "items": [
+    {
+      "title": "All About Options - Overview",
+      "url": "/learn/derivatives-options-futures/lecture/uZR67/all-about-options-overview",
+      "id": "uZR67",
+      "module": 1,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "161.331995"
+        }
+      },
+      "cue_count": 52,
+      "offline_page": "module-01/videos/uZR67/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "All about Options - Overview",
+      "url": "/learn/derivatives-options-futures/assignment-submission/uhJRv/all-about-options-overview",
+      "id": "uhJRv",
+      "module": 1,
+      "kind": "exercise",
+      "status": "saved",
+      "question_count": 5,
+      "files": [
+        "questions.json"
+      ],
+      "answer_key_available": false,
+      "offline_page": "module-01/exercises/uhJRv/index.html"
+    },
+    {
+      "title": "What is an Option? - Overview",
+      "url": "/learn/derivatives-options-futures/lecture/SHCPN/what-is-an-option-overview",
+      "id": "SHCPN",
+      "module": 1,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "504.616009"
+        }
+      },
+      "cue_count": 195,
+      "offline_page": "module-01/videos/SHCPN/index.html",
+      "subtitle_render_adjustments": [
+        {
+          "original_end": 505.6,
+          "render_end": 504.616009
+        }
+      ]
+    },
+    {
+      "title": "What is an Option?",
+      "url": "/learn/derivatives-options-futures/assignment-submission/jUVGh/what-is-an-option",
+      "id": "jUVGh",
+      "module": 1,
+      "kind": "exercise",
+      "status": "saved",
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 5,
+      "answer_key_available": false,
+      "offline_page": "module-01/exercises/jUVGh/index.html"
+    },
+    {
+      "title": "Stock Option: Buyers, Sellers, Terms & Types",
+      "url": "/learn/derivatives-options-futures/lecture/VKnLf/stock-option-buyers-sellers-terms-types",
+      "id": "VKnLf",
+      "module": 1,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "303.020000"
+        }
+      },
+      "cue_count": 74,
+      "offline_page": "module-01/videos/VKnLf/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Options Terms, Types & Roles",
+      "url": "/learn/derivatives-options-futures/assignment-submission/l9fxu/options-terms-types-roles",
+      "id": "l9fxu",
+      "module": 1,
+      "kind": "exercise",
+      "status": "saved",
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 5,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-01/exercises/l9fxu/index.html"
+    },
+    {
+      "title": "Stock Options: Contract Components",
+      "url": "/learn/derivatives-options-futures/lecture/Lg48Z/stock-options-contract-components",
+      "id": "Lg48Z",
+      "module": 1,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "413.269002"
+        }
+      },
+      "cue_count": 152,
+      "offline_page": "module-01/videos/Lg48Z/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Options Contract Components",
+      "url": "/learn/derivatives-options-futures/assignment-submission/V1PMU/options-contract-components",
+      "id": "V1PMU",
+      "module": 1,
+      "kind": "exercise",
+      "status": "saved",
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 6,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-01/exercises/V1PMU/index.html"
+    },
+    {
+      "title": "Stock Options: Benefits & Risks",
+      "url": "/learn/derivatives-options-futures/lecture/IcgXv/stock-options-benefits-risks",
+      "id": "IcgXv",
+      "module": 1,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "242.027007"
+        }
+      },
+      "cue_count": 89,
+      "offline_page": "module-01/videos/IcgXv/index.html",
+      "subtitle_render_adjustments": [
+        {
+          "original_end": 243.04,
+          "render_end": 242.027007
+        }
+      ]
+    },
+    {
+      "title": "Stock Options:  Benefits & Risks",
+      "url": "/learn/derivatives-options-futures/assignment-submission/dYzlr/stock-options-benefits-risks",
+      "id": "dYzlr",
+      "module": 1,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 5,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-01/exercises/dYzlr/index.html"
+    },
+    {
+      "title": "Option Reference Material",
+      "url": "/learn/derivatives-options-futures/supplement/Q03sS/option-reference-material",
+      "id": "Q03sS",
+      "module": 1,
+      "kind": "reading",
+      "status": "saved",
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "https://www.optionseducation.org/theoptionseducationcenter/occ-learningOpens in a new tab",
+          "url": "https://www.optionseducation.org/theoptionseducationcenter/occ-learning"
+        },
+        {
+          "title": "http://www.theocc.com/about/publications/character-risks.jspOpens in a new tab",
+          "url": "http://www.theocc.com/about/publications/character-risks.jsp"
+        }
+      ],
+      "offline_page": "module-01/readings/Q03sS/index.html"
+    },
+    {
+      "title": "All About Options- Graded Assessment",
+      "url": "/learn/derivatives-options-futures/assignment-submission/019Z4/all-about-options-graded-assessment",
+      "id": "019Z4",
+      "module": 1,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 10,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-01/exercises/019Z4/index.html"
+    },
+    {
+      "title": "Options Market Mechanics Overview",
+      "url": "/learn/derivatives-options-futures/lecture/LxDKC/options-market-mechanics-overview",
+      "id": "LxDKC",
+      "module": 2,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "84.403991"
+        }
+      },
+      "cue_count": 19,
+      "offline_page": "module-02/videos/LxDKC/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Understanding Put-Call Parity",
+      "url": "/learn/derivatives-options-futures/lecture/hwwfE/understanding-put-call-parity",
+      "id": "hwwfE",
+      "module": 2,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "170.921995"
+        }
+      },
+      "cue_count": 56,
+      "offline_page": "module-02/videos/hwwfE/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Understanding Put-Call Parity",
+      "url": "/learn/derivatives-options-futures/assignment-submission/dVSFT/understanding-put-call-parity",
+      "id": "dVSFT",
+      "module": 2,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 2,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-02/exercises/dVSFT/index.html"
+    },
+    {
+      "title": "Option Valuation and Input Variables",
+      "url": "/learn/derivatives-options-futures/lecture/4f6yw/option-valuation-and-input-variables",
+      "id": "4f6yw",
+      "module": 2,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "654.430998"
+        }
+      },
+      "cue_count": 230,
+      "offline_page": "module-02/videos/4f6yw/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "OIC Option Calculator",
+      "url": "/learn/derivatives-options-futures/supplement/Yo7Er/oic-option-calculator",
+      "id": "Yo7Er",
+      "module": 2,
+      "kind": "reading",
+      "status": "saved",
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "https://www.optionseducation.org/toolsoptionquotes/optionscalculatorOpens in a new tab",
+          "url": "https://www.optionseducation.org/toolsoptionquotes/optionscalculator"
+        }
+      ],
+      "offline_page": "module-02/readings/Yo7Er/index.html"
+    },
+    {
+      "title": "Option Valuation and Input Variables",
+      "url": "/learn/derivatives-options-futures/assignment-submission/phTH3/option-valuation-and-input-variables",
+      "id": "phTH3",
+      "module": 2,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 5,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-02/exercises/phTH3/index.html"
+    },
+    {
+      "title": "Introduction to Options - The Greeks",
+      "url": "/learn/derivatives-options-futures/lecture/3QwcO/introduction-to-options-the-greeks",
+      "id": "3QwcO",
+      "module": 2,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "610.591995"
+        }
+      },
+      "cue_count": 197,
+      "offline_page": "module-02/videos/3QwcO/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "The Greeks",
+      "url": "/learn/derivatives-options-futures/supplement/Rnk8d/the-greeks",
+      "id": "Rnk8d",
+      "module": 2,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "click hereOpens in a new tab",
+          "url": "http://www.optionsclearing.com/about/publications/character-risks.jsp"
+        },
+        {
+          "title": "OptionsEducation.org Opens in a new tab",
+          "url": "https://optionseducation.org"
+        },
+        {
+          "title": "https://www.optionseducation.org/toolsoptionquotes/optionscalculatoOpens in a new tab",
+          "url": "https://www.optionseducation.org/toolsoptionquotes/optionscalculator"
+        },
+        {
+          "title": "click hereOpens in a new tab",
+          "url": "http://www.optionsclearing.com/about/publications/character-risks.jsp"
+        }
+      ],
+      "offline_page": "module-02/readings/Rnk8d/index.html"
+    },
+    {
+      "title": "Introduction to Options - The Greeks",
+      "url": "/learn/derivatives-options-futures/assignment-submission/bsiv5/introduction-to-options-the-greeks",
+      "id": "bsiv5",
+      "module": 2,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-02/exercises/bsiv5/index.html"
+    },
+    {
+      "title": "Introduction to Options-Graded",
+      "url": "/learn/derivatives-options-futures/assignment-submission/5O66G/introduction-to-options-graded",
+      "id": "5O66G",
+      "module": 2,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 4,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-02/exercises/5O66G/index.html"
+    },
+    {
+      "title": "Market Commentary - Option Articles",
+      "url": "/learn/derivatives-options-futures/supplement/55ncS/market-commentary-option-articles",
+      "id": "55ncS",
+      "module": 2,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/\r\nOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/"
+        },
+        {
+          "title": "\nOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/\rOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/\r\nOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/"
+        }
+      ],
+      "offline_page": "module-02/readings/55ncS/index.html"
+    },
+    {
+      "title": "Basic Option Strategies - Overview",
+      "url": "/learn/derivatives-options-futures/lecture/cdneB/basic-option-strategies-overview",
+      "id": "cdneB",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "69.358005"
+        }
+      },
+      "cue_count": 17,
+      "offline_page": "module-03/videos/cdneB/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Optional - Free Trial IBKR  Trader Workstation Account",
+      "url": "/learn/derivatives-options-futures/supplement/ozbIu/optional-free-trial-ibkr-trader-workstation-account",
+      "id": "ozbIu",
+      "module": 3,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [],
+      "offline_page": "module-03/readings/ozbIu/index.html"
+    },
+    {
+      "title": "Bull Market - Long Call",
+      "url": "/learn/derivatives-options-futures/lecture/ZmnOU/bull-market-long-call",
+      "id": "ZmnOU",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "84.033333"
+        }
+      },
+      "cue_count": 23,
+      "offline_page": "module-03/videos/ZmnOU/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Bull Market - Long Call",
+      "url": "/learn/derivatives-options-futures/supplement/dKqe8/bull-market-long-call",
+      "id": "dKqe8",
+      "module": 3,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [
+        {
+          "alt": "",
+          "src": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QL7uXIhJToS-7lyISW6E_Q_a939ac0ace574252977de05da780e124_long-call-image.jpg?expiry=1791290470660&hmac=Ht8hFuZHB1-POZfoR4Veeh_togxBA--seG3iR1pbkJs",
+          "file": "image-0.jpg"
+        }
+      ],
+      "files": [
+        "content.html",
+        "references.json",
+        "image-0.jpg"
+      ],
+      "references": [],
+      "offline_page": "module-03/readings/dKqe8/index.html"
+    },
+    {
+      "title": "Bull Market - Long Call",
+      "url": "/learn/derivatives-options-futures/assignment-submission/LmtfU/bull-market-long-call",
+      "id": "LmtfU",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 4,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/LmtfU/index.html"
+    },
+    {
+      "title": "Practical Usage - Bull Market - Long Call",
+      "url": "/learn/derivatives-options-futures/lecture/4115z/practical-usage-bull-market-long-call",
+      "id": "4115z",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "155.016009"
+        }
+      },
+      "cue_count": 53,
+      "offline_page": "module-03/videos/4115z/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Practical Usage - Bull Market - Long Call",
+      "url": "/learn/derivatives-options-futures/assignment-submission/VjaUv/practical-usage-bull-market-long-call",
+      "id": "VjaUv",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/VjaUv/index.html"
+    },
+    {
+      "title": "Bull Market - Short Put",
+      "url": "/learn/derivatives-options-futures/lecture/HR8xQ/bull-market-short-put",
+      "id": "HR8xQ",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "86.702993"
+        }
+      },
+      "cue_count": 24,
+      "offline_page": "module-03/videos/HR8xQ/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Bull Market - Short Put",
+      "url": "/learn/derivatives-options-futures/supplement/wHWtW/bull-market-short-put",
+      "id": "wHWtW",
+      "module": 3,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [
+        {
+          "alt": "",
+          "src": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/A3Fv0OwERg2I9rSXTKlhaA_e4ebc67ba0dd4874a51333c6fb5e07f1_2023-short-put.png?expiry=1791290478792&hmac=l7fXNHYlFszkDcFXiErzDQOjQ8Ut3Z8EFysH90-T8w0",
+          "file": "image-0.png"
+        }
+      ],
+      "files": [
+        "content.html",
+        "references.json",
+        "image-0.png"
+      ],
+      "references": [],
+      "offline_page": "module-03/readings/wHWtW/index.html"
+    },
+    {
+      "title": "Bull Market - Short Put",
+      "url": "/learn/derivatives-options-futures/assignment-submission/1qHGj/bull-market-short-put",
+      "id": "1qHGj",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 4,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/1qHGj/index.html"
+    },
+    {
+      "title": "Practical Usage - Bull Market - Short Put",
+      "url": "/learn/derivatives-options-futures/lecture/cvjFE/practical-usage-bull-market-short-put",
+      "id": "cvjFE",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "148.050000"
+        }
+      },
+      "cue_count": 50,
+      "offline_page": "module-03/videos/cvjFE/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Practical Usage - Bull Market - Short Put",
+      "url": "/learn/derivatives-options-futures/assignment-submission/1w4bx/practical-usage-bull-market-short-put",
+      "id": "1w4bx",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 2,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/1w4bx/index.html"
+    },
+    {
+      "title": "Bull Market - Covered Call",
+      "url": "/learn/derivatives-options-futures/lecture/sQsPT/bull-market-covered-call",
+      "id": "sQsPT",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "79.668005"
+        }
+      },
+      "cue_count": 16,
+      "offline_page": "module-03/videos/sQsPT/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Bull Market - Covered Call",
+      "url": "/learn/derivatives-options-futures/supplement/VmHW4/bull-market-covered-call",
+      "id": "VmHW4",
+      "module": 3,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [
+        {
+          "alt": "",
+          "src": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GHsLPT00TL2kQNAmoOwyLA_d8a7a5802dde4fc6b9f02f73dc85def1_2023-bull-covered-call.png?expiry=1791290486853&hmac=V5P7EWZUeIRmEIrpzMZf7r1D80mBdqwqd6yTLbKyLNY",
+          "file": "image-0.png"
+        }
+      ],
+      "files": [
+        "content.html",
+        "references.json",
+        "image-0.png"
+      ],
+      "references": [],
+      "offline_page": "module-03/readings/VmHW4/index.html"
+    },
+    {
+      "title": "Bull Market - Covered Call",
+      "url": "/learn/derivatives-options-futures/assignment-submission/KqZKt/bull-market-covered-call",
+      "id": "KqZKt",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/KqZKt/index.html"
+    },
+    {
+      "title": "Practical Usage - Bull Market - Covered Call",
+      "url": "/learn/derivatives-options-futures/lecture/WWhws/practical-usage-bull-market-covered-call",
+      "id": "WWhws",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "239.211995"
+        }
+      },
+      "cue_count": 83,
+      "offline_page": "module-03/videos/WWhws/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Practical Usage - Bull Market - Covered Call",
+      "url": "/learn/derivatives-options-futures/assignment-submission/wq1dm/practical-usage-bull-market-covered-call",
+      "id": "wq1dm",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/wq1dm/index.html"
+    },
+    {
+      "title": "Bear Market - Long Put",
+      "url": "/learn/derivatives-options-futures/lecture/njhi2/bear-market-long-put",
+      "id": "njhi2",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "150.441995"
+        }
+      },
+      "cue_count": 53,
+      "offline_page": "module-03/videos/njhi2/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Bear Market - Long Put",
+      "url": "/learn/derivatives-options-futures/supplement/9R3l9/bear-market-long-put",
+      "id": "9R3l9",
+      "module": 3,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [
+        {
+          "alt": "",
+          "src": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/99Huq-0_RymRmlMpcUkshg_cf6d6dc170d04c2ab584954a9e538cf1_2023-bear-long-put.png?expiry=1791290493932&hmac=K2F_qAT0jqE-sjAOcfn1OCWfwuRVE8rppUO9F2iich8",
+          "file": "image-0.png"
+        }
+      ],
+      "files": [
+        "content.html",
+        "references.json",
+        "image-0.png"
+      ],
+      "references": [],
+      "offline_page": "module-03/readings/9R3l9/index.html"
+    },
+    {
+      "title": "Bear Market - Long Put",
+      "url": "/learn/derivatives-options-futures/assignment-submission/8BMQg/bear-market-long-put",
+      "id": "8BMQg",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/8BMQg/index.html"
+    },
+    {
+      "title": "Practical Usage - Bear Market - Long Put",
+      "url": "/learn/derivatives-options-futures/lecture/3GcpZ/practical-usage-bear-market-long-put",
+      "id": "3GcpZ",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "155.016009"
+        }
+      },
+      "cue_count": 39,
+      "offline_page": "module-03/videos/3GcpZ/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Practical Usage - Bear Market - Long Put",
+      "url": "/learn/derivatives-options-futures/assignment-submission/Ae0Hf/practical-usage-bear-market-long-put",
+      "id": "Ae0Hf",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/Ae0Hf/index.html"
+    },
+    {
+      "title": "Bear Market - Covered Put",
+      "url": "/learn/derivatives-options-futures/lecture/qp12Y/bear-market-covered-put",
+      "id": "qp12Y",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "79.017007"
+        }
+      },
+      "cue_count": 22,
+      "offline_page": "module-03/videos/qp12Y/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Bear Market - Covered Put",
+      "url": "/learn/derivatives-options-futures/supplement/AJzSB/bear-market-covered-put",
+      "id": "AJzSB",
+      "module": 3,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [
+        {
+          "alt": "",
+          "src": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/YO7_SwIWTbm8qDk1uN9Nbw_d3e5d9150cc940ada2bc4c72f11269f1_2023-bear-cov-put.png?expiry=1791290502679&hmac=x8ngtOiE-qiLNFmmLGp-w98uljCNkSUe3D79qB_luR0",
+          "file": "image-0.png"
+        }
+      ],
+      "files": [
+        "content.html",
+        "references.json",
+        "image-0.png"
+      ],
+      "references": [],
+      "offline_page": "module-03/readings/AJzSB/index.html"
+    },
+    {
+      "title": "Bear Market - Covered Put",
+      "url": "/learn/derivatives-options-futures/assignment-submission/tkww0/bear-market-covered-put",
+      "id": "tkww0",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/tkww0/index.html"
+    },
+    {
+      "title": "Practical Usage - Bear Market - Covered Put",
+      "url": "/learn/derivatives-options-futures/lecture/JLYGJ/practical-usage-bear-market-covered-put",
+      "id": "JLYGJ",
+      "module": 3,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "249.545011"
+        }
+      },
+      "cue_count": 85,
+      "offline_page": "module-03/videos/JLYGJ/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Practical Usage - Bear Market - Covered Put",
+      "url": "/learn/derivatives-options-futures/assignment-submission/qFWM6/practical-usage-bear-market-covered-put",
+      "id": "qFWM6",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 4,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/qFWM6/index.html"
+    },
+    {
+      "title": "Option Strategies - Graded Assessment",
+      "url": "/learn/derivatives-options-futures/assignment-submission/MsCT1/option-strategies-graded-assessment",
+      "id": "MsCT1",
+      "module": 3,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 11,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-03/exercises/MsCT1/index.html"
+    },
+    {
+      "title": "Neutral Market Strategies Overview",
+      "url": "/learn/derivatives-options-futures/lecture/vrw2z/neutral-market-strategies-overview",
+      "id": "vrw2z",
+      "module": 4,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "78.413991"
+        }
+      },
+      "cue_count": 22,
+      "offline_page": "module-04/videos/vrw2z/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Neutral Market - Short Straddle",
+      "url": "/learn/derivatives-options-futures/lecture/TWCPS/neutral-market-short-straddle",
+      "id": "TWCPS",
+      "module": 4,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "99.939002"
+        }
+      },
+      "cue_count": 21,
+      "offline_page": "module-04/videos/TWCPS/index.html",
+      "subtitle_render_adjustments": [
+        {
+          "original_end": 99.985,
+          "render_end": 99.939002
+        }
+      ]
+    },
+    {
+      "title": "Short Straddle",
+      "url": "/learn/derivatives-options-futures/supplement/pwE1L/short-straddle",
+      "id": "pwE1L",
+      "module": 4,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [
+        {
+          "alt": "",
+          "src": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iGGJbeAqTZmhiW3gKm2ZeQ_5718782e64da4bf4b515c1133d314240_short-straddle-image.jpg?expiry=1791290510316&hmac=bW2FlWTgX5vEJ9wuFPQ0NEpP4rI0QC4doLawU7NxTYc",
+          "file": "image-0.jpg"
+        }
+      ],
+      "files": [
+        "content.html",
+        "references.json",
+        "image-0.jpg"
+      ],
+      "references": [],
+      "offline_page": "module-04/readings/pwE1L/index.html"
+    },
+    {
+      "title": "Neutral Market - Short Straddle",
+      "url": "/learn/derivatives-options-futures/assignment-submission/zyzIS/neutral-market-short-straddle",
+      "id": "zyzIS",
+      "module": 4,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-04/exercises/zyzIS/index.html"
+    },
+    {
+      "title": "Practical Usage - Neutral Market - Short Straddle",
+      "url": "/learn/derivatives-options-futures/lecture/zrZ3Y/practical-usage-neutral-market-short-straddle",
+      "id": "zrZ3Y",
+      "module": 4,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "210.976009"
+        }
+      },
+      "cue_count": 52,
+      "offline_page": "module-04/videos/zrZ3Y/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Practical Usage - Neutral Market - Short Straddle",
+      "url": "/learn/derivatives-options-futures/assignment-submission/Cw2j3/practical-usage-neutral-market-short-straddle",
+      "id": "Cw2j3",
+      "module": 4,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 2,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-04/exercises/Cw2j3/index.html"
+    },
+    {
+      "title": "Neutral Market - Short Strangle",
+      "url": "/learn/derivatives-options-futures/lecture/AcXHU/neutral-market-short-strangle",
+      "id": "AcXHU",
+      "module": 4,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "98.870998"
+        }
+      },
+      "cue_count": 29,
+      "offline_page": "module-04/videos/AcXHU/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Short Strangle",
+      "url": "/learn/derivatives-options-futures/supplement/QAbaO/short-strangle",
+      "id": "QAbaO",
+      "module": 4,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [
+        {
+          "alt": "",
+          "src": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/2d86daucQU2fOnWrnGFNHg_ae1b4da57ee24bb5b3e2d54cd8810212_short-strangle-image.jpg?expiry=1791290520401&hmac=R2lXsTPGZ-uxHlpWQl3d9P7UItzQmE2MbLH6AQDs02I",
+          "file": "image-0.jpg"
+        }
+      ],
+      "files": [
+        "content.html",
+        "references.json",
+        "image-0.jpg"
+      ],
+      "references": [],
+      "offline_page": "module-04/readings/QAbaO/index.html"
+    },
+    {
+      "title": "Neutral Market - Short Strangle",
+      "url": "/learn/derivatives-options-futures/assignment-submission/GsXCw/neutral-market-short-strangle",
+      "id": "GsXCw",
+      "module": 4,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 3,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-04/exercises/GsXCw/index.html"
+    },
+    {
+      "title": "Practical Usage - Neutral Market - Short Strangle",
+      "url": "/learn/derivatives-options-futures/lecture/StcFu/practical-usage-neutral-market-short-strangle",
+      "id": "StcFu",
+      "module": 4,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "227.207007"
+        }
+      },
+      "cue_count": 77,
+      "offline_page": "module-04/videos/StcFu/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Practical Usage - Neutral Market - Short Strangle",
+      "url": "/learn/derivatives-options-futures/assignment-submission/PYGSP/practical-usage-neutral-market-short-strangle",
+      "id": "PYGSP",
+      "module": 4,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 2,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-04/exercises/PYGSP/index.html"
+    },
+    {
+      "title": "Additional Reading Material from Traders’ Insight",
+      "url": "/learn/derivatives-options-futures/supplement/Oq2QV/additional-reading-material-from-traders-insight",
+      "id": "Oq2QV",
+      "module": 4,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/"
+        }
+      ],
+      "offline_page": "module-04/readings/Oq2QV/index.html"
+    },
+    {
+      "title": "Neutral Market Strategies - Graded Assessment",
+      "url": "/learn/derivatives-options-futures/assignment-submission/7NdO8/neutral-market-strategies-graded-assessment",
+      "id": "7NdO8",
+      "module": 4,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 6,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-04/exercises/7NdO8/index.html"
+    },
+    {
+      "title": "Mechanics of the Futures Market Overview",
+      "url": "/learn/derivatives-options-futures/lecture/jNuPf/mechanics-of-the-futures-market-overview",
+      "id": "jNuPf",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "172.152993"
+        }
+      },
+      "cue_count": 60,
+      "offline_page": "module-05/videos/jNuPf/index.html",
+      "subtitle_render_adjustments": [
+        {
+          "original_end": 173.14,
+          "render_end": 172.152993
+        }
+      ]
+    },
+    {
+      "title": "Futures - Overview",
+      "url": "/learn/derivatives-options-futures/assignment-submission/ZR8FZ/futures-overview",
+      "id": "ZR8FZ",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 1,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/ZR8FZ/index.html"
+    },
+    {
+      "title": "A Word About Risk",
+      "url": "/learn/derivatives-options-futures/lecture/wDfmh/a-word-about-risk",
+      "id": "wDfmh",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "235.472993"
+        }
+      },
+      "cue_count": 84,
+      "offline_page": "module-05/videos/wDfmh/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "A Word About Risk",
+      "url": "/learn/derivatives-options-futures/assignment-submission/BQLZH/a-word-about-risk",
+      "id": "BQLZH",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 1,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/BQLZH/index.html"
+    },
+    {
+      "title": "Futures Pricing: The Basis",
+      "url": "/learn/derivatives-options-futures/assignment-submission/Nj1tb/futures-pricing-the-basis",
+      "id": "Nj1tb",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 1,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/Nj1tb/index.html"
+    },
+    {
+      "title": "New Video",
+      "url": "/learn/derivatives-options-futures/lecture/2v5yO/new-video",
+      "id": "2v5yO",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "140.550000"
+        }
+      },
+      "cue_count": 48,
+      "offline_page": "module-05/videos/2v5yO/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Futures Prices: Contango & Backwardation",
+      "url": "/learn/derivatives-options-futures/lecture/kbuOV/futures-prices-contango-backwardation",
+      "id": "kbuOV",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "125.225100"
+        }
+      },
+      "cue_count": 26,
+      "offline_page": "module-05/videos/kbuOV/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Backwardation and Contango",
+      "url": "/learn/derivatives-options-futures/assignment-submission/5lIrj/backwardation-and-contango",
+      "id": "5lIrj",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 1,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/5lIrj/index.html"
+    },
+    {
+      "title": "A Closer Look at Contracts",
+      "url": "/learn/derivatives-options-futures/lecture/Q9QET/a-closer-look-at-contracts",
+      "id": "Q9QET",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "172.941995"
+        }
+      },
+      "cue_count": 39,
+      "offline_page": "module-05/videos/Q9QET/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "A Closer Look at Contracts",
+      "url": "/learn/derivatives-options-futures/assignment-submission/TSm1T/a-closer-look-at-contracts",
+      "id": "TSm1T",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 1,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/TSm1T/index.html"
+    },
+    {
+      "title": "Additional Resources",
+      "url": "/learn/derivatives-options-futures/supplement/2AsvI/additional-resources",
+      "id": "2AsvI",
+      "module": 5,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "https://www.cmegroup.com/education/courses/introduction-to-futures.htmlOpens in a new tab",
+          "url": "https://www.cmegroup.com/education/courses/introduction-to-futures.html"
+        },
+        {
+          "title": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract.htmlOpens in a new tab",
+          "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract.html"
+        }
+      ],
+      "offline_page": "module-05/readings/2AsvI/index.html"
+    },
+    {
+      "title": "Futures Margin",
+      "url": "/learn/derivatives-options-futures/lecture/dKPvw/futures-margin",
+      "id": "dKPvw",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "154.157007"
+        }
+      },
+      "cue_count": 52,
+      "offline_page": "module-05/videos/dKPvw/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Futures Margin",
+      "url": "/learn/derivatives-options-futures/assignment-submission/Y6qan/futures-margin",
+      "id": "Y6qan",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 1,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/Y6qan/index.html"
+    },
+    {
+      "title": "Margin: Know What's Needed",
+      "url": "/learn/derivatives-options-futures/supplement/ZwdJE/margin-know-whats-needed",
+      "id": "ZwdJE",
+      "module": 5,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.htmlOpens in a new tab",
+          "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html"
+        }
+      ],
+      "offline_page": "module-05/readings/ZwdJE/index.html"
+    },
+    {
+      "title": "Futures Contract Demo",
+      "url": "/learn/derivatives-options-futures/lecture/5gSxC/futures-contract-demo",
+      "id": "5gSxC",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "293.105011"
+        }
+      },
+      "cue_count": 96,
+      "offline_page": "module-05/videos/5gSxC/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Futures Contract Demo",
+      "url": "/learn/derivatives-options-futures/assignment-submission/Nh1vl/futures-contract-demo",
+      "id": "Nh1vl",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 1,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/Nh1vl/index.html"
+    },
+    {
+      "title": "Mechanics of Futures - Graded Assessment",
+      "url": "/learn/derivatives-options-futures/assignment-submission/mM2bU/mechanics-of-futures-graded-assessment",
+      "id": "mM2bU",
+      "module": 5,
+      "kind": "exercise",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "questions.json"
+      ],
+      "question_count": 8,
+      "answer_key_available": false,
+      "question_bank_scope": "Current visible attempt only",
+      "offline_page": "module-05/exercises/mM2bU/index.html"
+    },
+    {
+      "title": "IBKR Traders’ Insight Articles and Videos",
+      "url": "/learn/derivatives-options-futures/supplement/s0n03/ibkr-traders-insight-articles-and-videos",
+      "id": "s0n03",
+      "module": 5,
+      "kind": "reading",
+      "status": "saved",
+      "image_assets": [],
+      "files": [
+        "content.html",
+        "references.json"
+      ],
+      "references": [
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/"
+        },
+        {
+          "title": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/"
+        }
+      ],
+      "offline_page": "module-05/readings/s0n03/index.html"
+    },
+    {
+      "title": "Derivatives Conclusion",
+      "url": "/learn/derivatives-options-futures/lecture/1Zhmr/derivatives-conclusion",
+      "id": "1Zhmr",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "107.693991"
+        }
+      },
+      "cue_count": 24,
+      "offline_page": "module-05/videos/1Zhmr/index.html",
+      "subtitle_render_adjustments": []
+    },
+    {
+      "title": "Conclusion of Specialization",
+      "url": "/learn/derivatives-options-futures/lecture/kMSPP/conclusion-of-specialization",
+      "id": "kMSPP",
+      "module": 5,
+      "kind": "video",
+      "status": "saved",
+      "files": [
+        "video-720p.mp4",
+        "subtitles-en.vtt",
+        "transcript-en.txt"
+      ],
+      "media_validation": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "136.858005"
+        }
+      },
+      "cue_count": 52,
+      "offline_page": "module-05/videos/kMSPP/index.html",
+      "subtitle_render_adjustments": []
+    }
+  ],
+  "question_total": 124,
+  "offline_tools": [
+    {
+      "name": "Independent European / American option price, cash dividends & Greeks",
+      "page": "tools/index.html#pricing",
+      "preservation": "Independent BSM / CRR / escrowed dividend models, not original server engine"
+    },
+    {
+      "name": "Expiry payoff explorer",
+      "page": "tools/index.html#payoff"
+    },
+    {
+      "name": "Put-call parity",
+      "page": "tools/index.html#parity"
+    },
+    {
+      "name": "Futures P&L and margin",
+      "page": "tools/index.html#futures"
+    },
+    {
+      "name": "GBM probabilities and barriers",
+      "page": "tools/index.html#probability"
+    },
+    {
+      "name": "Editable position scenarios",
+      "page": "tools/index.html#portfolio"
+    },
+    {
+      "name": "Imported market snapshots and historical volatility",
+      "page": "tools/index.html#market"
+    }
+  ],
+  "original_tool_archive": {
+    "page": "oic-original/index.html",
+    "tool_count": 7,
+    "official_pdf_guides": 5,
+    "comparison": "oic-original/comparison.json",
+    "working_original_offline": false,
+    "preservation": "Original descriptions, guides, UI observations and observed frontend files; server calculation and market feeds required."
+  },
+  "implementation_reconciliation": {
+    "page": "reconciliation/index.html",
+    "evidence": "reconciliation/results.json",
+    "full_original_equivalence": false,
+    "model_evidence": [
+      "validation-report.json",
+      "oic-original/american-validation.json",
+      "oic-original/probability-validation.json",
+      "oic-original/portfolio-validation.json"
+    ],
+    "market_feed": "User imported dated snapshots only; example is synthetic; no IVX"
+  }
+}

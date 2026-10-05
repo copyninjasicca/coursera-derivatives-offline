@@ -1,0 +1,20 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Which TWS tool in the practical demo will allow you to select from pre-defined option combinations, such as the Straddle? </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>TWS Market Scanner </span></span></p></div>",
+      "<div><p><span><span>TWS Strategy Builder</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>True or false: Within Strategy Builder, users can access multiple pre-defined option combinations.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

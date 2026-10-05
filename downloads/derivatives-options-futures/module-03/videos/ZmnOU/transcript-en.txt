@@ -1,0 +1,15 @@
+A call option allows an investor to pay a fixed
+premium for the right, but not the obligation, to buy an asset at a predetermined price
+until expiration. The long call strategy might be useful for an investor who is bullish on either the markets or the price of a specific stock. Investors going long
+calls make profits if the price of the
+underlying shares rise above the combined value of the strike price and the
+net cost of the option. The payoff from a long call
+position is unlimited, increasing point for
+point with the stock if the price of the underlying
+shares moves higher. The loss potential is limited to the initial cost
+of the option. Investors face a maximum
+loss of the premium and any point at or
+below the strike price, above which point
+losses diminish. The value of a long call option
+is hurt by the passage of time and benefits from
+increases in volatility.

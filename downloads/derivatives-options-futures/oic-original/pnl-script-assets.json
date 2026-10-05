@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "script",
+    "url": "https://pnlcalc.ivolatility.com/position_analysis/polyfills-FFHMD2TL.js",
+    "file": "pnl-app/polyfills-FFHMD2TL.js",
+    "saved": true,
+    "bytes": 34519,
+    "sha256": "69dcea045643dd0de998a3cd0ccbbb46b46bff2651a87a56c73c28eb208e8f98"
+  },
+  {
+    "kind": "script",
+    "url": "https://pnlcalc.ivolatility.com/position_analysis/main-KHXKKBIE.js",
+    "file": "pnl-app/main-KHXKKBIE.js",
+    "saved": true,
+    "bytes": 659988,
+    "sha256": "86970b43c1046754eda7889afe7afa98765e7811d17bf07683b29ea47873c043"
+  }
+]

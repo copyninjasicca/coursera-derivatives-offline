@@ -1,0 +1,57 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>In broad terms, an option is a:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Stock</span></span></p></div>",
+      "<div><p><span><span>Financial guarantee</span></span></p></div>",
+      "<div><p><span><span>Type of fund</span></span></p></div>",
+      "<div><p><span><span>Derivative</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>Traders may use options: </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>To speculate on the future performance of a particular underlying stock.</span></span></p></div>",
+      "<div><p><span><span>To speculate on the future performance of a bond or index.</span></span></p></div>",
+      "<div><p><span><span>To speculate on the future performance of a foreign currency.</span></span></p></div>",
+      "<div><p><span><span>All of these.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>To help gauge whether a stock will rise or fall over a given period of time, buyers and sellers of stock options typically:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Consult with fixed income portfolio managers.</span></span></p></div>",
+      "<div><p><span><span>Conduct the same fundamental and / or technical analyses used by equity analysts.</span></span></p></div>",
+      "<div><p><span><span>Scan popular social media platforms.</span></span></p></div>",
+      "<div><p><span><span>The practice is forbidden under the Dodd–Frank Wall Street Reform and Consumer Protection Act.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>The main point of illustrating the movie derivative concept was to: </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Highlight how one financial instrument may derive its value based on the future performance of another financial instrument.</span></span></p></div>",
+      "<div><p><span><span>Show how investors may use derivatives to generate additional income.</span></span></p></div>",
+      "<div><p><span><span>Highlight the benefits of hedging a position.</span></span></p></div>",
+      "<div><p><span><span>Demonstrate the futility of conducting due diligence.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>Stock options traders are generally concerned with:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Tax incentives.</span></span></p></div>",
+      "<div><p><span><span>Financial guarantees.</span></span></p></div>",
+      "<div><p><span><span>Stock prices.</span></span></p></div>",
+      "<div><p><span><span>Inflation protection.</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

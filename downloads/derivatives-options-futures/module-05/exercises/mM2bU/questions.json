@@ -1,0 +1,81 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Which of the following is an example of an inter-commodity spread?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Corn futures versus copper futures.</span></span></p></div>",
+      "<div><p><span><span>The British pound currency future versus the Australian dollar currency future.</span></span></p></div>",
+      "<div><p><span><span>Nymex light sweet crude oil future versus the Brent crude oil future.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>Which of the following is the best description of the continuous futures contract?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The contract nearest to expiration</span></span></p></div>",
+      "<div><p><span><span>The contract favored by traders that gathers volume as expiration approaches</span></span></p></div>",
+      "<div><p><span><span>The contract with the greatest open interest</span></span></p></div>",
+      "<div><p><span><span>The second contract month</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>When forward prices fall below current market prices either on a short-term basis or for a sustained period, what is this called?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>backwardation</span></span></p></div>",
+      "<div><p><span><span>basis</span></span></p></div>",
+      "<div><p><span><span>contango</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>The role of a marketplace is to bring counterparties together and engage in price discovery. This process between a bank and its customer is often referred to as?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Over-the-Counter, or OTC trading</span></span></p></div>",
+      "<div><p><span><span>Bank Regulatory Agreement</span></span></p></div>",
+      "<div><p><span><span>Contra Account Separation</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>The purpose of an exchange facility, or transaction model, is to remove WHAT risk by creating and transferring risk to the single exchange entity, backed by the diverse financial standing of its members.  </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Counterparty</span></span></p></div>",
+      "<div><p><span><span>Forex</span></span></p></div>",
+      "<div><p><span><span>Derivative</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 6,
+    "prompt_html": "<div><p><span><span>To establish the margin requirement, exchanges typically calculate and post product price thresholds, that is the maximum permitted daily price move for a product, and use the value of that price change as the required margin. </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 7,
+    "prompt_html": "<div><p><span><span>The current market settles on a ‘spot’ basis, which is :</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>typically for immediate delivery, where ‘Immediate’ could mean two days</span></span></p></div>",
+      "<div><p><span><span>typically for delivery post-settlement</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 8,
+    "prompt_html": "<div><p><span><span>The difference between the cash or spot price and the forward or futures price is known as:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>spot+forward</span></span></p></div>",
+      "<div><p><span><span>basis</span></span></p></div>",
+      "<div><p><span><span>forward</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

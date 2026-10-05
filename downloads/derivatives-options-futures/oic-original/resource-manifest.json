@@ -1,0 +1,158 @@
+[
+  {
+    "file": "ivol-app/125.f5b88beba58bdb2c.js",
+    "bytes": 699522,
+    "sha256": "c9eb8b6134cc6a3f9d5961a5be8ee34e3906ebcc375eca6b9eddb40ee97ac1d0",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/42.eb4de08caf6ce22d.js",
+    "bytes": 57097,
+    "sha256": "e2567df910e8178b29370a1f738797bc1e6ad3336ebfd78b1f49345342d4d679",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/80.947d411d69b879d2.js",
+    "bytes": 14169,
+    "sha256": "80a296bfa7f568b211ee8ba18ef15f9f73de2abd32112eadb32fbeea2fe15e00",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/898.ef4c03d733bf199d.js",
+    "bytes": 19495,
+    "sha256": "be9c2091e3afd77d9eff6e272df6a7bf0bbb7e377f61bd412bbe5b49f6e31725",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/91.ee3c670cc52b4531.js",
+    "bytes": 15646,
+    "sha256": "c4d93a60d44368e1fe60e9d2a5f4ce1be4c8cea15e20b77b6560464cde91c445",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/chart.js",
+    "bytes": 208522,
+    "sha256": "48444a82d4edcb5bec0f1965faacdde18d9c17db3063d042abada2f705c9f54a",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/charting_library.standalone.js",
+    "bytes": 22261,
+    "sha256": "6fb887ce0dcd7873da95d9b11e8ac00b77e8f12e2e90a914fe3449c4dada9139",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/index.source.html.txt",
+    "bytes": 9966,
+    "sha256": "6db4ce1292205bd71b0470255e49f135c71eae5c189c70dfc4e15849e473f540",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/main.24fbe1366f1616c6.js",
+    "bytes": 7254676,
+    "sha256": "5b4fbe58711ca69583303dc1b5bf31c720fa826054009acb19705811c24cdda5",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/plotly-2.27.0.min.js",
+    "bytes": 3599142,
+    "sha256": "679a0fbd1ca883c81289ec5b3bdd83afe18fe4167d32858e99fb9e7003279655",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/polyfills.a0da34be25744a57.js",
+    "bytes": 118124,
+    "sha256": "413e7d839534e9a5a779cd26ea1b8b75eb6b97b441a09ce0bd73dcefa9b5dc88",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/runtime.a6bf2b1d349d6692.js",
+    "bytes": 3344,
+    "sha256": "9b6fdc326000bd3f1ad2fd15a42ee2567e09298858c37f04070b0aee094d14f9",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/styles.84acb39969822573.css",
+    "bytes": 879753,
+    "sha256": "160d417d8a65e75a33e2d3f889d1f9323b05f574f95e9ca0bc286134636a9204",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/1b87d10585c5fb87.woff",
+    "bytes": 16032,
+    "sha256": "6f41acc465a5d08ecea1f2796fc39c04b5bc3d9dcddfea331d70cbd7834aec71",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/3033f51ebdad2635",
+    "bytes": 4358,
+    "sha256": "d2ee2f62e7fe361af13988b116dfa62c38606e1ec5b8d2b2f9b1dd122324e45b",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/41bd7119c4c547b4.css",
+    "bytes": 879753,
+    "sha256": "160d417d8a65e75a33e2d3f889d1f9323b05f574f95e9ca0bc286134636a9204",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/4b666f57431e70e9.woff2",
+    "bytes": 12784,
+    "sha256": "84987d1827022c63c2caabe78fac714fd0c51e173fe38563e57c3c68e9da2b1f",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/84dcc96a2df091ce.ico",
+    "bytes": 2022,
+    "sha256": "04d8439c0468667e049f902ebba98788b3b4c82128f8d325beec85ccb1bda5f6",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/b86a2057e4cb7961.svg",
+    "bytes": 153,
+    "sha256": "be5e84321afd4dbe54a6298997d13664027539270771d454a76f177206615f44",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/bbe2ca1dcc87cc96.svg",
+    "bytes": 614,
+    "sha256": "6932d4acda203e2ea0e53b9b0d15f7d0ce1c8388dd2945d06b8c1975ddb384cc",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/c375cb9581bc7684.svg",
+    "bytes": 399,
+    "sha256": "26af6dcf49a6ad70169683c5c94ee2542412cae04529e269ef0e49d1dbd5069e",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "ivol-app/visual-assets/ceac2f2dcbba0de2",
+    "bytes": 16320,
+    "sha256": "6f8fe41015e60424be7f910fe536c2dba01f607cb6dc31587eaf13033783bad0",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "pnl-app/index.source.html.txt",
+    "bytes": 5902,
+    "sha256": "23c276c79fa1bd5853f9446d83bb8bd34757734491136884765a88e088575323",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "pnl-app/main-KHXKKBIE.js",
+    "bytes": 659988,
+    "sha256": "86970b43c1046754eda7889afe7afa98765e7811d17bf07683b29ea47873c043",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "pnl-app/polyfills-FFHMD2TL.js",
+    "bytes": 34519,
+    "sha256": "69dcea045643dd0de998a3cd0ccbbb46b46bff2651a87a56c73c28eb208e8f98",
+    "kind": "original_observed_frontend_resource"
+  },
+  {
+    "file": "pnl-app/styles-EZGQV7MU.css",
+    "bytes": 3647,
+    "sha256": "7edfaf69a0e3b049a28f8429b877d7a3b925f31b816ab9f490311adb932bb35e",
+    "kind": "original_observed_frontend_resource"
+  }
+]

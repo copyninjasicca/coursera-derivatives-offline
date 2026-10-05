@@ -1,0 +1,616 @@
+{
+  "generatedAt": "2026-10-05T15:09:43.486Z",
+  "model": "continuous GBM, default log drift r-q-sigma^2/2; explicit alternative zero log drift, ACT/365",
+  "checks": 1003,
+  "quadrature": [
+    {
+      "A": -0.2,
+      "B": 0.4,
+      "h": 0,
+      "both": 0.5306383259788521,
+      "reference": 0.5306383259788705,
+      "error": -1.84297022087776e-14,
+      "method": "spectral",
+      "truncationBound": 3.077303882507568e-24
+    },
+    {
+      "A": -0.7,
+      "B": 0.8,
+      "h": 0.7,
+      "both": 0.05084836577879688,
+      "reference": 0.05084836577989787,
+      "error": -1.100987356839056e-12,
+      "method": "spectral",
+      "truncationBound": 1.5761683687885063e-15
+    },
+    {
+      "A": -1.1,
+      "B": 1.4,
+      "h": -0.8,
+      "both": 0.0002522882655176528,
+      "reference": 0.00025228826558854544,
+      "error": -7.089261903209243e-14,
+      "method": "spectral",
+      "truncationBound": 5.519303606792508e-17
+    },
+    {
+      "A": -2.1,
+      "B": 2.3,
+      "h": 0.3,
+      "both": 1.640134694724793e-10,
+      "reference": 1.6292091325888806e-10,
+      "error": 1.0925562135912384e-12,
+      "method": "images",
+      "truncationBound": 5.885334147112929e-27
+    },
+    {
+      "A": -3,
+      "B": 2,
+      "h": 0,
+      "both": 2.5609514509028486e-12,
+      "reference": 5.935194880654394e-12,
+      "error": -3.374243429751545e-12,
+      "method": "images",
+      "truncationBound": 1.0731918678315243e-31
+    }
+  ],
+  "convergence": [
+    {
+      "D": 0.3,
+      "h": -3,
+      "error": 0,
+      "method": "spectral",
+      "terms": 1
+    },
+    {
+      "D": 0.3,
+      "h": -0.1,
+      "error": 0,
+      "method": "spectral",
+      "terms": 1
+    },
+    {
+      "D": 0.3,
+      "h": 0,
+      "error": 0,
+      "method": "spectral",
+      "terms": 1
+    },
+    {
+      "D": 0.3,
+      "h": 0.1,
+      "error": 0,
+      "method": "spectral",
+      "terms": 1
+    },
+    {
+      "D": 0.3,
+      "h": 3,
+      "error": 0,
+      "method": "spectral",
+      "terms": 1
+    },
+    {
+      "D": 0.9,
+      "h": -3,
+      "error": -1.2573969643270289e-13,
+      "method": "spectral",
+      "terms": 2
+    },
+    {
+      "D": 0.9,
+      "h": -0.1,
+      "error": -4.333200465111986e-13,
+      "method": "spectral",
+      "terms": 2
+    },
+    {
+      "D": 0.9,
+      "h": 0,
+      "error": 0,
+      "method": "spectral",
+      "terms": 2
+    },
+    {
+      "D": 0.9,
+      "h": 0.1,
+      "error": 4.4114711883480595e-13,
+      "method": "spectral",
+      "terms": 2
+    },
+    {
+      "D": 0.9,
+      "h": 3,
+      "error": 2.1577184483589917e-13,
+      "method": "spectral",
+      "terms": 2
+    },
+    {
+      "D": 2.2,
+      "h": -3,
+      "error": 0,
+      "method": "spectral",
+      "terms": 5
+    },
+    {
+      "D": 2.2,
+      "h": -0.1,
+      "error": 0,
+      "method": "spectral",
+      "terms": 5
+    },
+    {
+      "D": 2.2,
+      "h": 0,
+      "error": 0,
+      "method": "spectral",
+      "terms": 5
+    },
+    {
+      "D": 2.2,
+      "h": 0.1,
+      "error": 0,
+      "method": "spectral",
+      "terms": 5
+    },
+    {
+      "D": 2.2,
+      "h": 3,
+      "error": 0,
+      "method": "spectral",
+      "terms": 5
+    },
+    {
+      "D": 3.99999,
+      "h": -3,
+      "error": 1.386273457137932e-10,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 3.99999,
+      "h": -0.1,
+      "error": 5.000799774279585e-11,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 3.99999,
+      "h": 0,
+      "error": 1.9014789742755056e-12,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 3.99999,
+      "h": 0.1,
+      "error": -5.0156434561188235e-11,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 3.99999,
+      "h": 3,
+      "error": 1.1987161263604662e-11,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 4,
+      "h": -3,
+      "error": 1.386425904637001e-10,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 4,
+      "h": -0.1,
+      "error": 5.001310476870913e-11,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 4,
+      "h": 0,
+      "error": 1.9017010188804306e-12,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 4,
+      "h": 0.1,
+      "error": -5.016143056479905e-11,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 4,
+      "h": 3,
+      "error": 1.1988882109292831e-11,
+      "method": "spectral",
+      "terms": 10
+    },
+    {
+      "D": 4.00001,
+      "h": -3,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 4.00001,
+      "h": -0.1,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 4.00001,
+      "h": 0,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 4.00001,
+      "h": 0.1,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 4.00001,
+      "h": 3,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 7,
+      "h": -3,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 7,
+      "h": -0.1,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 7,
+      "h": 0,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 7,
+      "h": 0.1,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 7,
+      "h": 3,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 25,
+      "h": -3,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 25,
+      "h": -0.1,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 25,
+      "h": 0,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 25,
+      "h": 0.1,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    },
+    {
+      "D": 25,
+      "h": 3,
+      "error": 0,
+      "method": "images",
+      "terms": 3
+    }
+  ],
+  "monteCarlo": {
+    "paths": 120000,
+    "steps": 64,
+    "seed": "0x12345678",
+    "estimates": {
+      "price1": {
+        "estimate": 0.4644333333333333,
+        "standardError": 0.0014397193367175836
+      },
+      "price2": {
+        "estimate": 0.48678333333333335,
+        "standardError": 0.0014428713263322727
+      },
+      "both": {
+        "estimate": 0.06475833333333333,
+        "standardError": 0.0007104264658007788
+      },
+      "either": {
+        "estimate": 0.8864583333333333,
+        "standardError": 0.00091583275673574
+      },
+      "neither": {
+        "estimate": 0.11354166666666667,
+        "standardError": 0.00091583275673574
+      }
+    },
+    "bridgeDependenceErrorBound": 0.0000029442081887496993
+  },
+  "onlineComparison": {
+    "input": {
+      "symbol": "SPX:CBOE",
+      "spot": 100,
+      "ratePercent": 3,
+      "days": 180,
+      "hours": 12,
+      "minutes": 15,
+      "volatilityPercent": 20,
+      "dividendYieldPercent": 2,
+      "price1": 90,
+      "price2": 110,
+      "text": "Symbol\nLast Price\nInterest Rate\nExpiry\nTime to expiration\nVola\nDivYield\nP1\nP2\nConfirm\nProbabilities at the Future Date of the Underlying\nBelow Price 1\n23%\nBtw Price 1 & Price 2\n52%\nAbove Price 2\n25%\nProbability of Touching\nPrice 1\n45.38%\nPrice 2\n49.8%\nBoth\n6.97%\nEither\n53.77%\nNeither\n46.23%\nUnderlying Prices for each Standard Deviation Interval at the Future Date\n-3\n65.55\n-2\n75.45\n-1\n86.85\n+1\n115.06\n+2\n132.44\n+3\n152.44"
+    },
+    "offline": {
+      "time": 0.49454908675799086,
+      "model": {
+        "driftConvention": "risk-neutral",
+        "inputRate": 0.03,
+        "inputDividendYield": 0.02,
+        "effectiveRate": 0.03,
+        "logDrift": -0.010000000000000005,
+        "monitoring": "continuous",
+        "dayCount": "ACT/365"
+      },
+      "terminal": {
+        "lower": 90,
+        "upper": 110,
+        "below": 0.23763097832423544,
+        "between": 0.5243875894719467,
+        "above": 0.23798143220381787
+      },
+      "touching": {
+        "price1": 0.46578030159155315,
+        "price2": 0.48614738803204977,
+        "both": 0.0643995142025432,
+        "either": 0.8875281754210597,
+        "neither": 0.11247182457894034,
+        "numerical": {
+          "probability": 0.11247182457894034,
+          "method": "spectral",
+          "terms": 3,
+          "truncationBound": 2.931067861412957e-17
+        }
+      },
+      "intervals": {
+        "median": 99.5066717937911,
+        "mean": 100.49577399918603,
+        "logReturnMean": -0.0049454908675799075,
+        "logReturnSd": 0.1406483681751041,
+        "levels": [
+          {
+            "standardDeviations": 1,
+            "lower": 86.45087443027491,
+            "upper": 114.53415360723928,
+            "coverage": 0.682689492137086
+          },
+          {
+            "standardDeviations": 2,
+            "lower": 75.10806617316186,
+            "upper": 131.8310833439533,
+            "coverage": 0.9544997361036416
+          },
+          {
+            "standardDeviations": 3,
+            "lower": 65.25349386514154,
+            "upper": 151.7401926698471,
+            "coverage": 0.9973002039367398
+          }
+        ]
+      }
+    },
+    "zeroLogAlternative": {
+      "offline": {
+        "time": 0.49454908675799086,
+        "model": {
+          "driftConvention": "zero-log",
+          "inputRate": 0.03,
+          "inputDividendYield": 0.02,
+          "effectiveRate": 0.04000000000000001,
+          "logDrift": 0,
+          "monitoring": "continuous",
+          "dayCount": "ACT/365"
+        },
+        "terminal": {
+          "lower": 90,
+          "upper": 110,
+          "below": 0.22689670411380786,
+          "between": 0.5241060566662388,
+          "above": 0.2489972392199533
+        },
+        "touching": {
+          "price1": 0.4537934082276157,
+          "price2": 0.4979944784399066,
+          "both": 0.06418142086036728,
+          "either": 0.887606465807155,
+          "neither": 0.11239353419284503,
+          "numerical": {
+            "probability": 0.11239353419284505,
+            "method": "spectral",
+            "terms": 3,
+            "truncationBound": 2.8566364660117494e-17
+          }
+        },
+        "intervals": {
+          "median": 100.00000000000004,
+          "mean": 100.99400591695478,
+          "logReturnMean": 3.469446951953614e-18,
+          "logReturnSd": 0.1406483681751041,
+          "levels": [
+            {
+              "standardDeviations": 1,
+              "lower": 86.87947538776913,
+              "upper": 115.1019841610117,
+              "coverage": 0.682689492137086
+            },
+            {
+              "standardDeviations": 2,
+              "lower": 75.48043243653979,
+              "upper": 132.48466757801782,
+              "coverage": 0.9544997361036416
+            },
+            {
+              "standardDeviations": 3,
+              "lower": 65.57700372128532,
+              "upper": 152.49248109141888,
+              "coverage": 0.9973002039367398
+            }
+          ]
+        }
+      },
+      "residuals": {
+        "terminal": {
+          "below": {
+            "modelPercent": 22.689670411380785,
+            "displayedPercent": 23,
+            "residualPercentagePoints": -0.310329588619215,
+            "modelRoundedPercent": 23,
+            "matchesDisplay": true
+          },
+          "between": {
+            "modelPercent": 52.41060566662388,
+            "displayedPercent": 52,
+            "residualPercentagePoints": 0.41060566662388,
+            "modelRoundedPercent": 52,
+            "matchesDisplay": true
+          },
+          "above": {
+            "modelPercent": 24.899723921995328,
+            "displayedPercent": 25,
+            "residualPercentagePoints": -0.10027607800467209,
+            "modelRoundedPercent": 25,
+            "matchesDisplay": true
+          }
+        },
+        "touching": {
+          "price1": {
+            "modelPercent": 45.37934082276157,
+            "displayedPercent": 45.38,
+            "residualPercentagePoints": -0.0006591772384325623,
+            "modelRoundedPercent": 45.38,
+            "matchesDisplay": true
+          },
+          "price2": {
+            "modelPercent": 49.799447843990656,
+            "displayedPercent": 49.8,
+            "residualPercentagePoints": -0.0005521560093413314,
+            "modelRoundedPercent": 49.8,
+            "matchesDisplay": true
+          },
+          "both": {
+            "modelPercent": 6.418142086036728,
+            "displayedPercent": 6.97,
+            "residualPercentagePoints": -0.5518579139632713,
+            "modelRoundedPercent": 6.42,
+            "matchesDisplay": false
+          },
+          "either": {
+            "modelPercent": 88.7606465807155,
+            "displayedPercent": 53.77,
+            "residualPercentagePoints": 34.9906465807155,
+            "modelRoundedPercent": 88.76,
+            "matchesDisplay": false
+          },
+          "neither": {
+            "modelPercent": 11.239353419284503,
+            "displayedPercent": 46.23,
+            "residualPercentagePoints": -34.99064658071549,
+            "modelRoundedPercent": 11.24,
+            "matchesDisplay": false
+          }
+        },
+        "intervals": [
+          {
+            "standardDeviations": -3,
+            "modelPrice": 65.57700372128532,
+            "displayedPrice": 65.55,
+            "residualPrice": 0.027003721285325355,
+            "modelRoundedPrice": 65.58,
+            "matchesDisplay": false
+          },
+          {
+            "standardDeviations": -2,
+            "modelPrice": 75.48043243653979,
+            "displayedPrice": 75.45,
+            "residualPrice": 0.030432436539783225,
+            "modelRoundedPrice": 75.48,
+            "matchesDisplay": false
+          },
+          {
+            "standardDeviations": -1,
+            "modelPrice": 86.87947538776913,
+            "displayedPrice": 86.85,
+            "residualPrice": 0.02947538776913916,
+            "modelRoundedPrice": 86.88,
+            "matchesDisplay": false
+          },
+          {
+            "standardDeviations": 1,
+            "modelPrice": 115.1019841610117,
+            "displayedPrice": 115.06,
+            "residualPrice": 0.04198416101169755,
+            "modelRoundedPrice": 115.1,
+            "matchesDisplay": false
+          },
+          {
+            "standardDeviations": 2,
+            "modelPrice": 132.48466757801782,
+            "displayedPrice": 132.44,
+            "residualPrice": 0.04466757801782251,
+            "modelRoundedPrice": 132.48,
+            "matchesDisplay": false
+          },
+          {
+            "standardDeviations": 3,
+            "modelPrice": 152.49248109141888,
+            "displayedPrice": 152.44,
+            "residualPrice": 0.05248109141888335,
+            "modelRoundedPrice": 152.49,
+            "matchesDisplay": false
+          }
+        ]
+      },
+      "interpretation": "Zero log drift matches the displayed terminal integer percentages and one-sided touch values at two-decimal precision. Both, either, neither and all six standard-deviation prices do not match. This is a convention hypothesis, not proof of the proprietary vendor engine."
+    },
+    "observedUnionUsingDisplayedMarginals": 0.8821,
+    "observedDisplayedEither": 0.5377,
+    "interpretation": "The displayed either/both/touch values do not satisfy ordinary union algebra. Vendor drift, monitoring, and interval conventions are unverified; observed numbers are not a golden reference."
+  }
+}

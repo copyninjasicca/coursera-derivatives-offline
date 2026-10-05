@@ -1,0 +1,11 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>The exchange defines when contracts start trading, what hours they can be traded, and importantly, when the life of the contract expires, and what happens where - in the settlement and delivery chain. </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

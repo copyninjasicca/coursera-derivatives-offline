@@ -1,0 +1,15 @@
+In the previous module, we introduced you to several trades designed to be of use in
+either up or down markets. In this module, we'll explore a couple of strategies
+that may be used by option traders to take advantage of a low
+in the markets. By low, I'm referring to a period of relatively small
+movements in the price of an underlying asset where volatility is
+expected to diminish. Once again, we'll walk
+you through examples of how each strategy works
+and then show you a practical application
+of how such trades may be created using IBKR's
+Trader Workstation. While we're talking
+specifically about strategies designed
+for neutral markets, don't forget that the
+opposite side of each trade infers higher volatility, which would appeal to
+option traders looking for larger price movements or upward shifts in
+volatility. Let's begin.

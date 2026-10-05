@@ -1,0 +1,35 @@
+{
+  "checked_on": "2026-10-05",
+  "method": "In-app browser over loopback HTTP, with external automatic loading blocked by archive CSP",
+  "physical_network_disconnect_tested": false,
+  "checks": [
+    {
+      "name": "Seven original tool links and accurate server-dependency notice",
+      "passed": true
+    },
+    {
+      "name": "Comparison table displays saved originals and computed local prices",
+      "passed": true
+    },
+    {
+      "name": "Comparison page width equals 438px viewport, seven tables scroll inside containers",
+      "passed": true
+    },
+    {
+      "name": "Original calculator detail and local official-guide link",
+      "passed": true
+    },
+    {
+      "name": "Local Alpha rows visible and match gamma/daily-theta definition",
+      "passed": true
+    },
+    {
+      "name": "Local inverse IV for call price 13.7343 displays 50.214585%",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Original engines are online only. Archive browser checks do not validate offline operation of the vendor applications.",
+    "Source snapshots and original frontend scripts are reference downloads, not loaded by the archive UI."
+  ]
+}

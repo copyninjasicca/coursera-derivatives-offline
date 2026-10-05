@@ -1,0 +1,11 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Investors should be aware that margin requirements are static and will not change, especially in the event of market volatility. </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

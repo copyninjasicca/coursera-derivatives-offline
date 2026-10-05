@@ -1,0 +1,53 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Call options convey to the buyer the right but not the obligation to purchase a set number of shares of an underlying asset at a predetermined price known as the strike price prior to the time that the option contract expires.\n</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>What represents the predetermined price at which an option contract may be exercised where a call option buyer can buy the underlying asset from an option seller or a put option buyer can sell the underlying asset to an option seller?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Strike</span></span></p></div>",
+      "<div><p><span><span>Premium</span></span></p></div>",
+      "<div><p><span><span>Spot rate</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>Option style determines when an option can be exercised. Which style of option can be exercised at any time prior to, up to, and including the day of expiration?\n</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>European</span></span></p></div>",
+      "<div><p><span><span>Trans-Atlantic</span></span></p></div>",
+      "<div><p><span><span>American</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>What are options used for?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>As a hedge against inflation.</span></span></p></div>",
+      "<div><p><span><span>As an investment to control risk or to speculate on a movement in the underlying asset. </span></span></p></div>",
+      "<div><p><span><span>To take a position in an underlying asset.</span></span></p></div>",
+      "<div><p><span><span>As an efficient way to prepay tax liabilities.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>What is the best definition of an option contract?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>A well-defined agreement between a buyer and seller obligating the seller to deliver shares of a company to the buyer at some time in the future.</span></span></p></div>",
+      "<div><p><span><span>An agreement between two counterparties granting specified rights to the buyer over an agreed amount of an underlying asset within a specific timeframe. </span></span></p></div>",
+      "<div><p><span><span>Rights to buy a specific amount of an asset by expiration at the prevailing market price.</span></span></p></div>",
+      "<div><p><span><span>Rights to sell an amount of an asset at expiration at an agreed upon fixed price.</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

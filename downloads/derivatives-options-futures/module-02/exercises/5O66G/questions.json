@@ -1,0 +1,46 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>What is the \"strike price\"?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The difference between the price of the underlying at expiration and the value of the call or put option.</span></span></p></div>",
+      "<div><p><span><span>Higher for a call than for a put.</span></span></p></div>",
+      "<div><p><span><span>The price at which the underlying asset closes on expiration day.</span></span></p></div>",
+      "<div><p><span><span>The pre-determined price at which an option contract may be exercised.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>If XYZ Company's shares are trading at $52.37, which of the following has intrinsic value?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Call with a 52.50 strike.</span></span></p></div>",
+      "<div><p><span><span>Put with a 50 strike.</span></span></p></div>",
+      "<div><p><span><span>Put with a 55 strike.</span></span></p></div>",
+      "<div><p><span><span>Call with a 55 strike.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>Which of the following is inaccurate when discussing the extrinsic value of an option?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>An option with time value before expiration contains extrinsic value.</span></span></p></div>",
+      "<div><p><span><span>Only out-of-the-money options contain extrinsic value.</span></span></p></div>",
+      "<div><p><span><span>Extrinsic value represents the probability that the underlying asset will change over time and create intrinsic value to an option.</span></span></p></div>",
+      "<div><p><span><span>In-the-money options contain both intrinsic and extrinsic value.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>Which of the following is a Greek variable commonly associated with measuring the sensitivity of option prices?\n</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Rho</span></span></p></div>",
+      "<div><p><span><span>Kappa</span></span></p></div>",
+      "<div><p><span><span>Alpha</span></span></p></div>",
+      "<div><p><span><span>Phi</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

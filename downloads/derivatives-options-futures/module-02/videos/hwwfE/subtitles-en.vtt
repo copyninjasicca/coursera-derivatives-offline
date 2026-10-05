@@ -1,0 +1,264 @@
+WEBVTT
+
+1
+00:00:12.620 --> 00:00:15.975
+As you go through the
+examples that follow,
+
+2
+00:00:15.975 --> 00:00:18.060
+you may notice that
+some strategies
+
+3
+00:00:18.060 --> 00:00:20.100
+use different mixes of products,
+
+4
+00:00:20.100 --> 00:00:23.085
+yet have similar risk
+reward structures.
+
+5
+00:00:23.085 --> 00:00:26.040
+This is because the
+prices of puts and
+
+6
+00:00:26.040 --> 00:00:28.470
+calls are inextricably
+linked to each
+
+7
+00:00:28.470 --> 00:00:31.200
+other and the price of the
+underlying stock through
+
+8
+00:00:31.200 --> 00:00:34.750
+an equation known
+as put-call parity.
+
+9
+00:00:34.750 --> 00:00:38.810
+The call price plus the
+strike price is equal to
+
+10
+00:00:38.810 --> 00:00:43.130
+the forward value of a stock
+price plus the put price.
+
+11
+00:00:43.130 --> 00:00:46.625
+It is important to use the
+forward value of the stock,
+
+12
+00:00:46.625 --> 00:00:49.295
+which is adjusted for
+interest rates and dividends,
+
+13
+00:00:49.295 --> 00:00:52.865
+rather than strictly the
+current price of the stock.
+
+14
+00:00:52.865 --> 00:00:56.455
+We can calculate the
+forward value this way.
+
+15
+00:00:56.455 --> 00:00:58.520
+The forward value equals
+
+16
+00:00:58.520 --> 00:01:00.350
+the current value multiplied
+
+17
+00:01:00.350 --> 00:01:02.315
+by one plus the interest rate
+
+18
+00:01:02.315 --> 00:01:04.910
+times the days until
+expiration divided
+
+19
+00:01:04.910 --> 00:01:09.020
+by 365, less dividends.
+
+20
+00:01:09.020 --> 00:01:11.180
+In a low rates environment,
+
+21
+00:01:11.180 --> 00:01:13.520
+the forward value of
+a stock that pays
+
+22
+00:01:13.520 --> 00:01:17.210
+no dividends is roughly
+equal to the current value.
+
+23
+00:01:17.210 --> 00:01:20.210
+If interest rates are high
+or a stock is hard to
+
+24
+00:01:20.210 --> 00:01:21.890
+borrow or the stock pays
+
+25
+00:01:21.890 --> 00:01:24.185
+a dividend during the
+life of the option,
+
+26
+00:01:24.185 --> 00:01:25.700
+the forward value may differ
+
+27
+00:01:25.700 --> 00:01:28.615
+meaningfully from the
+current stock price.
+
+28
+00:01:28.615 --> 00:01:31.925
+When we examined the
+put-call parity formula,
+
+29
+00:01:31.925 --> 00:01:34.550
+simple algebra shows
+us to demonstrate how
+
+30
+00:01:34.550 --> 00:01:37.990
+different structures
+have similar payoffs.
+
+31
+00:01:37.990 --> 00:01:41.150
+For example, the call
+price is equal to
+
+32
+00:01:41.150 --> 00:01:42.530
+the forward value minus
+
+33
+00:01:42.530 --> 00:01:45.755
+the strike price
+plus the put price,
+
+34
+00:01:45.755 --> 00:01:48.590
+that shows that the value
+of a call is the same as
+
+35
+00:01:48.590 --> 00:01:51.790
+being longer stock
+and longer put.
+
+36
+00:01:51.790 --> 00:01:53.585
+You will notice that
+
+37
+00:01:53.585 --> 00:01:56.855
+those path graphs
+look quite similar.
+
+38
+00:01:56.855 --> 00:01:58.970
+As you go through
+the study guide,
+
+39
+00:01:58.970 --> 00:02:00.770
+keep this equation
+in mind when you
+
+40
+00:02:00.770 --> 00:02:03.355
+see other similar looking graphs.
+
+41
+00:02:03.355 --> 00:02:05.945
+If we structure the
+equation this way,
+
+42
+00:02:05.945 --> 00:02:08.720
+we see that a long call
+and short put with
+
+43
+00:02:08.720 --> 00:02:10.445
+the same strike and exploration
+
+44
+00:02:10.445 --> 00:02:13.040
+creates a synthetic future.
+
+45
+00:02:13.040 --> 00:02:15.950
+The forward value equals
+the strike price plus
+
+46
+00:02:15.950 --> 00:02:19.025
+the call price minus
+the put price.
+
+47
+00:02:19.025 --> 00:02:21.590
+The difference between
+the forward value
+
+48
+00:02:21.590 --> 00:02:22.610
+and the current value
+
+49
+00:02:22.610 --> 00:02:26.320
+of a stock is a function of
+interest rates and dividends.
+
+50
+00:02:26.320 --> 00:02:28.890
+Because option
+prices are based on
+
+51
+00:02:28.890 --> 00:02:31.295
+the forward value of
+the underlying product,
+
+52
+00:02:31.295 --> 00:02:32.900
+it is crucial that options
+
+53
+00:02:32.900 --> 00:02:35.150
+investors consider the effects of
+
+54
+00:02:35.150 --> 00:02:37.295
+dividends and interest rates
+
+55
+00:02:37.295 --> 00:02:40.090
+when implementing
+their strategies.
+
+56
+00:02:40.090 --> 00:02:43.800
+Keep this in mind
+as we move forward.

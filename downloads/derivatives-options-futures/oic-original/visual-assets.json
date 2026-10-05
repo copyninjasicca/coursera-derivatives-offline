@@ -1,0 +1,47 @@
+[
+  {
+    "kind": "stylesheet",
+    "url": "https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap",
+    "file": "ivol-app/visual-assets/3033f51ebdad2635"
+  },
+  {
+    "kind": "stylesheet",
+    "url": "https://fonts.googleapis.com/css?family=Roboto:400,700,900",
+    "file": "ivol-app/visual-assets/ceac2f2dcbba0de2"
+  },
+  {
+    "kind": "stylesheet",
+    "url": "https://private-authorization.ivolatility.com/styles.84acb39969822573.css",
+    "file": "ivol-app/visual-assets/41bd7119c4c547b4.css"
+  },
+  {
+    "kind": "image",
+    "url": "https://private-authorization.ivolatility.com/favicon.ico",
+    "file": "ivol-app/visual-assets/84dcc96a2df091ce.ico"
+  },
+  {
+    "kind": "font",
+    "url": "https://private-authorization.ivolatility.com/dxicons.b1f8e703c54f13b8.woff2",
+    "file": "ivol-app/visual-assets/4b666f57431e70e9.woff2"
+  },
+  {
+    "kind": "font",
+    "url": "https://private-authorization.ivolatility.com/dxicons.79ea8cc118fbeb0b.woff",
+    "file": "ivol-app/visual-assets/1b87d10585c5fb87.woff"
+  },
+  {
+    "kind": "image",
+    "url": "inline-svg:b86a2057e4cb7961",
+    "file": "ivol-app/visual-assets/b86a2057e4cb7961.svg"
+  },
+  {
+    "kind": "image",
+    "url": "inline-svg:bbe2ca1dcc87cc96",
+    "file": "ivol-app/visual-assets/bbe2ca1dcc87cc96.svg"
+  },
+  {
+    "kind": "image",
+    "url": "inline-svg:c375cb9581bc7684",
+    "file": "ivol-app/visual-assets/c375cb9581bc7684.svg"
+  }
+]

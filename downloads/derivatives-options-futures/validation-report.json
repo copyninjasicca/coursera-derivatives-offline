@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-05",
+  "checks": 188,
+  "passed": true,
+  "sources": [
+    "https://www.mathworks.com/help/finance/blsprice.html",
+    "https://www.mathworks.com/help/finance/blsdelta.html",
+    "https://www.optionseducation.org/toolsoptionquotes/options-calculator"
+  ],
+  "methods": [
+    "Normal CDF compared against Python math.erfc on 81 points from -10 to 10",
+    "Official published price examples",
+    "Independent central finite-difference Greeks",
+    "Put-call parity",
+    "Implied-volatility round trips",
+    "Expiry and zero-volatility boundary cases",
+    "Hand-calculated strategy payoffs and futures margin examples",
+    "Alpha definition and rounded official OIC guide examples"
+  ],
+  "limitations": [
+    "European exercise only; continuous dividend yield",
+    "Original OIC output comparison is in oic-original/comparison.json; observed numerical differences remain",
+    "Normal CDF approximation; not a market calibration model"
+  ]
+}

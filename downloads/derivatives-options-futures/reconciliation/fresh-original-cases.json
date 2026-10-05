@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Fresh European index, one-year nominal horizon",
+    "capturedOn": "2026-10-05",
+    "text": "Symbol\nStyle\nLast Price\nStrike\nExpiry\nTime to expiration\nIV\nInterest Rate\nDividend Yield\nCall\nPut\nSymbol\nOption Value\n10.4394\n5.6015\nBid/Ask\nDelta\n0.6360\n-0.3640\nGamma\n0.0188\n0.0188\nTheta\n-0.0175\n-0.0046\nAlpha\n-1.0729\n-4.0906\nVega\n0.3761\n0.3761\nRho\n0.5331\n-0.4212\nOption Price\nImplied Volatility",
+    "dom": "- generic: Symbol\n- combobox: SPX:CBOE\n- text: Stock, Index or Option Symbol...\n- generic: \n- button \"Advanced search\":\n- button \"Refresh\":\n- generic: Style\n- combobox \"Style\":\n  - textbox: European\n  - text: \n- generic: Last Price\n- textbox \"Last Price\": \"100\"\n- generic: Strike\n- textbox \"Strike\": \"100\"\n- generic: Expiry\n- combobox \"Expiration\":\n  - textbox: Custom date\n  - text: \n- textbox: 16:00\n- generic: Time to expiration\n- textbox \"Days to expiration\":\n  - /placeholder: D-\n  - text: \"365\"\n- textbox \"Hours to expiration\":\n  - /placeholder: H-\n  - text: \"0\"\n- textbox \"Minutes to expiration\":\n  - /placeholder: Min-\n  - text: \"0\"\n- generic: IV\n- textbox \"IV (Implied Volatility)\": \"20\"\n- generic: Interest Rate\n- textbox \"Interest Rate\": \"5\"\n- generic: Dividend Yield\n- textbox \"Dividend Yield\": \"0\"\n- generic: Call\n- generic: Put\n- link \"Symbol\" [active]:\n  - /url: /jargon/\n- button \"Copy call symbol\"\n- button \"Copy put symbol\"\n- generic: Option Value\n- generic: \"10.4394\"\n- generic: \"5.6015\"\n- generic: Bid/Ask\n- generic: Delta\n- generic: \"0.6360\"\n- generic: \"-0.3640\"\n- generic: Gamma\n- generic: \"0.0188\"\n- generic: \"0.0188\"\n- generic: Theta\n- generic: \"-0.0175\"\n- generic: \"-0.0046\"\n- generic: Alpha\n- generic: \"-1.0729\"\n- generic: \"-4.0906\"\n- generic: Vega\n- generic: \"0.3761\"\n- generic: \"0.3761\"\n- generic: Rho\n- generic: \"0.5331\"\n- generic: \"-0.4212\"\n- generic: Option Price\n- textbox \"Option Price\"\n- generic: Implied Volatility",
+    "inputs": [
+      {
+        "label": "Last Price",
+        "value": "100"
+      },
+      {
+        "label": "Strike",
+        "value": "100"
+      },
+      {
+        "label": "Days to expiration",
+        "value": "365"
+      },
+      {
+        "label": "Hours to expiration",
+        "value": "0"
+      },
+      {
+        "label": "Minutes to expiration",
+        "value": "0"
+      },
+      {
+        "label": "IV (Implied Volatility)",
+        "value": "20"
+      },
+      {
+        "label": "Interest Rate",
+        "value": "5"
+      },
+      {
+        "label": "Dividend Yield",
+        "value": "0"
+      },
+      {
+        "label": "Option Price",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "name": "Fresh European index, half-day boundary",
+    "capturedOn": "2026-10-05",
+    "text": "Symbol\nStyle\nLast Price\nStrike\nExpiry\nTime to expiration\nIV\nInterest Rate\nDividend Yield\nCall\nPut\nSymbol\nOption Value\n0.3111\n0.3036\nBid/Ask\nDelta\n0.5054\n-0.4946\nGamma\n0.5178\n0.5178\nTheta\n-0.2907\n-0.2768\nAlpha\n-1.7812\n-1.8706\nVega\n0.0154\n0.0154\nRho\n0.0007\n-0.0007\nOption Price\nImplied Volatility",
+    "dom": "- generic: Symbol\n- combobox: SPX:CBOE\n- text: Stock, Index or Option Symbol...\n- generic: \n- button \"Advanced search\":\n- button \"Refresh\":\n- generic: Style\n- combobox \"Style\":\n  - textbox: European\n  - text: \n- generic: Last Price\n- textbox \"Last Price\": \"100\"\n- generic: Strike\n- textbox \"Strike\": \"100\"\n- generic: Expiry\n- combobox \"Expiration\":\n  - textbox: Custom date\n  - text: \n- textbox: 16:00\n- generic: Time to expiration\n- textbox \"Days to expiration\":\n  - /placeholder: D-\n  - text: \"0\"\n- textbox \"Hours to expiration\":\n  - /placeholder: H-\n  - text: \"12\"\n- textbox \"Minutes to expiration\":\n  - /placeholder: Min-\n  - text: \"0\"\n- generic: IV\n- textbox \"IV (Implied Volatility)\" [active]: \"20\"\n- generic: Interest Rate\n- textbox \"Interest Rate\": \"5\"\n- generic: Dividend Yield\n- textbox \"Dividend Yield\": \"0\"\n- generic: Call\n- generic: Put\n- link \"Symbol\":\n  - /url: /jargon/\n- button \"Copy call symbol\"\n- button \"Copy put symbol\"\n- generic: Option Value\n- generic: \"0.3111\"\n- generic: \"0.3036\"\n- generic: Bid/Ask\n- generic: Delta\n- generic: \"0.5054\"\n- generic: \"-0.4946\"\n- generic: Gamma\n- generic: \"0.5178\"\n- generic: \"0.5178\"\n- generic: Theta\n- generic: \"-0.2907\"\n- generic: \"-0.2768\"\n- generic: Alpha\n- generic: \"-1.7812\"\n- generic: \"-1.8706\"\n- generic: Vega\n- generic: \"0.0154\"\n- generic: \"0.0154\"\n- generic: Rho\n- generic: \"0.0007\"\n- generic: \"-0.0007\"\n- generic: Option Price\n- textbox \"Option Price\"\n- generic: Implied Volatility",
+    "inputs": [
+      {
+        "label": "Last Price",
+        "value": "100"
+      },
+      {
+        "label": "Strike",
+        "value": "100"
+      },
+      {
+        "label": "Days to expiration",
+        "value": "0"
+      },
+      {
+        "label": "Hours to expiration",
+        "value": "12"
+      },
+      {
+        "label": "Minutes to expiration",
+        "value": "0"
+      },
+      {
+        "label": "IV (Implied Volatility)",
+        "value": "20"
+      },
+      {
+        "label": "Interest Rate",
+        "value": "5"
+      },
+      {
+        "label": "Dividend Yield",
+        "value": "0"
+      },
+      {
+        "label": "Option Price",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "name": "Fresh European index, zero-rate one-year symmetry",
+    "capturedOn": "2026-10-05",
+    "text": "Symbol\nStyle\nLast Price\nStrike\nExpiry\nTime to expiration\nIV\nInterest Rate\nDividend Yield\nCall\nPut\nSymbol\nOption Value\n7.9769\n7.9769\nBid/Ask\nDelta\n0.5399\n-0.4601\nGamma\n0.0198\n0.0198\nTheta\n-0.0109\n-0.0109\nAlpha\n-1.8250\n-1.8250\nVega\n0.3975\n0.3975\nRho\n0.4614\n-0.5414\nOption Price\nImplied Volatility",
+    "dom": "- generic: Symbol\n- combobox: SPX:CBOE\n- text: Stock, Index or Option Symbol...\n- generic: \n- button \"Advanced search\":\n- button \"Refresh\":\n- generic: Style\n- combobox \"Style\":\n  - textbox: European\n  - text: \n- generic: Last Price\n- textbox \"Last Price\": \"100\"\n- generic: Strike\n- textbox \"Strike\": \"100\"\n- generic: Expiry\n- combobox \"Expiration\":\n  - textbox: Custom date\n  - text: \n- textbox: 16:00\n- generic: Time to expiration\n- textbox \"Days to expiration\":\n  - /placeholder: D-\n  - text: \"365\"\n- textbox \"Hours to expiration\":\n  - /placeholder: H-\n  - text: \"0\"\n- textbox \"Minutes to expiration\":\n  - /placeholder: Min-\n  - text: \"0\"\n- generic: IV\n- textbox \"IV (Implied Volatility)\": \"20\"\n- generic: Interest Rate\n- textbox \"Interest Rate\": \"0\"\n- generic: Dividend Yield\n- textbox \"Dividend Yield\" [active]: \"0\"\n- generic: Call\n- generic: Put\n- link \"Symbol\":\n  - /url: /jargon/\n- button \"Copy call symbol\"\n- button \"Copy put symbol\"\n- generic: Option Value\n- generic: \"7.9769\"\n- generic: \"7.9769\"\n- generic: Bid/Ask\n- generic: Delta\n- generic: \"0.5399\"\n- generic: \"-0.4601\"\n- generic: Gamma\n- generic: \"0.0198\"\n- generic: \"0.0198\"\n- generic: Theta\n- generic: \"-0.0109\"\n- generic: \"-0.0109\"\n- generic: Alpha\n- generic: \"-1.8250\"\n- generic: \"-1.8250\"\n- generic: Vega\n- generic: \"0.3975\"\n- generic: \"0.3975\"\n- generic: Rho\n- generic: \"0.4614\"\n- generic: \"-0.5414\"\n- generic: Option Price\n- textbox \"Option Price\"\n- generic: Implied Volatility",
+    "inputs": [
+      {
+        "label": "Last Price",
+        "value": "100"
+      },
+      {
+        "label": "Strike",
+        "value": "100"
+      },
+      {
+        "label": "Days to expiration",
+        "value": "365"
+      },
+      {
+        "label": "Hours to expiration",
+        "value": "0"
+      },
+      {
+        "label": "Minutes to expiration",
+        "value": "0"
+      },
+      {
+        "label": "IV (Implied Volatility)",
+        "value": "20"
+      },
+      {
+        "label": "Interest Rate",
+        "value": "0"
+      },
+      {
+        "label": "Dividend Yield",
+        "value": "0"
+      },
+      {
+        "label": "Option Price",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "name": "Fresh European index, expiry intrinsic boundary",
+    "capturedOn": "2026-10-05",
+    "text": "Symbol\nStyle\nLast Price\nStrike\nExpiry\nTime to expiration\nIV\nInterest Rate\nDividend Yield\nCall\nPut\nSymbol\nOption Value\n5.0000\n0.0000\nBid/Ask\nDelta\n1.0000\n0.0000\nGamma\n0.0000\n0.0000\nTheta\n0.0000\n0.0000\nAlpha\n-1.8250\n-1.8250\nVega\n0.0000\n0.0000\nRho\n0.0027\n0.0000\nOption Price\nImplied Volatility",
+    "dom": "- generic: Symbol\n- combobox: SPX:CBOE\n- text: Stock, Index or Option Symbol...\n- generic: \n- button \"Advanced search\":\n- button \"Refresh\":\n- generic: Style\n- combobox \"Style\":\n  - textbox: European\n  - text: \n- generic: Last Price\n- textbox \"Last Price\": \"100\"\n- generic: Strike\n- textbox \"Strike\": \"95\"\n- generic: Expiry\n- combobox \"Expiration\" [active]:\n  - textbox: Custom date\n  - text: \n- textbox: 16:00\n- generic: Time to expiration\n- textbox \"Days to expiration\":\n  - /placeholder: D-\n  - text: \"0\"\n- textbox \"Hours to expiration\":\n  - /placeholder: H-\n  - text: \"0\"\n- textbox \"Minutes to expiration\":\n  - /placeholder: Min-\n  - text: \"0\"\n- generic: IV\n- textbox \"IV (Implied Volatility)\": \"20\"\n- generic: Interest Rate\n- textbox \"Interest Rate\": \"0\"\n- generic: Dividend Yield\n- textbox \"Dividend Yield\": \"0\"\n- generic: Call\n- generic: Put\n- link \"Symbol\":\n  - /url: /jargon/\n- button \"Copy call symbol\"\n- button \"Copy put symbol\"\n- generic: Option Value\n- generic: \"5.0000\"\n- generic: \"0.0000\"\n- generic: Bid/Ask\n- generic: Delta\n- generic: \"1.0000\"\n- generic: \"0.0000\"\n- generic: Gamma\n- generic: \"0.0000\"\n- generic: \"0.0000\"\n- generic: Theta\n- generic: \"0.0000\"\n- generic: \"0.0000\"\n- generic: Alpha\n- generic: \"-1.8250\"\n- generic: \"-1.8250\"\n- generic: Vega\n- generic: \"0.0000\"\n- generic: \"0.0000\"\n- generic: Rho\n- generic: \"0.0027\"\n- generic: \"0.0000\"\n- generic: Option Price\n- textbox \"Option Price\"\n- generic: Implied Volatility",
+    "inputs": [
+      {
+        "label": "Last Price",
+        "value": "100"
+      },
+      {
+        "label": "Strike",
+        "value": "95"
+      },
+      {
+        "label": "Days to expiration",
+        "value": "0"
+      },
+      {
+        "label": "Hours to expiration",
+        "value": "0"
+      },
+      {
+        "label": "Minutes to expiration",
+        "value": "0"
+      },
+      {
+        "label": "IV (Implied Volatility)",
+        "value": "20"
+      },
+      {
+        "label": "Interest Rate",
+        "value": "0"
+      },
+      {
+        "label": "Dividend Yield",
+        "value": "0"
+      },
+      {
+        "label": "Option Price",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "name": "Fresh American index, deep ITM put exercise",
+    "style": "American",
+    "capturedOn": "2026-10-05",
+    "text": "Symbol\nStyle\nLast Price\nStrike\nExpiry\nTime to expiration\nIV\nInterest Rate\nDividend Yield\nCall\nPut\nSymbol\nOption Value\n1.8597\n20.0000\nBid/Ask\nDelta\n0.2217\n-0.9994\nGamma\n0.0186\n0.0097\nTheta\n-0.0087\n0.0000\nAlpha\n-2.1433\n0.0000\nVega\n0.2383\n0.0000\nRho\n0.1592\n0.0000\nOption Price\nImplied Volatility",
+    "dom": "- generic: Symbol\n- combobox: SPX:CBOE\n- text: Stock, Index or Option Symbol...\n- generic: \n- button \"Advanced search\":\n- button \"Refresh\":\n- generic: Style\n- combobox \"Style\":\n  - textbox: American\n  - text: \n- generic: Last Price\n- textbox \"Last Price\": \"80\"\n- generic: Strike\n- textbox \"Strike\": \"100\"\n- generic: Expiry\n- combobox \"Expiration\":\n  - textbox: Custom date\n  - text: \n- textbox: 16:00\n- generic: Time to expiration\n- textbox \"Days to expiration\":\n  - /placeholder: D-\n  - text: \"365\"\n- textbox \"Hours to expiration\":\n  - /placeholder: H-\n  - text: \"0\"\n- textbox \"Minutes to expiration\":\n  - /placeholder: Min-\n  - text: \"0\"\n- generic: IV\n- textbox \"IV (Implied Volatility)\": \"20\"\n- generic: Interest Rate\n- textbox \"Interest Rate\": \"5\"\n- generic: Dividend Yield\n- textbox \"Dividend Yield\" [active]: \"0\"\n- generic: Call\n- generic: Put\n- link \"Symbol\":\n  - /url: /jargon/\n- button \"Copy call symbol\"\n- button \"Copy put symbol\"\n- generic: Option Value\n- generic: \"1.8597\"\n- generic: \"20.0000\"\n- generic: Bid/Ask\n- generic: Delta\n- generic: \"0.2217\"\n- generic: \"-0.9994\"\n- generic: Gamma\n- generic: \"0.0186\"\n- generic: \"0.0097\"\n- generic: Theta\n- generic: \"-0.0087\"\n- generic: \"0.0000\"\n- generic: Alpha\n- generic: \"-2.1433\"\n- generic: \"0.0000\"\n- generic: Vega\n- generic: \"0.2383\"\n- generic: \"0.0000\"\n- generic: Rho\n- generic: \"0.1592\"\n- generic: \"0.0000\"\n- generic: Option Price\n- textbox \"Option Price\"\n- generic: Implied Volatility",
+    "inputs": [
+      {
+        "label": "Last Price",
+        "value": "80"
+      },
+      {
+        "label": "Strike",
+        "value": "100"
+      },
+      {
+        "label": "Days to expiration",
+        "value": "365"
+      },
+      {
+        "label": "Hours to expiration",
+        "value": "0"
+      },
+      {
+        "label": "Minutes to expiration",
+        "value": "0"
+      },
+      {
+        "label": "IV (Implied Volatility)",
+        "value": "20"
+      },
+      {
+        "label": "Interest Rate",
+        "value": "5"
+      },
+      {
+        "label": "Dividend Yield",
+        "value": "0"
+      },
+      {
+        "label": "Option Price",
+        "value": ""
+      }
+    ]
+  }
+]

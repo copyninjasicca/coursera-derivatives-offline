@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Trending Options Volume",
+    "url": "https://www.optionseducation.org/toolsoptionquotes/trending-options-volume",
+    "slug": "trending-options-volume",
+    "description": "Trending Options Volume, powered by iVolatility, displays the top twenty stocks, indexes and ETFs which have the most traded options volume during the current market session. The table conveniently groups stock, ETF and index options into a single list, providing a snapshot of what's moving, call and put volumes and implied volatility metrics. Note that all data is provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For further questions, contact us at options@theocc.com. Sign in or create a new OIC account to access our complete suite of tools & calculators.",
+    "guides": [],
+    "app_route": "https://private-authorization.ivolatility.com/#/oic/most-active-stocks-table",
+    "status": "original_resources_saved_server_required",
+    "offline_page": "oic-original/trending-options-volume/index.html",
+    "working_original_offline": false,
+    "features": "Top twenty stocks, indexes and ETFs by option volume; call/put volume and volatility metrics.",
+    "dependency": "Remote market feed and session rankings. A saved snapshot is not an offline data service.",
+    "guide_file": null,
+    "online_observation": "Directory and description captured; embedded application remained Loading during repeated observations. Live ranking data was not obtained."
+  },
+  {
+    "title": "Options Monitor",
+    "url": "https://www.optionseducation.org/toolsoptionquotes/options-monitor",
+    "slug": "options-monitor",
+    "description": "With the Options Monitor, powered by iVolatility, explore quotes for stocks, ETFs and indexes, while viewing a variety of key options data, including Delta, implied volatility, bid-ask spreads and volume. Expirations can be changed to display additional data, including LEAPS\u00ae, Weeklys and Quarterlies. Plus, access to the Options Calculator and Probability Calculator is available directly from within the monitor, simply by clicking the calculator icon in the Strike column. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For more information view this help file or video this video tutorial. For further questions, contact us at options@theocc.com. While this tool is accessible on various devices, it is designed with specific features and functionalities that are optimized for desktop usage.",
+    "guides": [
+      {
+        "title": "view this help file",
+        "url": "https://www.optionseducation.org/getContentAsset/2c9a44e6-2970-4505-bf1f-ddad8cb9e9a4/50c2bc4c-a8ff-46ba-95c2-0e74752d147f/Options-Monitor-User-Guide_Final_11-10-23.pdf?language=en-US"
+      }
+    ],
+    "app_route": "https://private-authorization.ivolatility.com/#/oic/options-monitor",
+    "status": "original_resources_saved_server_required",
+    "offline_page": "oic-original/options-monitor/index.html",
+    "working_original_offline": false,
+    "features": "Option chains, expirations, bid/ask, volume, Delta and IV; links into pricing and probability calculators.",
+    "dependency": "Remote symbol dictionary, option chains and proprietary volatility data.",
+    "guide_file": "oic-original/guides/options-monitor.pdf",
+    "online_observation": "Description and official guide captured; embedded application remained Loading during repeated observations. A complete live option chain was not obtained."
+  },
+  {
+    "title": "Stock Monitor",
+    "url": "https://www.optionseducation.org/toolsoptionquotes/stock-monitor",
+    "slug": "stock-monitor",
+    "description": "The Stock Monitor, powered by iVolatility, allows you to monitor key advanced metrics on stocks and indexes, including option volume, 30-day implied volatility (IVX), 20-day historical volatility (HV) and more. Users can also create and save personalized lists for easy reference each time you log in. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For further questions, contact us at options@theocc.com. While this tool is accessible on various devices, it is designed with specific features and functionalities that are optimized for desktop usage.",
+    "guides": [],
+    "app_route": "https://private-authorization.ivolatility.com/#/oic/ivl-monitor",
+    "status": "original_resources_saved_server_required",
+    "offline_page": "oic-original/stock-monitor/index.html",
+    "working_original_offline": false,
+    "features": "Stock/index watch lists, option volume, 30-day IVX and historical volatility.",
+    "dependency": "Server market data and saved watch lists; no account watch-list clone included.",
+    "guide_file": null,
+    "online_observation": "Original group/watch-list controls loaded (All USA); a populated market-data table was not obtained."
+  },
+  {
+    "title": "Options Calculator",
+    "url": "https://www.optionseducation.org/toolsoptionquotes/options-calculator",
+    "slug": "options-calculator",
+    "description": "The Options Calculator, powered by iVolatility, enables searches on stocks, ETFs and indexes and includes American-style and European-style expirations. View call and put values, data for key option Greeks and more. Customization is allowed in certain fields in the Options Calculator, such as the strike price, which may change the output. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For more information view this help file or this video tutorial. For further questions, contact us at options@theocc.com.",
+    "guides": [
+      {
+        "title": "view this help file",
+        "url": "https://www.optionseducation.org/getContentAsset/b56b6a25-6c52-4ec4-b5f2-7fba372f824c/50c2bc4c-a8ff-46ba-95c2-0e74752d147f/Options-Calculator-User-Guide_Final_12-12-23.pdf?language=en-US"
+      }
+    ],
+    "app_route": "https://private-authorization.ivolatility.com/#/oic/calculators/options",
+    "status": "original_resources_saved_server_required",
+    "offline_page": "oic-original/options-calculator/index.html",
+    "working_original_offline": false,
+    "features": "American and European call/put pricing, Delta, Gamma, daily Theta, Alpha, Vega, Rho and inverse implied volatility; regular cash dividends or yield.",
+    "dependency": "Pricing and IV inversion call remote /optcalc/option-calculator endpoints. Front-end files do not include this server engine.",
+    "guide_file": "oic-original/guides/options-calculator.pdf",
+    "online_observation": "Original online price/Greek outputs observed for three European cases and one American case. Inverse call/put IV also observed. Differences from local BSM are recorded."
+  },
+  {
+    "title": "Position Profit & Loss Simulator",
+    "url": "https://www.optionseducation.org/toolsoptionquotes/pnl-calculator",
+    "slug": "pnl-calculator",
+    "description": "The P&L Simulator, powered by iVolatility, allows you to explore the potential profit and loss of hypothetical trades. Customize variables such as stock price, volatility, interest rates, days to expiration and dividends to model theoretical results. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For more information view these help files. For further questions, contact us at options@theocc.com. While our tool is accessible on various devices, we have designed it with specific features and functionalities that are optimized for desktop usage.",
+    "guides": [
+      {
+        "title": "view these help files",
+        "url": "https://www.optionseducation.org/getContentAsset/32e86622-8ffb-4dd9-87c0-4b6f718d2551/50c2bc4c-a8ff-46ba-95c2-0e74752d147f/PnL-Simulator-User-Guide_Final_12-12-23.pdf?language=en-US"
+      }
+    ],
+    "app_route": "https://pnlcalc.ivolatility.com/",
+    "status": "original_resources_saved_server_required",
+    "offline_page": "oic-original/pnl-calculator/index.html",
+    "working_original_offline": false,
+    "features": "Multiple stock and option legs, quantity, side, entry price, theoretical P&L, aggregate Greeks and scenario charts; relative/absolute IV shifts.",
+    "dependency": "Remote option chain and valuation services. Original UI was observed online; the complete application and server engine are not supplied.",
+    "guide_file": "oic-original/guides/pnl-calculator.pdf",
+    "online_observation": "Original option chain and position editor loaded; adding a hypothetical 100-share stock leg at entry price 100 produced a 10,000 debit and 100% displayed Delta. This is a basic UI/arithmetic observation, not an option valuation equivalence test."
+  },
+  {
+    "title": "Probability Calculator",
+    "url": "https://www.optionseducation.org/toolsoptionquotes/probability-calculator",
+    "slug": "probability-calculator",
+    "description": "With the Probability Calculator, powered by iVolatility, simulate the probabilities of different outcomes based on the variables used and observable market data. Edit interest rates, choose different expirations, explore the impact of changes in volatility and more. Running the calculator will factor in all inputs over the time period selected and return the statistical probability that the underlying will finish above, below or between two target prices of your choosing. Note that all data for US stocks, options, dividends and interest rates are provided with a 20-minute delay. OCC is providing this tool for educational purposes only. OCC makes no representation as to the timeliness, accuracy or validity of the information and this information should not be construed as a recommendation to purchase or sell a security, or to provide investment advice. For more information view this help file. For further questions, contact us at options@theocc.com.",
+    "guides": [
+      {
+        "title": "view this help file.",
+        "url": "https://www.optionseducation.org/getContentAsset/230a4d5f-5078-46d5-b9a9-93b9a451fbad/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Probability-Calculator-User-Guide_11-10-23?language=en-US"
+      }
+    ],
+    "app_route": "https://private-authorization.ivolatility.com/#/oic/calculators/probability",
+    "status": "original_resources_saved_server_required",
+    "offline_page": "oic-original/probability-calculator/index.html",
+    "working_original_offline": false,
+    "features": "Terminal below/between/above probabilities, touching P1/P2/both/either/neither and six standard-deviation price boundaries.",
+    "dependency": "Remote /optcalc/probability-calculator/calculate engine; exact model and joint-touching semantics were not established.",
+    "guide_file": "oic-original/guides/probability-calculator.pdf",
+    "online_observation": "Original custom-input sample returned terminal, touching and standard-deviation results. Bounds and sum checks passed; ordinary touching union identity did not match the displayed output."
+  },
+  {
+    "title": "Historical and Implied Volatility",
+    "url": "https://www.optionseducation.org/toolsoptionquotes/historical-and-implied-volatility-new",
+    "slug": "historical-and-implied-volatility-new",
+    "description": "",
+    "guides": [
+      {
+        "title": "view this help file",
+        "url": "https://www.optionseducation.org/getContentAsset/d5faa67a-a189-4247-b7ed-7ffc29a10c6c/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Historical-and-Implied-Volatility-Calculator?language=en-US"
+      }
+    ],
+    "app_route": "https://private-authorization.ivolatility.com/",
+    "status": "original_resources_saved_server_required",
+    "offline_page": "oic-original/historical-and-implied-volatility-new/index.html",
+    "working_original_offline": false,
+    "features": "One-year price, historical-volatility and IVX charts; volatility summary statistics.",
+    "dependency": "Remote historical series and proprietary IVX calculation. Original historical data is not a complete offline feed.",
+    "guide_file": "oic-original/guides/historical-and-implied-volatility-new.pdf",
+    "online_observation": "Original SPY chart/table navigation loaded. Complete plotted price/volatility series was not captured."
+  }
+]

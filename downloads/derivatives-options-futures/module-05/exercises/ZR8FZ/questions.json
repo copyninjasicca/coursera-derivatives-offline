@@ -1,0 +1,13 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Some of the products available on global futures markets include:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>All of these</span></span></p></div>",
+      "<div><p><span><span>Metals such as gold and silver</span></span></p></div>",
+      "<div><p><span><span>Energy-related products such as crude oil and natural gas</span></span></p></div>",
+      "<div><p><span><span>Soft commodities such as coffee, cocoa, sugar and frozen concentrated orange juice</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

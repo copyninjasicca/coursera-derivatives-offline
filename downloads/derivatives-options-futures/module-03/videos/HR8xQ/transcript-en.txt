@@ -1,0 +1,16 @@
+An investor selling a
+Put Option receives a fixed premium and gives
+another investor the right, but not the obligation, to sell an asset at a predetermined price,
+until expiration. A short put strategy
+might be considered by a risk-tolerant trader with the opinion that a stock's price, is likely to increase and or volatility is
+likely to decrease. The put seller benefits from the passage of time and
+the decreasing dividends. The maximum gain is
+the premium received, which occurs at any price
+above the strike price. The gain diminishes
+as the price of the underlying falls below
+the strike price. Break-even occurs at the sum of the strike price less
+the premium received. Any price below that, the short put seller
+begins to lose money, penny for penny, as the
+underlying price decreases. Loss potential is substantial. Short put sellers must
+ensure that they are sufficiently capitalized to
+deliver any required shares.

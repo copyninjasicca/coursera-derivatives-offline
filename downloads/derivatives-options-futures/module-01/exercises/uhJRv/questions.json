@@ -1,0 +1,57 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>The value of an equity option is essentially derived from the future performance of: </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>A stock, exchange-traded fund, or similar product.</span></span></p></div>",
+      "<div><p><span><span>A corporate bond, municipal bond, or U.S. Treasury security.</span></span></p></div>",
+      "<div><p><span><span>A physical commodity such as gold, crude oil, or corn.</span></span></p></div>",
+      "<div><p><span><span>None of these.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>Which institution involved in the options market was mentioned in this overview?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The Options Exchange (OEX).</span></span></p></div>",
+      "<div><p><span><span>The Options Clearance and Settlement Corporation (OCSC).</span></span></p></div>",
+      "<div><p><span><span>The Options Clearing Corporation (OCC).</span></span></p></div>",
+      "<div><p><span><span>The Intercontinental Options Exchange (IOE).</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>This course will not cover:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Distinguishing between call and put options.</span></span></p></div>",
+      "<div><p><span><span>How the OCSC determines its risk management methodology.</span></span></p></div>",
+      "<div><p><span><span>Identifying the components of an options contract on a trading platform.</span></span></p></div>",
+      "<div><p><span><span>Making certain decisions about what you can do in the options market as a contract writer or owner.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>The benefits and risks of trading options generally depend on:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The financial conditions of the trader.</span></span></p></div>",
+      "<div><p><span><span>The investment objectives of the trader.</span></span></p></div>",
+      "<div><p><span><span>The individual financial requirements of the trader.</span></span></p></div>",
+      "<div><p><span><span>All of these.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>The ODD includes information about:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Margin requirements and tax forms.</span></span></p></div>",
+      "<div><p><span><span>Income requirements and tax considerations.</span></span></p></div>",
+      "<div><p><span><span>Margin requirements and tax considerations.</span></span></p></div>",
+      "<div><p><span><span>Academic requirements and accounting standards.</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

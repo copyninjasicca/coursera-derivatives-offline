@@ -1,0 +1,709 @@
+WEBVTT
+
+1
+00:00:19.850 --> 00:00:22.380
+Now that we've described
+different types
+
+2
+00:00:22.380 --> 00:00:24.050
+of options as well
+as the roles and
+
+3
+00:00:24.050 --> 00:00:25.730
+responsibilities of buyers and
+
+4
+00:00:25.730 --> 00:00:27.529
+sellers of options contracts,
+
+5
+00:00:27.529 --> 00:00:30.260
+let's now turn our attention
+to how these instruments are
+
+6
+00:00:30.260 --> 00:00:34.010
+constructed and presented
+on a trading platform.
+
+7
+00:00:34.010 --> 00:00:37.775
+Any IBKR's Trader
+Workstations Option Chain,
+
+8
+00:00:37.775 --> 00:00:39.290
+you'll see a string
+of columns that
+
+9
+00:00:39.290 --> 00:00:41.210
+provide salient
+market information
+
+10
+00:00:41.210 --> 00:00:42.890
+about call and put options
+
+11
+00:00:42.890 --> 00:00:45.530
+for particular underlying stock.
+
+12
+00:00:45.530 --> 00:00:47.225
+Let's say for example,
+
+13
+00:00:47.225 --> 00:00:49.415
+we've stuck to our movie
+theme and we chose
+
+14
+00:00:49.415 --> 00:00:55.015
+AMC entertainment or ticker
+AMC as our underlying stock,
+
+15
+00:00:55.015 --> 00:00:57.680
+when we do you'll see
+these fields of options
+
+16
+00:00:57.680 --> 00:01:00.859
+related data tied to
+the stock populate.
+
+17
+00:01:00.859 --> 00:01:03.500
+These columns tell you the
+prevailing bid and ask
+
+18
+00:01:03.500 --> 00:01:06.200
+prices for both call
+and put contracts,
+
+19
+00:01:06.200 --> 00:01:09.245
+as well as their
+corresponding contract sizes,
+
+20
+00:01:09.245 --> 00:01:12.490
+strike prices, and
+expiration dates.
+
+21
+00:01:12.490 --> 00:01:14.750
+The option chain has
+several other fields
+
+22
+00:01:14.750 --> 00:01:16.115
+you can add to this platform,
+
+23
+00:01:16.115 --> 00:01:18.320
+but at this stage will
+keep the tool as simple as
+
+24
+00:01:18.320 --> 00:01:21.635
+possible and start
+by exploring these.
+
+25
+00:01:21.635 --> 00:01:26.000
+Remember, an equity
+option is a derivative,
+
+26
+00:01:26.000 --> 00:01:27.830
+meaning it derives its value
+
+27
+00:01:27.830 --> 00:01:29.690
+from another financial product,
+
+28
+00:01:29.690 --> 00:01:33.565
+namely the market value of a
+particular underlying stock,
+
+29
+00:01:33.565 --> 00:01:36.270
+ETF, or similar product,
+
+30
+00:01:36.270 --> 00:01:38.965
+in this case, AMC stock.
+
+31
+00:01:38.965 --> 00:01:41.840
+Defined further recall
+that a stock option is
+
+32
+00:01:41.840 --> 00:01:44.810
+a contract whereby a
+buyer and seller agree
+
+33
+00:01:44.810 --> 00:01:46.700
+to a specified
+number of shares for
+
+34
+00:01:46.700 --> 00:01:48.320
+a particular stock at
+
+35
+00:01:48.320 --> 00:01:51.520
+a fixed price and over
+a defined period.
+
+36
+00:01:51.520 --> 00:01:53.510
+Key components of this contract
+
+37
+00:01:53.510 --> 00:01:55.745
+include the underlying
+securities' name,
+
+38
+00:01:55.745 --> 00:01:58.265
+the month a contract
+is due to terminate,
+
+39
+00:01:58.265 --> 00:02:01.265
+as well as the strike
+or exercise price,
+
+40
+00:02:01.265 --> 00:02:04.825
+and the type of option
+whether a call or a put.
+
+41
+00:02:04.825 --> 00:02:07.755
+In this table, we can
+read this option contract
+
+42
+00:02:07.755 --> 00:02:10.860
+as an AMC September four call.
+
+43
+00:02:10.860 --> 00:02:13.460
+For illustration purposes,
+let's say you bought one
+
+44
+00:02:13.460 --> 00:02:16.490
+of these call options
+for a premium of $0.11.
+
+45
+00:02:16.490 --> 00:02:19.010
+You may want to keep in mind
+that this premium isn't
+
+46
+00:02:19.010 --> 00:02:20.825
+a fixed price and it subject to
+
+47
+00:02:20.825 --> 00:02:23.374
+fluctuation depending
+on market dynamics,
+
+48
+00:02:23.374 --> 00:02:24.890
+including the willingness among
+
+49
+00:02:24.890 --> 00:02:26.750
+buyers and sellers to act as
+
+50
+00:02:26.750 --> 00:02:28.730
+contract owner or writer at
+
+51
+00:02:28.730 --> 00:02:31.650
+this mutually agreeable
+price for that option.
+
+52
+00:02:31.650 --> 00:02:34.970
+You may also recall that a
+buyer of an options contract
+
+53
+00:02:34.970 --> 00:02:38.425
+may be referred to as
+being long that position.
+
+54
+00:02:38.425 --> 00:02:40.220
+We can say that as the holder
+
+55
+00:02:40.220 --> 00:02:41.885
+of this illustrative contract,
+
+56
+00:02:41.885 --> 00:02:44.150
+you are long call option,
+
+57
+00:02:44.150 --> 00:02:46.610
+giving you the right
+to buy 100 shares of
+
+58
+00:02:46.610 --> 00:02:50.105
+an AMC September
+four call at $0.11.
+
+59
+00:02:50.105 --> 00:02:52.570
+Why 100 shares?
+
+60
+00:02:52.570 --> 00:02:54.950
+As a standard in the
+US are typically
+
+61
+00:02:54.950 --> 00:02:57.815
+100 shares of stock for
+each option contract,
+
+62
+00:02:57.815 --> 00:03:01.030
+this is also considered
+a multiplier.
+
+63
+00:03:01.030 --> 00:03:03.455
+For example, if I
+bought three contracts,
+
+64
+00:03:03.455 --> 00:03:04.730
+this would mean I'd be long
+
+65
+00:03:04.730 --> 00:03:06.740
+the AMC September four call at
+
+66
+00:03:06.740 --> 00:03:10.250
+$0.11 and it would cost
+me a premium of $0.33
+
+67
+00:03:10.250 --> 00:03:13.670
+to own the contracts or the
+right to buy 300 shares at
+
+68
+00:03:13.670 --> 00:03:16.175
+a fixed price of $4 per share
+
+69
+00:03:16.175 --> 00:03:19.295
+at or before the
+contract expires.
+
+70
+00:03:19.295 --> 00:03:21.500
+In this case, if the option isn't
+
+71
+00:03:21.500 --> 00:03:24.109
+exercised and the
+contract expires,
+
+72
+00:03:24.109 --> 00:03:25.580
+the deal is off the table,
+
+73
+00:03:25.580 --> 00:03:27.320
+and the option is worthless.
+
+74
+00:03:27.320 --> 00:03:29.660
+The buyer no longer has
+the right to purchase
+
+75
+00:03:29.660 --> 00:03:33.380
+those 300 shares of AMC
+stock at $4 a share,
+
+76
+00:03:33.380 --> 00:03:35.570
+regardless of where
+AMC's market price
+
+77
+00:03:35.570 --> 00:03:37.010
+may be at the time.
+
+78
+00:03:37.010 --> 00:03:40.040
+If we look at the strike
+price or exercise price
+
+79
+00:03:40.040 --> 00:03:43.010
+from the perspective of
+beholder of a put contract,
+
+80
+00:03:43.010 --> 00:03:46.190
+then this holder would be
+required to sell 300 shares of
+
+81
+00:03:46.190 --> 00:03:48.140
+AMC stock to the writer or
+
+82
+00:03:48.140 --> 00:03:50.845
+seller of that contract
+for four dollars,
+
+83
+00:03:50.845 --> 00:03:54.470
+Again regardless of where AMC
+stock price in the market
+
+84
+00:03:54.470 --> 00:03:58.714
+may be at the time if the
+buyer's right was exercised.
+
+85
+00:03:58.714 --> 00:04:00.905
+That's the nature of
+the strike price,
+
+86
+00:04:00.905 --> 00:04:02.210
+which as you may recall,
+
+87
+00:04:02.210 --> 00:04:04.520
+is that predetermined
+fixed price that's
+
+88
+00:04:04.520 --> 00:04:07.280
+agreed upon in the
+options contract.
+
+89
+00:04:07.280 --> 00:04:09.800
+It's also the crux of
+that critical question
+
+90
+00:04:09.800 --> 00:04:11.480
+faced by options traders.
+
+91
+00:04:11.480 --> 00:04:15.670
+Will the price of the
+underlying stock rise or fall?
+
+92
+00:04:15.670 --> 00:04:17.840
+Strike prices which
+are generally set
+
+93
+00:04:17.840 --> 00:04:20.020
+by the exchange where
+the options listed,
+
+94
+00:04:20.020 --> 00:04:21.475
+are positioned with values
+
+95
+00:04:21.475 --> 00:04:24.655
+above and below that
+stock's market price.
+
+96
+00:04:24.655 --> 00:04:26.675
+Since those prices fluctuate,
+
+97
+00:04:26.675 --> 00:04:28.195
+so the strike prices,
+
+98
+00:04:28.195 --> 00:04:30.020
+with new ones continually created
+
+99
+00:04:30.020 --> 00:04:32.165
+to reflect those
+changes in the market.
+
+100
+00:04:32.165 --> 00:04:35.315
+But once a contract is in
+place, that strike price,
+
+101
+00:04:35.315 --> 00:04:37.550
+along with the other
+components and terms it
+
+102
+00:04:37.550 --> 00:04:41.135
+contains will be in effect
+until its expiration date.
+
+103
+00:04:41.135 --> 00:04:43.070
+Let's take a look at
+the different types of
+
+104
+00:04:43.070 --> 00:04:46.150
+options and how their
+strike prices work.
+
+105
+00:04:46.150 --> 00:04:48.320
+Call options for example,
+
+106
+00:04:48.320 --> 00:04:51.140
+with strike prices below the
+current trading price of
+
+107
+00:04:51.140 --> 00:04:54.860
+its underlying shares are
+said to be in-the-money.
+
+108
+00:04:54.860 --> 00:04:56.900
+However, those with
+strike prices above
+
+109
+00:04:56.900 --> 00:04:59.600
+the current price of the
+underlying shares are said to
+
+110
+00:04:59.600 --> 00:05:01.790
+be out-of-the-money
+and would have
+
+111
+00:05:01.790 --> 00:05:04.995
+no value if exercised
+under those conditions.
+
+112
+00:05:04.995 --> 00:05:08.850
+The relationship for put
+options runs the opposite way.
+
+113
+00:05:08.850 --> 00:05:10.570
+Here, strike prices above
+
+114
+00:05:10.570 --> 00:05:13.900
+the current share price are
+said to be in-the-money and
+
+115
+00:05:13.900 --> 00:05:15.460
+those with strike prices below
+
+116
+00:05:15.460 --> 00:05:19.135
+the current share price are
+said to be out-of-the-money.
+
+117
+00:05:19.135 --> 00:05:21.835
+Put another way, as a
+writer of put options,
+
+118
+00:05:21.835 --> 00:05:23.950
+you would expect the
+underlying share price
+
+119
+00:05:23.950 --> 00:05:26.185
+to remain above the strike price
+
+120
+00:05:26.185 --> 00:05:28.420
+over the life of the
+contract and you
+
+121
+00:05:28.420 --> 00:05:31.535
+receive a premium for bearing
+the risk that it doesn't.
+
+122
+00:05:31.535 --> 00:05:33.900
+Turning again to
+the option chain,
+
+123
+00:05:33.900 --> 00:05:37.195
+for this particular class of
+call options on AMC stock,
+
+124
+00:05:37.195 --> 00:05:39.880
+we can see the strike
+prices here, above,
+
+125
+00:05:39.880 --> 00:05:43.015
+and below the market price
+for the underlying security.
+
+126
+00:05:43.015 --> 00:05:45.025
+Now you may have
+noticed I mentioned
+
+127
+00:05:45.025 --> 00:05:47.460
+a particular class of auctions.
+
+128
+00:05:47.460 --> 00:05:49.475
+When you're trading in
+the options market,
+
+129
+00:05:49.475 --> 00:05:50.720
+you may hear about
+
+130
+00:05:50.720 --> 00:05:54.725
+different classes of options
+or series of options.
+
+131
+00:05:54.725 --> 00:05:58.640
+If we're talking about all of
+the calls on the AMC stock,
+
+132
+00:05:58.640 --> 00:06:00.530
+for example, we're talking about
+
+133
+00:06:00.530 --> 00:06:02.645
+the same class of options.
+
+134
+00:06:02.645 --> 00:06:04.700
+That is one type of option with
+
+135
+00:06:04.700 --> 00:06:06.805
+the same underlying security.
+
+136
+00:06:06.805 --> 00:06:09.630
+Whenever we're talking
+about all AMC put,
+
+137
+00:06:09.630 --> 00:06:11.345
+that would be a different class
+
+138
+00:06:11.345 --> 00:06:13.565
+given it's a different
+type of option.
+
+139
+00:06:13.565 --> 00:06:15.245
+Now, if we were referring to
+
+140
+00:06:15.245 --> 00:06:17.375
+all the calls on AMC stock that
+
+141
+00:06:17.375 --> 00:06:21.050
+all had the same expiration
+date and exercise price,
+
+142
+00:06:21.050 --> 00:06:24.410
+we'd be referring to an
+option series that has
+
+143
+00:06:24.410 --> 00:06:26.120
+the same option class with
+
+144
+00:06:26.120 --> 00:06:30.470
+both the expiry and
+exercise price in common.
+
+145
+00:06:30.470 --> 00:06:33.110
+Now that we've covered
+the basic language
+
+146
+00:06:33.110 --> 00:06:34.280
+of stock options,
+
+147
+00:06:34.280 --> 00:06:36.845
+what they are and the broad
+strokes of how they work,
+
+148
+00:06:36.845 --> 00:06:38.120
+will dig more deeply into
+
+149
+00:06:38.120 --> 00:06:39.950
+the new words of these products,
+
+150
+00:06:39.950 --> 00:06:42.635
+including the benefits and
+risks of trading them,
+
+151
+00:06:42.635 --> 00:06:44.735
+which is the subject
+of our next video.
+
+152
+00:06:44.735 --> 00:06:47.100
+We'll look forward
+to seeing you then.

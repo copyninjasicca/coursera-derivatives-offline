@@ -1,0 +1,123 @@
+PAGE 1
+Probability Calculator
+Powered by IVolatility
+The Probability Calculator, powered by IVolatility.com allows you to enter a stock, index, or 
+ETF to populate information on its potential price movement. The calculator will provide you 
+with the last price of the instrument, current dividend and interest rate information, and 
+allow you to select a target expiration date. Using this information and custom price inputs, 
+the calculator provides a statistical probability of the underlying touching either of two 
+prices (P1 or P2) or settling in between the two and touching neither.  Note that all data is 
+provided with a 20-minute delay. If the markets are closed, the previous trading day's 
+market closing price will be used.
+Choose a Stock Symbol, Index 
+Symbol, or Option Symbol
+Input any stock, index or option symbol. If you 
+don't know the symbol, you can browse by 
+company name, instrument, market or 
+exchange via the "Symbol Lookup" icon. Once 
+you select a symbol, data will populate the 
+table with the underlying's current price,
+interest rate and dividend data. Users can 
+adjust all of these ﬁelds.
+Last Price
+The option's underlying price is 20-minute 
+delayed. If the markets are closed, the 
+previous trading day's market closing price will 
+be used. The user can change it to today's 
+current price or any other price by manually 
+entering the desired price. Notice that the 
+price must be entered in decimal format.
+Interest Rate
+The default risk-free interest rate is derived 
+from last night's treasury market and is the 
+rate that is equivalent to the option's 
+expiration term. Users can change the interest 
+rate by entering any other value.
+/uni2196
+/uni2196
+/uni2196
+PAGE 2
+Expiry
+This will populate a drop down with all 
+potential expiration dates. The default value 
+will be the closest expiry date, or the option 
+with the fewest days to expiration. Expiry date 
+and time are customizable and modiﬁcations 
+will display possible impact to an option’s 
+value.
+Time
+The three boxes represent days, hours, and 
+minutes left to expiry. This can be changed to 
+reﬂect a non-standard expiry date or to 
+perform “what if” analysis.
+Dividend Amount, Date & Frequency
+Depending upon whether a stock pays a 
+dividend or not, this section may or may not 
+contain data. If there is data within the ﬁelds 
+you can alter it by simply adding in the 
+dividend amount and the corresponding ex. 
+dividend date into the ﬁelds. The calculator 
+will then price the options accordingly.
+Volatility Level
+This allows you to select a methodology with 
+which to set the volatility level of the 
+underlying. The possible selections include:
+• The at-the-money volatility of the nearest 
+term option
+• The IV Index 30D (the implied volatility of 
+the option with 30 days to expiry), IV index 
+60D, or IV Index 90D
+• The HV 10D (the 10-day historical volatility 
+of the underlying), HV 60D, HV 90D, HV 
+120D, HV 150D, or HV 180D 
+Calculations
+When all inputs are set on the left side, input 
+two prices into the P1 and P2 boxes and press 
+conﬁrm.
+/uni2196
+/uni2196
+/uni2196
+/uni2196
+/uni2196
+/uni2196
+/uni2196
+PAGE 3
+Calculations Continued...
+With this data, the Probability Calculator 
+takes volatility in options on the underlying 
+stock, index or ETF, and factors in the current 
+risk-free interest rate, plus any dividends. This 
+sums up the key factors of what the market's 
+activity is "implying" about future prices on the 
+underlying. The Probability Calculator helps 
+gauge the statistical likelihood of hitting 
+certain price highs and lows through that time 
+period. 
+The ﬁrst section uses inputs to generate the 
+probability of the following scenarios: 
+• Below Price 1
+• Between Price 1 and Price 2
+• Above Price 2
+The next section expresses the statistical 
+probability of touching the following:
+• Price 1
+• Price 2
+• Both Price 1 and Price 2
+• Either Price 1 or Price 2
+• Neither Price 1 nor Price 2
+/uni2196
+/uni2196
+/uni2196
+The last section measures what the underlying 
+prices look like for each standard deviation 
+interval at the future date. In other words, the 
+calculator will tell you that if a stock moves by 
+X Standard Deviation, what that speciﬁc share 
+price would be.
+Disclaimer
+The Probability Calculator and 20-minute delayed options quotes are provided by 
+IVolatility, and NOT BY OCC. The tool is being provided for educational purposes only. OCC 
+makes no representation as to the timeliness, accuracy or validity of the information and 
+this informa-tion should not be construed as a recommendation to purchase or sell a 
+security, or to provide investment advice. For more information or help, please contact us at 
+options@theocc.com.

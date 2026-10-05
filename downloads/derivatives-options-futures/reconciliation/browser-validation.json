@@ -1,0 +1,72 @@
+{
+  "checkedOn": "2026-10-05",
+  "passed": true,
+  "method": "Actual in-app-browser controls on loopback HTTP, default 438px viewport",
+  "checks": [
+    {
+      "name": "American 100-step call/put UI",
+      "observed": "13.676702 / 6.486857 for S100 K95 T.25 r10% vol50% q0"
+    },
+    {
+      "name": "Probability risk-neutral default",
+      "observed": "Terminal sum 100%; ordinary union residual 0"
+    },
+    {
+      "name": "Probability zero-log alternative",
+      "observed": "Touch1 45.3793%, Touch2 49.7994%, Both 6.4181%"
+    },
+    {
+      "name": "Probability invalid reversed targets",
+      "observed": "Visible error, results and consistency text cleared"
+    },
+    {
+      "name": "Covered call expiry arithmetic",
+      "observed": "100 shares @100, short 1 call K100 entry5 multiplier100; S110 elapsed90: cost9500 value10000 pnl500"
+    },
+    {
+      "name": "American cash schedule portfolio",
+      "observed": "Schedule45 days/1.25, defaultS100: short call model3.7673, pnl123.27"
+    },
+    {
+      "name": "Position JSON file import",
+      "observed": "Imported dated cash leg, American style and expiry scenario; pnl500"
+    },
+    {
+      "name": "Position JSON export preview",
+      "observed": "Parsed version1 JSON retains input legs, normalized cash schedule, market and elapsed scenario; derived values removed"
+    },
+    {
+      "name": "Market JSON file import",
+      "observed": "Template accepted;45 prices,4 quotes, source/as-of retained"
+    },
+    {
+      "name": "Market invalid date rejection",
+      "observed": "2026-02-30 rejected with visible date error"
+    },
+    {
+      "name": "Synthetic market/HV analysis",
+      "observed": "AsOf2026-10-02; HV8.7273% sample/20 returns/252; call volume600,put560,total1160; two curve paths"
+    },
+    {
+      "name": "Market export preview",
+      "observed": "Version1 source,45 prices and4 quotes retained"
+    },
+    {
+      "name": "Responsive page",
+      "observed": "scrollWidth=clientWidth=438; wide result/leg tables scroll inside containers"
+    },
+    {
+      "name": "Console errors",
+      "observed": "No error/warn entries after tested calculator interactions"
+    },
+    {
+      "name": "Current implementation report navigation",
+      "observed": "Report opens from lab; full coverage, all model evidence and nine pricing cases render; page fits438px viewport."
+    }
+  ],
+  "limits": [
+    "Blob download event did not fire in the in-app browser; exports provide persistent download links and copyable read-only JSON as a verified fallback.",
+    "Computer was not physically disconnected; local assets and CSP connect-src none are separately audited.",
+    "Original option-engine equivalence remains unproven."
+  ]
+}

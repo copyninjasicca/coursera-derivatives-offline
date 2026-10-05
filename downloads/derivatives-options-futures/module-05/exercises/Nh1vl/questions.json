@@ -1,0 +1,13 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>What would you do to add Volume as a column within a TWS Mosaic watch list?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Configure the watch list using a right-click of the mouse, select Insert a Column and locate Volume from within the associated category.</span></span></p></div>",
+      "<div><p><span><span>Use the search window to locate Volume and follow any instructions returned in the search.</span></span></p></div>",
+      "<div><p><span><span>Locate and select Futures Volume from the blue New Window button in the upper left of Mosaic.</span></span></p></div>",
+      "<div><p><span><span>Drag a Volume column from another watch list.</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

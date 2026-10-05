@@ -1,0 +1,11 @@
+# Local credentials and machine-specific configuration
+coursera.local.json
+.env
+.env.*
+*.local.json
+*.pem
+*.key
+# OS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]

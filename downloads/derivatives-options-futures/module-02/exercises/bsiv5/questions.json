@@ -1,0 +1,35 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Which Greek variable measures the rate of change of delta?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Theta</span></span></p></div>",
+      "<div><p><span><span>Rho</span></span></p></div>",
+      "<div><p><span><span>Vega</span></span></p></div>",
+      "<div><p><span><span>Gamma</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>Which Greek variable measures the rate of change of volatility?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Theta</span></span></p></div>",
+      "<div><p><span><span>Gamma</span></span></p></div>",
+      "<div><p><span><span>Rho</span></span></p></div>",
+      "<div><p><span><span>Vega</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>Which Greek variable measures the rate of change of time?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Theta</span></span></p></div>",
+      "<div><p><span><span>Vega</span></span></p></div>",
+      "<div><p><span><span>Gamma</span></span></p></div>",
+      "<div><p><span><span>Rho</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

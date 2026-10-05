@@ -1,0 +1,901 @@
+WEBVTT
+
+1
+00:00:18.860 --> 00:00:22.440
+In this video, we'll introduce
+you to equity options,
+
+2
+00:00:22.440 --> 00:00:24.570
+by providing you with
+a broad overview of
+
+3
+00:00:24.570 --> 00:00:27.030
+this often complex asset class,
+
+4
+00:00:27.030 --> 00:00:29.565
+including how they function
+as a financial derivative,
+
+5
+00:00:29.565 --> 00:00:31.260
+as well as some of the reasons,
+
+6
+00:00:31.260 --> 00:00:33.210
+traders decides to use them.
+
+7
+00:00:33.210 --> 00:00:35.520
+Now I'm assuming
+your first question
+
+8
+00:00:35.520 --> 00:00:37.335
+is most likely going to be,
+
+9
+00:00:37.335 --> 00:00:39.270
+what exactly is an option?
+
+10
+00:00:39.270 --> 00:00:42.510
+On broad terms an
+option, is a derivative.
+
+11
+00:00:42.510 --> 00:00:44.570
+While the word
+derivative may spur
+
+12
+00:00:44.570 --> 00:00:47.705
+some memories of calculus
+class, in finance,
+
+13
+00:00:47.705 --> 00:00:50.840
+a derivative can be
+thought of very simply as
+
+14
+00:00:50.840 --> 00:00:53.150
+one financial
+instrument whose value
+
+15
+00:00:53.150 --> 00:00:55.940
+is derived from the
+performance of another.
+
+16
+00:00:55.940 --> 00:00:58.415
+The value of an equity
+option, for example,
+
+17
+00:00:58.415 --> 00:01:01.565
+is essentially derived from
+the performance of a stock,
+
+18
+00:01:01.565 --> 00:01:05.365
+exchange traded fund,
+or similar product.
+
+19
+00:01:05.365 --> 00:01:07.730
+Here's an easy concept
+to help you understand
+
+20
+00:01:07.730 --> 00:01:10.055
+how a derivative in
+finance can work.
+
+21
+00:01:10.055 --> 00:01:12.470
+Let's look at a proposed
+financial product
+
+22
+00:01:12.470 --> 00:01:14.420
+called a 'Movie Derivative',
+
+23
+00:01:14.420 --> 00:01:16.640
+which as we'll see,
+has a lot in common
+
+24
+00:01:16.640 --> 00:01:19.360
+with ways in which we
+can think about options.
+
+25
+00:01:19.360 --> 00:01:21.635
+A Movie Derivative, which was
+
+26
+00:01:21.635 --> 00:01:24.860
+proposed and failed to
+gain support in 2010,
+
+27
+00:01:24.860 --> 00:01:26.540
+ended allowing investors to
+
+28
+00:01:26.540 --> 00:01:29.014
+speculate on The Box
+Office performance,
+
+29
+00:01:29.014 --> 00:01:31.135
+of a theatrical movie release.
+
+30
+00:01:31.135 --> 00:01:33.830
+Now for illustrative
+purposes let's say you think
+
+31
+00:01:33.830 --> 00:01:35.270
+a movie scheduled for release
+
+32
+00:01:35.270 --> 00:01:36.950
+next summer is going to be a hit.
+
+33
+00:01:36.950 --> 00:01:38.600
+You've learned that
+if you invest it
+
+34
+00:01:38.600 --> 00:01:40.175
+in a certain movie derivative,
+
+35
+00:01:40.175 --> 00:01:43.555
+would earn you a nice
+profit, if you were right.
+
+36
+00:01:43.555 --> 00:01:47.255
+Should you? Or let me
+ask you this first.
+
+37
+00:01:47.255 --> 00:01:48.860
+Why do you think audiences
+
+38
+00:01:48.860 --> 00:01:50.165
+are going to go crazy about it?
+
+39
+00:01:50.165 --> 00:01:52.460
+Is it just a hunter of people
+
+40
+00:01:52.460 --> 00:01:55.210
+on social media been
+raving about it saying,
+
+41
+00:01:55.210 --> 00:01:57.860
+this thing could take
+in more than Star Wars,
+
+42
+00:01:57.860 --> 00:01:59.780
+Titanic, or The Avengers?
+
+43
+00:01:59.780 --> 00:02:02.060
+If they are, what support
+
+44
+00:02:02.060 --> 00:02:04.265
+could you use to back
+up these claims?
+
+45
+00:02:04.265 --> 00:02:07.850
+You may ask, who are the
+people behind the project,
+
+46
+00:02:07.850 --> 00:02:09.545
+or in front of the camera?
+
+47
+00:02:09.545 --> 00:02:12.070
+Are there track
+records of success?
+
+48
+00:02:12.070 --> 00:02:14.790
+How widely distributed,
+will the movie be,
+
+49
+00:02:14.790 --> 00:02:16.230
+and how many screens?
+
+50
+00:02:16.230 --> 00:02:18.270
+What's the marketing strategy?
+
+51
+00:02:18.270 --> 00:02:19.855
+Will the trailer alone,
+
+52
+00:02:19.855 --> 00:02:22.780
+make me want to go buy
+a ticket and see it?
+
+53
+00:02:22.780 --> 00:02:26.385
+Let's say all signs point to yes.
+
+54
+00:02:26.385 --> 00:02:28.920
+Yes, you should buy
+this movie derivative.
+
+55
+00:02:28.920 --> 00:02:31.925
+The film is most likely going
+to be a blockbuster but,
+
+56
+00:02:31.925 --> 00:02:33.620
+something nags at you.
+
+57
+00:02:33.620 --> 00:02:36.230
+Still not entirely
+convinced you should.
+
+58
+00:02:36.230 --> 00:02:39.205
+But what do other investors
+in the market think?
+
+59
+00:02:39.205 --> 00:02:40.790
+How much interest does
+
+60
+00:02:40.790 --> 00:02:44.065
+this movie derivative have
+among buyers and sellers?
+
+61
+00:02:44.065 --> 00:02:46.980
+Well, here, you see heavy buying.
+
+62
+00:02:46.980 --> 00:02:48.500
+In fact, investors are more
+
+63
+00:02:48.500 --> 00:02:50.690
+interested in purchasing
+this movie derivative,
+
+64
+00:02:50.690 --> 00:02:53.005
+than those shorting,
+or selling it,
+
+65
+00:02:53.005 --> 00:02:55.185
+by a ratio of at least 10 to one.
+
+66
+00:02:55.185 --> 00:02:57.440
+With the lion's share of
+the speculation saying
+
+67
+00:02:57.440 --> 00:03:00.725
+that Box Office revenues
+will exceed a $100 million,
+
+68
+00:03:00.725 --> 00:03:02.240
+in the films first week of
+
+69
+00:03:02.240 --> 00:03:05.595
+release. Are you convinced yet?
+
+70
+00:03:05.595 --> 00:03:07.660
+If you buy this movie derivative,
+
+71
+00:03:07.660 --> 00:03:09.090
+and the movie makes
+more than a $100
+
+72
+00:03:09.090 --> 00:03:10.885
+million in its first weekend,
+
+73
+00:03:10.885 --> 00:03:13.240
+just tend to make a profit
+on your investment.
+
+74
+00:03:13.240 --> 00:03:16.290
+But if you're wrong, you
+would lose your investment,
+
+75
+00:03:16.290 --> 00:03:19.535
+or the premium you paid to
+the seller of the product.
+
+76
+00:03:19.535 --> 00:03:23.705
+But you say, this just
+sounds too good to be true.
+
+77
+00:03:23.705 --> 00:03:26.410
+I'm going to short
+this movie derivative.
+
+78
+00:03:26.410 --> 00:03:28.550
+Now, why would you say that?
+
+79
+00:03:28.550 --> 00:03:30.065
+What makes you think, given
+
+80
+00:03:30.065 --> 00:03:31.970
+all the hype and the
+buying interests,
+
+81
+00:03:31.970 --> 00:03:33.995
+the movie is not
+going to be a hit?
+
+82
+00:03:33.995 --> 00:03:36.965
+In fact, you think it's
+going to be a disaster.
+
+83
+00:03:36.965 --> 00:03:40.150
+What do you know that
+most others don't?
+
+84
+00:03:40.150 --> 00:03:42.170
+On your research
+you've looked beyond
+
+85
+00:03:42.170 --> 00:03:43.730
+the social media
+platforms and you've
+
+86
+00:03:43.730 --> 00:03:47.060
+heard talk among some
+trusted industry experts,
+
+87
+00:03:47.060 --> 00:03:48.650
+that there's a strong risk
+
+88
+00:03:48.650 --> 00:03:51.520
+the film is going
+overtime on production.
+
+89
+00:03:51.520 --> 00:03:53.210
+It's going over its budget,
+
+90
+00:03:53.210 --> 00:03:56.435
+and it's very likely not going
+to meet its release date.
+
+91
+00:03:56.435 --> 00:03:59.645
+All very worrying signs that
+are further compounded,
+
+92
+00:03:59.645 --> 00:04:00.980
+a scattered rumor is that
+
+93
+00:04:00.980 --> 00:04:04.105
+the director may walk off
+set before production end.
+
+94
+00:04:04.105 --> 00:04:06.725
+You believe that all the hype is
+
+95
+00:04:06.725 --> 00:04:09.650
+just to provide cover
+for the failing project.
+
+96
+00:04:09.650 --> 00:04:11.810
+You're willing to
+accept the premium
+
+97
+00:04:11.810 --> 00:04:13.985
+from the buyer on this
+movie derivative,
+
+98
+00:04:13.985 --> 00:04:16.240
+as opposed to taking the risk,
+
+99
+00:04:16.240 --> 00:04:20.040
+paying it, and losing
+your investment.
+
+100
+00:04:20.040 --> 00:04:23.735
+A couple of weeks before the
+film was due to be released,
+
+101
+00:04:23.735 --> 00:04:27.260
+news surfaces on some
+major media channels that,
+
+102
+00:04:27.260 --> 00:04:29.885
+indeed, the film is over budget,
+
+103
+00:04:29.885 --> 00:04:32.630
+and there are concerns
+about its release date.
+
+104
+00:04:32.630 --> 00:04:36.930
+Did you make the right
+decision? You might think so.
+
+105
+00:04:36.930 --> 00:04:38.980
+But, on an opening weekend line
+
+106
+00:04:38.980 --> 00:04:40.880
+stretched out the
+door for this movie.
+
+107
+00:04:40.880 --> 00:04:43.690
+It's showed in just about
+every major US city,
+
+108
+00:04:43.690 --> 00:04:45.730
+as well as at almost
+every local theater
+
+109
+00:04:45.730 --> 00:04:46.940
+across the country.
+
+110
+00:04:46.940 --> 00:04:49.140
+In most major Cineplexes
+
+111
+00:04:49.140 --> 00:04:51.765
+the movie is showed on
+at least four screens.
+
+112
+00:04:51.765 --> 00:04:54.780
+Although several high
+profile critics pend it,
+
+113
+00:04:54.780 --> 00:04:56.730
+audiences couldn't get enough.
+
+114
+00:04:56.730 --> 00:04:58.120
+Everyone was talking about it.
+
+115
+00:04:58.120 --> 00:04:59.335
+I'm going to see it again.
+
+116
+00:04:59.335 --> 00:05:00.895
+I'm going for the third time.
+
+117
+00:05:00.895 --> 00:05:03.030
+My cousin wants to see it now.
+
+118
+00:05:03.030 --> 00:05:04.810
+The movie made well over a
+
+119
+00:05:04.810 --> 00:05:06.610
+$100 million on
+its first weekend,
+
+120
+00:05:06.610 --> 00:05:09.745
+in fact, it neared $150 million.
+
+121
+00:05:09.745 --> 00:05:12.280
+Given this outcome,
+you've now found
+
+122
+00:05:12.280 --> 00:05:14.980
+yourself on the wrong
+side of the trade.
+
+123
+00:05:14.980 --> 00:05:16.940
+While you collected your premium,
+
+124
+00:05:16.940 --> 00:05:18.735
+buyers of this movie derivative,
+
+125
+00:05:18.735 --> 00:05:21.105
+they had much better
+on their investment.
+
+126
+00:05:21.105 --> 00:05:23.165
+But while movie derivatives
+
+127
+00:05:23.165 --> 00:05:25.400
+never made it as actual
+trading products,
+
+128
+00:05:25.400 --> 00:05:27.770
+they were ultimately
+banned after the signing
+
+129
+00:05:27.770 --> 00:05:30.350
+of the 2010 Financial Reform Act,
+
+130
+00:05:30.350 --> 00:05:32.960
+the concept still
+lends itself nicely
+
+131
+00:05:32.960 --> 00:05:35.990
+to explaining how derivatives
+and finance can work.
+
+132
+00:05:35.990 --> 00:05:38.900
+For instance, you
+likely gleaned from
+
+133
+00:05:38.900 --> 00:05:40.610
+this example that the challenge
+
+134
+00:05:40.610 --> 00:05:42.425
+with trading movie derivatives,
+
+135
+00:05:42.425 --> 00:05:44.780
+would have been an
+accurately gauging
+
+136
+00:05:44.780 --> 00:05:47.755
+how audiences will
+respond to the movie.
+
+137
+00:05:47.755 --> 00:05:49.950
+Yes, you may hear all of rumors,
+
+138
+00:05:49.950 --> 00:05:51.730
+do research on the track record
+
+139
+00:05:51.730 --> 00:05:53.690
+of the greed of team
+involved in the film,
+
+140
+00:05:53.690 --> 00:05:55.580
+the star power on screen and
+
+141
+00:05:55.580 --> 00:05:58.045
+the marketing forces
+that push the product,
+
+142
+00:05:58.045 --> 00:05:59.630
+but it's uncertainties over
+
+143
+00:05:59.630 --> 00:06:01.625
+the films effect on the audience.
+
+144
+00:06:01.625 --> 00:06:04.730
+Its accessibility and
+availability to be seen,
+
+145
+00:06:04.730 --> 00:06:06.950
+as long as its word
+of mouth reputation
+
+146
+00:06:06.950 --> 00:06:08.180
+once it's released,
+
+147
+00:06:08.180 --> 00:06:12.270
+that basically drive the size
+of its Box Office revenues.
+
+148
+00:06:12.770 --> 00:06:16.160
+What does this have to
+do with options trading?
+
+149
+00:06:16.160 --> 00:06:17.750
+On a similar way that
+
+150
+00:06:17.750 --> 00:06:19.820
+the movie derivatives
+value would be based on
+
+151
+00:06:19.820 --> 00:06:23.600
+the future Box Office
+performance of a film, traders,
+
+152
+00:06:23.600 --> 00:06:25.460
+use options to speculate on
+
+153
+00:06:25.460 --> 00:06:28.025
+the future performance of stocks,
+
+154
+00:06:28.025 --> 00:06:31.850
+bonds, indexes, and
+foreign currency.
+
+155
+00:06:31.850 --> 00:06:34.190
+A trader of stock
+options, for example,
+
+156
+00:06:34.190 --> 00:06:36.050
+would generally want to analyze
+
+157
+00:06:36.050 --> 00:06:39.035
+a multitude of factors
+about the underlying stock,
+
+158
+00:06:39.035 --> 00:06:41.765
+to gauge whether its
+price will rise,
+
+159
+00:06:41.765 --> 00:06:45.160
+or fall, over a certain
+limited period of time.
+
+160
+00:06:45.160 --> 00:06:47.090
+Much like the audience's response
+
+161
+00:06:47.090 --> 00:06:48.995
+to a movie around
+its release date.
+
+162
+00:06:48.995 --> 00:06:50.450
+Will they stand and applaud,
+
+163
+00:06:50.450 --> 00:06:52.930
+or sink back in their seats?
+
+164
+00:06:52.930 --> 00:06:56.270
+As a buyer or seller of stock
+options you may consider
+
+165
+00:06:56.270 --> 00:06:59.390
+all the same fundamental
+and/or technical analyses
+
+166
+00:06:59.390 --> 00:07:01.040
+that equity analysts use,
+
+167
+00:07:01.040 --> 00:07:02.870
+among other methods that are more
+
+168
+00:07:02.870 --> 00:07:05.110
+specific for the options market,
+
+169
+00:07:05.110 --> 00:07:08.090
+to ultimately help
+inform your decision,
+
+170
+00:07:08.090 --> 00:07:10.550
+as to whether a
+particular stock will
+
+171
+00:07:10.550 --> 00:07:14.920
+rise or fall within a
+predetermined time-frame.
+
+172
+00:07:14.920 --> 00:07:16.640
+Options traders also have
+
+173
+00:07:16.640 --> 00:07:18.290
+a slew of other measures
+by which they may
+
+174
+00:07:18.290 --> 00:07:21.395
+analyze the potential performance
+of these instruments,
+
+175
+00:07:21.395 --> 00:07:23.720
+including implied
+volatility, as well
+
+176
+00:07:23.720 --> 00:07:26.200
+as a host of different
+sensitivity value.
+
+177
+00:07:26.200 --> 00:07:28.370
+While we'll explore
+these concepts
+
+178
+00:07:28.370 --> 00:07:30.210
+more in depth later
+in the course,
+
+179
+00:07:30.210 --> 00:07:32.225
+it's important to
+keep in mind that
+
+180
+00:07:32.225 --> 00:07:35.615
+stock options traders
+are generally concerned,
+
+181
+00:07:35.615 --> 00:07:39.800
+with whether they believe
+a given underlying stock,
+
+182
+00:07:39.800 --> 00:07:43.610
+will rise or fall over
+a given period of time.
+
+183
+00:07:43.610 --> 00:07:46.780
+This is the derivative
+nature of these products.
+
+184
+00:07:46.780 --> 00:07:48.995
+Meanwhile, beyond
+the speculation,
+
+185
+00:07:48.995 --> 00:07:51.410
+traders may look to the
+equities option market
+
+186
+00:07:51.410 --> 00:07:54.755
+for variety of other reasons
+including income generation,
+
+187
+00:07:54.755 --> 00:07:57.994
+as well as tools for hedging
+against existing positions,
+
+188
+00:07:57.994 --> 00:08:00.805
+and various risk
+mitigation strategy.
+
+189
+00:08:00.805 --> 00:08:04.190
+We'll also be diving more
+deeply into these topics.
+
+190
+00:08:04.190 --> 00:08:05.930
+In our next video, we'll explore
+
+191
+00:08:05.930 --> 00:08:08.930
+some critical terms and
+meanings in the options market,
+
+192
+00:08:08.930 --> 00:08:12.005
+as well as examine the
+roles and responsibilities,
+
+193
+00:08:12.005 --> 00:08:15.115
+of buyers and sellers of
+stock options contract.
+
+194
+00:08:15.115 --> 00:08:20.320
+Come back.
+
+195
+00:08:20.320 --> 00:08:25.600
+Enjoy.

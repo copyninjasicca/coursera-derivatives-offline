@@ -1,0 +1,60 @@
+- paragraph
+- generic: Symbol
+- combobox: SPY:NYSEArca
+- text: Stock, Index or Option Symbol...
+- generic: 
+- button "Advanced search":
+- button "Refresh":
+- generic: Style
+- combobox "Style":
+  - textbox: European
+  - text: 
+- generic: Last Price
+- textbox "Last Price": "100"
+- generic: Strike
+- textbox "Strike": "95"
+- generic: Expiry
+- combobox "Expiration":
+  - textbox: Custom date
+  - text: 
+- textbox
+- generic: Time to expiration
+- textbox "Days to expiration":
+  - /placeholder: D-
+  - text: "91"
+- textbox "Hours to expiration":
+  - /placeholder: H-
+  - text: "6"
+- textbox "Minutes to expiration":
+  - /placeholder: Min-
+  - text: "0"
+- generic: IV
+- textbox "IV (Implied Volatility)": "50"
+- generic: Interest Rate
+- textbox "Interest Rate": "10"
+- generic: Dividend Date
+- textbox "Dividend Date":
+  - /placeholder: YYYY-MM-DD
+- generic: Dividend Amount
+- textbox "Dividend Amount": "0"
+- generic: DivFreq
+- combobox "Dividend Frequency" [active]:
+  - textbox
+  - text: 
+- generic: Call
+- generic: Put
+- link "Symbol":
+  - /url: /jargon/
+- button "Copy call symbol"
+- button "Copy put symbol"
+- generic: Option Value
+- generic: Bid/Ask
+- generic: Delta
+- generic: Gamma
+- generic: Theta
+- generic: Alpha
+- generic: Vega
+- generic: Rho
+- generic: Option Price
+- textbox "Option Price"
+- generic: Implied Volatility

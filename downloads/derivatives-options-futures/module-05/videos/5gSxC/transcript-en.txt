@@ -1,0 +1,58 @@
+For those of you
+following along in TWS, this video aims to show you how to add common contracts
+to the display. We will explain contract codes and months to help you
+quickly build them. We'll demonstrate how to add one, or a strip of futures
+contracts to your display. For spread traders, and
+for those wanting to roll a contract from one
+exploration to the next, we'll show you how to create a spread between two contract. In TWS, future symbols are specific to the exchange
+listed contract, month, and year of the
+product you are looking at. Yet, there are several ways to arrive at displaying
+the information. If you know the symbol of the contract you want
+to add to the display, type it into a row
+on your monitor. In this case, I'll
+use GC for gold. By entering GC, the contract
+selection box displays. Locate the exchange in
+which this contract trades, select "Futures", and
+pick the relevant month. If the month you want
+is not displayed, click the "More" button to
+find the relevant contract. You will notice that there
+are a few nearby contracts listed along with the
+so-called continuous contract. The continuous contract refers to the contract where most
+investors are positioned, and where open interest
+is concentrated. TWS will update as positions are rolled
+into the next expiry. To quickly add a
+specific exploration for a contract in to TWs, you will need the product code, and the symbol used
+to denote the month, along with the final digits of the year in which the
+contract expires. For example, if I specifically
+wanted to display the December 2021 contract, we know that GC is the
+TWS symbol for gold, and knowing that Z
+represents December, we'd enter GC Z 1, where one represents 2021. Should you want the
+December 2022 contract, you'd enter GC Z 2. Here is a list of the
+futures month codes. To display multiple contract
+months at the same time, start with the TWS symbol, locate the exchange,
+and select futures. Select "More", and hold
+the "Control" key down as you highlight the expirations you wish to add to your display. This is known as a future strip. You can add all of your required futures contracts to a monitor page this way. To learn more about
+each contract, or to find out it's
+trading hours and so on, right-click on the symbol, and from the financial
+instrument info row, follow the arrow to
+view its description. You will be able to see the exchange
+information, contract, expiration, and last
+trading details, as well as trading hours. Click-through the calendar
+hyperlink to get a visual on trading
+hours across the week. To display futures related
+data on your monitor, right-click on any column header, and choose "Manage Columns" to display the
+configuration menu. From the available columns
+to the right of the display, locate, and expand
+the futures grouping, and make your selections. Note that you should choose other common values from financial instrument
+descriptions, prices, and high, low, volume, history,
+sections as usual. If you wish to add a spread
+between two contracts, you can use the convention of subtracting one
+contract from another. For example, for gold contracts, to add the spread between
+the December 2021, and June 2022 explorations, type GC Z 1 minus GC
+M 2, and hit "Enter". You will see the bid ask prices, and the chart display the
+recent history of the spread. Alternatively, enter GC in
+the monitor, locate futures, and select
+"Combinations", "Smart", and from the combo selection tool build the correct strategy. There is a lot of
+information in this video to help you locate futures
+contract details, and symbols, and how to add
+them to your monitor page.

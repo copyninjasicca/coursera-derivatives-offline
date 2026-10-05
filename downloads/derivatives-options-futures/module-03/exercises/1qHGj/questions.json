@@ -1,0 +1,44 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>True or false: The maximum profit on a short put position is equal to the value of the premium paid.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>An investor receives a $1.00 premium for a put option with a $60.00 strike price when the underlying price was trading at $65.00. At expiration the stock has decreased to $59.00. What is the profit or loss on the option at expiration?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>$6.00</span></span></p></div>",
+      "<div><p><span><span>($6.00)</span></span></p></div>",
+      "<div><p><span><span>$0.00</span></span></p></div>",
+      "<div><p><span><span>$5.00</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>An investor receives a $2.00 premium for a put option with a $30.00 strike price when the underlying price was trading at $32.50. At expiration the stock has decreased to $25.00. What is the profit or loss on the option at expiration?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>($7.50)</span></span></p></div>",
+      "<div><p><span><span>($5.00)</span></span></p></div>",
+      "<div><p><span><span>$5.00</span></span></p></div>",
+      "<div><p><span><span>($3.00)</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>What is the profit on a short put at expiration which ends $10.00 out of the money for which the investor received a premium of $5.00.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>$5.00</span></span></p></div>",
+      "<div><p><span><span>$1.00</span></span></p></div>",
+      "<div><p><span><span>($5.00)</span></span></p></div>",
+      "<div><p><span><span>$10.00</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Before buying or selling an option, investors are required to read:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>The OCC</span></span></p></div>",
+      "<div><p><span><span>The ODD </span></span></p></div>",
+      "<div><p><span><span>The OCSC</span></span></p></div>",
+      "<div><p><span><span>The Characteristics and Mechanics of the Options Market</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>Market strategy has nothing to do with the potential risks of trading options.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>As an unhedged seller of a call option, you could face:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Losses limited to the stock held in your portfolio.</span></span></p></div>",
+      "<div><p><span><span>Unlimited losses</span></span></p></div>",
+      "<div><p><span><span>Losses limited to the premium paid</span></span></p></div>",
+      "<div><p><span><span>None of these</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 4,
+    "prompt_html": "<div><p><span><span>One reason for an option trader to enter the market may be to generate fixed income.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 5,
+    "prompt_html": "<div><p><span><span>Among other functions, the OCC serves as a central counterparty, meaning:</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>It provides a guarantee that a trade will settle, should an option owner fail to satisfy their part of the contract. </span></span></p></div>",
+      "<div><p><span><span>It provides a guarantee that a trade will settle, should the buyer of an option fail to satisfy their part of the contract.</span></span></p></div>",
+      "<div><p><span><span>It provides a guarantee that a trade will settle, should an option writer fail to satisfy their part of the contract.</span></span></p></div>",
+      "<div><p><span><span>It provides a guarantee that a trade will settle, should an option holder fail to satisfy their part of the contract.</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

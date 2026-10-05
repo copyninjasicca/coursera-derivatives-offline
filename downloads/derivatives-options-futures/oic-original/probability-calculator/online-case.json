@@ -1,0 +1,13 @@
+{
+  "symbol": "SPX:CBOE",
+  "spot": 100,
+  "ratePercent": 3,
+  "days": 180,
+  "hours": 12,
+  "minutes": 15,
+  "volatilityPercent": 20,
+  "dividendYieldPercent": 2,
+  "price1": 90,
+  "price2": 110,
+  "text": "Symbol\nLast Price\nInterest Rate\nExpiry\nTime to expiration\nVola\nDivYield\nP1\nP2\nConfirm\nProbabilities at the Future Date of the Underlying\nBelow Price 1\n23%\nBtw Price 1 & Price 2\n52%\nAbove Price 2\n25%\nProbability of Touching\nPrice 1\n45.38%\nPrice 2\n49.8%\nBoth\n6.97%\nEither\n53.77%\nNeither\n46.23%\nUnderlying Prices for each Standard Deviation Interval at the Future Date\n-3\n65.55\n-2\n75.45\n-1\n86.85\n+1\n115.06\n+2\n132.44\n+3\n152.44"
+}

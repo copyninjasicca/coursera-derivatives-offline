@@ -1,0 +1,31 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>In the Strategy Builder how are option chains displayed?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Puts to the left of the screen and calls to the right</span></span></p></div>",
+      "<div><p><span><span>Calls are displayed above puts</span></span></p></div>",
+      "<div><p><span><span>Calls to the left of the screen and puts to the right</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>For a covered call strategy, using the Strategy Builder, how would a user add the stock leg of the trade?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Add the call option to the Mosaic Order Entry Panel and close Strategy Builder. Use the Advanced plus sign and locate Add Stock.</span></span></p></div>",
+      "<div><p><span><span>At the bottom of the Strategy Builder window is an Order Entry panel. Click the Advanced-plus sign and select Add Stock Leg </span></span></p></div>",
+      "<div><p><span><span>Covered call positions must be created separately as two trades: One for the underlying and one for the option.</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>True or false: For a covered call strategy, the quote display shows the net price of the stock leg minus the premium received for the call option.</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>True</span></span></p></div>",
+      "<div><p><span><span>False</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

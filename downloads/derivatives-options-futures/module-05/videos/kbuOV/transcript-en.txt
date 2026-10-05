@@ -1,0 +1,20 @@
+[MUSIC] In our previous video, we compared spot
+and forward prices on a relative basis. Now in this video,
+we'll explore two potential patterns, contango and backwardation. The usual spread between prices tells
+us that forward prices are higher than current prices. This situation referred to as contango
+is quite typical due to a variety of factors such as inflation, insurance,
+storage, and investor psychology. However afford prices may also fall
+below the current market price, either on a short term basis or
+for a sustained period. When this happens, investors refer to
+backwardation, which might occur when there's been or there's expected to be
+a shortage of the product in the near term yet production is why they expected to
+resume in the coming weeks and months. Backwardation gets right to the very
+heart of imminent supply and demand. Now at this point you may be wondering why
+your next door neighbor invests in corner crude oil, and yet you haven't seen
+their backyard crammed with stocks of corner flooded in petroleum. This is primarily because investors in the
+futures market are able to transact and take positions in and yet
+never actually own, the commodity or product they invest in. At the same time, the liquid nature of
+most futures markets makes it a viable environment for producers to offset risk
+and ultimately transact physical delivery. In our next video, we'll take a closer
+look at futures contracts and provide you with an example of
+a standardized crude oil contract. We'll look forward to you joining us then. [MUSIC]

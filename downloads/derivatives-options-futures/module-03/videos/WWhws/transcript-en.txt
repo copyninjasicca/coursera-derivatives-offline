@@ -1,0 +1,53 @@
+From the watchlist
+on the monitor tab, click the underlying
+symbol you wish to create your covered
+coal trade for. So long has your tabs or parts
+of the same Windows group, the underlying will appear
+in the order entry panel. To the right of the
+order entry panel, select "Strategy Builder"
+from the dropdown menu. You will see the option chain
+window populate the screen. To the lower left, ensure that the Strategy
+Builder button set to on. If you see off, just click the
+button to activate. To create a covered call, first, the call option must be identified before the
+stock leg is added. Strategy builder
+displays option chains at the top of the page with Call options to the left and Put options to the rights of
+the central strike column. You'll see the price
+and daily change of the underlying to the upper
+right of the Window. Above the call area, you'll see tabs for
+different explorations. Click a tab or to locate
+additional expiration dates, click on the "More" tab. Above the put area, you will see a dropdown
+menu for strike prices. Access this menu to change or refine the number of strike
+prices displayed on the page. Hovering the cursor above any bid price displays
+a red background. This indicates that by
+clicking on the field, it would create an order
+to sell that option. Hovering above any asked price, displays a blue background indicating that by
+clicking on this field, it would create an order
+to buy the option. When a single strike
+is clicked upon, the selected leg then populates the strategy
+builder a panel beneath the ocean chains
+window where it can be manipulated before the
+order is submitted. Locate the desired option
+strike you want to transact. Click on the relevant
+price field, and specifically the bid price of the call option to move the leg down to the
+Strategy Builder. To include the underlying stock, expand the plus symbol in the
+order entry panel beneath. Locate Stock Leg and
+click on the field. The underlying is added to the Strategy Builder display beneath the short
+call option leg. Close the advanced display in the order entry panel below
+by clicking the red X button. Now the two pieces of
+the covered call are displayed and below
+the bid-ask column, you'll see the price quote
+for the combination. This is the price
+of the Stock Leg minus the premium received
+for the call option. Use the order entry panel at the bottom of the page
+to create the order. Define the quantity
+of options to trade. Generally, one options contract covers 100 shares of stock. By selecting a number of options, the software will compute the correct number of
+underlying shares to transact. Choose the right order type
+from the dropdown menu. If using a limit price, choose the value by clicking in the input field or simply
+typing in the value. Select from the time
+enforced dropdown, whether this is a
+day or GTC order. Your order is ready to review. Click the "Submit" button to generate an order confirmation. When you have reviewed the
+details, click "Transmit". The order is sent for execution
+at the exchange and will appear in the activity panel
+to the lower left of mosaic. To pause or interact
+with an active order, click on it in they Activity panel and make the
+relevant choice.

@@ -1,0 +1,35 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>An investor sells a stock for $50.00 and writes a put option at the $45.00 strike which expires in 30 days. The investor receives a $3.00 premium for the put option. What is the overall gain should the option expire when the stock settles at $40.00? </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>$10.00</span></span></p></div>",
+      "<div><p><span><span>$13.00</span></span></p></div>",
+      "<div><p><span><span>$5.00</span></span></p></div>",
+      "<div><p><span><span>$8.00</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>An investor receives a $2.00 premium for a put option with a $30.00 strike price and sells shares in company XYZ Corp at $37.50. When the put option expires the stock has increased to $45.00. What is the profit or loss on the covered put strategy at expiration?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>($7.50)</span></span></p></div>",
+      "<div><p><span><span>($9.50)</span></span></p></div>",
+      "<div><p><span><span>($5.50)</span></span></p></div>",
+      "<div><p><span><span>$5.00</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>An investor sells shares and sells a put option $10.00 out-of-the-money. What is the profit on a covered put strategy at expiration when the put option ends $10.00 in-the-money for which the investor received a premium of $5.00?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>$10.00</span></span></p></div>",
+      "<div><p><span><span>$15.00</span></span></p></div>",
+      "<div><p><span><span>$20.00</span></span></p></div>",
+      "<div><p><span><span>$5.00</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

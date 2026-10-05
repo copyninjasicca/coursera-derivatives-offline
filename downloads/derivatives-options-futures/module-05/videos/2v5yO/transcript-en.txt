@@ -1,0 +1,28 @@
+Now that we've touched on and explored some of the
+different types of risks in the futures and
+broader financial markets, let's now discuss
+why the price of a futures contract differs from the price you might pay now. The current market
+settles on a spot basis, which is typically for
+immediate delivery, where immediate
+could mean two days. Or for example, in a supermarket, you would likely find
+that the cash price would equate to what
+you would pay for, say, corn at the cash register. While shoppers can generally buy corn throughout the year, the crop might be harvested
+just once annually. It's the role of the
+futures market to draw in all known information
+about next year's crop, and figure out what the
+forward or futures price is. This is where producers, hedgers, and speculators get together, on a near 24-hour basis, to assimilate the
+latest information, and reflect it through what
+is called price discovery. This is important information to global financial and physical
+market participants, as futures allow them to see the current price of a
+product not yet produced. The difference
+between the cash or spot price and the
+forward or futures price, is known as the basis. If we take a look at the
+prevailing market price for the current corn contract, for instance, and
+compare it with, say, the price of a futures contract
+that expires in a year, we can note the
+difference between these prices as the basis. Changes in the basis deliver their own message to producers. Should forward prices
+reflect too much supply of a specific commodity at
+a future date and time, a farmer, for example, might decide to switch
+to a less abundant crop. In our next video, we'll discuss futures prices a bit further, providing some insights
+into concepts, known as contango and backwardation. Come
+back and join us.

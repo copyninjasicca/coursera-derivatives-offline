@@ -1,0 +1,35 @@
+[
+  {
+    "number": 1,
+    "prompt_html": "<div><p><span><span>Which are the correct breakeven prices for the underlying for a short straddle strategy at the $100.00 strike in which the call option premium collected was $5.50 and the put option premium was $4.50 when the underlying traded at $100.50?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>$96.50 and $104.50</span></span></p></div>",
+      "<div><p><span><span>$95.50 and $105.50</span></span></p></div>",
+      "<div><p><span><span>$95.00 and $105.00</span></span></p></div>",
+      "<div><p><span><span>$90.00 and $110.00</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 2,
+    "prompt_html": "<div><p><span><span>What is the profit on a short straddle strategy given the following information? With the underlying share price trading at $67.50, an investor writes (sells) the $65.00 straddle expiring in 90-days and collects a total premium of $3.75. At expiration the underlying settles at $61.25. </span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>$5.00</span></span></p></div>",
+      "<div><p><span><span>$3.75</span></span></p></div>",
+      "<div><p><span><span>$2.50</span></span></p></div>",
+      "<div><p><span><span>Zero</span></span></p></div>"
+    ],
+    "answer_key": null
+  },
+  {
+    "number": 3,
+    "prompt_html": "<div><p><span><span>Which of the following is a possible reason for an option investor to sell a short straddle strategy?</span></span></p></div>",
+    "choices_html": [
+      "<div><p><span><span>Implied volatility is expected to rise.</span></span></p></div>",
+      "<div><p><span><span>Implied volatility is expected to decline. </span></span></p></div>",
+      "<div><p><span><span>The share price is expected to either rise sharply or fall precipitously over the life of the option contract.</span></span></p></div>",
+      "<div><p><span><span>The investor is extremely bearish on the outlook for the stock over the life of the option contract.</span></span></p></div>"
+    ],
+    "answer_key": null
+  }
+]

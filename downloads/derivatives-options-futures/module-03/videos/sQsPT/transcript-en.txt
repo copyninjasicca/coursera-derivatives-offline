@@ -1,0 +1,13 @@
+[MUSIC] A covered call would be considered
+by someone who would like to derive additional income from
+a long stock position. A covered call allows
+the investor to hold a long equity position while simultaneously
+receiving the premium from selling an equal amount of
+call options against it. The covered call writer is bullish
+on the stock's long term potential, but is willing to forego a stock's
+upside above the strike during the life of the option in order to receive
+the proceeds of the core premium. The covered call writer benefits from time
+decay from a reduction in volatility, and if the stock increases its
+dividend before expiration. It should be noted that the combined
+position has a similar profile to that of a short put. The covered call writer remains exposed
+to any downside in the underlying shares, meaning his loss potential is substantial. [MUSIC]

@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://cdn.jsdelivr.net/npm/chart.js",
+    "file": "ivol-app/chart.js",
+    "saved": true,
+    "bytes": 208522,
+    "sha256": "48444a82d4edcb5bec0f1965faacdde18d9c17db3063d042abada2f705c9f54a"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/iv-live/assets/charting_library/charting_library.standalone.js",
+    "file": "ivol-app/charting_library.standalone.js",
+    "saved": true,
+    "bytes": 22261,
+    "sha256": "6fb887ce0dcd7873da95d9b11e8ac00b77e8f12e2e90a914fe3449c4dada9139"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/runtime.a6bf2b1d349d6692.js",
+    "file": "ivol-app/runtime.a6bf2b1d349d6692.js",
+    "saved": true,
+    "bytes": 3344,
+    "sha256": "9b6fdc326000bd3f1ad2fd15a42ee2567e09298858c37f04070b0aee094d14f9"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/polyfills.a0da34be25744a57.js",
+    "file": "ivol-app/polyfills.a0da34be25744a57.js",
+    "saved": true,
+    "bytes": 118124,
+    "sha256": "413e7d839534e9a5a779cd26ea1b8b75eb6b97b441a09ce0bd73dcefa9b5dc88"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/main.24fbe1366f1616c6.js",
+    "file": "ivol-app/main.24fbe1366f1616c6.js",
+    "saved": true,
+    "bytes": 7254676,
+    "sha256": "5b4fbe58711ca69583303dc1b5bf31c720fa826054009acb19705811c24cdda5"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/125.f5b88beba58bdb2c.js",
+    "file": "ivol-app/125.f5b88beba58bdb2c.js",
+    "saved": true,
+    "bytes": 699522,
+    "sha256": "c9eb8b6134cc6a3f9d5961a5be8ee34e3906ebcc375eca6b9eddb40ee97ac1d0"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/iv-live/assets/libs/plotly-2.27.0.min.js",
+    "file": "ivol-app/plotly-2.27.0.min.js",
+    "saved": true,
+    "bytes": 3599142,
+    "sha256": "679a0fbd1ca883c81289ec5b3bdd83afe18fe4167d32858e99fb9e7003279655"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/80.947d411d69b879d2.js",
+    "file": "ivol-app/80.947d411d69b879d2.js",
+    "saved": true,
+    "bytes": 14169,
+    "sha256": "80a296bfa7f568b211ee8ba18ef15f9f73de2abd32112eadb32fbeea2fe15e00"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/91.ee3c670cc52b4531.js",
+    "file": "ivol-app/91.ee3c670cc52b4531.js",
+    "saved": true,
+    "bytes": 15646,
+    "sha256": "c4d93a60d44368e1fe60e9d2a5f4ce1be4c8cea15e20b77b6560464cde91c445"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/898.ef4c03d733bf199d.js",
+    "file": "ivol-app/898.ef4c03d733bf199d.js",
+    "saved": true,
+    "bytes": 19495,
+    "sha256": "be9c2091e3afd77d9eff6e272df6a7bf0bbb7e377f61bd412bbe5b49f6e31725"
+  },
+  {
+    "url": "https://private-authorization.ivolatility.com/42.eb4de08caf6ce22d.js",
+    "file": "ivol-app/42.eb4de08caf6ce22d.js",
+    "saved": true,
+    "bytes": 57097,
+    "sha256": "e2567df910e8178b29370a1f738797bc1e6ad3336ebfd78b1f49345342d4d679"
+  }
+]

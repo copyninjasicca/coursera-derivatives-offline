@@ -1,0 +1,583 @@
+{
+  "checked_on": "2026-10-05",
+  "authenticated_original_observed": true,
+  "full_equivalence": false,
+  "conclusion": "Independent offline tools are not identical to OIC originals. Three European price/Greek cases show residual differences; American exercise and server-dependent tools are not reproduced.",
+  "local_time_basis": "365 calendar days per year; fractional days included",
+  "original_time_basis": "Not established by the official guide or observed inputs",
+  "pricing_cases": [
+    {
+      "name": "European stock case with zero cash dividend shown",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 95,
+        "days": 91.25,
+        "years": 0.25,
+        "rate": 0.1,
+        "volatility": 0.5,
+        "yield": 0
+      },
+      "comparable": true,
+      "mapping_note": "Original stock UI uses regular cash dividends; zero amount was shown. Local q=0 is a comparison assumption, not proof of identical server dividend handling.",
+      "rows": [
+        {
+          "metric": "Option Value",
+          "side": "Call",
+          "original": 13.7343,
+          "local": 13.695272738608132,
+          "difference": -0.039027261391867185,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Option Value",
+          "side": "Put",
+          "original": 6.3712,
+          "local": 6.3497143812997265,
+          "difference": -0.021485618700273434,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Delta",
+          "side": "Call",
+          "original": 0.6665,
+          "local": 0.6664651640893665,
+          "difference": -3.483591063346836e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Delta",
+          "side": "Put",
+          "original": -0.3335,
+          "local": -0.3335348359106335,
+          "difference": -3.483591063346836e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Gamma",
+          "side": "Call",
+          "original": 0.0145,
+          "local": 0.0145474604602216,
+          "difference": 4.746046022159958e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Gamma",
+          "side": "Put",
+          "original": 0.0145,
+          "local": 0.0145474604602216,
+          "difference": 4.746046022159958e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Theta",
+          "side": "Call",
+          "original": -0.0642,
+          "local": -0.0643272601159174,
+          "difference": -0.00012726011591740471,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Theta",
+          "side": "Put",
+          "original": -0.0388,
+          "local": -0.03894248158367313,
+          "difference": -0.00014248158367313052,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Alpha",
+          "side": "Call",
+          "original": -0.226,
+          "local": -0.22614767726788224,
+          "difference": -0.00014767726788222912,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Alpha",
+          "side": "Put",
+          "original": -0.3741,
+          "local": -0.3735627486647053,
+          "difference": 0.0005372513352946973,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Vega",
+          "side": "Call",
+          "original": 0.1824,
+          "local": 0.18184325575277,
+          "difference": -0.0005567442472300121,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Vega",
+          "side": "Put",
+          "original": 0.1824,
+          "local": 0.18184325575277,
+          "difference": -0.0005567442472300121,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Rho",
+          "side": "Call",
+          "original": 0.1331,
+          "local": 0.1323781091758213,
+          "difference": -0.0007218908241787003,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Rho",
+          "side": "Put",
+          "original": -0.0999,
+          "local": -0.0992579949309077,
+          "difference": 0.0006420050690923024,
+          "matches_original_display_precision": false
+        }
+      ]
+    },
+    {
+      "name": "European index case with continuous yield",
+      "style": "European",
+      "parameters": {
+        "spot": 100,
+        "strike": 100,
+        "days": 180.51041666666666,
+        "years": 0.49454908675799086,
+        "rate": 0.03,
+        "volatility": 0.2,
+        "yield": 0.02
+      },
+      "comparable": true,
+      "mapping_note": "Continuous yield input shown in original UI.",
+      "rows": [
+        {
+          "metric": "Option Value",
+          "side": "Call",
+          "original": 5.7854,
+          "local": 5.785217442855071,
+          "difference": -0.00018255714492898534,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Option Value",
+          "side": "Put",
+          "original": 5.2962,
+          "local": 5.296744684764242,
+          "difference": 0.0005446847642422981,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Delta",
+          "side": "Call",
+          "original": 0.5366,
+          "local": 0.5366704839887135,
+          "difference": 7.048398871356554e-05,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Delta",
+          "side": "Put",
+          "original": -0.4534,
+          "local": -0.4534872891590113,
+          "difference": -8.728915901129453e-05,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Gamma",
+          "side": "Call",
+          "original": 0.0279,
+          "local": 0.027929521479695314,
+          "difference": 2.9521479695312353e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Gamma",
+          "side": "Put",
+          "original": 0.0279,
+          "local": 0.027929521479695314,
+          "difference": 2.9521479695312353e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Theta",
+          "side": "Call",
+          "original": -0.0163,
+          "local": -0.016298680155183903,
+          "difference": 1.3198448160951781e-06,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Theta",
+          "side": "Put",
+          "original": -0.0136,
+          "local": -0.013626067578731851,
+          "difference": -2.606757873185178e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Alpha",
+          "side": "Call",
+          "original": -1.7137,
+          "local": -1.713606329701006,
+          "difference": 9.367029899398638e-05,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Alpha",
+          "side": "Put",
+          "original": -2.0504,
+          "local": -2.049712532124008,
+          "difference": 0.0006874678759918318,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Vega",
+          "side": "Call",
+          "original": 0.2762,
+          "local": 0.27625038682742015,
+          "difference": 5.0386827420145774e-05,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Vega",
+          "side": "Put",
+          "original": 0.2762,
+          "local": 0.27625038682742015,
+          "difference": 5.0386827420145774e-05,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Rho",
+          "side": "Call",
+          "original": 0.2368,
+          "local": 0.23679915771598348,
+          "difference": -8.422840165334122e-07,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Rho",
+          "side": "Put",
+          "original": -0.2505,
+          "local": -0.2504667271763499,
+          "difference": 3.3272823650121186e-05,
+          "matches_original_display_precision": true
+        }
+      ]
+    },
+    {
+      "name": "European index case at spot 110",
+      "style": "European",
+      "parameters": {
+        "spot": 110,
+        "strike": 100,
+        "days": 180.51041666666666,
+        "years": 0.49454908675799086,
+        "rate": 0.03,
+        "volatility": 0.2,
+        "yield": 0.02
+      },
+      "comparable": true,
+      "mapping_note": "Continuous yield input shown in original UI.",
+      "rows": [
+        {
+          "metric": "Option Value",
+          "side": "Call",
+          "original": 12.4238,
+          "local": 12.424160645500535,
+          "difference": 0.0003606455005353837,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Option Value",
+          "side": "Put",
+          "original": 2.034,
+          "local": 2.03411015593246,
+          "difference": 0.0001101559324601098,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Delta",
+          "side": "Call",
+          "original": 0.7755,
+          "local": 0.775517375961164,
+          "difference": 1.73759611640234e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Delta",
+          "side": "Put",
+          "original": -0.2146,
+          "local": -0.21464039718656083,
+          "difference": -4.039718656081992e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Gamma",
+          "side": "Call",
+          "original": 0.0188,
+          "local": 0.018789300237268353,
+          "difference": -1.0699762731648105e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Gamma",
+          "side": "Put",
+          "original": 0.0188,
+          "local": 0.018789300237268353,
+          "difference": -1.0699762731648105e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Theta",
+          "side": "Call",
+          "original": -0.0138,
+          "local": -0.013773575209893711,
+          "difference": 2.6424790106288273e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Theta",
+          "side": "Put",
+          "original": -0.0116,
+          "local": -0.011643514837906167,
+          "difference": -4.3514837906167766e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Alpha",
+          "side": "Call",
+          "original": -1.3645,
+          "local": -1.3641556350432378,
+          "difference": 0.0003443649567622664,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Alpha",
+          "side": "Put",
+          "original": -1.614,
+          "local": -1.613713771042628,
+          "difference": 0.000286228957372181,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Vega",
+          "side": "Call",
+          "original": 0.2249,
+          "local": 0.2248719968105389,
+          "difference": -2.8003189461084377e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Vega",
+          "side": "Put",
+          "original": 0.2249,
+          "local": 0.2248719968105389,
+          "difference": -2.8003189461084377e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Rho",
+          "side": "Call",
+          "original": 0.3604,
+          "local": 0.3604409780415332,
+          "difference": 4.097804153319062e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Rho",
+          "side": "Put",
+          "original": -0.1268,
+          "local": -0.1268249068508002,
+          "difference": -2.4906850800199276e-05,
+          "matches_original_display_precision": true
+        }
+      ]
+    },
+    {
+      "name": "American stock case at the same displayed standard inputs",
+      "style": "American",
+      "parameters": {
+        "spot": 100,
+        "strike": 95,
+        "days": 91.25,
+        "years": 0.25,
+        "rate": 0.1,
+        "volatility": 0.5,
+        "yield": 0
+      },
+      "comparable": false,
+      "mapping_note": "Original stock UI uses regular cash dividends; zero amount was shown. Local q=0 is a comparison assumption, not proof of identical server dividend handling.",
+      "rows": [
+        {
+          "metric": "Option Value",
+          "side": "Call",
+          "original": 13.7343,
+          "local": 13.695272738608132,
+          "difference": -0.039027261391867185,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Option Value",
+          "side": "Put",
+          "original": 6.528,
+          "local": 6.3497143812997265,
+          "difference": -0.17828561870027304,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Delta",
+          "side": "Call",
+          "original": 0.6665,
+          "local": 0.6664651640893665,
+          "difference": -3.483591063346836e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Delta",
+          "side": "Put",
+          "original": -0.3445,
+          "local": -0.3335348359106335,
+          "difference": 0.010965164089366486,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Gamma",
+          "side": "Call",
+          "original": 0.0145,
+          "local": 0.0145474604602216,
+          "difference": 4.746046022159958e-05,
+          "matches_original_display_precision": true
+        },
+        {
+          "metric": "Gamma",
+          "side": "Put",
+          "original": 0.0153,
+          "local": 0.0145474604602216,
+          "difference": -0.000752539539778399,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Theta",
+          "side": "Call",
+          "original": -0.0642,
+          "local": -0.0643272601159174,
+          "difference": -0.00012726011591740471,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Theta",
+          "side": "Put",
+          "original": -0.0413,
+          "local": -0.03894248158367313,
+          "difference": 0.0023575184163268717,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Alpha",
+          "side": "Call",
+          "original": -0.226,
+          "local": -0.22614767726788224,
+          "difference": -0.00014767726788222912,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Alpha",
+          "side": "Put",
+          "original": -0.3716,
+          "local": -0.3735627486647053,
+          "difference": -0.001962748664705305,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Vega",
+          "side": "Call",
+          "original": 0.1824,
+          "local": 0.18184325575277,
+          "difference": -0.0005567442472300121,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Vega",
+          "side": "Put",
+          "original": 0.1831,
+          "local": 0.18184325575277,
+          "difference": -0.0012567442472300183,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Rho",
+          "side": "Call",
+          "original": 0.1331,
+          "local": 0.1323781091758213,
+          "difference": -0.0007218908241787003,
+          "matches_original_display_precision": false
+        },
+        {
+          "metric": "Rho",
+          "side": "Put",
+          "original": -0.0812,
+          "local": -0.0992579949309077,
+          "difference": -0.018057994930907706,
+          "matches_original_display_precision": false
+        }
+      ]
+    }
+  ],
+  "implied_volatility": {
+    "parameters": {
+      "spot": 100,
+      "strike": 95,
+      "days": 91.25,
+      "years": 0.25,
+      "rate": 0.1,
+      "volatility": 0.5,
+      "yield": 0
+    },
+    "optionPrice": 13.7343,
+    "originalPercent": {
+      "call": 50.28,
+      "put": 90.19
+    },
+    "localPercent": {
+      "call": 50.21458484095837,
+      "put": 90.09341838087461
+    }
+  },
+  "probability_observation": {
+    "symbol": "SPX:CBOE",
+    "spot": 100,
+    "ratePercent": 3,
+    "days": 180,
+    "hours": 12,
+    "minutes": 15,
+    "volatilityPercent": 20,
+    "dividendYieldPercent": 2,
+    "price1": 90,
+    "price2": 110,
+    "text": "Symbol\nLast Price\nInterest Rate\nExpiry\nTime to expiration\nVola\nDivYield\nP1\nP2\nConfirm\nProbabilities at the Future Date of the Underlying\nBelow Price 1\n23%\nBtw Price 1 & Price 2\n52%\nAbove Price 2\n25%\nProbability of Touching\nPrice 1\n45.38%\nPrice 2\n49.8%\nBoth\n6.97%\nEither\n53.77%\nNeither\n46.23%\nUnderlying Prices for each Standard Deviation Interval at the Future Date\n-3\n65.55\n-2\n75.45\n-1\n86.85\n+1\n115.06\n+2\n132.44\n+3\n152.44"
+  },
+  "probability_consistency_checks": {
+    "terminal_sum_percent": 100,
+    "touching_bounds_pass": true,
+    "either_plus_neither_percent": 100,
+    "union_from_displayed_marginals_percent": 88.21000000000001,
+    "displayed_either_percent": 53.77,
+    "union_identity_matches_display_rounding": false,
+    "standard_deviation_prices_increasing": true
+  },
+  "limitations": [
+    "Four online pricing cases and one IV inversion observation; not exhaustive domain validation.",
+    "Original values rounded by UI; precision comparison uses half of its 0.0001 display increment.",
+    "No server engine code or exact vendor day-count/cash-dividend convention was obtained.",
+    "Touching outputs do not satisfy the ordinary union identity in the saved observation; exact server semantics or cause is unresolved. No local probability clone is asserted.",
+    "Position simulator loaded and a stock-leg arithmetic observation was saved; option valuation was not compared. Market data is not an offline feed."
+  ],
+  "position_simulator_observation": {
+    "type": "hypothetical stock leg",
+    "quantity": 100,
+    "entryPrice": 100,
+    "displayedStrategyCost": 10000,
+    "displayedDeltaPercent": 100,
+    "full_option_valuation_verified": false
+  }
+}

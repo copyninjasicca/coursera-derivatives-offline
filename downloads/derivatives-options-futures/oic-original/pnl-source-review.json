@@ -1,0 +1,20 @@
+[
+  {
+    "file": "pnl-app/main-KHXKKBIE.js",
+    "byte_offset": 632765,
+    "snippet": "tion,daysToExpiration:this.daysToExpiration,volaChangeType:this.volaChangeType};Promise.all([fetch(\"/api/pnl/calculator/chart?stockId=\"+this.instrument.stockId,{method:\"POST\",headers:{\"Content-Type\":\"application/json\",Authorization:\"Bearer \"+localStorage.getItem(\"token\")},body:JSON.stringify(a)}),fetch(\"/api/pnl/calculator/chart?stockId=\"+this.instrument.stockId,{method:\"POST\",headers:{\"Content-Type\":\"application/json\",Authorization:\"Bearer \"+localStorage.getItem(\"token\")},body:JSON.stringify($(k({},a),{daysToExpiration:0}))})]).then(l=>Promise.all(l.map(c=>c.json())).then(c=>{this.loading=!1,this.table=[],c[0].priceProfitLosses.forEach((u,d)=>{this.table.push([Number.isNaN(u.stockPrice)?\"\\u2014\":+u.stockPrice,Number.isNaN(u.profitLoss)?\"\\u2014\":this.inverted?u.profitLoss*-1:+u.profitLoss])}),this.table=[...this.table.filter(u=>typeof u[1]==\"number\"&&!Number.isNaN(u[1])).sort((u,d)=>u[1]",
+    "note": "Original P&L UI sends calculation/data requests to remote server."
+  },
+  {
+    "file": "pnl-app/main-KHXKKBIE.js",
+    "byte_offset": 629749,
+    "snippet": "0;let e=this.positions.find(i=>i.priceChanged&&i.type===\"STOCK\");e&&(this.lastPrice=e.price),fetch(\"/api/pnl/calculator/greeks?stockId=\"+this.instrument.stockId+\"&daysToExpiration=\"+this.daysToExpiration,{method:\"POST\",headers:{\"Content-Type\":\"application/json\",Authorization:\"Bearer \"+localStorage.getItem(\"token\")},body:JSON.stringify(this.positions.filter(i=>i.type!==\"STOCK\").map(i=>({bid:i.type===\"CALL\"?i.callBid:i.putBid,ask:i.type===\"CALL\"?i.callAsk:i.putAsk,volaChange:this.volaChange,volaChangeType:this.volaChangeType,lastPrice:this.lastPrice,expirationDate:i.expiration.expDate,optionType:i.type,strike:i.strike})))}).then(i=>i.json().then(r=>{this.positions.filter(l=>l.type!==\"STOCK\").forEach((l,c)=>{Object.keys(r[c]).forEach(u=>{l[u]=r[c][u]})}),this.positions=this.positions.map((l,c)=>$(k({},l),{quantity:l.quantity||1,moneyness:100*l.strike/this.lastPrice,delta:l.type!==\"STOCK\"?(l",
+    "note": "Original P&L UI sends calculation/data requests to remote server."
+  },
+  {
+    "file": "pnl-app/main-KHXKKBIE.js",
+    "byte_offset": 249972,
+    "snippet": "Date===e.target.value),this.getOptions(this.stockId,this.expiration.expDate)}getOptions(e,i){fetch(\"/api/pnl/calculator/option-info?stockId=\"+e+\"&expDate=\"+i,{headers:{\"Content-Type\":\"application/json\",Authorization:\"Bearer \"+localStorage.getItem(\"token\")}}).then(r=>r.json().then(o=>{this.data={data:o.sort((s,a)=>s.strike>a.strike?1:-1),maxCallVolume:o.reduce((s,a)=>a.callVolume>s?a.callVolume:s,0),maxPutVolume:o.reduce((s,a)=>a.putVolume>s?a.putVolume:s,0)}}))}getVolumeStyle(e,i){return`width: ${60*e/i}%`}numberToSpaced(e,i=2){return B0(e,i,\" \")}onBuySell(e,i,r){this.addOption.emit($(k({},e),{action:i,type:r,expiration:this.expiration}))}registerAgentCapability(){let e=()=>this.data&&this.data.data?this.data.data:[],i=()=>{let r=Number(this.expirations?.last);return Number.isFinite(r)&&r>0?r:null};this.agentBridge.register({id:t.AGENT_CAPABILITY_ID,title:\"Option chain\",kind:\"table\",desc",
+    "note": "Original P&L UI sends calculation/data requests to remote server."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "checkedOn": "2026-10-05",
+  "authorization": "Existing user-authorized OIC login",
+  "pricing": {
+    "initial": "Loading; no outputs",
+    "eventual": "Original index controls and calculations loaded",
+    "newCases": "fresh-original-cases.json",
+    "count": 5,
+    "cases": [
+      "one-year rate 5%",
+      "half-day horizon",
+      "one-year zero-rate symmetry",
+      "zero-time intrinsic boundary",
+      "American deep ITM put exercise"
+    ]
+  },
+  "otherReferences": "Earlier authenticated American, probability, IV and stock-only position captures retained. Additional original cash examples, option-leg P&L and market/HV reference outputs remain unverified.",
+  "secrets": "No login credentials, authorization URLs or tokens preserved in this record."
+}

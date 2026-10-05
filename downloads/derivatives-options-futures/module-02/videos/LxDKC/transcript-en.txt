@@ -1,0 +1,13 @@
+[MUSIC] In this module we're
+going to get technical, as we teach you about the mechanics
+behind the options market. Some investors may be satisfied knowing
+that call options are associated with rising prices. And that put options are associated
+with falling prices. But behind the scenes there's a lot
+going on with how option prices move. We'll start the module with a note about
+some algebraic logic behind options known as, put/call parity. And then we're going to take
+a deep dive into what factors are important in determining
+the price of an option. We'll also help you visualize the payout
+of an option trade with respect to the price of the underlying asset. And finally, we'll walk you through a series of
+risk variables known as option Greeks. These values are important since they tell
+investors how much or how little the value of an option will change with respect to
+changes in price, time, or volatility. Let's get started. [MUSIC]
