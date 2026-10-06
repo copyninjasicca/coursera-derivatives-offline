@@ -43,3 +43,17 @@ Position import/export now retains American tree steps and distinct baseline/sce
 Final package validation passes: 444 files, 573,345,209 bytes, 443 stored hashes and 967 authored local links, with no automatic remote loads. Repaired deployment and post-deployment live verification will be recorded below. Existing study progress was preserved; no online questions were answered or submitted.
 
 Final browser verification caught that the supplementary-page rebuilder replaced the four recovered figures with missing-image placeholders. Source-image mappings now preserve those local assets. Both article figure lists and all four original image hashes are checked during the audit; the local browser rendered the three All That Glitters charts at their expected dimensions without overflow. The intermediate deployment is superseded by the final corrected run below.
+
+## Final repaired deployment verified
+
+[Run 37404160015](https://github.com/copyninjasicca/coursera-derivatives-offline/actions/runs/37404160015) succeeded for `e214b15aaf79f2f66a390f26e8db55d8cb5ee460`; build36s, deploy19s, total1m6s. This supersedes intermediate run37403937032. The archive is 444 files / 573,345,209 bytes; `python3 verify_pages.py` passes443 stored hashes and967 local links.
+
+Final public validation at `2026-10-06T02:31:16.552560+00:00`: **all444 complete file SHA-256 hashes match**, including all36 entire MP4s; all36 video HTTP range checks pass. Seven transient TLS/partial-transfer failures were selectively retried without disabling certificate validation. Report: `PAGES-LIVE-VALIDATION.json`.
+
+The deployed report and all seven calculator tabs load. The live American covered-call example at400 steps gives P&L67.73 and exports modelOptions.steps400. All four recovered article figures fully render at their expected dimensions, with no document overflow. Local Futures Contract Demo playback advanced to52.732s with the caption “specific to the exchange listed contract,” and no media error. The local and hosted audit report tabs remain available.
+
+A final scan of391 tracked text files found no configured email/password matches, private keys, GitHub tokens or temporary signed image queries; local account configuration remains untracked. Source checks, local full decoding, browser runtime observations and final live full hashes are separate evidence; no full OIC engine/numerical equivalence or unseen question coverage is asserted.
+
+The final live Futures Contract Demo also played to47.924702s (duration293.105011s, readyState4, no error), displaying “In TWS, future symbols are”; the browser warning/error log was empty. Actual live observations are saved in `audit-evidence/final-live-video.json` and `final-live-position-export.json`.
+
+The verifier also passed isolated complete/truncated/aborted transfer regressions using its actual check function: a valid video prefix cannot make an incomplete or failed full transfer pass.

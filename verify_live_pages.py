@@ -71,6 +71,7 @@ def check(item):
             result['passed'] = result['status'] == 200 and result['sha256'] == digest
             result['method'] = 'complete SHA-256'
     except Exception as exc:
+        result['passed'] = False
         result['error'] = str(exc)
     return result
 
@@ -94,7 +95,7 @@ if '--retry-failed' in sys.argv[2:] and report_path.exists():
         raise SystemExit('Previous validation used a different site')
     for result in previous['results']:
         name = result['file']
-        if result['passed'] and name in expected:
+        if result['passed'] and 'error' not in result and name in expected:
             if result.get('method') in ('complete SHA-256', 'complete SHA-256 + video range') and result.get('sha256') == expected[name]:
                 retained[name] = result
             elif not full_videos and result.get('method') == 'size + MIME + range + prefix' and result.get('bytes') == (ROOT / name).stat().st_size:
