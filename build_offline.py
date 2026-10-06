@@ -116,7 +116,7 @@ for record in external:
     if record.get('file','').startswith('external/') and record.get('file','').endswith('.html') and record['status']!='recreated':
         p=ROOT/record['file']; source=p.with_suffix('.source.html')
         if not source.exists():source.write_text(p.read_text())
-        captured=source.read_text();body=sanitize(captured,base=record.get('resolved_url',record['url']),prefix='../')
+        captured=source.read_text();body=sanitize(captured,images=record.get('image_assets'),base=record.get('resolved_url',record['url']),prefix='../')
         p.write_text(page('Supplementary reading','<main class="content"><p class="notice">Public page snapshot. Linked courses, embedded videos and live services may require online access.</p><div class="reading">'+body+'</div></main>',prefix='../'))
 
 sections=[]

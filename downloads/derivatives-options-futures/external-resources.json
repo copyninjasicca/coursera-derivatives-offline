@@ -79,14 +79,38 @@
     "status": "saved_article",
     "note": "Recovered matching article text, source disclosures and all 1 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
     "file": "external/gold-silver-black-gold.html",
-    "resolved_url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/"
+    "resolved_url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+    "image_assets": [
+      {
+        "src": "gold-silver-black-gold-figure-1.png",
+        "file": "gold-silver-black-gold-figure-1.png",
+        "sha256": "65f3b21141480848c50fd49ba17060304ef87323d8a6f4bb5802853bf462eb6b"
+      }
+    ]
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
     "status": "saved_article",
     "note": "Recovered matching article text, source disclosures and all 3 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
     "file": "external/all-that-glitters.html",
-    "resolved_url": "https://www.interactivebrokers.com/campus/?p=69405"
+    "resolved_url": "https://www.interactivebrokers.com/campus/?p=69405",
+    "image_assets": [
+      {
+        "src": "all-that-glitters-figure-1.png",
+        "file": "all-that-glitters-figure-1.png",
+        "sha256": "c5a7cd145edbef8e7819ea0b6f27eb3f6e2bdeb0c3d49961319e2bc1f6cfc1b4"
+      },
+      {
+        "src": "all-that-glitters-figure-2.png",
+        "file": "all-that-glitters-figure-2.png",
+        "sha256": "223ed867560861d7da7f8ed1bddd4dd619b5fb3a61831aa264ce7b7b3125b8a9"
+      },
+      {
+        "src": "all-that-glitters-figure-3.png",
+        "file": "all-that-glitters-figure-3.png",
+        "sha256": "4768e8155b4b335db9c3eea851f3ca9bb379d2dced9d519e202d18881f633aba"
+      }
+    ]
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",

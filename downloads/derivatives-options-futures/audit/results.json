@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-06T02:21:05.974382+00:00",
+  "checked_at": "2026-10-06T02:25:05.288806+00:00",
   "passed": true,
   "scope": "Fresh authenticated source outline, all readings, current question sets and all English video transcripts; local full decode; public Pages full-file hashes separately.",
   "full_original_replica": false,
@@ -309,6 +309,7 @@
   "repairs": [
     "Restore American tree steps on position JSON import/export",
     "Restore distinct scenario and baseline prices without partial invalid-import state changes",
+    "Preserve local recovered article figures during external-page rebuilding",
     "Remove temporary signed image URL query strings from manifest and raw reading captures",
     "Recover the current June 2024 official OCC disclosure PDF (96 pages), with explicit version provenance",
     "Recover two matching IBKR articles and all four figures; preserve the OIC video tutorial description with explicit video-online limits"
@@ -1389,6 +1390,30 @@
     {
       "label": "Actual browser imported/exported distinct baseline, scenario and 400 steps",
       "passed": true
+    },
+    {
+      "label": "external/gold-silver-black-gold.html all recovered figures rendered",
+      "passed": true
+    },
+    {
+      "label": "gold-silver-black-gold-figure-1.png recovered source hash",
+      "passed": true
+    },
+    {
+      "label": "external/all-that-glitters.html all recovered figures rendered",
+      "passed": true
+    },
+    {
+      "label": "all-that-glitters-figure-1.png recovered source hash",
+      "passed": true
+    },
+    {
+      "label": "all-that-glitters-figure-2.png recovered source hash",
+      "passed": true
+    },
+    {
+      "label": "all-that-glitters-figure-3.png recovered source hash",
+      "passed": true
     }
   ],
   "external_resources": [
@@ -1472,14 +1497,38 @@
       "status": "saved_article",
       "note": "Recovered matching article text, source disclosures and all 1 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
       "file": "external/gold-silver-black-gold.html",
-      "resolved_url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/"
+      "resolved_url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+      "image_assets": [
+        {
+          "src": "gold-silver-black-gold-figure-1.png",
+          "file": "gold-silver-black-gold-figure-1.png",
+          "sha256": "65f3b21141480848c50fd49ba17060304ef87323d8a6f4bb5802853bf462eb6b"
+        }
+      ]
     },
     {
       "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
       "status": "saved_article",
       "note": "Recovered matching article text, source disclosures and all 3 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
       "file": "external/all-that-glitters.html",
-      "resolved_url": "https://www.interactivebrokers.com/campus/?p=69405"
+      "resolved_url": "https://www.interactivebrokers.com/campus/?p=69405",
+      "image_assets": [
+        {
+          "src": "all-that-glitters-figure-1.png",
+          "file": "all-that-glitters-figure-1.png",
+          "sha256": "c5a7cd145edbef8e7819ea0b6f27eb3f6e2bdeb0c3d49961319e2bc1f6cfc1b4"
+        },
+        {
+          "src": "all-that-glitters-figure-2.png",
+          "file": "all-that-glitters-figure-2.png",
+          "sha256": "223ed867560861d7da7f8ed1bddd4dd619b5fb3a61831aa264ce7b7b3125b8a9"
+        },
+        {
+          "src": "all-that-glitters-figure-3.png",
+          "file": "all-that-glitters-figure-3.png",
+          "sha256": "4768e8155b4b335db9c3eea851f3ca9bb379d2dced9d519e202d18881f633aba"
+        }
+      ]
     },
     {
       "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",

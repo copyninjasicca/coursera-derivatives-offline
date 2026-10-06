@@ -1,7 +1,7 @@
 {
   "checked_on": "2026-10-06",
   "passed": true,
-  "checks": 2140,
+  "checks": 2144,
   "course_pages": 84,
   "inventory": {
     "video": 34,
@@ -13,7 +13,7 @@
   "reading_images": 7,
   "video_duration_seconds": 6894.237456,
   "indexed_file_bytes": 514559266,
-  "local_links_checked": 963,
+  "local_links_checked": 967,
   "automatic_remote_loads": [],
   "calculator_checks_passed": 188,
   "american_checks_passed": 91,

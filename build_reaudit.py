@@ -65,6 +65,14 @@ exported = read(EVIDENCE / 'browser-position-export.json')
 check('Actual browser imported/exported distinct baseline, scenario and 400 steps',
       exported['market']['spot'] == 100 and exported['scenario']['spot'] == 110 and exported['modelOptions']['steps'] == 400)
 external = read(ROOT / 'external-resources.json')
+for resource in external:
+    assets=resource.get('image_assets', [])
+    if assets:
+        p=ROOT/resource['file']
+        rendered=html.fromstring(p.read_text())
+        check(resource['file']+' all recovered figures rendered', [i.get('src') for i in rendered.xpath('//img')] == [a['file'] for a in assets])
+        for a in assets:
+            check(a['file']+' recovered source hash', hashlib.sha256((p.parent/a['file']).read_bytes()).hexdigest() == a['sha256'])
 overruns = [{'id': v['id'], 'title': v['title'], 'seconds': max(c['end'] - v['duration_seconds'] for c in v['cues_exceeding_duration'])}
             for v in media['videos'] if v['indexed'] and v['cues_exceeding_duration']]
 report = {'checked_at': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'passed': all(c['passed'] for c in checks),
@@ -75,7 +83,7 @@ report = {'checked_at': datetime.datetime.now(datetime.timezone.utc).isoformat()
           'source_video_transcripts': len(video_sources), 'source_video_checks': video_sources,
           'local_full_decodes': 36, 'original_caption_overruns': overruns,
           'repairs': ['Restore American tree steps on position JSON import/export', 'Restore distinct scenario and baseline prices without partial invalid-import state changes',
-                      'Remove temporary signed image URL query strings from manifest and raw reading captures',
+                      'Preserve local recovered article figures during external-page rebuilding', 'Remove temporary signed image URL query strings from manifest and raw reading captures',
                       'Recover the current June 2024 official OCC disclosure PDF (96 pages), with explicit version provenance', 'Recover two matching IBKR articles and all four figures; preserve the OIC video tutorial description with explicit video-online limits'],
           'limits': ['Original source MP4s were not downloaded again for a separate original-to-local byte hash; all source transcripts match and playback durations differ by less than 0.05 seconds.',
                      'No Coursera server grading, answer keys, feedback after submission, certificates or unseen randomized variants.',
