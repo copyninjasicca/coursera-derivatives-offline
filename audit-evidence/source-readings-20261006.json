@@ -1,0 +1,277 @@
+[
+  {
+    "id": "Q03sS",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "https://www.optionseducation.org/theoptionseducationcenter/occ-learningOpens in a new tab",
+          "url": "https://www.optionseducation.org/theoptionseducationcenter/occ-learning"
+        },
+        {
+          "text": "http://www.theocc.com/about/publications/character-risks.jspOpens in a new tab",
+          "url": "http://www.theocc.com/about/publications/character-risks.jsp"
+        }
+      ],
+      "text": "The Options Clearing Corporation (OCC)\r\n\rIntroduction to OCC\r\nUnderstand how OCC supports the industry by reducing risk and increasing market transparency\rOptions 101 – Basic Concepts and Terminology\r\nLearn fundamental options terms and functionality, increase your knowledge about calls and puts while discovering the importance of exercise and assignment\r\n\nhttps://www.optionseducation.org/theoptionseducationcenter/occ-learningOpens in a new tab\nCharacteristics and Risks of Standardized Optionshttp://www.theocc.com/about/publications/character-risks.jspOpens in a new tab\n\n\n\n"
+    }
+  },
+  {
+    "id": "Yo7Er",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "https://www.optionseducation.org/toolsoptionquotes/optionscalculatorOpens in a new tab",
+          "url": "https://www.optionseducation.org/toolsoptionquotes/optionscalculator"
+        }
+      ],
+      "text": "OIC Option Calculator:  https://www.optionseducation.org/toolsoptionquotes/optionscalculatorOpens in a new tabAccess to calculate option values.\n\n\n\n\n\n"
+    }
+  },
+  {
+    "id": "Rnk8d",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "click hereOpens in a new tab",
+          "url": "http://www.optionsclearing.com/about/publications/character-risks.jsp"
+        },
+        {
+          "text": "OptionsEducation.org Opens in a new tab",
+          "url": "https://optionseducation.org/"
+        },
+        {
+          "text": "https://www.optionseducation.org/toolsoptionquotes/optionscalculatoOpens in a new tab",
+          "url": "https://www.optionseducation.org/toolsoptionquotes/optionscalculator"
+        },
+        {
+          "text": "click hereOpens in a new tab",
+          "url": "http://www.optionsclearing.com/about/publications/character-risks.jsp"
+        }
+      ],
+      "text": "The GreeksThe Options Greeks lesson is designed to familiarize traders with a set of risk factors used to monitor a portfolio's profile (known as “The Greeks”). In this lesson, you will learn why some option prices are more or less responsive to changing prices in the value of the underlying security. \r\n \r\nIn this lesson, we will explain the definition of each of the Greek variables and explain to you, using an interactive options calculator, what influences days to expiration, interest rates, and the proximity between the option strike price and the price of the underlying have on the price of an option over time.  \r\n \r\nRisk Measures: Introduction \r\nWhen option traders understand what basic inputs determine the pricing model, they are ready to move into dealing with option portfolio’s risk measures or “Greeks”. These risk variables are called “the Greeks” because, with the exception of Vega, each risk measure is represented by a letter of the Greek alphabet. The Greeks are dependent upon the inputs for an option’s pricing model. \r\n\r\nThis lesson assumes that the viewer is familiar with basic options risks, strategies and terminology.  As discussed in prior lessons, options trading provides additional leverage to trading equities, and thus carries increased risk.  Options involve risk and are not suitable for all investors. For more information read the “Characteristics and Risks of Standardized Options”. For a copy, call 312 542-6901 or click hereOpens in a new tab. An option buyer can lose the entire premium. The option seller may have unlimited risk of loss.  \r\n\r\nThis lesson incorporates an online options calculator from the Options Industry Council. It’s a free interactive resource available from OptionsEducation.org Opens in a new tab\r\n\r\nThroughout this lesson we explain why each variable impacts the price of an options, and we use the calculator to illustrate those changes. Access the calculator to type the inputs on screen and note the change to call and put prices as you vary them. \r\n\r\nhttps://www.optionseducation.org/toolsoptionquotes/optionscalculatoOpens in a new tabr\r\n \r\nCall Delta \r\n\r\nDelta represents the theoretical change in an option’s price for a $1 change in the price of the underlying asset. \r\n\r\nFor a call option, Delta will range from 0 to 1.  As the price of the underlying asset increases beyond the strike price and gets further in the money, the Delta will increase and approach 1, meaning that there is a greater change to the price of the option relative to the change in price of the underlying asset. An “at the money” option generally has a Delta of approximately 0.5. Alternatively, Delta can be thought of as the probability than an option will finish “in the money.” \r\n\r\nPut Delta \r\n\r\nFor a put option, Delta will range from -1 to 0.  As the price of the underlying asset decreases below the strike price and gets further in the money, the Delta will decrease and approach -1, meaning that there is a greater change to the price of the option relative to the change in price of the underlying asset An “at the money” option will have a Delta of -0.5. Alternatively, the Delta’s absolute value can also be thought of as the probability than an option will land “in the money”. \r\n\r\n\r\nDelta Explanation \r\n\r\nAs an example,  if the underlying asset price were to rise from $35.90 to $36.90(a $1.00 increase ), the average Delta would approximate the change in the option price. \r\nUnderlying Price, Strike Price, Interest Rate, Volatility and Days to Expiration inputs will have an impact on the Delta. You can change the model inputs in the Options Calculator and click “Calculate” to better understand the impact of the model inputs on the Delta.  \r\n\r\nGamma \r\n\r\nGamma represents the rate of change of delta for a given change in the underlying asset’s price. Gamma is largest “at the money” and becomes smaller as options move further into or out of the money. The change in an option’s price (before expiration) is represented by a curved line and not a flat line. The Delta represents the change at any given point on the curved line, and the Gamma describes the change in the delta or curvature in the line. For calculus fans, it is the second order derivative. Understanding the Gamma in a portfolio is critical for a trader that is trying to continuously hedge a portfolio. \r\n\r\nGamma Explanation \r\n\r\nAs an example, if the underlying asset price were to rise from $35.90 to $36.90 ($1.00), the old Delta plus the average Gamma would approximate the new Delta. \r\n Change the model inputs on the Options Calculator and click “Calculate” to better understand the impact of the model inputs on the Gamma. \r\n\r\nTheta \r\n\r\nTheta describes the relationship between time and the price of an option. Theta only impacts the extrinsic value of an option. That’s because intrinsic value does not erode, it only moves with a change in the underlying asset price. As an option nears expiration, Theta will become increasingly negative. \r\n\r\nTheta Explanation \r\nThe closer an option is to expiration, the less time value (extrinsic value) remains. Theta measures the approximate decline in an option’s premium due to the passage of time.  In other words, it measures that rate at which an option’s extrinsic value is declining. \r\n\r\nTheta Calculator \r\nChange the Options Calculator model inputs and click “Calculate” to better understand the impact of the model inputs on the Theta. \r\n\r\nVega \r\nVega represents the change in an option’s price due to a change in its implied volatility. Vega is always greatest for an “at the money” option and decreases as the underlying asset price moves increasingly “into the money” or “out of the money.” \r\n\r\nVega Explanation \r\nAn increase in volatility of 1% will change the option’s price by approximately the average of the Vega. \r\n\r\nVega Calculator \r\nChange the model inputs on the Options Calculator and click “Calculate” to better understand the impact of the model inputs on the Vega. \r\n\r\nRho Definition \r\nRho represents an option’s price sensitivity to interest rates. The greater the underlying asset price and remaining days to expiration, the greater the Rho. \r\n\r\nRho Explanation \r\nAs an example, if the interest rate were to rise from 3.5% to 4.5%, the average value of Rho would approximate the change in the option’s price. \r\n\r\nRho Calculator \r\nChange the model inputs on the Options Calculator and click “Calculate” to better understand the impact of the model inputs on the Rho. \r\n\r\nPutting it Together: Price Model \r\nNow let’s put it all together. Using the following assumptions, we can see the estimated value of a call option.  \r\n\r\n•\tLet’s use a Share Price of $35.90, \r\n•\tA Strike Price of $40.00, \r\n•\tAnd assume an Interest Rate of 4 percent, \r\n•\tLet’s assume an Implied Volatility reading of 38.8% for the underlying,  \r\n•\tAnd say the option contracts has 38 days to expire 38. \r\n•\tThe Call Price works out to be almost 54-cents ($0.5388). \r\n\r\n\r\nDelta \r\nThe measure returned for Delta is 0.2214. This means that for every $1.00 move in the underlying asset’s price the option value will change by approximately 22-cents (ignoring the impact of Gamma). Alternatively, there is a 22% chance that the option will expire at or above the strike price of $40.00. \r\n\r\nGamma \r\nThe Gamma reading of 0.0661 tells us that should the underlying price rise by $1.00, then Delta will rise by approximately 6.6 cents, because of the curvature in the option’s price line. \r\n\r\nTheta \r\nThe reading of  -0.0184 for Theta tells us that the value of the option contract drops approximately 1.8 cents for each day that passes. \r\n \r\nVega \r\nThe Vega of 0.0344 tells us that if implied volatility were to increase from 38.8% to 39.8%, then the value of the option would increase by approximately 3.4 cents. \r\n\r\nRho \r\nThe reading of 0.0077 for Rho tells us that if interest rates were to increase from 4% to 5%, the option’s value would increase by approximately 0.77 cents. \r\n\r\nOptions Calculator \r\nNow that we have covered the Greek risk factors, we encourage you to play with  the free OIC Options Calculator to understand how changes in all of the inputs are likely to affect an option’s price and Greeks. It should be noted that inputs rarely change in isolation and so it is important to test the changing multiple inputs at the same time. \r\n \r\nDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901, or click hereOpens in a new tab.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\r\n\r\n\n\n"
+    }
+  },
+  {
+    "id": "55ncS",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/\r\nOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/"
+        },
+        {
+          "text": "\nOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/\rOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/\r\nOpens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/"
+        }
+      ],
+      "text": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/\r\nOpens in a new tab\nOpens in a new tab\rhttps://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/\rOpens in a new tabhttps://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/\r\nOpens in a new tab"
+    }
+  },
+  {
+    "id": "ozbIu",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [],
+      "text": "Here's the link to open a free trial IBKR  Trader Workstation account to try out the features used in some of the lessons of this course:https://www.interactivebrokers.com/mkt/?src=coursera1&url=%2Fen%2Findex.php%3Ff%3D1286"
+    }
+  },
+  {
+    "id": "dKqe8",
+    "content": {
+      "embeds": [],
+      "images": [
+        {
+          "alt": "",
+          "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/QL7uXIhJToS-7lyISW6E_Q_a939ac0ace574252977de05da780e124_long-call-image.jpg"
+        }
+      ],
+      "links": [],
+      "text": "A call option allows an investor to pay a fixed premium for the right, but not the obligation, to buy an asset at a predetermined price until expiration.  The Long Call strategy might be useful for an investor who is bullish on either the market or the price of a specific stock. Investors going long calls may profit if the price of the underlying shares rises above the combined value of the strike price and the net cost of the option. The payoff from a long call position is unlimited, increasing point for point with the stock if the price of the underlying shares move higher.  The loss potential is limited to the initial cost of the option. Investors face a maximum loss of the premium at any point at or below the strike price, above which point losses diminish.  The value of a long call option is hurt by the passage of time and benefits from increases in volatility.\r\nLong Call Example:\r\n•\tUnderlying XYZ stock price: $46.25\r\n•\tCall strike price:50\r\n•\tCall option premium: $1.50\r\n•\tDays to expiration: 90\r\n•\tBreakeven: 50+$1.50=$51.50 (Strike price plus premium paid for call option)\r\n•\tProfit potential: Unlimited\r\n•\tPotential profit:@$55.00 – The call option is worth $3.50 to a buyer who paid $1.50, since profit = underlying price at expiration minus strike price less the premium paid, or $55.00 – 50.00 -$1.50 = $3.50.\r\n\r\nMaximum loss: Defined by the premium paid of $1.50. Occurs at the strike price and all points below. \r\nMarket Outlook - Bullish \r\nVolatility View - Premium increases\r\nTime Erosion - Premium decays\r\nDividends - Premium decreases\r\nInterest Rate - Premium increases \r\nProfit Potential - Unlimited\r\nLoss Potential - Limited\r\nComponents - Buy call option\r\n\rDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\rMultiple leg strategies, including spreads, will incur multiple commission charges.\r\n\r\n"
+    }
+  },
+  {
+    "id": "wHWtW",
+    "content": {
+      "embeds": [],
+      "images": [
+        {
+          "alt": "",
+          "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/A3Fv0OwERg2I9rSXTKlhaA_e4ebc67ba0dd4874a51333c6fb5e07f1_2023-short-put.png"
+        }
+      ],
+      "links": [],
+      "text": "An investor selling a put option receives a fixed premium and gives another investor the right but not the obligation to sell an asset at a predetermined price until expiration.  A Short Put strategy might be considered by a risk-tolerant trader with the opinion that a stock’s price is likely to increase and/or volatility is likely to decrease.  The put seller benefits from the passage of time and decreasing dividends.   The maximum gain is the premium received, which occurs at any price above the strike price.  The gain diminishes as the price of the underlying falls below the strike price.  Breakeven occurs at the sum of the strike price less the premium received.  At any price below that, the short put seller begins to lose money penny-for-penny as the underlying price decreases.  Loss potential is substantial.  Short put sellers must ensure that they are sufficiently capitalized to deliver any required shares. \r\n\r\nShort Put Example: \r\n•\tUnderlying XYZ stock price: $60.25 \r\n•\tPut strike price: 57.50 \r\n•\tPut option premium: $2.00 \r\n•\tDays to expiration: 90 \r\n•\tBreakeven: 57.50-$2.00=$55.50 (Strike price minus premium received for put option) \r\n•\tProfit potential: Limited to the premium received from the sale of the put option at any price at and above the strike price. \r\n•\tPotential profit: @$60.00 – The put option is out-the-money at expiration and worth zero to someone who sold it for $2.00.  \r\n\r\n•\t@$57.50 – The put option is at-the-money at expiration but has zero intrinsic value and is still worthless to someone who sold it for $2.00.  \r\n\r\n•\t@54.00 - The put option is in-the-money at expiration and has intrinsic value. \r\n\r\n•\tIts worth is $3.50 and creates a loss to someone who sold it for $2.00 of $1.50. ($54.00 - 57.50 +$2.00 = -$1.50)   \r\r\n•\tMaximum loss: Limited by the fact that the stock can only fall to zero. However, the investor starts to lose money at the strike price less the premium received (57.50 minus $2.00 = $55.50) and continues to lose penny-for-penny as the share price declines further.  \r\n \r\nMarket Outlook - Bull \r\nVolatility View - Premium decreases \r\nTime Erosion - Premium decays \r\nDividends - Premium decreases \r\nInterest Rate - Premium increases  \r\nProfit Potential - Limited \r\nLoss Potential - Substantial \r\nComponents- Sell put option \rDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\rMultiple leg strategies, including spreads, will incur multiple commission charges.\r\n"
+    }
+  },
+  {
+    "id": "VmHW4",
+    "content": {
+      "embeds": [],
+      "images": [
+        {
+          "alt": "",
+          "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GHsLPT00TL2kQNAmoOwyLA_d8a7a5802dde4fc6b9f02f73dc85def1_2023-bull-covered-call.png"
+        }
+      ],
+      "links": [],
+      "text": "A covered call would be considered by someone who would like to derive additional income from a long stock position.  A covered call allows the investor to hold a long equity position while simultaneously receiving the premium from selling an equal amount of call options against it. The covered call writer is bullish on the stock’s long-term potential but is willing to forego a stock’s upside above the strike during the life of the option in order to receive the proceeds of the call premium.  The covered call writer benefits from time decay, from a reduction in volatility and if the stock increases its dividend before expiration.  It should be noted that the combined position has a similar profile to that of a short put.  The covered call writer remains exposed to any downside in the underlying shares, meaning his loss potential is substantial. \r\n\r\nMarket Outlook- Mildly Bullish\r\nVolatility View- Premium decreases\r\nTime Erosion- Helps\r\nDividends- Premium increases\r\nInterest Rate- Premium decreases \r\nProfit Potential- Limited to gains from equity to the strike price, plus premium received from the sale of call option\r\nLoss Potential- Limited to downside movement in the equity minus the premium received from the sale of call option\r\nComponents Long equity, short call option\r\n\r\nCovered Call Example: \r\no\tUnderlying XYZ stock price: $50.00\r\no\tCall strike price: 55.00\r\no\tCall option premium: $1.75\r\no\tDays to expiration: 90\r\no\tBreakeven: 50.00-$1.75=$48.25 (underlying share purchase price minus premium received for call option)\rProfit potential: Limited to the gain on the underlying share price until the strike price is reached, plus the premium received from the sale of the call option. Thereafter, gains from the stock are equally offset by the rising cost of the short call option.\r\n\r\nPotential profit: @$54.00 – The sum of the gain on the stock ($54.00 - $50.00 = $4.00) plus the premium of $1.75 received from the sale of the call for a total of $5.75.  \r\n\r\n@$55.00 – The strike price marks the maximum potential profit from the strategy. The gain on the stock of $5.00 is added to the premium of $1.75 received from the sale of the call. At the strike price, the call has zero extrinsic value at expiration. The investor sold it initially for $1.75, and so retains the entire premium. At any point above the strike price at expiration, what the investor gains from the stock, he loses penny-for-penny on the short call option. \r\n\r\n@$44.00 – At any price below the call strike the option expires worthless and the investor keeps the entire premium. However, the stock has fallen by $6.00 per share. That loss is partially offset by the premium received from the sale of the call option. So the overall loss at $44.00 per share is $6.00 - $1.75 or $4.25.  \r\n\r\nMaximum loss: Limited by the fact that the stock can only fall to zero. However, the investor starts to lose money at the share purchase price less the premium received ($50.00 minus $1.75 = $48.25) and continues to lose penny-for-penny as the share price declines further.\rDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\rMultiple leg strategies, including spreads, will incur multiple commission charges.\r\n"
+    }
+  },
+  {
+    "id": "9R3l9",
+    "content": {
+      "embeds": [],
+      "images": [
+        {
+          "alt": "",
+          "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/99Huq-0_RymRmlMpcUkshg_cf6d6dc170d04c2ab584954a9e538cf1_2023-bear-long-put.png"
+        }
+      ],
+      "links": [],
+      "text": "A put option allows an investor to pay a fixed premium for the right, but not the obligation, to sell an asset at a predetermined price until expiration.  The long put strategy might be useful for an investor who is bearish on either the market or the price of a specific stock. Investors going long puts may profit if the price of the underlying shares falls below the combined value of the strike price and the net cost of the option. The payoff from a long put position is substantial, increasing point for point with the stock’s decline if the price of the underlying shares moves lower.  The loss potential is limited to the initial cost of the option.  Investors face a maximum loss of the premium at any point at or above the strike price, below which point losses diminish.  The value of a long put option is hurt by the passage of time and benefits from increases in volatility. \r\n\r\nLong Put Example: \r\n\r\n•\tUnderlying XYZ stock price: $36.25 \r\n•\tPut strike price: 35 \r\n•\tPut option premium: $2.00 \r\n•\tDays to expiration: 90 \r\n•\tBreakeven: 35-$2.00=$33.00 (Strike price minus premium paid for put option) \r\n•\tProfit potential: Limited, but substantial as the stock price falls. However, the profit potential is limited by the fact that the stock cannot trade below zero. \r\n•\tPotential profit: @$30.00 – The put option is worth $3.00 to a buyer who paid $2.00, since profit = strike price minus underlying price at expiration less the premium paid, or $35.00 – 30.00 -$2.00 = $3.00. \r\n•\tMaximum loss: Defined by the premium paid of $2.00. Occurs at the strike price and all points above.  \r\n \r\nMarket Outlook - Bearish \r\nVolatility View - Premium increases \r\nTime Erosion - Premium decays \r\nDividends - Premium increases \r\nInterest Rate - Premium decreases  \r\nProfit Potential - Limited \r\nLoss Potential - Limited \r\nComponents - Buy put option \rDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\rMultiple leg strategies, including spreads, will incur multiple commission charges."
+    }
+  },
+  {
+    "id": "AJzSB",
+    "content": {
+      "embeds": [],
+      "images": [
+        {
+          "alt": "",
+          "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/YO7_SwIWTbm8qDk1uN9Nbw_d3e5d9150cc940ada2bc4c72f11269f1_2023-bear-cov-put.png"
+        }
+      ],
+      "links": [],
+      "text": "A covered put would be considered by someone who would like to derive additional income from a short stock position.  A covered put allows the investor to hold a short equity position while simultaneously receiving the premium from selling an equal amount of put options against it. The covered put writer is bearish on the stock’s long-term potential but is willing to forego a stock’s downside below the strike during the life of the option in order to receive the proceeds of the put premium.  The covered put writer benefits from time decay, from a reduction in volatility and if the stock decreases its dividend before expiration.  It should be noted that the combined position has a similar profile to that of a short call.  The covered put writer remains exposed to any upside in the underlying shares, meaning his loss potential is unlimited.\rMarket Outlook - Mildly Bearish\r\nVolatility View - Premium decreases\r\nTime Erosion - Helps\r\nDividends - Premium decreases\r\nInterest Rate - Premium increases \r\nProfit Potential - Limited to gains from short equity down to the strike price, plus premium received from the sale of put option\r\nLoss Potential - Unlimited to upside movement in the equity minus the premium received from the sale of put option\r\nComponents - Short equity, short put option\r\n \r\nCovered Put Example: \r•\tUnderlying XYZ stock price: $40.00\r\n•\tPut strike price: 37.50\r\n•\tPut option premium: $2.00\r\n•\tDays to expiration: 90\r\n•\tBreakeven: 40.00+$2.00 = $42.00 (underlying share purchase price plus premium received for put option)\r\n•\tProfit potential: Limited to the fall in the underlying share price until the strike price is reached, plus the premium received from the sale of the put option. Thereafter, short gains from the stock are equally offset by the rising cost of the short put option.\r\n•\tPotential profit: $37.50 – The sum of the decline in the stock price ($40.00 - $37.50 = $2.50) plus the premium of $2.00 received from the sale of the put for a total of $4.50.  \r\n•\t@$35.00 – The strike price marks the maximum potential profit from the strategy. The gain on the short stock of $5.00 is added to the premium of $2.00 received from the sale of the put. However, the put has $2.50 intrinsic value when the option expires with the stock at $35.00. At any point below the strike price at expiration, what the investor gains from the declining stock, he loses penny-for-penny on the short put option. In this case the net loss from the option ($2.00 received less its $2.50 value at expiration) is $0.50c and is subtracted from the gain of $5.00 on the short stock. Hence the maximum potential gain from the strategy is always $4.50.  \r\n•\t@$44.00 – At any price above the put strike the option expires worthless and the investor keeps the entire premium. However, the stock has risen by $4.00 per share. That loss is partially offset by the premium received from the sale of the put option. So, the overall loss at $44.00 per share is $4.00 - $2.00 or $2.00.  \r\n•\tMaximum loss: Unlimited by the fact that the stock can continue to rise. However, the investor starts to lose money at the share purchase price plus the premium received ($40.00 plus $2.00 = $42.00) and continues to lose penny-for-penny as the share price increases further.\rDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\rMultiple leg strategies, including spreads, will incur multiple commission charges.\r\n"
+    }
+  },
+  {
+    "id": "pwE1L",
+    "content": {
+      "embeds": [],
+      "images": [
+        {
+          "alt": "",
+          "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iGGJbeAqTZmhiW3gKm2ZeQ_5718782e64da4bf4b515c1133d314240_short-straddle-image.jpg"
+        }
+      ],
+      "links": [],
+      "text": "The short straddle seller is hoping for a lack of movement in the price of the underlying shares and is indifferent to direction.  It is a fairly pure bet on decreasing volatility, and benefits from decay.  A short straddle is created when an investor sells an equal number of calls and puts with the same strike and expiration.  It may be used when investors expect a decrease in either implied volatility or in the movement of the price of the underlying equity. Profit is limited to the initial premium received, while loss is potentially unlimited.  The direction of the stock does not matter to the straddle buyer as long as the movement up or down from the strike stays within the price received for the straddle.  The maximum gain is the cost of the trade and occurs if the stock closes at the strike price. Time decay helps a straddle seller.  The combination has two breakeven points equal to the strike price plus the cost of the trade and the strike price minus the cost of the trade.  The straddle seller loses money if the underlying price exceeds a range around the strike price beyond the total premium received.\r\nShort Straddle example – \r\n•\tUnderlying XYZ stock price: $50.00\r\n•\tCall strike price: 50.00\r\n•\tCall option premium: $5.00\r\n•\tPut strike price: 50.00\r\n•\tPut option premium :$5.00\r\n•\tDays to expiration: 90\r\n•\tUpside Breakeven: $50.00+$5.00+$5.00 = $60.00 (Strike price plus premium received for call plus premium received for put option)\r\n•\tDownside Breakeven: $50.00-$5.00-$5.00 = $40.00 (Strike price minus premium received for call minus premium received for put option)\r\n•\tProfit potential: Limited to the combined premiums from both call and put or $10.00 and occurs at the $50.00 strike price. At that strike price, neither option has any extrinsic value nor any intrinsic value at expiration. Above the central strike price, while the put option has zero value, the call option does and begins to erode the profitability of the trade. Below the central strike price, the call has zero extrinsic value, while the put has an increasing amount as the share price declines, thus also eroding the profitability of the trade.  \r\n•\tPotential profit:@$55.00 – The put option is out-the-money and has zero value. But the call option has $5.00 value and this must be subtracted from the net premium received ($10.00 - $5.00 = $5.00).  \r\n•\t@$60.00 – The in-the-money call option now has $10 intrinsic value is completely offsets the profitability of the trade ($10.00 - $10.00 = zero).   \r\n•\t@$35.00 – At all values below the central strike price the put option has intrinsic value, and in this case is worth $12.00 ($50.00 - $38.00 = $12.00). And so the net loss from the trade is the amount of net premium minus the distance between the central strike price and the value of the shares ($10.00 - $12.00 = $2.00).  \r\n•\tMaximum loss: Loss potential is unlimited to the upside, since the intrinsic call value keeps up with the rising share price penny-for-penny. Losses to the downside can be significant as the intrinsic nature of the put option matches the downside performance of the stock penny-for-penny, limited only by a zero value for the underlying share price.   \r\rMarket Outlook - Neutral \r\nVolatility View - Decreases premium\r\nTime Erosion - Reduces premium\r\nDividends - Neutral\r\nInterest Rate - Neutral \r\nProfit Potential - Limited \r\nLoss Potential - Substantial from short put/ unlimited from short call \r\nComponents - Sell same strike call and put option with same expirationDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\rMultiple leg strategies, including spreads, will incur multiple commission charges.\r\n"
+    }
+  },
+  {
+    "id": "QAbaO",
+    "content": {
+      "embeds": [],
+      "images": [
+        {
+          "alt": "",
+          "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/2d86daucQU2fOnWrnGFNHg_ae1b4da57ee24bb5b3e2d54cd8810212_short-strangle-image.jpg"
+        }
+      ],
+      "links": [],
+      "text": "The short strangle is similar to the short straddle, though the strikes of the options differ. This is also a trade that benefits from decay and decreased volatility regardless of direction.  Because the strike prices involved are further apart than a short straddle, there is a lower risk that this trade will cause the investor to face a loss. The lower associated risk means that the investor receives a lower premium at the outset for making the trade.  As with a short straddle, profit is capped to the initial premium while loss is potentially unlimited.  The short strangle makes maximum profits between the two strike prices and has two breakeven points. To the downside, the trade makes money if the stock stays above the lower strike price of the put minus the sum of the two premiums paid.  To the upside the trade makes money if the stock stays below the upper strike price for the call plus the sum of the two premiums paid. Outside of these breakeven points the trade has unlimited loss potential in the event that the share price continues to increase or decrease, though the downside potential loss is limited by the fact that the share price could only fall to a minimum of zero.\r\nShort Strangle example – \r\n•\tUnderlying XYZ stock price: $80.00\r\n•\tCall strike price: 85.00\r\n•\tCall option premium: $3.00\r\n•\tPut strike price: 75.00\r\n•\tPut option premium: $2.50\r\n•\tDays to expiration: 90\r\n•\tUpside Breakeven: $85.00+$3.00+$2.50 = $92.50 (Call strike price plus premium received for call plus premium received for put option)\r\n•\tDownside Breakeven: $75.00-$3.00-$2.50 = $69.50 (Put strike price minus premium received for call minus premium received for put option)\r\n•\tProfit potential: Limited to the combined premiums from both call and put or $5.50 and occurs at all points between the $75.00 and $85.00 strike prices. Until the upper strike price neither the call nor put has zero intrinsic value. And so, between the strikes, the investor retains both premiums. Below the strike price of the put the value of the combined premium is eaten away, as the intrinsic value of the put option increases. Conversely, above the strike price of the call, that combined premium begins to diminish as the intrinsic value of the call increases.   \r\n•\tPotential profit: @$80.00 – Both put and call options are out-the-money and each has zero value. The investor gets to keep the entire $5.50 premium collected from the sale of each option.  \r\n•\t@$60.00 – The out-the-money call option now has zero intrinsic value. However, the put option is now in-the-money by $15.00 ($75.00 minus $60.00) and this must be subtracted from the combined $5.50 premium, which leaves the investor at a total loss of $9.50 ($15.00 - $5.50 = $9.50).   \r\n•\tMaximum loss: Just like with a short straddle strategy, the short strangle seller faces potentially unlimited losses to the upside, since the intrinsic call value keeps up with the rising share price penny-for-penny. Losses to the downside can be significant as the intrinsic nature of the put option matches the downside performance of the stock penny-for-penny, limited only by a zero value for the underlying share price.   \r\n\r\nMarket Outlook - Neutral \r\nVolatility View - Decreases premium\r\nTime Erosion - Reduces premium\r\nDividends - Neutral\r\nInterest Rate - Neutral \r\nProfit Potential - Limited \r\nLoss Potential - Substantial from short put/ unlimited from short call \r\nComponents - Sell lower strike put and higher strike call option with same expirationDisclosures\r\nOptions involve risk and are not suitable for all investors. For more information, read the “Characteristics and Risks of Standardized Options”. For a copy, call 312-542-6901.\r\nTrading on margin is only for sophisticated investors with a high risk tolerance. You may lose more than your initial investment. For additional information regarding margin loan rates, see ibkr.com/interest.\r\rMultiple leg strategies, including spreads, will incur multiple commission charges.\r\n"
+    }
+  },
+  {
+    "id": "Oq2QV",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/"
+        }
+      ],
+      "text": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/Opens in a new tabhttps://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/Opens in a new tabhttps://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/Opens in a new tabhttps://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/Opens in a new tab\n\n\n\n\n\n"
+    }
+  },
+  {
+    "id": "2AsvI",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "https://www.cmegroup.com/education/courses/introduction-to-futures.htmlOpens in a new tab",
+          "url": "https://www.cmegroup.com/education/courses/introduction-to-futures.html"
+        },
+        {
+          "text": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract.htmlOpens in a new tab",
+          "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract.html"
+        }
+      ],
+      "text": "CME Group - Introduction to Futures\r\nhttps://www.cmegroup.com/education/courses/introduction-to-futures.htmlOpens in a new tab\r\nCME Group - Definition of a Futures Contract  \r\nhttps://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract.htmlOpens in a new tab\r\n\r\n"
+    }
+  },
+  {
+    "id": "ZwdJE",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.htmlOpens in a new tab",
+          "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html"
+        }
+      ],
+      "text": "CME Group: Margin: Know What's Needed\r\nhttps://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.htmlOpens in a new tab"
+    }
+  },
+  {
+    "id": "s0n03",
+    "content": {
+      "embeds": [],
+      "images": [],
+      "links": [
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/"
+        },
+        {
+          "text": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/Opens in a new tab",
+          "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/"
+        }
+      ],
+      "text": "Economist Perspective: Commodities Outlook for 2021\r\nhttps://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/Opens in a new tab\r\n\rGold/Silver: The “Black-Gold” Alternative\r\nhttps://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/Opens in a new tab\r\nAll That Glitters is Not Gold\r\nhttps://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/Opens in a new tab\r\nChart Advisor: Increasing Demand for Oil\r\nhttps://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/Opens in a new tab\r\n\r\n"
+    }
+  }
+]

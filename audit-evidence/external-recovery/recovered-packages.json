@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "gold-silver-black-gold",
+    "title": "Gold/Silver: The \u201cBlack-Gold\u201d Alternative",
+    "source": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+    "file": "gold-silver-black-gold.html",
+    "images": [
+      {
+        "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/blf_12-14-20-1-1100x712.png",
+        "file": "gold-silver-black-gold-figure-1.png",
+        "downloaded": true,
+        "bytes": 44371,
+        "dimensions": [
+          1100,
+          712
+        ],
+        "format": "PNG",
+        "sha256": "65f3b21141480848c50fd49ba17060304ef87323d8a6f4bb5802853bf462eb6b"
+      }
+    ],
+    "text_characters": 6407,
+    "status": "recovered_article_text_and_figures",
+    "sha256": "7226a097df608e54d77469ecb701ab80e84144156ee0190744345366a1f0db3f",
+    "published": "Posted December 14, 2020 at 10:15 am"
+  },
+  {
+    "slug": "all-that-glitters",
+    "title": "All That Glitters is Not Gold",
+    "source": "https://www.interactivebrokers.com/campus/?p=69405",
+    "file": "all-that-glitters.html",
+    "images": [
+      {
+        "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/image-41.png",
+        "file": "all-that-glitters-figure-1.png",
+        "downloaded": true,
+        "bytes": 122067,
+        "dimensions": [
+          624,
+          460
+        ],
+        "format": "PNG",
+        "sha256": "c5a7cd145edbef8e7819ea0b6f27eb3f6e2bdeb0c3d49961319e2bc1f6cfc1b4"
+      },
+      {
+        "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/image-42.png",
+        "file": "all-that-glitters-figure-2.png",
+        "downloaded": true,
+        "bytes": 69667,
+        "dimensions": [
+          624,
+          463
+        ],
+        "format": "PNG",
+        "sha256": "223ed867560861d7da7f8ed1bddd4dd619b5fb3a61831aa264ce7b7b3125b8a9"
+      },
+      {
+        "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/image-43.png",
+        "file": "all-that-glitters-figure-3.png",
+        "downloaded": true,
+        "bytes": 81676,
+        "dimensions": [
+          624,
+          371
+        ],
+        "format": "PNG",
+        "sha256": "4768e8155b4b335db9c3eea851f3ca9bb379d2dced9d519e202d18881f633aba"
+      }
+    ],
+    "text_characters": 8144,
+    "status": "recovered_article_text_and_figures",
+    "sha256": "d5c498b3fcdf031be45a3e21d6cdab0e5f180980297f15dda0f2fd6b0e2b9052",
+    "published": "Posted December 15, 2020 at 12:54 pm"
+  },
+  {
+    "source": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+    "file": "oic-options-calculator-tutorial.html",
+    "video_url": "https://www.youtube.com/watch?v=gWYTcWGU9pI",
+    "status": "description_only_video_online",
+    "description_characters": 538,
+    "sha256": "72970f08d3cb101eae1c7cf8f3cb63ff58926a1649ebb8c967c32cdf4caee773"
+  }
+]

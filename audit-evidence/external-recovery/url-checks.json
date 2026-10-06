@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-00.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-01.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-02.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-03.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-04.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-05.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-06.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",
+    "result": "404 https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-07.html",
+    "bytes": 10
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
+    "result": "404 https://www.interactivebrokers.com/campus/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-08.html",
+    "bytes": 860675
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+    "result": "200 https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-09.html",
+    "bytes": 604849
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
+    "result": "404 https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-10.html",
+    "bytes": 860675
+  },
+  {
+    "url": "https://www.interactivebrokers.com/campus/?p=69405",
+    "result": "200 https://www.interactivebrokers.com/campus/?p=69405",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-11.html",
+    "bytes": 615263
+  },
+  {
+    "url": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+    "result": "200 https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+    "exit_code": 0,
+    "error": "",
+    "file": "/Users/marvinchan/Documents/ChatGPT/Coursera/audit-evidence/external-recovery/source-12.html",
+    "bytes": 99523
+  }
+]

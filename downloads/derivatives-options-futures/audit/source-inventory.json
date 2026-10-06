@@ -1,0 +1,427 @@
+{
+  "checkedAt": "2026-10-06T01:33:12.362Z",
+  "source": "https://www.coursera.org/learn/derivatives-options-futures",
+  "language": "English",
+  "items": [
+    {
+      "href": "/learn/derivatives-options-futures/lecture/uZR67/all-about-options-overview",
+      "label": "All About Options - Overview\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/uhJRv/all-about-options-overview",
+      "label": "All about Options - Overview\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/SHCPN/what-is-an-option-overview",
+      "label": "What is an Option? - Overview\nVideo\n. Duration: 8 minutes\n8 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/jUVGh/what-is-an-option",
+      "label": "What is an Option?\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/VKnLf/stock-option-buyers-sellers-terms-types",
+      "label": "Stock Option: Buyers, Sellers, Terms & Types\nVideo\n. Duration: 5 minutes\n5 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/l9fxu/options-terms-types-roles",
+      "label": "Options Terms, Types & Roles\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/Lg48Z/stock-options-contract-components",
+      "label": "Stock Options: Contract Components\nVideo\n. Duration: 6 minutes\n6 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/V1PMU/options-contract-components",
+      "label": "Options Contract Components\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/IcgXv/stock-options-benefits-risks",
+      "label": "Stock Options: Benefits & Risks\nVideo\n. Duration: 4 minutes\n4 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/dYzlr/stock-options-benefits-risks",
+      "label": "Stock Options: Benefits & Risks\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/Q03sS/option-reference-material",
+      "label": "Option Reference Material\nReading\n. Duration: 15 minutes\n15 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/019Z4/all-about-options-graded-assessment",
+      "label": "All About Options- Graded Assessment\nGraded Assignment\n. Duration: 30 minutes\n30 min",
+      "module": "Module 1\nAll About Options"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/LxDKC/options-market-mechanics-overview",
+      "label": "Options Market Mechanics Overview\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/hwwfE/understanding-put-call-parity",
+      "label": "Understanding Put-Call Parity\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/dVSFT/understanding-put-call-parity",
+      "label": "Understanding Put-Call Parity\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/4f6yw/option-valuation-and-input-variables",
+      "label": "Option Valuation and Input Variables\nVideo\n. Duration: 10 minutes\n10 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/Yo7Er/oic-option-calculator",
+      "label": "OIC Option Calculator\nReading\n. Duration: 15 minutes\n15 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/phTH3/option-valuation-and-input-variables",
+      "label": "Option Valuation and Input Variables\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/3QwcO/introduction-to-options-the-greeks",
+      "label": "Introduction to Options - The Greeks\nVideo\n. Duration: 10 minutes\n10 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/Rnk8d/the-greeks",
+      "label": "The Greeks\nReading\n. Duration: 15 minutes\n15 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/bsiv5/introduction-to-options-the-greeks",
+      "label": "Introduction to Options - The Greeks\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/5O66G/introduction-to-options-graded",
+      "label": "Introduction to Options-Graded\nGraded Assignment\n. Duration: 30 minutes\n30 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/55ncS/market-commentary-option-articles",
+      "label": "Market Commentary - Option Articles\nReading\n. Duration: 15 minutes\n15 min",
+      "module": "Module 2\nOptions Market Mechanics"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/cdneB/basic-option-strategies-overview",
+      "label": "Basic Option Strategies - Overview\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/ozbIu/optional-free-trial-ibkr-trader-workstation-account",
+      "label": "Optional - Free Trial IBKR Trader Workstation Account\nReading\n. Duration: 10 minutes\n10 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/ZmnOU/bull-market-long-call",
+      "label": "Bull Market - Long Call\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/dKqe8/bull-market-long-call",
+      "label": "Bull Market - Long Call\nReading\n. Duration: 30 minutes\n30 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/LmtfU/bull-market-long-call",
+      "label": "Bull Market - Long Call\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/4115z/practical-usage-bull-market-long-call",
+      "label": "Practical Usage - Bull Market - Long Call\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/VjaUv/practical-usage-bull-market-long-call",
+      "label": "Practical Usage - Bull Market - Long Call\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/HR8xQ/bull-market-short-put",
+      "label": "Bull Market - Short Put\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/wHWtW/bull-market-short-put",
+      "label": "Bull Market - Short Put\nReading\n. Duration: 30 minutes\n30 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/1qHGj/bull-market-short-put",
+      "label": "Bull Market - Short Put\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/cvjFE/practical-usage-bull-market-short-put",
+      "label": "Practical Usage - Bull Market - Short Put\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/1w4bx/practical-usage-bull-market-short-put",
+      "label": "Practical Usage - Bull Market - Short Put\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/sQsPT/bull-market-covered-call",
+      "label": "Bull Market - Covered Call\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/VmHW4/bull-market-covered-call",
+      "label": "Bull Market - Covered Call\nReading\n. Duration: 30 minutes\n30 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/KqZKt/bull-market-covered-call",
+      "label": "Bull Market - Covered Call\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/WWhws/practical-usage-bull-market-covered-call",
+      "label": "Practical Usage - Bull Market - Covered Call\nVideo\n. Duration: 3 minutes\n3 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/wq1dm/practical-usage-bull-market-covered-call",
+      "label": "Practical Usage - Bull Market - Covered Call\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/njhi2/bear-market-long-put",
+      "label": "Bear Market - Long Put\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/9R3l9/bear-market-long-put",
+      "label": "Bear Market - Long Put\nReading\n. Duration: 30 minutes\n30 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/8BMQg/bear-market-long-put",
+      "label": "Bear Market - Long Put\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/3GcpZ/practical-usage-bear-market-long-put",
+      "label": "Practical Usage - Bear Market - Long Put\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/Ae0Hf/practical-usage-bear-market-long-put",
+      "label": "Practical Usage - Bear Market - Long Put\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/qp12Y/bear-market-covered-put",
+      "label": "Bear Market - Covered Put\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/AJzSB/bear-market-covered-put",
+      "label": "Bear Market - Covered Put\nReading\n. Duration: 30 minutes\n30 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/tkww0/bear-market-covered-put",
+      "label": "Bear Market - Covered Put\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/JLYGJ/practical-usage-bear-market-covered-put",
+      "label": "Practical Usage - Bear Market - Covered Put\nVideo\n. Duration: 4 minutes\n4 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/qFWM6/practical-usage-bear-market-covered-put",
+      "label": "Practical Usage - Bear Market - Covered Put\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/MsCT1/option-strategies-graded-assessment",
+      "label": "Option Strategies - Graded Assessment\nGraded Assignment\n. Duration: 30 minutes\n30 min",
+      "module": "Module 3\nBasic Option Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/vrw2z/neutral-market-strategies-overview",
+      "label": "Neutral Market Strategies Overview\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/TWCPS/neutral-market-short-straddle",
+      "label": "Neutral Market - Short Straddle\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/pwE1L/short-straddle",
+      "label": "Short Straddle\nReading\n. Duration: 15 minutes\n15 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/zyzIS/neutral-market-short-straddle",
+      "label": "Neutral Market - Short Straddle\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/zrZ3Y/practical-usage-neutral-market-short-straddle",
+      "label": "Practical Usage - Neutral Market - Short Straddle\nVideo\n. Duration: 3 minutes\n3 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/Cw2j3/practical-usage-neutral-market-short-straddle",
+      "label": "Practical Usage - Neutral Market - Short Straddle\nPractice Assignment\n. Duration: 10 minutes\n10 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/AcXHU/neutral-market-short-strangle",
+      "label": "Neutral Market - Short Strangle\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/QAbaO/short-strangle",
+      "label": "Short Strangle\nReading\n. Duration: 3 minutes\n3 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/GsXCw/neutral-market-short-strangle",
+      "label": "Neutral Market - Short Strangle\nPractice Assignment\n. Duration: 15 minutes\n15 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/StcFu/practical-usage-neutral-market-short-strangle",
+      "label": "Practical Usage - Neutral Market - Short Strangle\nVideo\n. Duration: 3 minutes\n3 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/PYGSP/practical-usage-neutral-market-short-strangle",
+      "label": "Practical Usage - Neutral Market - Short Strangle\nPractice Assignment\n. Duration: 10 minutes\n10 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/Oq2QV/additional-reading-material-from-traders-insight",
+      "label": "Additional Reading Material from Traders’ Insight\nReading\n. Duration: 15 minutes\n15 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/7NdO8/neutral-market-strategies-graded-assessment",
+      "label": "Neutral Market Strategies - Graded Assessment\nGraded Assignment\n. Duration: 30 minutes\n30 min",
+      "module": "Module 4\nNeutral Market Strategies"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/jNuPf/mechanics-of-the-futures-market-overview",
+      "label": "Mechanics of the Futures Market Overview\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/ZR8FZ/futures-overview",
+      "label": "Futures - Overview\nPractice Assignment\n. Duration: 5 minutes\n5 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/wDfmh/a-word-about-risk",
+      "label": "A Word About Risk\nVideo\n. Duration: 3 minutes\n3 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/BQLZH/a-word-about-risk",
+      "label": "A Word About Risk\nPractice Assignment\n. Duration: 5 minutes\n5 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/Nj1tb/futures-pricing-the-basis",
+      "label": "Futures Pricing: The Basis\nPractice Assignment\n. Duration: 5 minutes\n5 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/2v5yO/new-video",
+      "label": "New Video\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/kbuOV/futures-prices-contango-backwardation",
+      "label": "Futures Prices: Contango & Backwardation\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/5lIrj/backwardation-and-contango",
+      "label": "Backwardation and Contango\nPractice Assignment\n. Duration: 5 minutes\n5 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/Q9QET/a-closer-look-at-contracts",
+      "label": "A Closer Look at Contracts\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/TSm1T/a-closer-look-at-contracts",
+      "label": "A Closer Look at Contracts\nPractice Assignment\n. Duration: 5 minutes\n5 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/2AsvI/additional-resources",
+      "label": "Additional Resources\nReading\n. Duration: 30 minutes\n30 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/dKPvw/futures-margin",
+      "label": "Futures Margin\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/Y6qan/futures-margin",
+      "label": "Futures Margin\nPractice Assignment\n. Duration: 5 minutes\n5 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/ZwdJE/margin-know-whats-needed",
+      "label": "Margin: Know What's Needed\nReading\n. Duration: 20 minutes\n20 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/5gSxC/futures-contract-demo",
+      "label": "Futures Contract Demo\nVideo\n. Duration: 4 minutes\n4 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/Nh1vl/futures-contract-demo",
+      "label": "Futures Contract Demo\nPractice Assignment\n. Duration: 5 minutes\n5 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/assignment-submission/mM2bU/mechanics-of-futures-graded-assessment",
+      "label": "Mechanics of Futures - Graded Assessment\nGraded Assignment\n. Duration: 30 minutes\n30 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/supplement/s0n03/ibkr-traders-insight-articles-and-videos",
+      "label": "IBKR Traders’ Insight Articles and Videos\nReading\n. Duration: 45 minutes\n45 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/1Zhmr/derivatives-conclusion",
+      "label": "Derivatives Conclusion\nVideo\n. Duration: 1 minute\n1 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    },
+    {
+      "href": "/learn/derivatives-options-futures/lecture/kMSPP/conclusion-of-specialization",
+      "label": "Conclusion of Specialization\nVideo\n. Duration: 2 minutes\n2 min",
+      "module": "Module 5\nMechanics of the Futures Market"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "checkedOn": "2026-10-06",
+  "sets": 34,
+  "questions": 124,
+  "choices": 383,
+  "passed": true,
+  "normalization": "HTML text; whitespace removed; original displayed prompts/choices in original order",
+  "mismatches": []
+}

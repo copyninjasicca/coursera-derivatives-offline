@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "legs": [
+    {
+      "kind": "stock",
+      "quantity": 100,
+      "multiplier": 1,
+      "entryPrice": 100
+    },
+    {
+      "kind": "option",
+      "type": "call",
+      "quantity": -1,
+      "multiplier": 100,
+      "entryPrice": 5,
+      "style": "american",
+      "strike": 100,
+      "daysToExpiry": 90,
+      "volatility": 0.2
+    }
+  ],
+  "market": null,
+  "scenario": {
+    "spot": 110,
+    "elapsedDays": 10,
+    "volatilityShift": 0.1,
+    "volatilityMode": "relative"
+  },
+  "modelOptions": {
+    "steps": 400
+  }
+}

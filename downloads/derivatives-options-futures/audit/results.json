@@ -1,0 +1,1544 @@
+{
+  "checked_at": "2026-10-06T02:21:05.974382+00:00",
+  "passed": true,
+  "scope": "Fresh authenticated source outline, all readings, current question sets and all English video transcripts; local full decode; public Pages full-file hashes separately.",
+  "full_original_replica": false,
+  "source_items": 84,
+  "source_readings": 16,
+  "source_question_sets": 34,
+  "source_questions": 124,
+  "source_choices": 383,
+  "source_video_transcripts": 34,
+  "source_video_checks": [
+    {
+      "id": "uZR67",
+      "sha256": "645378ac10fed221e7e279939bb3e1dd7d351f832436ec0533f3e4cee5109d6a",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 161.336,
+      "local_seconds": 161.331995,
+      "duration_difference_seconds": 0.004005000000006476
+    },
+    {
+      "id": "SHCPN",
+      "sha256": "10992fe2f9b2caf5debfc95089e9408b8010e459b9f6eb011bd549e3b74ad1a1",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 504.619,
+      "local_seconds": 504.616009,
+      "duration_difference_seconds": 0.0029910000000086256
+    },
+    {
+      "id": "VKnLf",
+      "sha256": "9486ec0cb53bcbf7eb976a3b6cf2a2545a9b96cea19286beb0fcab0e0f753024",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 303.023,
+      "local_seconds": 303.02,
+      "duration_difference_seconds": 0.0030000000000427463
+    },
+    {
+      "id": "Lg48Z",
+      "sha256": "be39c57f61cc950af879c00adab823ea30e57902403a1b11ee221e40b3d84679",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 413.271,
+      "local_seconds": 413.269002,
+      "duration_difference_seconds": 0.001998000000014599
+    },
+    {
+      "id": "IcgXv",
+      "sha256": "cd34ab63cbc6a95af8cab375c897d5ab8fe4ae4a5f0e1b08875646a4619824ec",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 242.03,
+      "local_seconds": 242.027007,
+      "duration_difference_seconds": 0.002993000000003576
+    },
+    {
+      "id": "LxDKC",
+      "sha256": "8850fa680516cff9f7c1f21b5681406b6565e9e50aae32c9dc6e2412bea29e0b",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 84.408,
+      "local_seconds": 84.403991,
+      "duration_difference_seconds": 0.004008999999996377
+    },
+    {
+      "id": "hwwfE",
+      "sha256": "1924c2fdf6b4a3db153cb4bf83f7b5512eeec233ef35a26d0f2c021e44d2c264",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 170.925,
+      "local_seconds": 170.921995,
+      "duration_difference_seconds": 0.0030050000000017008
+    },
+    {
+      "id": "4f6yw",
+      "sha256": "2434be078811b751e89973df9142c06fe405bf2f738c73c72df6d09a8bb173e3",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 654.436,
+      "local_seconds": 654.430998,
+      "duration_difference_seconds": 0.005001999999990403
+    },
+    {
+      "id": "3QwcO",
+      "sha256": "44d3ef8c14d157230d14d4c9147da5f42e5b31c3f851ab062a3350677febfa5a",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 610.595,
+      "local_seconds": 610.591995,
+      "duration_difference_seconds": 0.0030050000000301225
+    },
+    {
+      "id": "cdneB",
+      "sha256": "3c15c7fb398c95330ad0245fac6a996d438dae008c2d00ab9e93c14d482ceaf5",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 69.361,
+      "local_seconds": 69.358005,
+      "duration_difference_seconds": 0.0029949999999985266
+    },
+    {
+      "id": "ZmnOU",
+      "sha256": "42f89e1837e547a1175f9cc46089d3cf7cea089c2c29dd26d8317c67b8225d52",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 84.036,
+      "local_seconds": 84.033333,
+      "duration_difference_seconds": 0.0026670000000024174
+    },
+    {
+      "id": "4115z",
+      "sha256": "5a2313f4cfc7a0b037c33fe0a0dad4c5282dfb7cab1b29e60c4b109ffbb23f80",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 155.02,
+      "local_seconds": 155.016009,
+      "duration_difference_seconds": 0.0039910000000134005
+    },
+    {
+      "id": "HR8xQ",
+      "sha256": "8881d6d0588825e4e48138734a2b5259ebbdc21bd8219a4da480874c250fba77",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 86.706,
+      "local_seconds": 86.702993,
+      "duration_difference_seconds": 0.0030069999999966512
+    },
+    {
+      "id": "cvjFE",
+      "sha256": "0ceb7585be7a004a3e01157051648801746fbb159253bcf0e08d3017688c16bf",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 148.053,
+      "local_seconds": 148.05,
+      "duration_difference_seconds": 0.002999999999985903
+    },
+    {
+      "id": "sQsPT",
+      "sha256": "73d07192b67af25aa427c79549313b49092037c5292cb5aa107edd9f05787f1a",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 79.67,
+      "local_seconds": 79.668005,
+      "duration_difference_seconds": 0.0019950000000079626
+    },
+    {
+      "id": "WWhws",
+      "sha256": "5de58d78767b86f6132bbba7e1b694375efbdc3a379387dba153583f32ca3d82",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 239.215,
+      "local_seconds": 239.211995,
+      "duration_difference_seconds": 0.0030050000000017008
+    },
+    {
+      "id": "njhi2",
+      "sha256": "17258a493c37140646781b4292b7ddf3d73d1d745c666766f2dbf0835c445c44",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 150.441995,
+      "local_seconds": 150.441995,
+      "duration_difference_seconds": 0.0
+    },
+    {
+      "id": "3GcpZ",
+      "sha256": "35b05f92ac74f997c3f029ae0f82e85ea047d5c9f9d6b99c80642a0ea5078936",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 155.02,
+      "local_seconds": 155.016009,
+      "duration_difference_seconds": 0.0039910000000134005
+    },
+    {
+      "id": "qp12Y",
+      "sha256": "3bb0d66f034541fe7b5144b49de2cccbc0e514ca4931753d0d2732e243663f2a",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 79.021,
+      "local_seconds": 79.017007,
+      "duration_difference_seconds": 0.00399299999999414
+    },
+    {
+      "id": "JLYGJ",
+      "sha256": "5084ea7f7bd3201b2f0ff3a56d5efa65e9938336d44e8d9c30e23b7db69b5fb6",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 249.547,
+      "local_seconds": 249.545011,
+      "duration_difference_seconds": 0.0019890000000089003
+    },
+    {
+      "id": "vrw2z",
+      "sha256": "9f8ef56c13c841491973e50e83e5c336fa2b8c5519ca1ed0777b40a1b044c87f",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 78.416,
+      "local_seconds": 78.413991,
+      "duration_difference_seconds": 0.0020090000000010377
+    },
+    {
+      "id": "TWCPS",
+      "sha256": "111c24dbb1e1ead21b8d4731a6211349f0c8217e113ebe223996bd03f7760a1f",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 99.941,
+      "local_seconds": 99.939002,
+      "duration_difference_seconds": 0.0019980000000003884
+    },
+    {
+      "id": "zrZ3Y",
+      "sha256": "6d9acc8d319526176d53fbddb6780c7fea40381d73d5d329b94e38c74128b309",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 210.979,
+      "local_seconds": 210.976009,
+      "duration_difference_seconds": 0.0029910000000086256
+    },
+    {
+      "id": "AcXHU",
+      "sha256": "b4a2158b8839b71c56c1c069f0bcf4d76db19d753a5f583ba5be6bfd7bd21577",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 98.873,
+      "local_seconds": 98.870998,
+      "duration_difference_seconds": 0.0020020000000045
+    },
+    {
+      "id": "StcFu",
+      "sha256": "a40db4b3a6afc76f67ccc3413e91b84656b8c24895435c487429fdd98d1394e8",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 227.21,
+      "local_seconds": 227.207007,
+      "duration_difference_seconds": 0.002993000000003576
+    },
+    {
+      "id": "jNuPf",
+      "sha256": "263dbf8e4e198ba646a09bcb9693d1412983362b6ba7d0ac5d431411be25b54a",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 172.155,
+      "local_seconds": 172.152993,
+      "duration_difference_seconds": 0.0020069999999918764
+    },
+    {
+      "id": "wDfmh",
+      "sha256": "91cfe13e9e9e14e0a29c9be79a19b14875768a9f092cc71511fbd8903493604e",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 235.476,
+      "local_seconds": 235.472993,
+      "duration_difference_seconds": 0.0030069999999966512
+    },
+    {
+      "id": "2v5yO",
+      "sha256": "b80c815ca3ce64cf97752fbb33d8ca63dfa5841b2b1b5dd1b8544c4b165a10d9",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 140.553,
+      "local_seconds": 140.55,
+      "duration_difference_seconds": 0.002999999999985903
+    },
+    {
+      "id": "kbuOV",
+      "sha256": "54634aad2740ff03e78a9147aecdce0e24b48b4b51b6a365f41bed9efe9eda76",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 125.236,
+      "local_seconds": 125.2251,
+      "duration_difference_seconds": 0.010900000000006571
+    },
+    {
+      "id": "Q9QET",
+      "sha256": "750421da93519dc14852f5be005138df9656e1e15759dc5f27ae6fb8a79ba8d0",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 172.945,
+      "local_seconds": 172.941995,
+      "duration_difference_seconds": 0.0030050000000017008
+    },
+    {
+      "id": "dKPvw",
+      "sha256": "bf53b9aaa71069c4c3fb907655d08092dbb32fcf5a1933a3999592b811836d1a",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 154.169,
+      "local_seconds": 154.157007,
+      "duration_difference_seconds": 0.011993000000018128
+    },
+    {
+      "id": "5gSxC",
+      "sha256": "8ed1948af24d889fe5d050222b0d0b06fbb26b65f63375296987dc30538f56b8",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 293.109,
+      "local_seconds": 293.105011,
+      "duration_difference_seconds": 0.003988999999990028
+    },
+    {
+      "id": "1Zhmr",
+      "sha256": "f59ac24ce40959de43075d5185c1b90fffa153da2bc4cc32afd6bee4a0f6fde7",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 107.697,
+      "local_seconds": 107.693991,
+      "duration_difference_seconds": 0.0030090000000058126
+    },
+    {
+      "id": "kMSPP",
+      "sha256": "70b877cfee170077f2c479772ba76091953a76a6ca8957b87b1339d9fd9d4ede",
+      "source_transcript_exact": true,
+      "source_playback_seconds": 136.861,
+      "local_seconds": 136.858005,
+      "duration_difference_seconds": 0.0029949999999985266
+    }
+  ],
+  "local_full_decodes": 36,
+  "original_caption_overruns": [
+    {
+      "id": "IcgXv",
+      "title": "Stock Options: Benefits & Risks",
+      "seconds": 1.0129929999999945
+    },
+    {
+      "id": "SHCPN",
+      "title": "What is an Option? - Overview",
+      "seconds": 0.9839910000000032
+    },
+    {
+      "id": "TWCPS",
+      "title": "Neutral Market - Short Straddle",
+      "seconds": 0.04599799999999732
+    },
+    {
+      "id": "jNuPf",
+      "title": "Mechanics of the Futures Market Overview",
+      "seconds": 0.9870069999999771
+    }
+  ],
+  "repairs": [
+    "Restore American tree steps on position JSON import/export",
+    "Restore distinct scenario and baseline prices without partial invalid-import state changes",
+    "Remove temporary signed image URL query strings from manifest and raw reading captures",
+    "Recover the current June 2024 official OCC disclosure PDF (96 pages), with explicit version provenance",
+    "Recover two matching IBKR articles and all four figures; preserve the OIC video tutorial description with explicit video-online limits"
+  ],
+  "limits": [
+    "Original source MP4s were not downloaded again for a separate original-to-local byte hash; all source transcripts match and playback durations differ by less than 0.05 seconds.",
+    "No Coursera server grading, answer keys, feedback after submission, certificates or unseen randomized variants.",
+    "Original OIC server engines, live feeds, proprietary IVX and account watchlists are not offline; local models are independent and full numerical equivalence is not established.",
+    "Generated reading-aloud audio and Coursera AI are online platform features, not preserved recordings.",
+    "External embedded media and linked courses are not complete offline copies. See the resource log for individual statuses.",
+    "Hosted Pages requires network access; the downloaded complete folder works offline via the local launcher. No service-worker offline cache is claimed."
+  ],
+  "checks": [
+    {
+      "label": "All 84 source IDs and their order match the archive",
+      "passed": true
+    },
+    {
+      "label": "All source item types match",
+      "passed": true
+    },
+    {
+      "label": "Sixteen readings freshly compared",
+      "passed": true
+    },
+    {
+      "label": "Q03sS original reading text",
+      "passed": true
+    },
+    {
+      "label": "Q03sS original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "Yo7Er original reading text",
+      "passed": true
+    },
+    {
+      "label": "Yo7Er original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "Rnk8d original reading text",
+      "passed": true
+    },
+    {
+      "label": "Rnk8d original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "55ncS original reading text",
+      "passed": true
+    },
+    {
+      "label": "55ncS original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "ozbIu original reading text",
+      "passed": true
+    },
+    {
+      "label": "ozbIu original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "dKqe8 original reading text",
+      "passed": true
+    },
+    {
+      "label": "dKqe8 original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "wHWtW original reading text",
+      "passed": true
+    },
+    {
+      "label": "wHWtW original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "VmHW4 original reading text",
+      "passed": true
+    },
+    {
+      "label": "VmHW4 original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "9R3l9 original reading text",
+      "passed": true
+    },
+    {
+      "label": "9R3l9 original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "AJzSB original reading text",
+      "passed": true
+    },
+    {
+      "label": "AJzSB original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "pwE1L original reading text",
+      "passed": true
+    },
+    {
+      "label": "pwE1L original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "QAbaO original reading text",
+      "passed": true
+    },
+    {
+      "label": "QAbaO original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "Oq2QV original reading text",
+      "passed": true
+    },
+    {
+      "label": "Oq2QV original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "2AsvI original reading text",
+      "passed": true
+    },
+    {
+      "label": "2AsvI original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "ZwdJE original reading text",
+      "passed": true
+    },
+    {
+      "label": "ZwdJE original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "s0n03 original reading text",
+      "passed": true
+    },
+    {
+      "label": "s0n03 original figure asset IDs",
+      "passed": true
+    },
+    {
+      "label": "Thirty-four current question sets freshly compared",
+      "passed": true
+    },
+    {
+      "label": "uhJRv question count",
+      "passed": true
+    },
+    {
+      "label": "uhJRv question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "uhJRv question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "uhJRv question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "uhJRv question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "uhJRv question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "jUVGh question count",
+      "passed": true
+    },
+    {
+      "label": "jUVGh question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "jUVGh question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "jUVGh question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "jUVGh question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "jUVGh question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "l9fxu question count",
+      "passed": true
+    },
+    {
+      "label": "l9fxu question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "l9fxu question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "l9fxu question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "l9fxu question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "l9fxu question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "V1PMU question count",
+      "passed": true
+    },
+    {
+      "label": "V1PMU question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "V1PMU question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "V1PMU question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "V1PMU question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "V1PMU question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "V1PMU question 6 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "dYzlr question count",
+      "passed": true
+    },
+    {
+      "label": "dYzlr question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "dYzlr question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "dYzlr question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "dYzlr question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "dYzlr question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question count",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 6 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 7 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 8 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 9 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "019Z4 question 10 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "dVSFT question count",
+      "passed": true
+    },
+    {
+      "label": "dVSFT question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "dVSFT question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "phTH3 question count",
+      "passed": true
+    },
+    {
+      "label": "phTH3 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "phTH3 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "phTH3 question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "phTH3 question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "phTH3 question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "bsiv5 question count",
+      "passed": true
+    },
+    {
+      "label": "bsiv5 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "bsiv5 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "bsiv5 question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "5O66G question count",
+      "passed": true
+    },
+    {
+      "label": "5O66G question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "5O66G question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "5O66G question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "5O66G question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "LmtfU question count",
+      "passed": true
+    },
+    {
+      "label": "LmtfU question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "LmtfU question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "LmtfU question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "LmtfU question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "VjaUv question count",
+      "passed": true
+    },
+    {
+      "label": "VjaUv question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "VjaUv question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "VjaUv question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "1qHGj question count",
+      "passed": true
+    },
+    {
+      "label": "1qHGj question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "1qHGj question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "1qHGj question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "1qHGj question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "1w4bx question count",
+      "passed": true
+    },
+    {
+      "label": "1w4bx question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "1w4bx question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "KqZKt question count",
+      "passed": true
+    },
+    {
+      "label": "KqZKt question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "KqZKt question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "KqZKt question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "wq1dm question count",
+      "passed": true
+    },
+    {
+      "label": "wq1dm question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "wq1dm question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "wq1dm question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "8BMQg question count",
+      "passed": true
+    },
+    {
+      "label": "8BMQg question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "8BMQg question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "8BMQg question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Ae0Hf question count",
+      "passed": true
+    },
+    {
+      "label": "Ae0Hf question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Ae0Hf question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Ae0Hf question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "tkww0 question count",
+      "passed": true
+    },
+    {
+      "label": "tkww0 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "tkww0 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "tkww0 question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "qFWM6 question count",
+      "passed": true
+    },
+    {
+      "label": "qFWM6 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "qFWM6 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "qFWM6 question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "qFWM6 question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question count",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 6 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 7 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 8 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 9 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 10 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "MsCT1 question 11 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "zyzIS question count",
+      "passed": true
+    },
+    {
+      "label": "zyzIS question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "zyzIS question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "zyzIS question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Cw2j3 question count",
+      "passed": true
+    },
+    {
+      "label": "Cw2j3 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Cw2j3 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "GsXCw question count",
+      "passed": true
+    },
+    {
+      "label": "GsXCw question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "GsXCw question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "GsXCw question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "PYGSP question count",
+      "passed": true
+    },
+    {
+      "label": "PYGSP question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "PYGSP question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "7NdO8 question count",
+      "passed": true
+    },
+    {
+      "label": "7NdO8 question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "7NdO8 question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "7NdO8 question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "7NdO8 question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "7NdO8 question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "7NdO8 question 6 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "ZR8FZ question count",
+      "passed": true
+    },
+    {
+      "label": "ZR8FZ question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "BQLZH question count",
+      "passed": true
+    },
+    {
+      "label": "BQLZH question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Nj1tb question count",
+      "passed": true
+    },
+    {
+      "label": "Nj1tb question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "5lIrj question count",
+      "passed": true
+    },
+    {
+      "label": "5lIrj question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "TSm1T question count",
+      "passed": true
+    },
+    {
+      "label": "TSm1T question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Y6qan question count",
+      "passed": true
+    },
+    {
+      "label": "Y6qan question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "Nh1vl question count",
+      "passed": true
+    },
+    {
+      "label": "Nh1vl question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question count",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 1 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 2 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 3 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 4 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 5 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 6 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 7 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "mM2bU question 8 prompt and ordered choices",
+      "passed": true
+    },
+    {
+      "label": "All 34 English source video transcripts freshly downloaded",
+      "passed": true
+    },
+    {
+      "label": "uZR67 source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "uZR67 source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "SHCPN source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "SHCPN source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "VKnLf source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "VKnLf source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "Lg48Z source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "Lg48Z source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "IcgXv source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "IcgXv source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "LxDKC source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "LxDKC source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "hwwfE source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "hwwfE source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "4f6yw source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "4f6yw source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "3QwcO source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "3QwcO source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "cdneB source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "cdneB source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "ZmnOU source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "ZmnOU source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "4115z source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "4115z source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "HR8xQ source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "HR8xQ source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "cvjFE source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "cvjFE source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "sQsPT source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "sQsPT source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "WWhws source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "WWhws source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "njhi2 source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "njhi2 source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "3GcpZ source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "3GcpZ source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "qp12Y source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "qp12Y source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "JLYGJ source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "JLYGJ source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "vrw2z source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "vrw2z source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "TWCPS source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "TWCPS source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "zrZ3Y source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "zrZ3Y source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "AcXHU source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "AcXHU source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "StcFu source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "StcFu source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "jNuPf source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "jNuPf source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "wDfmh source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "wDfmh source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "2v5yO source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "2v5yO source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "kbuOV source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "kbuOV source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "Q9QET source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "Q9QET source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "dKPvw source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "dKPvw source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "5gSxC source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "5gSxC source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "1Zhmr source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "1Zhmr source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "kMSPP source transcript exact bytes",
+      "passed": true
+    },
+    {
+      "label": "kMSPP source playback duration within 0.05 seconds",
+      "passed": true
+    },
+    {
+      "label": "All 36 local MP4s fully audio/video decoded",
+      "passed": true
+    },
+    {
+      "label": "All local subtitle text agrees with transcripts",
+      "passed": true
+    },
+    {
+      "label": "Eleven import/export regression checks",
+      "passed": true
+    },
+    {
+      "label": "Actual browser imported/exported distinct baseline, scenario and 400 steps",
+      "passed": true
+    }
+  ],
+  "external_resources": [
+    {
+      "url": "https://www.optionseducation.org/theoptionseducationcenter/occ-learning",
+      "status": "saved_landing",
+      "file": "external/occ-learning.html",
+      "note": "Public learning introduction saved; linked courses and embedded video need online access/account."
+    },
+    {
+      "url": "http://www.theocc.com/about/publications/character-risks.jsp",
+      "status": "saved_pdf",
+      "resolved_url": "https://www.theocc.com/getmedia/a151a9ae-d784-4a15-bdeb-23a029f50b70/riskstoc.pdf",
+      "note": "Current official June 2024 document, 96 pages, recovered 6 October 2026. Historical course-era edition not identified.",
+      "file": "external/occ-options-disclosure-june-2024.pdf"
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/optionscalculator",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/options-calculator/index.html",
+      "note": "Legacy course URL. Authenticated original review now completed; original guide and resources preserved. Local model is independent and numerical differences remain.",
+      "resolved_url": "https://www.optionseducation.org/toolsoptionquotes/options-calculator"
+    },
+    {
+      "url": "http://www.optionsclearing.com/about/publications/character-risks.jsp",
+      "status": "saved_pdf",
+      "resolved_url": "https://www.theocc.com/getmedia/a151a9ae-d784-4a15-bdeb-23a029f50b70/riskstoc.pdf",
+      "note": "Current official June 2024 document, 96 pages, recovered 6 October 2026. Historical course-era edition not identified.",
+      "file": "external/occ-options-disclosure-june-2024.pdf"
+    },
+    {
+      "url": "https://optionseducation.org",
+      "status": "reference_only",
+      "note": "Reference to entire external website; not a course attachment."
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/",
+      "status": "unavailable",
+      "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/",
+      "status": "unavailable",
+      "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/",
+      "status": "unavailable",
+      "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
+      "status": "unavailable",
+      "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
+    },
+    {
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-futures.html",
+      "status": "saved",
+      "file": "external/cme-introduction-to-futures.html",
+      "resolved_url": "https://www.cmegroup.com/education/courses/introduction-to-futures"
+    },
+    {
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract.html",
+      "status": "saved",
+      "file": "external/cme-futures-contract.html",
+      "resolved_url": "https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract"
+    },
+    {
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html",
+      "status": "saved",
+      "file": "external/cme-futures-margin.html",
+      "resolved_url": "https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed"
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
+      "status": "unavailable",
+      "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+      "status": "saved_article",
+      "note": "Recovered matching article text, source disclosures and all 1 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
+      "file": "external/gold-silver-black-gold.html",
+      "resolved_url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/"
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
+      "status": "saved_article",
+      "note": "Recovered matching article text, source disclosures and all 3 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
+      "file": "external/all-that-glitters.html",
+      "resolved_url": "https://www.interactivebrokers.com/campus/?p=69405"
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",
+      "status": "unavailable",
+      "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
+    },
+    {
+      "url": "https://www.cmegroup.com/trading_tools/simulator",
+      "status": "online_only",
+      "note": "Trading simulator referenced by supplementary CME pages depends on live service; not copied. Independent futures P&L and margin tool supplied."
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/trending-options-volume",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/trending-options-volume/index.html",
+      "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/options-monitor",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/options-monitor/index.html",
+      "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/stock-monitor",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/stock-monitor/index.html",
+      "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/options-calculator",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/options-calculator/index.html",
+      "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/pnl-calculator",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/pnl-calculator/index.html",
+      "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/probability-calculator",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/probability-calculator/index.html",
+      "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+    },
+    {
+      "url": "https://www.optionseducation.org/toolsoptionquotes/historical-and-implied-volatility-new",
+      "status": "original_resources_saved_server_required",
+      "file": "oic-original/historical-and-implied-volatility-new/index.html",
+      "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+    },
+    {
+      "url": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+      "resolved_url": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+      "status": "saved_description_video_online",
+      "file": "external/oic-options-calculator-tutorial.html",
+      "note": "Official tutorial description saved. Embedded YouTube video, captions and transcript are online and not copied. Video: https://www.youtube.com/watch?v=gWYTcWGU9pI"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 Run: python3 verify_live_pages.py https://owner.github.io/repository/
 All non-video files are checked by SHA-256. Videos are checked by HTTP size,
-MIME type and a 1 KiB range request; this does not hash or decode whole videos.
+MIME type and a 1 KiB range request. Add --full-videos to also hash entire MP4s.
 """
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -16,6 +16,7 @@ import time
 
 ROOT = Path(__file__).resolve().parent / 'downloads/derivatives-options-futures'
 base = sys.argv[1].rstrip('/') + '/'
+full_videos = '--full-videos' in sys.argv[2:]
 parts = urlsplit(base)
 if parts.scheme != 'https' or parts.hostname != 'copyninjasicca.github.io' or parts.path != '/coursera-derivatives-offline/':
     raise SystemExit('Use the approved HTTPS project URL for this course')
@@ -49,6 +50,18 @@ def check(item):
                                 and result['content_range'] == f'bytes 0-1023/{size}'
                                 and prefix_matches)
             result['method'] = 'size + MIME + range + prefix'
+            if full_videos:
+                with urlopen(url, timeout=60) as response:
+                    actual = hashlib.sha256()
+                    downloaded = 0
+                    for block in iter(lambda: response.read(1024 * 1024), b''):
+                        actual.update(block)
+                        downloaded += len(block)
+                    result.update(full_status=response.status, sha256=actual.hexdigest(), downloaded_bytes=downloaded)
+                if downloaded != size:
+                    raise IOError(f'Truncated video transfer: received {downloaded} of {size} bytes')
+                result['passed'] = result['passed'] and result['full_status'] == 200 and downloaded == size and result['sha256'] == digest
+                result['method'] = 'complete SHA-256 + video range'
         else:
             with urlopen(url, timeout=30) as response:
                 actual = hashlib.sha256()
@@ -82,9 +95,9 @@ if '--retry-failed' in sys.argv[2:] and report_path.exists():
     for result in previous['results']:
         name = result['file']
         if result['passed'] and name in expected:
-            if result.get('method') == 'complete SHA-256' and result.get('sha256') == expected[name]:
+            if result.get('method') in ('complete SHA-256', 'complete SHA-256 + video range') and result.get('sha256') == expected[name]:
                 retained[name] = result
-            elif result.get('method') == 'size + MIME + range + prefix' and result.get('bytes') == (ROOT / name).stat().st_size:
+            elif not full_videos and result.get('method') == 'size + MIME + range + prefix' and result.get('bytes') == (ROOT / name).stat().st_size:
                 retained[name] = result
 pending = [(name, digest) for name, digest in sorted(expected.items()) if name not in retained]
 with ThreadPoolExecutor(max_workers=4) as pool:
@@ -94,10 +107,11 @@ results = [retained[name] for name in sorted(expected)]
 report = {'checked_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
           'url': base, 'passed': all(r['passed'] for r in results),
           'files_checked': len(results),
-          'complete_hashes_checked': sum(r.get('method') == 'complete SHA-256' for r in results),
-          'videos_range_checked': sum(r.get('method') == 'size + MIME + range + prefix' for r in results),
+          'complete_hashes_checked': sum(r.get('method', '').startswith('complete SHA-256') for r in results),
+          'videos_range_checked': sum(r.get('method') in ('size + MIME + range + prefix', 'complete SHA-256 + video range') for r in results),
+          'videos_complete_hashes_checked': sum(r.get('method') == 'complete SHA-256 + video range' for r in results),
           'files_rechecked_this_run': len(pending),
-          'limitations': ['Video checks do not hash or decode entire MP4 files.'],
+          'limitations': (['Published MP4s were fully hashed; local decoding is separate.'] if full_videos else ['Video checks do not hash or decode entire MP4 files.']),
           'results': results}
 Path('PAGES-LIVE-VALIDATION.json').write_text(json.dumps(report, indent=2) + '\n')
 print(json.dumps({k: v for k, v in report.items() if k != 'results'}, indent=2))

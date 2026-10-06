@@ -1,0 +1,135 @@
+{
+  "checked_at": "2026-10-06",
+  "scope": "8 course legacy IBKR supplements, current OCC ODD and OIC calculator tutorial",
+  "legacy_http_statuses": [
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
+      "http_status": 404
+    },
+    {
+      "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",
+      "http_status": 404
+    }
+  ],
+  "recovered": [
+    {
+      "slug": "gold-silver-black-gold",
+      "title": "Gold/Silver: The “Black-Gold” Alternative",
+      "source": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
+      "file": "gold-silver-black-gold.html",
+      "images": [
+        {
+          "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/blf_12-14-20-1-1100x712.png",
+          "file": "gold-silver-black-gold-figure-1.png",
+          "downloaded": true,
+          "bytes": 44371,
+          "dimensions": [
+            1100,
+            712
+          ],
+          "format": "PNG",
+          "sha256": "65f3b21141480848c50fd49ba17060304ef87323d8a6f4bb5802853bf462eb6b"
+        }
+      ],
+      "text_characters": 6407,
+      "status": "recovered_article_text_and_figures",
+      "sha256": "7226a097df608e54d77469ecb701ab80e84144156ee0190744345366a1f0db3f",
+      "published": "Posted December 14, 2020 at 10:15 am"
+    },
+    {
+      "slug": "all-that-glitters",
+      "title": "All That Glitters is Not Gold",
+      "source": "https://www.interactivebrokers.com/campus/?p=69405",
+      "file": "all-that-glitters.html",
+      "images": [
+        {
+          "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/image-41.png",
+          "file": "all-that-glitters-figure-1.png",
+          "downloaded": true,
+          "bytes": 122067,
+          "dimensions": [
+            624,
+            460
+          ],
+          "format": "PNG",
+          "sha256": "c5a7cd145edbef8e7819ea0b6f27eb3f6e2bdeb0c3d49961319e2bc1f6cfc1b4"
+        },
+        {
+          "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/image-42.png",
+          "file": "all-that-glitters-figure-2.png",
+          "downloaded": true,
+          "bytes": 69667,
+          "dimensions": [
+            624,
+            463
+          ],
+          "format": "PNG",
+          "sha256": "223ed867560861d7da7f8ed1bddd4dd619b5fb3a61831aa264ce7b7b3125b8a9"
+        },
+        {
+          "source": "https://www.interactivebrokers.com/campus/wp-content/uploads/sites/2/2020/12/image-43.png",
+          "file": "all-that-glitters-figure-3.png",
+          "downloaded": true,
+          "bytes": 81676,
+          "dimensions": [
+            624,
+            371
+          ],
+          "format": "PNG",
+          "sha256": "4768e8155b4b335db9c3eea851f3ca9bb379d2dced9d519e202d18881f633aba"
+        }
+      ],
+      "text_characters": 8144,
+      "status": "recovered_article_text_and_figures",
+      "sha256": "d5c498b3fcdf031be45a3e21d6cdab0e5f180980297f15dda0f2fd6b0e2b9052",
+      "published": "Posted December 15, 2020 at 12:54 pm"
+    },
+    {
+      "source": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+      "file": "oic-options-calculator-tutorial.html",
+      "video_url": "https://www.youtube.com/watch?v=gWYTcWGU9pI",
+      "status": "description_only_video_online",
+      "description_characters": 538,
+      "sha256": "72970f08d3cb101eae1c7cf8f3cb63ff58926a1649ebb8c967c32cdf4caee773"
+    }
+  ],
+  "occ_document": {
+    "source_page": "https://www.theocc.com/company-information/documents-and-archives/options-disclosure-document",
+    "source_pdf": "https://www.theocc.com/getmedia/a151a9ae-d784-4a15-bdeb-23a029f50b70/riskstoc.pdf",
+    "file": "occ-options-disclosure-june-2024.pdf",
+    "pages": 96,
+    "bytes": 621097,
+    "sha256": "8325c286c06acdd7ac871874c9b071a123bac83a5baf678bc79bb19cd20e6a49",
+    "edition": "June 2024",
+    "acquisition": "Official page native browser download; direct curl returned 403. Browser download completed to Downloads despite tool callback stalling. PDF copied and all 96 pages parsed locally.",
+    "fidelity_limit": "Current document replaces legacy link target; historical course-era edition is not asserted.",
+    "validation": "All96pages pypdf parsed; pypdfium2 rendered pages1,3,96; visual review confirms legible cover/table of contents and matching publisher back cover."
+  },
+  "still_missing_ibkr_count": 6,
+  "missing_reason": "All eight legacy URLs return 404. Only two current official matches could be retrieved. Search-engine cached text is not counted as a freshly acquired official copy. Stock boomlet and commodities outlook modern candidates return 404; choosing strike/covered calls/oil article only stale author/tag entries found; buying-options webinar no matching current accessible official page found.",
+  "video_limits": "OIC calculator tutorial preserves description and official YouTube watch link only; embedded video, subtitles and transcript remain online and were not downloaded. Commodities Outlook 2021 is chiefly video and remains unavailable, not recovered by cached synopsis."
+}

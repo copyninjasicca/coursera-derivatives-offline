@@ -55,7 +55,7 @@ for p in files:
     if p.name.startswith('.env') or p.name.endswith(('.local.json', '.pem', '.key')):
         errors.append(f'Private configuration in archive: {p.relative_to(ROOT)}')
     if p.suffix in ('.html', '.js', '.json', '.txt', '.css', '.md'):
-        if re.search(rb'eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|(?:gh[pousr]_|github_pat_)[A-Za-z0-9_]{30,}', p.read_bytes()):
+        if re.search(rb'eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|(?:[?&]|&amp;)hmac=[A-Za-z0-9_-]{12,}|(?:gh[pousr]_|github_pat_)[A-Za-z0-9_]{30,}', p.read_bytes()):
             errors.append(f'Credential pattern in archive: {p.relative_to(ROOT)}')
 
 hashes = 0
@@ -76,7 +76,7 @@ if hashes != len(files) - 1:
 external = json.loads((ROOT / 'external-resources.json').read_text())
 originals = json.loads((ROOT / 'oic-original/inventory.json').read_text())
 names = ['index.html', 'tools/index.html', 'completeness-report.html',
-         'reconciliation/index.html', 'oic-original/index.html',
+         'reconciliation/index.html', 'audit-report.html', 'oic-original/index.html',
          'oic-original/comparison.html', 'oic-original/resources.html']
 names += [x['offline_page'] for x in manifest['items'] + originals]
 names += [x['file'] for x in external if x.get('file', '').endswith('.html')

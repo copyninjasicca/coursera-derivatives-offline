@@ -9,3 +9,12 @@ coursera.local.json
 .DS_Store
 __pycache__/
 *.py[cod]
+
+# Transient audit acquisition files; retain only curated source evidence
+audit-evidence/source-video-downloads.json
+audit-evidence/external-recovery/*
+!audit-evidence/external-recovery/recovery-summary.json
+!audit-evidence/external-recovery/recovered-packages.json
+!audit-evidence/external-recovery/url-checks.json
+!audit-evidence/external-recovery/verify_sources.py
+!audit-evidence/external-recovery/package_recovered.py

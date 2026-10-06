@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-06T01:41:25.512Z",
+  "method": "Execute actual extracted event-handler source with real PortfolioMath and inert UI controls; browser verification remains separate",
+  "checks": [
+    {
+      "label": "Distinct scenario spot restored, baseline spot retained, and 400 tree steps restored",
+      "passed": true
+    },
+    {
+      "label": "Imported actual valuation agrees with original input model parameters",
+      "passed": true
+    },
+    {
+      "label": "Export retains baseline 100, scenario 110, selected tree steps 400",
+      "passed": true
+    },
+    {
+      "label": "bad-model rejected without partial editor mutation",
+      "passed": true
+    },
+    {
+      "label": "bad-spot rejected without partial editor mutation",
+      "passed": true
+    },
+    {
+      "label": "bad-elapsed rejected without partial editor mutation",
+      "passed": true
+    },
+    {
+      "label": "bad-mode rejected without partial editor mutation",
+      "passed": true
+    },
+    {
+      "label": "bad-shift rejected without partial editor mutation",
+      "passed": true
+    },
+    {
+      "label": "bad-quantity rejected without partial editor mutation",
+      "passed": true
+    },
+    {
+      "label": "bad-market rejected without partial editor mutation",
+      "passed": true
+    },
+    {
+      "label": "Old v1 without modelOptions retains current steps and its scenario spot",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "testCount": 11,
+  "exported": {
+    "schemaVersion": 1,
+    "legs": [
+      {
+        "kind": "stock",
+        "quantity": 100,
+        "multiplier": 1,
+        "entryPrice": 100
+      },
+      {
+        "kind": "option",
+        "type": "call",
+        "quantity": -1,
+        "multiplier": 100,
+        "entryPrice": 5,
+        "style": "american",
+        "strike": 100,
+        "daysToExpiry": 90,
+        "volatility": 0.2
+      }
+    ],
+    "market": {
+      "spot": 100,
+      "rate": 0.03,
+      "volatility": 0.2,
+      "dividendYield": 0
+    },
+    "scenario": {
+      "spot": 110,
+      "elapsedDays": 10,
+      "volatilityShift": 0.1,
+      "volatilityMode": "relative"
+    },
+    "modelOptions": {
+      "steps": 400
+    }
+  },
+  "rebuildSafety": {
+    "checked": true,
+    "builder": "build_advanced_tools.py",
+    "scriptsPreserved": true,
+    "templateHasOnlyExternalScriptReference": true,
+    "templateSyncRequired": false
+  },
+  "uiNote": "Existing portfolio-note now displays imported baseline and current scenario prices, and says editing scenario price keeps imported baseline."
+}

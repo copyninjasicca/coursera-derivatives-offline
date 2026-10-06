@@ -7,9 +7,10 @@
   },
   {
     "url": "http://www.theocc.com/about/publications/character-risks.jsp",
-    "status": "unavailable",
-    "resolved_url": "https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document",
-    "note": "Official page accessible; PDF browser download timed out and direct download returned 403."
+    "status": "saved_pdf",
+    "resolved_url": "https://www.theocc.com/getmedia/a151a9ae-d784-4a15-bdeb-23a029f50b70/riskstoc.pdf",
+    "note": "Current official June 2024 document, 96 pages, recovered 6 October 2026. Historical course-era edition not identified.",
+    "file": "external/occ-options-disclosure-june-2024.pdf"
   },
   {
     "url": "https://www.optionseducation.org/toolsoptionquotes/optionscalculator",
@@ -20,9 +21,10 @@
   },
   {
     "url": "http://www.optionsclearing.com/about/publications/character-risks.jsp",
-    "status": "unavailable",
-    "resolved_url": "https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document",
-    "note": "Official page accessible; PDF browser download timed out and direct download returned 403."
+    "status": "saved_pdf",
+    "resolved_url": "https://www.theocc.com/getmedia/a151a9ae-d784-4a15-bdeb-23a029f50b70/riskstoc.pdf",
+    "note": "Current official June 2024 document, 96 pages, recovered 6 October 2026. Historical course-era edition not identified.",
+    "file": "external/occ-options-disclosure-june-2024.pdf"
   },
   {
     "url": "https://optionseducation.org",
@@ -32,22 +34,22 @@
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/options/choosing-a-call-option-strike-price-to-optimize-return/",
     "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/education/webinars/webinar-oic-key-points-to-consider-when-buying-options/",
     "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/options/writing-covered-calls-some-points-to-consider/",
     "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/options/how-to-play-the-value-stock-boomlet-while-it-lasts/",
     "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
   },
   {
     "url": "https://www.cmegroup.com/education/courses/introduction-to-futures.html",
@@ -70,22 +72,26 @@
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/economist-perspective-commodities-outlook-for-2021/",
     "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/",
-    "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "status": "saved_article",
+    "note": "Recovered matching article text, source disclosures and all 1 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
+    "file": "external/gold-silver-black-gold.html",
+    "resolved_url": "https://www.interactivebrokers.com/campus/traders-insight/securities/commodities/gold-silver-the-black-gold-alternative/"
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/commodities/all-that-glitters-is-not-gold/",
-    "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "status": "saved_article",
+    "note": "Recovered matching article text, source disclosures and all 3 figures from current official IBKR Campus, verified 6 October 2026. Site discussion and promotional controls excluded.",
+    "file": "external/all-that-glitters.html",
+    "resolved_url": "https://www.interactivebrokers.com/campus/?p=69405"
   },
   {
     "url": "https://www.tradersinsight.news/traders-insight/securities/macro/chart-advisor-increasing-demand-for-oil/",
     "status": "unavailable",
-    "note": "Legacy URL inaccessible. One verified modern official article candidate returned 404."
+    "note": "Fresh legacy HTTP 404 on 6 October 2026; no retrievable matching current official page verified. Search cache text is not counted as an archived original. Original reference remains in the course reading."
   },
   {
     "url": "https://www.cmegroup.com/trading_tools/simulator",
@@ -133,5 +139,12 @@
     "status": "original_resources_saved_server_required",
     "file": "oic-original/historical-and-implied-volatility-new/index.html",
     "note": "Authenticated original review; original description, guide where linked and observed front-end resources preserved. Calculation/market servers are not offline. See comparison report."
+  },
+  {
+    "url": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+    "resolved_url": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+    "status": "saved_description_video_online",
+    "file": "external/oic-options-calculator-tutorial.html",
+    "note": "Official tutorial description saved. Embedded YouTube video, captions and transcript are online and not copied. Video: https://www.youtube.com/watch?v=gWYTcWGU9pI"
   }
 ]

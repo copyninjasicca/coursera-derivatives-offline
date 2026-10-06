@@ -49,6 +49,7 @@ for record in inventory:
     record['description']=description
     guide=ROOT/'guides'/(slug+'.pdf')
     guide_links=f'<p><a href="../guides/{slug}.pdf">Official original PDF guide</a> · <a href="../guides/{slug}.txt">Extracted guide text</a></p>' if guide.exists() else '<p>No PDF guide was linked on this tool page.</p>'
+    if slug=='options-calculator':guide_links+='<p><a href="../../external/oic-options-calculator-tutorial.html">Official video tutorial description</a> · video remains online.</p>'
     record['guide_file']='oic-original/guides/'+slug+'.pdf' if guide.exists() else None
     evidence=[]
     for name in ('online-ui.txt','online-case.json','implied-volatility-online.txt','request-parameters.json','online-preview.jpg'):

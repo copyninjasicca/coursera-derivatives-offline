@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-06T01:30:24.918518+00:00",
+  "agent": "tools_audit",
+  "scope": "Independent read-only inventory, resource integrity, model tests, existing reconciliation and hosted position export audit",
+  "inventory": {
+    "officialDirectory": "https://www.optionseducation.org/options-quotes-calculators",
+    "liveDirectoryMatchesSevenArchivedTools": true,
+    "archivedTools": [
+      "Trending Options Volume",
+      "Options Monitor",
+      "Stock Monitor",
+      "Options Calculator",
+      "Position Profit & Loss Simulator",
+      "Probability Calculator",
+      "Historical and Implied Volatility"
+    ],
+    "originalWorkingOfflineEngines": 0,
+    "officialGuides": 5,
+    "originalFrontendResourceCount": 26,
+    "originalFrontendResourcesAllHashesMatch": true
+  },
+  "tests": [
+    {
+      "command": "node test_option_math.cjs",
+      "passed": true,
+      "checks": 188
+    },
+    {
+      "command": "node test_american_math.cjs",
+      "passed": true,
+      "checks": 91,
+      "note": "Suite regenerates artifact; generatedAt-only difference was restored exactly to avoid archive mutation."
+    },
+    {
+      "command": "node test_probability_math.cjs",
+      "passed": true,
+      "checks": 1003,
+      "quadratureMaxError": 3.374243429751545e-12
+    },
+    {
+      "command": "node test_portfolio_math.cjs",
+      "passed": true,
+      "testGroups": 16
+    }
+  ],
+  "existingReconciliation": {
+    "pricingCases": 9,
+    "fullOriginalEquivalence": false,
+    "unverified": [
+      "Original cash-dividend numerical examples and exact American tree/Greek convention",
+      "Additional original probability samples and joint-event semantics",
+      "Original option-leg P&L scenario values and Greeks",
+      "Original live feeds, market rankings and proprietary IVX"
+    ],
+    "ivComparisons": [
+      {
+        "metric": "call IV",
+        "original": 50.28,
+        "local": 50.21458484095837,
+        "difference": -0.06541515904162765,
+        "tolerance": 0.005,
+        "unit": "volatility percentage points",
+        "matches_display_precision": false
+      },
+      {
+        "metric": "put IV",
+        "original": 90.19,
+        "local": 90.09341838087461,
+        "difference": -0.09658161912538787,
+        "tolerance": 0.005,
+        "unit": "volatility percentage points",
+        "matches_display_precision": false
+      }
+    ]
+  },
+  "defects": [
+    {
+      "id": "position_export_missing_tree_steps",
+      "status": "confirmed_browser_and_source",
+      "source": "downloads/derivatives-options-futures/tools/advanced-tools-ui.js:39",
+      "severity": "moderate",
+      "description": "American tree steps are not exported in position JSON or restored by import. Position cannot round-trip exact selected model through reload/new browser.",
+      "liveURL": "https://copyninjasicca.github.io/coursera-derivatives-offline/tools/index.html#portfolio",
+      "reproduction": "Default covered call; set Leg 2 style American; select 400 tree steps; Update position; Export position JSON. Export contains legs, market, scenario but no steps/model options. Switching back to 100 and updating changes displayed P&L.",
+      "observedPnl400": 67.73,
+      "observedPnl100": 68.47,
+      "recommendation": "Add validated modelOptions.steps to export/import and restore before valuing imported data. Verify across reload/import."
+    },
+    {
+      "id": "import_scenario_spot_ignored",
+      "status": "source_confirmed_not_browser_reproduced",
+      "source": "downloads/derivatives-options-futures/tools/advanced-tools-ui.js:40",
+      "severity": "minor",
+      "description": "Position import reads market.spot, elapsedDays and volatility shifts but ignores scenario.spot if distinct from baseline market.spot.",
+      "recommendation": "Restore and validate scenario.spot (or explicitly reject unsupported scenario keys)."
+    },
+    {
+      "id": "missing_oic_calculator_video_reference",
+      "status": "current_official_page_confirmed",
+      "description": "Official calculator description/directory links accessible OIC Options Calculator Tutorial. Archive description mentions video tutorial but archive inventory lacks URL/resource entry and does not preserve the tutorial itself.",
+      "officialURL": "https://www.optionseducation.org/videolibrary/oic-options-calculator-tutorial",
+      "videoEmbed": "https://www.youtube.com/embed/gWYTcWGU9pI",
+      "recommendation": "Preserve accessible description/link/transcript and explicitly label video external if it cannot be saved; do not claim complete OIC educational-resource copy."
+    }
+  ],
+  "expectedLimitations": [
+    "Original OIC/iVolatility server pricing/IV inversion, probability and option P&L engines are not copied.",
+    "Front-end resource files are snapshots and do not make the original apps operational offline.",
+    "Original live stock/option feeds, saved account watchlists, market-wide rankings, full historical price/volatility series and proprietary IVX unavailable.",
+    "Independent prices/Greeks/IV and joint probability events retain measured residuals against saved original outputs.",
+    "Imported market example is synthetic, not captured original data.",
+    "Original cash-dividend numerical convention, complete original option P&L outputs and additional probability samples unverified.",
+    "Independent models omit fees, financing, historical settlement paths, assignment/exercise simulation and stock dividend receipts; disclosed."
+  ]
+}

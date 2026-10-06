@@ -1,0 +1,1299 @@
+[
+  {
+    "id": "uhJRv",
+    "questions": [
+      {
+        "choices": [
+          "A stock, exchange-traded fund, or similar product.",
+          "A corporate bond, municipal bond, or U.S. Treasury security.",
+          "A physical commodity such as gold, crude oil, or corn.",
+          "None of these."
+        ],
+        "images": [],
+        "prompt": "The value of an equity option is essentially derived from the future performance of: "
+      },
+      {
+        "choices": [
+          "The Options Exchange (OEX).",
+          "The Options Clearance and Settlement Corporation (OCSC).",
+          "The Options Clearing Corporation (OCC).",
+          "The Intercontinental Options Exchange (IOE)."
+        ],
+        "images": [],
+        "prompt": "Which institution involved in the options market was mentioned in this overview?"
+      },
+      {
+        "choices": [
+          "Distinguishing between call and put options.",
+          "How the OCSC determines its risk management methodology.",
+          "Identifying the components of an options contract on a trading platform.",
+          "Making certain decisions about what you can do in the options market as a contract writer or owner."
+        ],
+        "images": [],
+        "prompt": "This course will not cover:"
+      },
+      {
+        "choices": [
+          "The financial conditions of the trader.",
+          "The investment objectives of the trader.",
+          "The individual financial requirements of the trader.",
+          "All of these."
+        ],
+        "images": [],
+        "prompt": "The benefits and risks of trading options generally depend on:"
+      },
+      {
+        "choices": [
+          "Margin requirements and tax forms.",
+          "Income requirements and tax considerations.",
+          "Margin requirements and tax considerations.",
+          "Academic requirements and accounting standards."
+        ],
+        "images": [],
+        "prompt": "The ODD includes information about:"
+      }
+    ]
+  },
+  {
+    "id": "jUVGh",
+    "questions": [
+      {
+        "choices": [
+          "Stock",
+          "Financial guarantee",
+          "Type of fund",
+          "Derivative"
+        ],
+        "images": [],
+        "prompt": "In broad terms, an option is a:"
+      },
+      {
+        "choices": [
+          "To speculate on the future performance of a particular underlying stock.",
+          "To speculate on the future performance of a bond or index.",
+          "To speculate on the future performance of a foreign currency.",
+          "All of these."
+        ],
+        "images": [],
+        "prompt": "Traders may use options: "
+      },
+      {
+        "choices": [
+          "Consult with fixed income portfolio managers.",
+          "Conduct the same fundamental and / or technical analyses used by equity analysts.",
+          "Scan popular social media platforms.",
+          "The practice is forbidden under the Dodd–Frank Wall Street Reform and Consumer Protection Act."
+        ],
+        "images": [],
+        "prompt": "To help gauge whether a stock will rise or fall over a given period of time, buyers and sellers of stock options typically:"
+      },
+      {
+        "choices": [
+          "Highlight how one financial instrument may derive its value based on the future performance of another financial instrument.",
+          "Show how investors may use derivatives to generate additional income.",
+          "Highlight the benefits of hedging a position.",
+          "Demonstrate the futility of conducting due diligence."
+        ],
+        "images": [],
+        "prompt": "The main point of illustrating the movie derivative concept was to: "
+      },
+      {
+        "choices": [
+          "Tax incentives.",
+          "Financial guarantees.",
+          "Stock prices.",
+          "Inflation protection."
+        ],
+        "images": [],
+        "prompt": "Stock options traders are generally concerned with:"
+      }
+    ]
+  },
+  {
+    "id": "l9fxu",
+    "questions": [
+      {
+        "choices": [
+          "Calls and strikes.",
+          "Calls and puts.",
+          "Premiums and puts.",
+          "None of these."
+        ],
+        "images": [],
+        "prompt": "Two main types of options contracts are:"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "A holder of a call contract is obligated to buy stock at a pre-determined price before the contract expires."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "The premium for a put contract is set at a fixed price:"
+      },
+      {
+        "choices": [
+          "Sell the option to another buyer during the lifetime of the contract.",
+          "Sell stock at the prevailing market price to the contract writer when exercising their right.",
+          "Under no circumstances allow the contract to expire worthless.",
+          "Avoid paying a premium when exercising their right."
+        ],
+        "images": [],
+        "prompt": "An owner of a call option contract may:"
+      },
+      {
+        "choices": [
+          "The premium paid to the holder will be the buyer’s maximum loss.",
+          "The premium paid to the owner will be the writer’s maximum loss.",
+          "The premium paid to the seller will be the holder’s maximum loss.",
+          "The premium received by the buyer will be the writer’s maximum gain."
+        ],
+        "images": [],
+        "prompt": "If an option expires worthless at expiry,"
+      }
+    ]
+  },
+  {
+    "id": "V1PMU",
+    "questions": [
+      {
+        "choices": [
+          "Contract sizes.",
+          "Expiration dates.",
+          "Bid and ask prices.",
+          "All of these."
+        ],
+        "images": [],
+        "prompt": "Options-related data on the IBKR TWS Option Chain may include:"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "As a standard in the U.S., there are typically 100 shares of stock for each option contract."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "Strike prices are generally set by the exchange where the option is listed."
+      },
+      {
+        "choices": [
+          "The option is at-the-money.",
+          "The option is in-the-money.",
+          "The option is out-of-the-money.",
+          "The option cannot be exercised."
+        ],
+        "images": [],
+        "prompt": "In a put option contract, if the prevailing market price is above the strike price:"
+      },
+      {
+        "choices": [
+          "The option is at-the-money.",
+          "The option is out-of-the-money.",
+          "The option is in-the-money.",
+          "The option cannot be exercised."
+        ],
+        "images": [],
+        "prompt": "In a call option contract, if the prevailing market price is below the strike price:"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "A class of options refers to the same options series with both the expiry date and exercise price in common."
+      }
+    ]
+  },
+  {
+    "id": "dYzlr",
+    "questions": [
+      {
+        "choices": [
+          "The OCC",
+          "The ODD ",
+          "The OCSC",
+          "The Characteristics and Mechanics of the Options Market"
+        ],
+        "images": [],
+        "prompt": "Before buying or selling an option, investors are required to read:"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "Market strategy has nothing to do with the potential risks of trading options."
+      },
+      {
+        "choices": [
+          "Losses limited to the stock held in your portfolio.",
+          "Unlimited losses",
+          "Losses limited to the premium paid",
+          "None of these"
+        ],
+        "images": [],
+        "prompt": "As an unhedged seller of a call option, you could face:"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "One reason for an option trader to enter the market may be to generate fixed income."
+      },
+      {
+        "choices": [
+          "It provides a guarantee that a trade will settle, should an option owner fail to satisfy their part of the contract. ",
+          "It provides a guarantee that a trade will settle, should the buyer of an option fail to satisfy their part of the contract.",
+          "It provides a guarantee that a trade will settle, should an option writer fail to satisfy their part of the contract.",
+          "It provides a guarantee that a trade will settle, should an option holder fail to satisfy their part of the contract."
+        ],
+        "images": [],
+        "prompt": "Among other functions, the OCC serves as a central counterparty, meaning:"
+      }
+    ]
+  },
+  {
+    "id": "019Z4",
+    "questions": [
+      {
+        "choices": [
+          "Stocks",
+          "Bonds",
+          "All of these",
+          "Indexes"
+        ],
+        "images": [],
+        "prompt": "Similar to how a movie derivative’s value would be based on the future box office performance of a film, traders use options to speculate on the future performance of:\r"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "Buyers and sellers of stock options typically conduct the same fundamental and / or technical analysis that fixed income portfolio managers use."
+      },
+      {
+        "choices": [
+          "Owner",
+          "Writer",
+          "Holder",
+          "Long an option position"
+        ],
+        "images": [],
+        "prompt": "Which term is NOT associated with a buyer of an options contract?"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "A holder of a call option contract has the obligation to buy shares at, or before, that contract expires."
+      },
+      {
+        "choices": [
+          "TPM Mar'21 2.50 Put",
+          "TPM Mar Put 2.50",
+          "TPM 2.50 Mar 2021 Put",
+          "TPM Put Mar 2021 2.50"
+        ],
+        "images": [],
+        "prompt": "A put option contract on the underlying stock of Houston-based company Texas Petroleum (ticker “TPM”) has a strike price of $2.50 and expires in March 2021. Which is the correct way to express the key components of this contract?"
+      },
+      {
+        "choices": [
+          "250 shares ",
+          "None",
+          "100 shares",
+          "500 shares"
+        ],
+        "images": [],
+        "prompt": "How many shares of stock would I expect to receive if I buy five call option contracts and exercise my right to purchase them at a strike price of $2.50, when the market price for the shares is $2.75?"
+      },
+      {
+        "choices": [
+          "400 shares ",
+          "None",
+          "200 shares",
+          "500 shares"
+        ],
+        "images": [],
+        "prompt": "I sold four TMP Mar 2.50 Calls to a buyer, when the market price for the underlying TMP shares were worth $2.00 apiece. Although the buyer of these contracts did not exercise their right to purchase the shares, the prevailing market price for TPM has moved to 2.25 over the life of the contracts, which have now expired. At this point, how many shares would I need to deliver to the buyer?"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "Call options and put options on U.S.-based oil giant Texas Petroleum (ticker “TPM”) are referred to as two separate options series."
+      },
+      {
+        "choices": [
+          "Introduction to Standardized Options Trading by Sam Kingsman ",
+          "A Primer on Options Strategies and Critical Risks by Carol Bernhardt",
+          "The Characteristics and Mechanics of the Options Market",
+          "The Characteristics and Risks of Standardized Options"
+        ],
+        "images": [],
+        "prompt": " Before buying or selling an option, investors are required to read:"
+      },
+      {
+        "choices": [
+          "No risk because you are unhedged",
+          "Limited losses given the stock held in your portfolio",
+          "Unlimited losses",
+          "Unlimited gains"
+        ],
+        "images": [],
+        "prompt": "If, as a seller of a call option, you need to buy shares in the open market in order to deliver them to the contract holder, you could face:"
+      }
+    ]
+  },
+  {
+    "id": "dVSFT",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: Each option strategy or stock and option combination has a unique profit and loss profile. \r"
+      },
+      {
+        "choices": [
+          "The combined prices of calls and puts at the same strike with the same expiration always sum to the same value. ",
+          "The prices of call options and put options the same distance from the stock price with the same number of days to expiration will always face identical premiums. \r",
+          "With certain available information, including the forward value of a stock’s price, the investor can efficiently calculate call and put prices. "
+        ],
+        "images": [],
+        "prompt": "How best to define the Call/Put parity equation?"
+      }
+    ]
+  },
+  {
+    "id": "phTH3",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "Call options convey to the buyer the right but not the obligation to purchase a set number of shares of an underlying asset at a predetermined price known as the strike price prior to the time that the option contract expires.\r"
+      },
+      {
+        "choices": [
+          "Strike",
+          "Premium",
+          "Spot rate"
+        ],
+        "images": [],
+        "prompt": "What represents the predetermined price at which an option contract may be exercised where a call option buyer can buy the underlying asset from an option seller or a put option buyer can sell the underlying asset to an option seller?"
+      },
+      {
+        "choices": [
+          "European",
+          "Trans-Atlantic",
+          "American"
+        ],
+        "images": [],
+        "prompt": "Option style determines when an option can be exercised. Which style of option can be exercised at any time prior to, up to, and including the day of expiration?\r"
+      },
+      {
+        "choices": [
+          "As a hedge against inflation.",
+          "As an investment to control risk or to speculate on a movement in the underlying asset. ",
+          "To take a position in an underlying asset.",
+          "As an efficient way to prepay tax liabilities."
+        ],
+        "images": [],
+        "prompt": "What are options used for?"
+      },
+      {
+        "choices": [
+          "A well-defined agreement between a buyer and seller obligating the seller to deliver shares of a company to the buyer at some time in the future.",
+          "An agreement between two counterparties granting specified rights to the buyer over an agreed amount of an underlying asset within a specific timeframe. ",
+          "Rights to buy a specific amount of an asset by expiration at the prevailing market price.",
+          "Rights to sell an amount of an asset at expiration at an agreed upon fixed price."
+        ],
+        "images": [],
+        "prompt": "What is the best definition of an option contract?"
+      }
+    ]
+  },
+  {
+    "id": "bsiv5",
+    "questions": [
+      {
+        "choices": [
+          "Theta",
+          "Rho",
+          "Vega",
+          "Gamma"
+        ],
+        "images": [],
+        "prompt": "Which Greek variable measures the rate of change of delta?"
+      },
+      {
+        "choices": [
+          "Theta",
+          "Gamma",
+          "Rho",
+          "Vega"
+        ],
+        "images": [],
+        "prompt": "Which Greek variable measures the rate of change of volatility?"
+      },
+      {
+        "choices": [
+          "Theta",
+          "Vega",
+          "Gamma",
+          "Rho"
+        ],
+        "images": [],
+        "prompt": "Which Greek variable measures the rate of change of time?"
+      }
+    ]
+  },
+  {
+    "id": "5O66G",
+    "questions": [
+      {
+        "choices": [
+          "The difference between the price of the underlying at expiration and the value of the call or put option.",
+          "Higher for a call than for a put.",
+          "The price at which the underlying asset closes on expiration day.",
+          "The pre-determined price at which an option contract may be exercised."
+        ],
+        "images": [],
+        "prompt": "What is the \"strike price\"?"
+      },
+      {
+        "choices": [
+          "Call with a 52.50 strike.",
+          "Put with a 50 strike.",
+          "Put with a 55 strike.",
+          "Call with a 55 strike."
+        ],
+        "images": [],
+        "prompt": "If XYZ Company's shares are trading at $52.37, which of the following has intrinsic value?"
+      },
+      {
+        "choices": [
+          "An option with time value before expiration contains extrinsic value.",
+          "Only out-of-the-money options contain extrinsic value.",
+          "Extrinsic value represents the probability that the underlying asset will change over time and create intrinsic value to an option.",
+          "In-the-money options contain both intrinsic and extrinsic value."
+        ],
+        "images": [],
+        "prompt": "Which of the following is inaccurate when discussing the extrinsic value of an option?"
+      },
+      {
+        "choices": [
+          "Rho",
+          "Kappa",
+          "Alpha",
+          "Phi"
+        ],
+        "images": [],
+        "prompt": "Which of the following is a Greek variable commonly associated with measuring the sensitivity of option prices?\r"
+      }
+    ]
+  },
+  {
+    "id": "LmtfU",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: The maximum loss on a long call position is equal to the value of the premium paid."
+      },
+      {
+        "choices": [
+          "$5.00",
+          "$10.00",
+          "$3.50",
+          "$4.00"
+        ],
+        "images": [],
+        "prompt": "An investor pays a $1.00 premium for a call option with a $60.00 strike price when the underlying price was trading at $55.00. At expiration the stock has increased to $65.00. What is the profit or loss on the option at expiration?"
+      },
+      {
+        "choices": [
+          "($1.00)",
+          "$1.00",
+          "($1.75)",
+          "($2.50)"
+        ],
+        "images": [],
+        "prompt": "An investor pays a $1.75 premium for a call option with a $30.00 strike price when the underlying price was trading at $27.50. At expiration the stock has increased to $29.00. What is the profit or loss on the option at expiration?"
+      },
+      {
+        "choices": [
+          "$10.00",
+          "$5.00",
+          "$1.00",
+          "($5.00)"
+        ],
+        "images": [],
+        "prompt": "What is the profit on a long call at expiration which ends $10.00 in the money for which the investor paid a premium of $5.00?"
+      }
+    ]
+  },
+  {
+    "id": "VjaUv",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: To change the number of put options displayed in the Option Chain window, access the Strike Price menu above the Put display area and select the desired number of strikes."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: Using the mouse to hover above any ask price in the Option Chain will cause a blue backdrop to appear. When hovering above a bid price, the background turns red."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: When buying or selling option contracts the user can only enter a market order."
+      }
+    ]
+  },
+  {
+    "id": "1qHGj",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: The maximum profit on a short put position is equal to the value of the premium paid."
+      },
+      {
+        "choices": [
+          "$6.00",
+          "($6.00)",
+          "$0.00",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "An investor receives a $1.00 premium for a put option with a $60.00 strike price when the underlying price was trading at $65.00. At expiration the stock has decreased to $59.00. What is the profit or loss on the option at expiration?"
+      },
+      {
+        "choices": [
+          "($7.50)",
+          "($5.00)",
+          "$5.00",
+          "($3.00)"
+        ],
+        "images": [],
+        "prompt": "An investor receives a $2.00 premium for a put option with a $30.00 strike price when the underlying price was trading at $32.50. At expiration the stock has decreased to $25.00. What is the profit or loss on the option at expiration?"
+      },
+      {
+        "choices": [
+          "$5.00",
+          "$1.00",
+          "($5.00)",
+          "$10.00"
+        ],
+        "images": [],
+        "prompt": "What is the profit on a short put at expiration which ends $10.00 out of the money for which the investor received a premium of $5.00."
+      }
+    ]
+  },
+  {
+    "id": "1w4bx",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: The price and daily change for the underlying are shown in the Option Chain window to the upper right of the display."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: Option strike prices displayed in the Option Chain window are displayed in the center column."
+      }
+    ]
+  },
+  {
+    "id": "KqZKt",
+    "questions": [
+      {
+        "choices": [
+          "$8.00",
+          "$10.00",
+          "$7.00 ",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "An investor pays $50.00 for a stock and writes a call option at the $55.00 strike which expires in 30 days. The investor receives a $2.00 premium for the call option. What is the overall gain should the option expire when the stock settles at $60.00? "
+      },
+      {
+        "choices": [
+          "($2.50)",
+          "($5.00)",
+          "($0.50)",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "An investor receives a $2.00 premium for a call option with a $30.00 strike price and pays $27.50 for shares in company XYZ Corp. When the call option expires the stock has decreased to $25.00. What is the profit or loss on the covered call strategy at expiration?"
+      },
+      {
+        "choices": [
+          "$10.00",
+          "$15.00",
+          "$20.00",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "An investor buys shares and sells a call option $10.00 out-of-the-money. What is the profit on a covered call strategy at expiration when the call option ends $10.00 in-the-money for which the investor received a premium of $5.00?"
+      }
+    ]
+  },
+  {
+    "id": "wq1dm",
+    "questions": [
+      {
+        "choices": [
+          "Puts to the left of the screen and calls to the right",
+          "Calls are displayed above puts",
+          "Calls to the left of the screen and puts to the right"
+        ],
+        "images": [],
+        "prompt": "In the Strategy Builder how are option chains displayed?"
+      },
+      {
+        "choices": [
+          "Add the call option to the Mosaic Order Entry Panel and close Strategy Builder. Use the Advanced plus sign and locate Add Stock.",
+          "At the bottom of the Strategy Builder window is an Order Entry panel. Click the Advanced-plus sign and select Add Stock Leg ",
+          "Covered call positions must be created separately as two trades: One for the underlying and one for the option."
+        ],
+        "images": [],
+        "prompt": "For a covered call strategy, using the Strategy Builder, how would a user add the stock leg of the trade?"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: For a covered call strategy, the quote display shows the net price of the stock leg minus the premium received for the call option."
+      }
+    ]
+  },
+  {
+    "id": "8BMQg",
+    "questions": [
+      {
+        "choices": [
+          "$5.00",
+          "$3.50",
+          "$10.00",
+          "$4.00"
+        ],
+        "images": [],
+        "prompt": "An investor pays a $1.00 premium for a put option with a $60.00 strike price when the underlying price was trading at $65.00. At expiration the stock has decreased to $55.00. What is the profit or loss on the option at expiration?"
+      },
+      {
+        "choices": [
+          "$3.00",
+          "$1.00",
+          "$4.00",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "An investor pays a $1.00 premium for a put option with a $30.00 strike price when the underlying price was trading at $32.50. At expiration the stock has decreased to $25.00. What is the profit or loss on the option at expiration?"
+      },
+      {
+        "choices": [
+          "$10.00",
+          "$1.00",
+          "$5.00",
+          "($5.00)"
+        ],
+        "images": [],
+        "prompt": "What is the profit on a long put at expiration which ends $10.00 in the money for which the investor paid a premium of $5.00?"
+      }
+    ]
+  },
+  {
+    "id": "Ae0Hf",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: When hovered over the ask price of a put option in the Option Chains window, the background will display a red price."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: When hovered over the bid price of a put option in the Option Chains window, the background will display a red price."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": " When buying put options, investors must always pay the ask price for the contract when submitting an order."
+      }
+    ]
+  },
+  {
+    "id": "tkww0",
+    "questions": [
+      {
+        "choices": [
+          "$10.00",
+          "$13.00",
+          "$5.00",
+          "$8.00"
+        ],
+        "images": [],
+        "prompt": "An investor sells a stock for $50.00 and writes a put option at the $45.00 strike which expires in 30 days. The investor receives a $3.00 premium for the put option. What is the overall gain should the option expire when the stock settles at $40.00? "
+      },
+      {
+        "choices": [
+          "($7.50)",
+          "($9.50)",
+          "($5.50)",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "An investor receives a $2.00 premium for a put option with a $30.00 strike price and sells shares in company XYZ Corp at $37.50. When the put option expires the stock has increased to $45.00. What is the profit or loss on the covered put strategy at expiration?"
+      },
+      {
+        "choices": [
+          "$10.00",
+          "$15.00",
+          "$20.00",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "An investor sells shares and sells a put option $10.00 out-of-the-money. What is the profit on a covered put strategy at expiration when the put option ends $10.00 in-the-money for which the investor received a premium of $5.00?"
+      }
+    ]
+  },
+  {
+    "id": "qFWM6",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: For a covered put strategy, the quote display shows the price of the stock leg plus the premium received for the put option"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A covered put transaction can be created within the Strategy Builder in TWS."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A covered put position involves a short stock position plus a short call option."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A covered put strategy is used when an investor is mildly bearish on a stock and is taking a short position in the underlying stock while writing an option that would take delivery at a lower price under specific conditions."
+      }
+    ]
+  },
+  {
+    "id": "MsCT1",
+    "questions": [
+      {
+        "choices": [
+          "Kappa",
+          "Alpha",
+          "Rho",
+          "Phi"
+        ],
+        "images": [],
+        "prompt": "Which of the following is a Greek variable commonly associated with measuring the sensitivity of option prices?"
+      },
+      {
+        "choices": [
+          "The pre-determined price at which an option contract may be exercised. ",
+          "Higher for a call than for a put.",
+          "The price at which the underlying asset closes on expiration day.",
+          "The difference between the price of the underlying at expiration and the value of the call or put option.\r\n"
+        ],
+        "images": [],
+        "prompt": "What is the \"strike price\"?"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A long call position would suit a bearish investor."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A short put position would suit a bullish investor."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A covered call position would suit a bearish investor."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: The maximum profit on a covered call position is equal to the gain on the stock plus the value of the premium received from the sale of the short call option."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: The maximum loss on a long put position is equal to the value of the premium paid."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A covered put position would suit a bearish investor."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: The maximum profit on a covered put position is equal to the gain on the stock plus the value of the premium received from the sale of the short put option."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A short put position involves the sale of a put position and is therefore a mildly bullish position"
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A long put position would suit a bearish investor."
+      }
+    ]
+  },
+  {
+    "id": "zyzIS",
+    "questions": [
+      {
+        "choices": [
+          "$96.50 and $104.50",
+          "$95.50 and $105.50",
+          "$95.00 and $105.00",
+          "$90.00 and $110.00"
+        ],
+        "images": [],
+        "prompt": "Which are the correct breakeven prices for the underlying for a short straddle strategy at the $100.00 strike in which the call option premium collected was $5.50 and the put option premium was $4.50 when the underlying traded at $100.50?"
+      },
+      {
+        "choices": [
+          "$5.00",
+          "$3.75",
+          "$2.50",
+          "Zero"
+        ],
+        "images": [],
+        "prompt": "What is the profit on a short straddle strategy given the following information? With the underlying share price trading at $67.50, an investor writes (sells) the $65.00 straddle expiring in 90-days and collects a total premium of $3.75. At expiration the underlying settles at $61.25. "
+      },
+      {
+        "choices": [
+          "Implied volatility is expected to rise.",
+          "Implied volatility is expected to decline. ",
+          "The share price is expected to either rise sharply or fall precipitously over the life of the option contract.",
+          "The investor is extremely bearish on the outlook for the stock over the life of the option contract."
+        ],
+        "images": [],
+        "prompt": "Which of the following is a possible reason for an option investor to sell a short straddle strategy?"
+      }
+    ]
+  },
+  {
+    "id": "Cw2j3",
+    "questions": [
+      {
+        "choices": [
+          "TWS Market Scanner ",
+          "TWS Strategy Builder"
+        ],
+        "images": [],
+        "prompt": "Which TWS tool in the practical demo will allow you to select from pre-defined option combinations, such as the Straddle? "
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: Within Strategy Builder, users can access multiple pre-defined option combinations."
+      }
+    ]
+  },
+  {
+    "id": "GsXCw",
+    "questions": [
+      {
+        "choices": [
+          "$90.00 and $120.00",
+          "$96.50 and $104.50",
+          "$95.50 and $105.50",
+          "$95.00 and $105.00"
+        ],
+        "images": [],
+        "prompt": "Which are the correct breakeven prices for the underlying for a short strangle strategy at the $100.00 and $110.00 strike prices in which the call option premium collected was $5.50 and the put option premium was $4.50 when the underlying traded at $100.50?"
+      },
+      {
+        "choices": [
+          "$2.50",
+          "Zero",
+          "$3.75",
+          "$5.00"
+        ],
+        "images": [],
+        "prompt": "What is the profit on a short strangle strategy given the following information? With the underlying share price trading at $67.50, an investor writes (sells) the $60.00/$65.00 strangle expiring in 90-days and collects a total premium of $3.75. At expiration the underlying settles at $61.25. "
+      },
+      {
+        "choices": [
+          "Implied volatility is expected to decline. ",
+          "Implied volatility is expected to rise.",
+          "The share price is expected to either rise sharply or fall precipitously over the life of the option contract.",
+          "The investor is extremely bearish on the outlook for the stock over the life of the option contract."
+        ],
+        "images": [],
+        "prompt": "Which of the following is a possible reason for an option investor to sell a short strangle strategy?"
+      }
+    ]
+  },
+  {
+    "id": "PYGSP",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A short strangle involves the purchase of a call and a put with different strike prices but the same expiration date."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A short strangle can only be entered using a market order type."
+      }
+    ]
+  },
+  {
+    "id": "7NdO8",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: For a short strangle, TWS knows that selling a call requires the sale of a lower strike put at the same expiration. Hence, both legs display in red. "
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: An investor expecting an underlying share price to remain confined within a specific range might enter a short strangle strategy using options."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A short straddle involves the sale of an out-the-money call and an out-the-money put with the same expiration."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: An investor expecting an underlying share price to remain confined within a specific range might enter a short straddle strategy using options."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A short straddle options strategy involves writing or selling an equal number of call and put options at the same strike price using the same expiration month."
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "True or false: A short strangle options strategy involves writing or selling an equal number of call and put options at the different strike prices using the same expiration month."
+      }
+    ]
+  },
+  {
+    "id": "ZR8FZ",
+    "questions": [
+      {
+        "choices": [
+          "All of these",
+          "Metals such as gold and silver",
+          "Energy-related products such as crude oil and natural gas",
+          "Soft commodities such as coffee, cocoa, sugar and frozen concentrated orange juice"
+        ],
+        "images": [],
+        "prompt": "Some of the products available on global futures markets include:"
+      }
+    ]
+  },
+  {
+    "id": "BQLZH",
+    "questions": [
+      {
+        "choices": [
+          "CFA",
+          "CTA",
+          "CFTC",
+          "FTC"
+        ],
+        "images": [],
+        "prompt": "What was established by Congress in the mid-1970s to serve as a federal regulator for the Futures Markets?"
+      }
+    ]
+  },
+  {
+    "id": "Nj1tb",
+    "questions": [
+      {
+        "choices": [
+          "basis",
+          "futures differential",
+          "forward price"
+        ],
+        "images": [],
+        "prompt": "If we take a look at the prevailing market price for the current corn contract, for instance, and compare it with, say, the price of a futures contract that expires in a year, we can note the difference between these prices as the?"
+      }
+    ]
+  },
+  {
+    "id": "5lIrj",
+    "questions": [
+      {
+        "choices": [
+          "contango",
+          "backwardation"
+        ],
+        "images": [],
+        "prompt": "The usual spread between prices tells us that forward prices are higher than current prices, which is called?"
+      }
+    ]
+  },
+  {
+    "id": "TSm1T",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "The exchange defines when contracts start trading, what hours they can be traded, and importantly, when the life of the contract expires, and what happens where - in the settlement and delivery chain. "
+      }
+    ]
+  },
+  {
+    "id": "Y6qan",
+    "questions": [
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "Investors should be aware that margin requirements are static and will not change, especially in the event of market volatility. "
+      }
+    ]
+  },
+  {
+    "id": "Nh1vl",
+    "questions": [
+      {
+        "choices": [
+          "Configure the watch list using a right-click of the mouse, select Insert a Column and locate Volume from within the associated category.",
+          "Use the search window to locate Volume and follow any instructions returned in the search.",
+          "Locate and select Futures Volume from the blue New Window button in the upper left of Mosaic.",
+          "Drag a Volume column from another watch list."
+        ],
+        "images": [],
+        "prompt": "What would you do to add Volume as a column within a TWS Mosaic watch list?"
+      }
+    ]
+  },
+  {
+    "id": "mM2bU",
+    "questions": [
+      {
+        "choices": [
+          "Corn futures versus copper futures.",
+          "The British pound currency future versus the Australian dollar currency future.",
+          "Nymex light sweet crude oil future versus the Brent crude oil future."
+        ],
+        "images": [],
+        "prompt": "Which of the following is an example of an inter-commodity spread?"
+      },
+      {
+        "choices": [
+          "The contract nearest to expiration",
+          "The contract favored by traders that gathers volume as expiration approaches",
+          "The contract with the greatest open interest",
+          "The second contract month"
+        ],
+        "images": [],
+        "prompt": "Which of the following is the best description of the continuous futures contract?"
+      },
+      {
+        "choices": [
+          "backwardation",
+          "basis",
+          "contango"
+        ],
+        "images": [],
+        "prompt": "When forward prices fall below current market prices either on a short-term basis or for a sustained period, what is this called?"
+      },
+      {
+        "choices": [
+          "Over-the-Counter, or OTC trading",
+          "Bank Regulatory Agreement",
+          "Contra Account Separation"
+        ],
+        "images": [],
+        "prompt": "The role of a marketplace is to bring counterparties together and engage in price discovery. This process between a bank and its customer is often referred to as?"
+      },
+      {
+        "choices": [
+          "Counterparty",
+          "Forex",
+          "Derivative"
+        ],
+        "images": [],
+        "prompt": "The purpose of an exchange facility, or transaction model, is to remove WHAT risk by creating and transferring risk to the single exchange entity, backed by the diverse financial standing of its members.  "
+      },
+      {
+        "choices": [
+          "True",
+          "False"
+        ],
+        "images": [],
+        "prompt": "To establish the margin requirement, exchanges typically calculate and post product price thresholds, that is the maximum permitted daily price move for a product, and use the value of that price change as the required margin. "
+      },
+      {
+        "choices": [
+          "typically for immediate delivery, where ‘Immediate’ could mean two days",
+          "typically for delivery post-settlement"
+        ],
+        "images": [],
+        "prompt": "The current market settles on a ‘spot’ basis, which is :"
+      },
+      {
+        "choices": [
+          "spot+forward",
+          "basis",
+          "forward"
+        ],
+        "images": [],
+        "prompt": "The difference between the cash or spot price and the forward or futures price is known as:"
+      }
+    ]
+  }
+]

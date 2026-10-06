@@ -31,3 +31,13 @@ The user approved making the repository public. GitHub identity verification com
 - The private account configuration remains untracked and outside the deployed archive. A final scan of 343 tracked text files found no saved credential values or credential patterns.
 
 The video checks verify accessibility and seeking support without hashing or decoding every entire MP4. The hosted edition uses browser-local storage; existing localhost progress can be transferred by export/import. Original server engines, live market feeds and server grading remain outside the offline implementation's stated scope.
+
+## Independent source and media re-audit — 6 October 2026
+
+267 source checks pass: 84 ordered IDs/types; 16 reading texts/seven figure asset IDs; 34 current sets/124 prompts/383 choices; 34 freshly downloaded exact English transcript hashes and source/local duration tolerance 0.05 seconds. All 36 local MP4s fully decoded audio/video with zero errors. The pre-repair published package passed complete SHA-256 for every one of 421 files, including 36 entire MP4s, plus video range checks. See `audit-evidence/pages-pre-repair-full-hash.json`.
+
+Recovered the current June 2024 OCC PDF (96 pages), two matching official IBKR article texts/four figures, and the OIC calculator tutorial description (video remains online). Six legacy references still return 404 without a retrievable verified official replacement. Original source MP4 byte hashes were not independently re-downloaded; OIC engines/feeds/IVX, grading and unseen randomized questions are not copied.
+
+Position import/export now retains American tree steps and distinct baseline/scenario prices, validates the complete scenario before changing editor state, and accepts legacy v1 without model options. All eleven actual-handler regression checks pass. The real local browser imported baseline100/scenario110/steps400 and exported them unchanged with P&L342.94. File chooser completion was delayed by the browser backend; no duplicate upload was performed.
+
+Final package validation passes: 444 files, 573,342,660 bytes, 443 stored hashes and 963 authored local links, with no automatic remote loads. Repaired deployment and post-deployment live verification will be recorded below. Existing study progress was preserved; no online questions were answered or submitted.
