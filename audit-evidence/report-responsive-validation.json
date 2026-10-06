@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-06",
+  "local": {
+    "reports": [
+      "audit-report.html",
+      "completeness-report.html"
+    ],
+    "actual_viewport_width": 1265,
+    "document_scroll_width": 1265,
+    "computed_cell_overflow_wrap": "anywhere",
+    "passed_actual_viewport": true
+  },
+  "narrow_viewport": {
+    "requested_width": 375,
+    "actual_width_returned": 1265,
+    "independently_verified": false,
+    "note": "The IAB viewport override did not produce the requested dimensions; it was reset. Narrow-screen CSS is implemented but no successful 375px browser measurement is claimed."
+  }
+}
