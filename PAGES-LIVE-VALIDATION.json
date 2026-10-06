@@ -1,0 +1,3134 @@
+{
+  "checked_at": "2026-10-06T00:28:41.592352+00:00",
+  "url": "https://copyninjasicca.github.io/coursera-derivatives-offline/",
+  "passed": true,
+  "files_checked": 421,
+  "complete_hashes_checked": 385,
+  "videos_range_checked": 36,
+  "files_rechecked_this_run": 65,
+  "limitations": [
+    "Video checks do not hash or decode entire MP4 files."
+  ],
+  "results": [
+    {
+      "file": "01-All-About-Options-Overview/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "2c9c08f1b5ab0c3ff0e9a86a46d893c444b1644d4dd101eabf344ee1fe2ad532",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "01-All-About-Options-Overview/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "645378ac10fed221e7e279939bb3e1dd7d351f832436ec0533f3e4cee5109d6a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "01-All-About-Options-Overview/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 18264189,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/18264189",
+      "method": "size + MIME + range + prefix",
+      "attempts": 1
+    },
+    {
+      "file": "09-Introduction-to-Options-The-Greeks/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "c28ce81a2e3cab9eb1706924cbb5f6e4cc06947fb7534f07f5b9fe9f84535bf4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "09-Introduction-to-Options-The-Greeks/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "44d3ef8c14d157230d14d4c9147da5f42e5b31c3f851ab062a3350677febfa5a",
+      "method": "complete SHA-256",
+      "attempts": 2
+    },
+    {
+      "file": "09-Introduction-to-Options-The-Greeks/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 21662660,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/21662660",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "Open Offline Course.command",
+      "passed": true,
+      "status": 200,
+      "sha256": "40a3ca31a4d1d6d326062b789bb3b6ecb60c70b6098c8941053a644ffee61ad0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "README.md",
+      "passed": true,
+      "status": 200,
+      "sha256": "e8ea1fbf84f9d68656bc3b4b6f1c7523ab83482691b821e6c8c1fc06bc115a92",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "217e0a54c900fceab5a145c1449b62481d8d51a7195803dff06ac720854e4d5a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "app.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "cbcb50dce342b3382cd1d6c00fef76a2d486b2d05271240f21336c96ce6bb928",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "completeness-report.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "c30ad494efa53b0b5c996acbfc654b03b465be72db8c0b7e8b3e079f05a64a78",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "completeness-report.md",
+      "passed": true,
+      "status": 200,
+      "sha256": "d8db91dff2c54aa1519f9ecde281d74712d5520d10aebff42c5f645a619f7334",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external-resources.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "2c08c4fc26ca95d1db2b539d61bb882de46bb482e93816af1e816441a5bc4e35",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "external/cme-futures-contract.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "cfef64adfdd63ddb0e0d72b8c29c821890c2f0164efbb0cf37f0389fbbb6eb8d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external/cme-futures-contract.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "1cf8f5d092ef37dfb49e0d67686f69cce70539493a8b1c18889b72f9d91d5e72",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external/cme-futures-margin.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "fd29bf32b247176894491aa13331bafc4f28d3ba8a079fc3d6b4de82b5166030",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external/cme-futures-margin.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "b7fea99e37fceba51f9c88d3ce00aaf3fb191eb789a4e809eb1f16413836d7fc",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external/cme-introduction-to-futures.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "a6d57d25c50f197b51577adaade9194a7b62d8ea8df7b1938b1560aa0128647d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external/cme-introduction-to-futures.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "31fa49a18426cc897a1d614c1792c60790291b63635ee0411a3998b4e0a40f97",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external/occ-learning.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "dd7fa18dc90907a2c7f908076a3e37534e934820ba1064efd9635e5c2588a2ba",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "external/occ-learning.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "4a7bc5453cb6891e9e6470c5849702808a5eae5a2846fd1ad312449e038e35f4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "dd836a60babafa6aa6eb6e940202c46d6d697b9940bb7b30209f9d50e5784549",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "integrity-report.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "69c5bcfff463aad368362dee9f7560fa5d1bbbe5c0919d5616e45e7e2fb60c94",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "manifest.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "fcc904e8643e84b04accddccd0268a94a11560b3db2e442dc473be291e907de9",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/exercises/019Z4/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "3172f844edb7d1bac438d4e7540713652fd5dda1b06495ed9c9c6ab40401823a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/exercises/019Z4/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "f6380b290d68b83988be97e76354b727b17b154d30c5c5e3c9829760ee4053b9",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/exercises/V1PMU/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "ebd71a24c0bddb0a2f841a4650c1e4a5aad166eda4b4da1321e69a7979dcb2c7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/exercises/V1PMU/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "17f3b7f5098c3477dd34418add227cc0012a6798b2fff08a2e1da000ccf25a0c",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/exercises/dYzlr/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "766598ae994e28480c8c7e732bf16eb4804ceef84effadb575dfcad5d05c1553",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/exercises/dYzlr/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "1d0584c4298ce0639170ed0c9e4598655f832843571c251b2798ae3f12bcc785",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/exercises/jUVGh/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "4b1ee8be425055e1c13654f055faa3d0ce09c1276791085846fab9de2cff5d23",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/exercises/jUVGh/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "54a666b17d8ba25f76f44759964eb5ea61a24a98585d3efd75be0f9aedf9637a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/exercises/l9fxu/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "fa16ad1bcda3ab5bc656a7b3f1defccb1a2389bfaccc2052bbe9ff252df59889",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/exercises/l9fxu/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "27434692fc240faa6631696c1cec102af31ba695e72de98bb1872e3a3deea72d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/exercises/uhJRv/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "98221dcb615d4f0b23279cadf64263d0f0c1c7c385c8625f588af60a2cc82b2b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/exercises/uhJRv/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "dd27058527af768fca224058ca490c254b5e967819d902aba9257f46103b3236",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/readings/Q03sS/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "6975b967b7dee7067a1264265afde25717139a621e690ce65515933131fc363c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/readings/Q03sS/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "99f078a6e6e94ae148f7b520109a15ce65012c2d7e27a79ae4cf445138e2e3d7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/readings/Q03sS/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "11523cc13c0f0c75ccb83264421e48aaaf626057234a4ab6f4483bebd2e302f3",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/videos/IcgXv/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "d837d515ebb57a672bece49023b7aab381e482f52a3ebb7742159d325ac5fc2e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/IcgXv/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "e249d0241d86f2a448a7b0fc1f3fbde854a3ae43e9a84a5cdb9f9f5ce5ed06b2",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/IcgXv/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "34823aa4eaf36515e137c25bbe64a30c1fc2b2d539b9e1448d89e7138e3d6a64",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/IcgXv/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "cd34ab63cbc6a95af8cab375c897d5ab8fe4ae4a5f0e1b08875646a4619824ec",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/IcgXv/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 36157536,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/36157536",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-01/videos/Lg48Z/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "2b8c1ae319a61452479151bc0870f2f8746d5730e322381e280bc8082e126652",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/videos/Lg48Z/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "3681de1270b4cda91983384ed4e7e1fdc1f0083616eb15460606c51753c41447",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/Lg48Z/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "e471766986b55e089c753e8e26c32f7faa20b9d542e240b859a143cdb8644d2d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/Lg48Z/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "be39c57f61cc950af879c00adab823ea30e57902403a1b11ee221e40b3d84679",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/Lg48Z/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 39198379,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/39198379",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-01/videos/SHCPN/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "71240fee5fb3f0fe255c9da6d453e024dcdfec4125c652d8b2545659576a5fba",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/SHCPN/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "3785b2216b2cd9aaff9b0cbae2ea5a1e1184a91ca49357a973a693bfcf267dec",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/SHCPN/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "ebbe94e253c84d180dcb5fc644d6e0f629aa0813635cbb38c3bc05e9d31d1d5d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/SHCPN/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "10992fe2f9b2caf5debfc95089e9408b8010e459b9f6eb011bd549e3b74ad1a1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/SHCPN/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 59789387,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/59789387",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-01/videos/VKnLf/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "3119f7ef67e2eef448b1a12ce44e624250c871a7b1b262e0a5d6b04f932111a8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/VKnLf/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "72cdc0e35d4f3a30c21cb09235db4804f9dcd503a4fbdb3671f8e6d3a306bac9",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/VKnLf/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "3599f630c13b58eb91ccf3c6a83c9c4a650fb6d0043adb6f6e767964d0c22756",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/VKnLf/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "9486ec0cb53bcbf7eb976a3b6cf2a2545a9b96cea19286beb0fcab0e0f753024",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/VKnLf/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 30452564,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/30452564",
+      "method": "size + MIME + range + prefix",
+      "attempts": 1
+    },
+    {
+      "file": "module-01/videos/uZR67/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "f0659f8a5976383155b6b99ecafcde0e69838012721750fc71726007fffd9d4f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/uZR67/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "86043f7815e9dca09d1dcbeddd89e2f6a6cdcebd0b96d31b1b0b8bbda15f0467",
+      "method": "complete SHA-256",
+      "attempts": 2
+    },
+    {
+      "file": "module-01/videos/uZR67/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "2c9c08f1b5ab0c3ff0e9a86a46d893c444b1644d4dd101eabf344ee1fe2ad532",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/uZR67/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "645378ac10fed221e7e279939bb3e1dd7d351f832436ec0533f3e4cee5109d6a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-01/videos/uZR67/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 18264189,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/18264189",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-02/exercises/5O66G/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "5dc3d867fbf02535257227ccd1b62db565d12d06b74823cae9c0f9d0b6bcb071",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/exercises/5O66G/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "1f677ce03362b7f5ecfd73effa7eb2923e1843258bff40d32db53501fd7ccd4c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/exercises/bsiv5/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "d47abf13f63e3d339e1fa6415df2d67f4a28b73c44d750f7e15efc9655bdaed5",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/exercises/bsiv5/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "b5b7ca181196a1e3d91777905cbd6f5c8749af8c2c9362696b70eafab277ff89",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/exercises/dVSFT/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "931d1b9540b4500fe84e7b3cc68b6791054b6cdf1944fae28ed07f954671ddc3",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-02/exercises/dVSFT/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "b143992758e2b76c7cfa3d26889d639af5bfc6fc709b3bee4f751fd10878c676",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/exercises/phTH3/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "6a00a87ce4750516911f8274e2e62ff195902da6d65006ea9d4fd48dcd09eb66",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/exercises/phTH3/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "ef4671381ef32db0224b7bf736baf528097e32d6da75c2720060ed966a6fee2b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/55ncS/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "51bcacc88a04e5de141e64967d3a61b4a64aa05d0e6e1be4747c277e5d0e8dff",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/55ncS/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "83b324a75fddb862d9973ad6106e5e95fa0ed2bb90c3e0fee094aa38e17d238e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/55ncS/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "b19eb225399e2b62928022720df411897ffdd4d64f498d72b79b895c07d76889",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/Rnk8d/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "64788368442317f038c7edc11ff89b28a78150636dfee7536ed07a7a01604f77",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/Rnk8d/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "0e224f009068acd9c262d92d08919a87e8b3505dd3573e2a1f8d33a0dcf4f5cb",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/Rnk8d/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "752164afcff77cc6ef2bfd1bcc9fbba0a8c8283d4211ec49292cd3ddec20ae0a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/Yo7Er/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "c3346b04f1a80c7c9fa6557a499ded9e536d83dcc3feeec7de1ec3463436d1b4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/Yo7Er/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "925e44e90d658e1799dfd93317ca7bf91a20295808216f916141a65b76ef7d2a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/readings/Yo7Er/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "9df35395eda61b02dd9ca6a08cadd151811c4ac5a8d2d9c7ac462eb9ee63cc69",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/3QwcO/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "2d0a41ee8f6b498b6c1dd4327632129b9b6c219863d39e6681f8baec291a7ae1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/3QwcO/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "9b91c3405faf2fd7e9c94cfda8f01c29419b7dadff2bbc9a136c98291f0082ae",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/3QwcO/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "c28ce81a2e3cab9eb1706924cbb5f6e4cc06947fb7534f07f5b9fe9f84535bf4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/3QwcO/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "44d3ef8c14d157230d14d4c9147da5f42e5b31c3f851ab062a3350677febfa5a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/3QwcO/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 21662660,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/21662660",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-02/videos/4f6yw/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "ac1a5a7429646d627e34a7189b468e7dcff95d7961b7b4f0497c85066457b374",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/4f6yw/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "93fb52abe74fd8f492f717e310568678e096725bd3d2f095ab010b3f820c9ead",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/4f6yw/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "49a0dd606338e5fbb1ce0da620581dfb467e33493620dc4606107107618b59da",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/4f6yw/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "2434be078811b751e89973df9142c06fe405bf2f738c73c72df6d09a8bb173e3",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/4f6yw/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 21578171,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/21578171",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-02/videos/LxDKC/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "e3afb824c341668192d21e5ee9b81150ae8c3d1963e941654ebb42f42f622f44",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/LxDKC/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "a40b2afc59326a26ea38fce2e8f54f0d3e0e041399f0c34413f286fad5760f69",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/LxDKC/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "837177e339f084220ac7184cf8873bc807c6e0d12335278cb8760b246c611eb8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/LxDKC/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "8850fa680516cff9f7c1f21b5681406b6565e9e50aae32c9dc6e2412bea29e0b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/LxDKC/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 9887225,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/9887225",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-02/videos/hwwfE/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "4468981b09ab38737c502e33ff842607a19c765ef7205e80fab9091b00e8c6e8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/hwwfE/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "5a35920a37ada97648ff2563e600476f52edbbef39e0e3a1dce40b0244383c2d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/hwwfE/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "d7642fc27e5cc27d9fdb6e7ee18aad63e4b630e5a4b3b84a1965d2bfd5e8fbb1",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-02/videos/hwwfE/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "1924c2fdf6b4a3db153cb4bf83f7b5512eeec233ef35a26d0f2c021e44d2c264",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-02/videos/hwwfE/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 6778929,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/6778929",
+      "method": "size + MIME + range + prefix",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/exercises/1qHGj/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "64cdc985d6d62107502823fd6ff3b9ec5d0b92ea1756b668a34abd744c3b8564",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/1qHGj/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "1b2897700a81f1006d7822a32c96eda2ea28c07cc873f9e7702d8aabe0315039",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/1w4bx/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "dbf91622823a4cf2f48e4f5f7957a90c2fc541931cb9d1cd2178f275baecbf17",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/1w4bx/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "9698ed105f7faf031fb1bada4021d6ac1dde0902f28e5160a397b70f5cdcedad",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/8BMQg/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "d36c8131882215be4581cb93278413fef60f59df942652a2be71a40a45ce5b9a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/8BMQg/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4fa4155287b2335052555e85a201ca83968c9d6138760d2cab91345fffc2d1cd",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/Ae0Hf/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "6af4857b1f8eba0edb9a1cc610faeae20d000cecbb7ca2962a61eff9141089d6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/Ae0Hf/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "f5b1e6041f6a08401bc9d7328d0c7e24bdd1d5649dafb2f0d31c34f545f47707",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/KqZKt/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "e7105397e930ea4f1f4369cbbc12864c4ac7d6648c84f394ab5a5df33bee1475",
+      "method": "complete SHA-256",
+      "attempts": 2
+    },
+    {
+      "file": "module-03/exercises/KqZKt/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "b89ecfe0e3d84910a8359a867b8000e7175e0a9013c0662d7d2213141c7f8623",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/exercises/LmtfU/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "5e230f100ca263bc1799fb7465fd4d111fcd58d7804fe0ff9ea0472ce999a6ae",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/LmtfU/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "a0461be69b028fce6271eb0f353816208de7ae184975ddbc0a80963af5a2aa3f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/MsCT1/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "5ef451b97e22840a77d72ff20711413196db98439740f95cc0a28a73e9f620a7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/MsCT1/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "5f6ff9cdf7cc4dba46ecf3ab04e40e9cf1903705250bc04152db6c4e08b30552",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/VjaUv/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "bc6a7aa2b8cb192cd45e7aa4f0fb8aa8561c589d1b2482412b9068123378b1b8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/VjaUv/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "5506af5bcfe3eca0d01fdb8ba4c3840e49b4c3029e9164873bb4b3686ba24f8d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/qFWM6/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "8cf63100fcc928a863445f192a3afcd40e3b6044fa892fd131e0046552a60fe5",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/qFWM6/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "c48480c8b6050fb7fb97b0fef3ab5fa1b569c90ef86500af42d899a6c11c42b7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/tkww0/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "efe4cc5ba58edd6f056798b714add5203915b455afb641bbc20700391c6c1645",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/tkww0/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "51f770fa58404002593fb97c2ee3ab5330b79efc7f57c2ebf08edb0f742231a1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/wq1dm/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "1b2976924cd8d19babfae94c053f332eaf47977e21bfa94b87004c09a2df3e19",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/exercises/wq1dm/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "8d8871abe804523999da70d405ecbd0e67247bc530c563993b8edda6170a80e1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/9R3l9/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "b57b5129156c87b522826743e5916edf70cbb1a345bba0a7583b283dce56e530",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/9R3l9/image-0.png",
+      "passed": true,
+      "status": 200,
+      "sha256": "672235262cad4b6a0823430b4e5a260ce15de09e899d09bb1047aca926f6bd9a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/9R3l9/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "f12e9a07aa4a3be2d38fd4248074e6a658a45b000130446cfa78418b0f0f292a",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/readings/9R3l9/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/readings/AJzSB/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "231ee28d4c8f1a0b0bbeb9303d01acc3ebe420b12ae55db25b79984eefd10cff",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/AJzSB/image-0.png",
+      "passed": true,
+      "status": 200,
+      "sha256": "80b52d3629c3168d0a088f45916b0955f6722f184f503de2ed31c6f83cb7993d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/AJzSB/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "c0a150d90c02095d64cc21d89062c4990d14a20840e44c475db3f9698dcf103c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/AJzSB/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/VmHW4/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "3c415a44e668f201eb81db9cdf5fda38b808e3812daf9109304e999bf933e75a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/VmHW4/image-0.png",
+      "passed": true,
+      "status": 200,
+      "sha256": "db769bac702d39e1a8bd9cbc4b7b6e936ced48dfd6185d38a7290670e00ebfcd",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/VmHW4/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "ee0cd96447240ab6114ad7a94736ee7873d4ee783084107e49d320f4b3f584f7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/VmHW4/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/dKqe8/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "c84f2eb1115f8af8a176ef2052ae6654cb56513fd464c3a16db983417c6f7afe",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/dKqe8/image-0.jpg",
+      "passed": true,
+      "status": 200,
+      "sha256": "a6c64ed6aad9204f78793f2636739a526626b664724faa80cdace9d332d8961e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/dKqe8/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "c17fb290cc228d2168334dac5a57eef583a3a194a345136a5f003abd2237a71d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/dKqe8/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/ozbIu/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "23a2da1536e2381fae136a771cdbc8b0873e532e6275dd8760e56dad009f16b0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/ozbIu/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "2f6aece18cae4bd2e29937e6bc3a5f4773b47485593ea5e077888bff486a0fe5",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/ozbIu/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/wHWtW/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "f8f2b4fea5ee5d7ba9f8a7a4edc7f8db9d2afc2168dabae12272efb5ca7d10b2",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/wHWtW/image-0.png",
+      "passed": true,
+      "status": 200,
+      "sha256": "f6724e675a0837f9d499578c5f46ee0cde8655288f6ee9fb4b0cf19e71fc4ff8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/readings/wHWtW/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "afb4bddc24496985f9f506493f9fbbaebc6c141bb75fa6af30594af1c2867013",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/readings/wHWtW/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/3GcpZ/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "5ef7b93560dce74542ccd9199c2a12b730fa2f04af1d21443d93f424aeadbab8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/3GcpZ/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "8b3d482b3404d0e8f556997dd96a6c456197f9fa12504a3fa9fb4a63a2f79fb6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/3GcpZ/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "f222a9813013eeff76daee944deaedb6aa84dea999720d5181f2b4ee0c7ed0d0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/3GcpZ/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "35b05f92ac74f997c3f029ae0f82e85ea047d5c9f9d6b99c80642a0ea5078936",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/3GcpZ/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 8221740,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/8221740",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-03/videos/4115z/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "3b966c7422b6bffaedf6a97928c51fffb5713d1651cf7ff893151e943f2329a0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/4115z/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "b9c389c30db7b1cad0dfc5d186ac33aa9d278ab48c1346d99ee195e42d1d7226",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/videos/4115z/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "7843944d2cdcb3ae1c5a4bdd5a7749b9a73c1ce1b3feef6377ae4d2d5e417240",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/4115z/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "5a2313f4cfc7a0b037c33fe0a0dad4c5282dfb7cab1b29e60c4b109ffbb23f80",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/4115z/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 8646487,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/8646487",
+      "method": "size + MIME + range + prefix",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/videos/HR8xQ/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "435fb67207187994543b576b1d0bb60dd416bcb8305beada75dfe0eb10e605d8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/HR8xQ/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "72e59d8d2dc46534b628b6132fbe9cadcf08e15f954b9211af56dfe841a264ce",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/HR8xQ/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "49b96ff59784ea6dbcfddc17fa1cf1bcfd91b54af51ab96d042c90a3e719c706",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/HR8xQ/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "8881d6d0588825e4e48138734a2b5259ebbdc21bd8219a4da480874c250fba77",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/HR8xQ/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 5048562,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/5048562",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-03/videos/JLYGJ/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "74fec9c64028b7c230515a7be82bbf077144a4c0a3ae2e6917ef44253a151ef6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/JLYGJ/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "86599a73b2d5549111cb0237d2752f494c9cdad2ca74a58f33f6b40dfa9f53ac",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/JLYGJ/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "fdae6597338ccd6e3fb9b28030820137060f768627d52fc03a6634040fe806d0",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/videos/JLYGJ/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "5084ea7f7bd3201b2f0ff3a56d5efa65e9938336d44e8d9c30e23b7db69b5fb6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/JLYGJ/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 11971430,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/11971430",
+      "method": "size + MIME + range + prefix",
+      "attempts": 2
+    },
+    {
+      "file": "module-03/videos/WWhws/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "abffc7abebbf005f6d7216ac17afda6e08a8683279843ee79db901707b28f583",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/WWhws/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "8ff689c2be4f14501f00874d0e4b9217b5e6add10f3f2c4e6450af1560f8d333",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/WWhws/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "e80ae683f6b9ecae1c5e98c0a9175394fb3d531f9a41d9acc69cb629b81c6dd0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/WWhws/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "5de58d78767b86f6132bbba7e1b694375efbdc3a379387dba153583f32ca3d82",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/WWhws/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 11335808,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/11335808",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-03/videos/ZmnOU/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "50317746d600398ca3a2cb9ce3d128c8a541305629491d4cf68e01ff39574d06",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/ZmnOU/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "9a8d53f89b298bc39e63322e6b7395671a1518fe0bd78ef385303910b4e882f4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/ZmnOU/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "67afdf68d957422efc5055ea3b63d909e1fe1c9960dad77283b96928c853b024",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/ZmnOU/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "42f89e1837e547a1175f9cc46089d3cf7cea089c2c29dd26d8317c67b8225d52",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/ZmnOU/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 4708826,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/4708826",
+      "method": "size + MIME + range + prefix",
+      "attempts": 2
+    },
+    {
+      "file": "module-03/videos/cdneB/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "d827713d09ee74887555fe10fe7263f8c03b8f1d73c3ff9458c5d1917ba41dc4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/cdneB/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "a91a555d4bba638639106efeaa5a3f31f302bebd4dc804ec2e6912d54282bf89",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/cdneB/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "cddbdf082a3b7def84ff5c3d4279f65f827de3295098b952718e69d34289935d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/cdneB/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "3c15c7fb398c95330ad0245fac6a996d438dae008c2d00ab9e93c14d482ceaf5",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/cdneB/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 8900330,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/8900330",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-03/videos/cvjFE/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "6dddce36fae250247bb9890662b78191c4b09a37fc5e4690d05cc17bc88cd659",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/cvjFE/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "bca1b358de92e227724f1ea85cd9d8e1e9b773d258967e6527d41ef6d9171a90",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/videos/cvjFE/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "6b869915d35d55b68932ec95676e776e7ad13f69892467dabcce74d3eb2b1546",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/cvjFE/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "0ceb7585be7a004a3e01157051648801746fbb159253bcf0e08d3017688c16bf",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/cvjFE/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 8625342,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/8625342",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-03/videos/njhi2/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "af6055b63b754cf141b05a3f599b76db2eea13b1bf08a351eba120853bba2d51",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/videos/njhi2/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "f50a71c37aff9c1fb545bb4f748c61018df8b4a1c562e030d1f8e03c08c53fa2",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/njhi2/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "8f0f4b4c9e91bb7ad8a496e136fd5211295d2c21c6a559d1559837171b192ff1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/njhi2/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "17258a493c37140646781b4292b7ddf3d73d1d745c666766f2dbf0835c445c44",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/njhi2/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 6086838,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/6086838",
+      "method": "size + MIME + range + prefix",
+      "attempts": 1
+    },
+    {
+      "file": "module-03/videos/qp12Y/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "4653911e0b919fe1b773a996f96edf20948a5e9932db8c8f95c29b20410f47ba",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/qp12Y/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "bdd7135fccb8aec4994376aabe0464adcfdd418f3bf7c4096df62a7d921fa75f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/qp12Y/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "c397697c6e86e3be8e60b9520bad27ceead830f7a310a85f7a3caf7c2814f34c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/qp12Y/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "3bb0d66f034541fe7b5144b49de2cccbc0e514ca4931753d0d2732e243663f2a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/qp12Y/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 4378302,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/4378302",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-03/videos/sQsPT/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "e1c7d63960c60d70be916a0b6420e216f3d2c94ff20230dce890f3df83d9293b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/sQsPT/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "5bbeba499f74319d8fd3ff84b4d0b5901524eb3106bf380d523d9ec036ab1738",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/sQsPT/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "832b9d61e5aedce11f294d99865effe93ba8222516eac10bcd0ea7924f8f093e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/sQsPT/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "73d07192b67af25aa427c79549313b49092037c5292cb5aa107edd9f05787f1a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-03/videos/sQsPT/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 4338960,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/4338960",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-04/exercises/7NdO8/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "cf7423380a1d90ab248669a58f033b43495a17b873bf250f1ace3615bba63981",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/7NdO8/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "3b98f524c2f5d631c693124c967b2c21fa07c6f9c04ed906ae9dcbdce73e9fcc",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/Cw2j3/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "0539ca4e630f67ebcaf60985bf97bca3e2c415ffb98cc6a4acf1fd637b73772b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/Cw2j3/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "a1ed908dbd585845f1cc0146f3a729c1114a95f67b10b42572951ebd969e4418",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/GsXCw/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "fc7c7ebf95dbb4215af099a947b6b3b6df4e84c857638f0e06803b7d97b4f069",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/GsXCw/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "f6c944296c44e29828cc081cf1b3c5c8e9ae6d18a8f94faebca86f5eda88cc27",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/PYGSP/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "eb229d66c3f9b55330983d356829a331b080a5f7981eda862cb19fc214b5dd18",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/PYGSP/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "c322f327290cad4b397a00ef0de14560a342c3c98e65a4cb6e1efc7630ea66a4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/zyzIS/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "f222ab9faf873d8b12f81d5c229aef15df51b8215ee82759f54b8304b06deefb",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/exercises/zyzIS/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "f502262ee1d80fc8136c34b7ec58711c55290f7d50d2a6e6f789df1c43bb4867",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/Oq2QV/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "57012c0bdcadb4ccfbd1cbfea1ca11443b885884bc4c58dacdad5bbffd1b2cf8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/Oq2QV/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "abd55761e094b9d9aa70fff7f6291ad0b9b4366d32dae96463b25197a4e8d19f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/Oq2QV/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "f9b4df71f000161f3c9f6029d79732421a33cb4478f3aebc028c9ed7144afd16",
+      "method": "complete SHA-256",
+      "attempts": 2
+    },
+    {
+      "file": "module-04/readings/QAbaO/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "040985c7aecebda54dc0c27001a9a67030f7da97ea01048bce3a6d27b52e7954",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/QAbaO/image-0.jpg",
+      "passed": true,
+      "status": 200,
+      "sha256": "d9dd097dd2956ec82ddc5954fe4cdf739df74e740a0ab4622df13da82fe67971",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/QAbaO/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "0688e7c89e658bcaee3f8e7b13ad5f0392419a2c0f23f78781e025fbf84d2c25",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-04/readings/QAbaO/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/pwE1L/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "9422ff87c97aedfcc25c55d92f9118b6f3a15e41402bb30126b595c531e5f7d3",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/pwE1L/image-0.jpg",
+      "passed": true,
+      "status": 200,
+      "sha256": "60d0518d6c8c0d91720694f86f40c6579375f43323e174bdd0c2b3e91f4ce8f0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/pwE1L/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "54cc6a4e2bd906c240a974a3136e158fef14a004840469579ae296b85b3cf058",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/readings/pwE1L/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/AcXHU/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "6e27cde80d9a4371e2418e97805ac8b5f85b90f66624f4eed9c4867ac43ffb32",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/AcXHU/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "924c2d29dbcc6b436449123e1af3af327c248b5440be6951f71b15f30f3ffb82",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/AcXHU/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "cc3e4edc2b31819642e9478cc94241c75299e979e28586f6efb381334c45292e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/AcXHU/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "b4a2158b8839b71c56c1c069f0bcf4d76db19d753a5f583ba5be6bfd7bd21577",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/AcXHU/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 4932513,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/4932513",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-04/videos/StcFu/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "ac47bf625f9d83cd74f7be16ddf670fa7636f49a1806cef922cdb613f7145e3f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/StcFu/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "47111fe6495f60974a2b2def8f56ec950a4ffc9f799d4ea42218adee6e10ccd8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/StcFu/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "3cd3e407f70705bd15475bdf3ac09e21c161f403b1c056299163b0c10e074501",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/StcFu/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "a40db4b3a6afc76f67ccc3413e91b84656b8c24895435c487429fdd98d1394e8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/StcFu/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 10578223,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/10578223",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-04/videos/TWCPS/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "ed5e4b9f8342637889a329496d9c3c1fce62d8fcc8e4c8e23b054702d4d7b06f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/TWCPS/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "bb858d1d9d35bc88f79d18a91cd47b74df858e4096de801145a49ce661aeca55",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/TWCPS/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "708abb3aa32e2d21f10ee4287647285132b1a851c63a3f8920391689bb0dbcb7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/TWCPS/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "111c24dbb1e1ead21b8d4731a6211349f0c8217e113ebe223996bd03f7760a1f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/TWCPS/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 5222889,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/5222889",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-04/videos/vrw2z/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "f793872559a87e47c63b01703e6d90ddd722167b4205726d08d264243bd7a0da",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/vrw2z/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "50d6cc4bf08797a42ea612acd86b7545d1a064fa3e2d40bb8e194176c7f2ff2d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/vrw2z/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "10448af0ebfd1b762f8b73bbe5e11c6df9385c7f4c8f1df11e2cec98be707ba9",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/vrw2z/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "9f8ef56c13c841491973e50e83e5c336fa2b8c5519ca1ed0777b40a1b044c87f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/vrw2z/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 11167206,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/11167206",
+      "method": "size + MIME + range + prefix",
+      "attempts": 1
+    },
+    {
+      "file": "module-04/videos/zrZ3Y/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "178cdc096874e9bf933a0c57dfc6c19923238b7d33022b64abdbd4b524d2e63d",
+      "method": "complete SHA-256",
+      "attempts": 2
+    },
+    {
+      "file": "module-04/videos/zrZ3Y/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "6e83c9af9b529396e8a15a68889485f8e1d11e342d131cb76bfd885504bedfa2",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/zrZ3Y/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "b6bda58750e99e605c046ce479ab6f12e77638a1c2df23934820d4dfede8ab9e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/zrZ3Y/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "6d9acc8d319526176d53fbddb6780c7fea40381d73d5d329b94e38c74128b309",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-04/videos/zrZ3Y/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 10666119,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/10666119",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-05/exercises/5lIrj/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "760b82ab57d706a9863ff6b5ebc4071cf1675fdc7e362f9af3edac3a86941c91",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/5lIrj/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "41760a4f1e6fcf36e181f42786e433078026e03199ce6e91186dd6159f24d25f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/BQLZH/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "baac2a6af92aa7d24804d7003168be113aab7c3e585078103a0c28f05a1f3828",
+      "method": "complete SHA-256",
+      "attempts": 2
+    },
+    {
+      "file": "module-05/exercises/BQLZH/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "f04f8f5ad8a7b50bdad310c71d4e6701f75beaf124bb1e1df84a723a81b44c10",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/exercises/Nh1vl/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "f2504d77a6cd79325296a0b004e00541420e1ee01a7d683cc0b50e8b00332053",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/Nh1vl/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "161fa902cff8f5940c8fb6ffb194b200d82beb75a98eea0287029f6b12e6b39f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/Nj1tb/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "6c50957173e8de0c7ff74db7aa354b0d91f79ff40986a15af57d8b6cc1a5bb35",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/Nj1tb/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "3b84ce33f7ac7323578876f88ed36e95135e1e3bc55632ec241b97c8af4ecd10",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/TSm1T/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "80ecb5806d2b44141004cdc3ec2e228506cdaa98f5ff3ce202fbe434969e6e79",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/TSm1T/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "d3827e89e53d1ed36916e9866058ef34c890e43490d0eeca40c89fba7af7639d",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/exercises/Y6qan/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "a82a403eac528952907f75c4a39629e027af467079996b06c0f5cd4e7b490515",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/Y6qan/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "1c8f0116cebf125498cc8d3af8a90513b1236c95d2c03fcc27a5ec70cfc106bc",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/ZR8FZ/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "551c02d956385dd14507b626584816cf189bf564d548875eaf20412033b570b9",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/ZR8FZ/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "3ff072fa4234ae20180858d7891c667d550d9b794bf723e3913c6a8d328cc46d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/mM2bU/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "bc2f0c9c0fa9c0f4e0e8e9973fe7d25619f66d2826bbe44c31b9155b143d5e91",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/exercises/mM2bU/questions.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "87108792d5af062affb2dc821a8601f4b98211f9d65a51ff79bc640e32a498ac",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/readings/2AsvI/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "1b5a1980b5d0523172adfeda052da77ebb584c1ad84fa3edd17155d70fba9a46",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/readings/2AsvI/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "3022b48cb66c7443a0a5125c329f6e70ef1e268c4d46b20245836594281a6785",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/readings/2AsvI/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "adeaafec86da8e1ce3916e2a1fe951a2cb0d0a45a199f77a0b7ef1ef43e7359e",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/readings/ZwdJE/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "9970c36479d398ad17f0ab0cf3f776ea0aebac70a6e43dc169ea40feb19c3df5",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/readings/ZwdJE/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "5b8ea1f7c63803a6c79ea9abe0d123f27ee2d892cbb425407420224ab824ef44",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/readings/ZwdJE/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "d46cd72feb0f717df40c3e6bf54d9bb8b3b903f029d7e71d166078b96b141aec",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/readings/s0n03/content.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "f3c1efd8ebd73f8c16a195258fed0d03f20732cb8c30afa64cf53edaa7d94915",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/readings/s0n03/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "5db7b9419652ff14de69f0c2f1ca80a7b90f7944910fd1c77579934bee3b7923",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/readings/s0n03/references.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "6138958c6289bb919e558c9fe6206edb96e41996e57193d21e0904efff1ad393",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/1Zhmr/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "f4db55f0552178fbfd9c4f58af8da26546c927b910f13b6a69a25807044ddc18",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/1Zhmr/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "ceb7a8f36bfa7b820e063d6a559271d963251eb8ce1e186e7d81d008d66447e1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/1Zhmr/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "5ebfa58b3da27bdc1131944e1683f798fba99ee15744ed74fcc812315002f216",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/1Zhmr/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "f59ac24ce40959de43075d5185c1b90fffa153da2bc4cc32afd6bee4a0f6fde7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/1Zhmr/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 11470966,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/11470966",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-05/videos/2v5yO/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "07afe521cd60c3c562e286be7c4744b209c1ae2fc0ee1671a82bb9d095ef716d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/2v5yO/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "38386f7ae6a8ac883909d4d79c183911505daa29ade533421e68e999aea81ac6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/2v5yO/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "2bdb871cb88bca7ce77fe066f3b1faabc29758f908e886f4e29a589b6980d462",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/2v5yO/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "b80c815ca3ce64cf97752fbb33d8ca63dfa5841b2b1b5dd1b8544c4b165a10d9",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/2v5yO/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 14089967,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/14089967",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-05/videos/5gSxC/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "47293bb5739ca4980f8a6616aeb0223db23aa698e5bca6333a00f7034809de4f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/5gSxC/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "e62388839cc4af8344a86ed722970b1758c79bdc6c163d7eeab06c6482a1e589",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/5gSxC/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "38f9ef83665c57a6ed320b15d1e741e0be251e9b8300d5edd95747345b3bab9e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/5gSxC/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "8ed1948af24d889fe5d050222b0d0b06fbb26b65f63375296987dc30538f56b8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/5gSxC/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 18619260,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/18619260",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-05/videos/Q9QET/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "cd16edc944cb9c91f7c0d3bf611634b8c44ad74378afc22ee628e5fb99fffaf7",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/Q9QET/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "6497cc0ad4540414f2aa610f516b684486777d6f3f41568a85a242fcc8b28633",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/videos/Q9QET/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "f00b6c98d1cb832486e6c1f936837f86b917926993f085a6d4dec9f9705f7ee3",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/Q9QET/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "750421da93519dc14852f5be005138df9656e1e15759dc5f27ae6fb8a79ba8d0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/Q9QET/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 17466392,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/17466392",
+      "method": "size + MIME + range + prefix",
+      "attempts": 3
+    },
+    {
+      "file": "module-05/videos/dKPvw/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "90a197195c6c966ecf296cca0bb435ce6f34aeb561cacef73db8ae7ec7ca6498",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/dKPvw/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "828423dbd594fcf573a2889b8843cf737e4001095118acb5dd938e201a6d2192",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/dKPvw/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "6b2afdce75b6296561d7aab8aa2a499361d8ae2d9008d3dd9005a256f65df4ba",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/videos/dKPvw/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "bf53b9aaa71069c4c3fb907655d08092dbb32fcf5a1933a3999592b811836d1a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/dKPvw/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 15720591,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/15720591",
+      "method": "size + MIME + range + prefix",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/videos/jNuPf/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "4e3271b35b4abecabe84b9bce959c409aecb25e59bc1d83c812262cd6b9b779a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/jNuPf/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "fb183860518e46e6a49f61adae51d306a863f776e964144007ad9de95102936f",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/videos/jNuPf/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "4a606318899d9ff1d53cf3f9754f3c2ee944062e6c78618fa264a54aabcab603",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/jNuPf/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "263dbf8e4e198ba646a09bcb9693d1412983362b6ba7d0ac5d431411be25b54a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/jNuPf/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 17127519,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/17127519",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-05/videos/kMSPP/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "846b219a72964829e60a734e46ef271116637541c795fb7eb0648ec898ee6578",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kMSPP/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "3144a425ec7e7e10def9b641611a5528317bc151eefbcbe17d613703e6a42e91",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kMSPP/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "27c46acc90a7bf4e488a9164ba3d86dd5a799e641a154cb68874803a7600dd36",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kMSPP/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "70b877cfee170077f2c479772ba76091953a76a6ca8957b87b1339d9fd9d4ede",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kMSPP/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 14699974,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/14699974",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-05/videos/kbuOV/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "218f24ff88b1a5a911c052c7763331bdf771b83224e9d8b47c28a2cb7b7a8655",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kbuOV/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "2ea3ed2b48c2031283c2a044d62be743f1a64141d7e24eb66df9ebb33bd01899",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kbuOV/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "837aa035c5a71897a10ed8ba759dac188c273b230f494f0018f68d3e497d0b6d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kbuOV/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "54634aad2740ff03e78a9147aecdce0e24b48b4b51b6a365f41bed9efe9eda76",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/kbuOV/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 12273112,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/12273112",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "module-05/videos/wDfmh/cues.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "2cdfb6a14ba5a888c386543fa4255005ce335c4bd3a647d7e7a543cebf10c7dd",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/wDfmh/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "c3cf003e1e63781760265e7244bba3fda647a5686c01ac381a672439e9692b0e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/wDfmh/subtitles-en.vtt",
+      "passed": true,
+      "status": 200,
+      "sha256": "0b3300cd46a35b4a6658e9859484e98a63c81e8d515b075df34ef999e4eec15b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "module-05/videos/wDfmh/transcript-en.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "91cfe13e9e9e14e0a29c9be79a19b14875768a9f092cc71511fbd8903493604e",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "module-05/videos/wDfmh/video-720p.mp4",
+      "passed": true,
+      "status": 200,
+      "bytes": 23266231,
+      "content_type": "video/mp4",
+      "range_status": 206,
+      "content_range": "bytes 0-1023/23266231",
+      "method": "size + MIME + range + prefix"
+    },
+    {
+      "file": "oic-original/american-model.md",
+      "passed": true,
+      "status": 200,
+      "sha256": "b8193ca5d35afd77abb0eb579cf607ac6b7411abdbf42cf3aca4d307c912be4a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/american-validation.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "fa204b3e90b1272f50d3475460b2fda7b4ae3b40b4516e68b78226c8e8fae37c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/archive.css",
+      "passed": true,
+      "status": 200,
+      "sha256": "91f4f86d0356a3e0a9195d8bf9fc453279dd16f713d61c65c3aac9ccf55ff828",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/browser-validation.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "109cd6ee1c6247092f3a20b2ddeba5f09eaa4b26148c4e12909d05f97524b3c8",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/comparison.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "b9580fd8b7c41e8211100eb378bbb26366dbd021db3d45bda8e40e46cb89cb22",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/comparison.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "919fa1d7e9a94935b7ffd200fe6871ae9b1ff02392d16cf6f2939eec762e5290",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/directory.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "b9683fcc371d3875745945ef6586183db979d9e60ab74fe47f9fe0d791904d4b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/historical-and-implied-volatility-new.pdf",
+      "passed": true,
+      "status": 200,
+      "sha256": "303f799b9e8012bcd57ebfdcbc21b82148ac870dc2c0b199cb1780fbaf5d0cfd",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/historical-and-implied-volatility-new.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "c6f5a45653e5cd74563abcbc482d8861726110c1941be9e429e96dbe1707012a",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/options-calculator.pdf",
+      "passed": true,
+      "status": 200,
+      "sha256": "0be7cd650ec212e6363c3a97ec98fea0de89017b46d34bd5965fd7067219363a",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/guides/options-calculator.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "7a113b6ac89e173362bef4d4279371f5053bb1d6a259943a964f24349df5ade3",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/options-monitor.pdf",
+      "passed": true,
+      "status": 200,
+      "sha256": "e1b1ea5770af4d14a51c00ed40da3c71e104d3e64a24b339b57d834174f29855",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/options-monitor.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "f3c1eec98a352912c5410e13eba08b0c1c24523642cedc0c11ee535660d3cc0f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/pnl-calculator.pdf",
+      "passed": true,
+      "status": 200,
+      "sha256": "011027ada7e052efe582912bc8233e1168a95ac910f23bfb480321b69679328f",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/guides/pnl-calculator.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "bbed3a1147d07dbefd01d7d854b7c2e8f8c4666754fddaba54aaec031bf75639",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/probability-calculator.pdf",
+      "passed": true,
+      "status": 200,
+      "sha256": "4b2a2adc329c6724bad7c3d253dde7edce9aacd9222299033e4a56bb9e4751b1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/guides/probability-calculator.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "2a9875741e2cca3ece30388f5e2a4fc01d7b55bac261cfc767af5840dd1e847f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/historical-and-implied-volatility-new/description.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "87541f3b3e2febf26de5a6121ddcb288c2476c793c31dc9e4cd1e5a9ce149e27",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/historical-and-implied-volatility-new/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "d52440e2ba9907b75d48205f8a15283beaea8e51a35b0806507a033128671c67",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/historical-and-implied-volatility-new/online-ui.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "1f60f1a12102d0b8a1bc191f5bda101b9976471a08c4ed4bb343507b58de89d4",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "c411b50727727c77ef78089adeea1971b4328e54e5f649c9b3393ffdccb1a24e",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/inventory.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "cde26757a03a17f193021a38f877a329a1b9af13763ac4ed38e98f768634f288",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/125.f5b88beba58bdb2c.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "c9eb8b6134cc6a3f9d5961a5be8ee34e3906ebcc375eca6b9eddb40ee97ac1d0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/42.eb4de08caf6ce22d.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "e2567df910e8178b29370a1f738797bc1e6ad3336ebfd78b1f49345342d4d679",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/80.947d411d69b879d2.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "80a296bfa7f568b211ee8ba18ef15f9f73de2abd32112eadb32fbeea2fe15e00",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/898.ef4c03d733bf199d.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "be9c2091e3afd77d9eff6e272df6a7bf0bbb7e377f61bd412bbe5b49f6e31725",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/91.ee3c670cc52b4531.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "c4d93a60d44368e1fe60e9d2a5f4ce1be4c8cea15e20b77b6560464cde91c445",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/ivol-app/chart.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "48444a82d4edcb5bec0f1965faacdde18d9c17db3063d042abada2f705c9f54a",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/ivol-app/charting_library.standalone.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "6fb887ce0dcd7873da95d9b11e8ac00b77e8f12e2e90a914fe3449c4dada9139",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/index.source.html.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "6db4ce1292205bd71b0470255e49f135c71eae5c189c70dfc4e15849e473f540",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/main.24fbe1366f1616c6.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "5b4fbe58711ca69583303dc1b5bf31c720fa826054009acb19705811c24cdda5",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/plotly-2.27.0.min.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "679a0fbd1ca883c81289ec5b3bdd83afe18fe4167d32858e99fb9e7003279655",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/polyfills.a0da34be25744a57.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "413e7d839534e9a5a779cd26ea1b8b75eb6b97b441a09ce0bd73dcefa9b5dc88",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/runtime.a6bf2b1d349d6692.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "9b6fdc326000bd3f1ad2fd15a42ee2567e09298858c37f04070b0aee094d14f9",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/styles.84acb39969822573.css",
+      "passed": true,
+      "status": 200,
+      "sha256": "160d417d8a65e75a33e2d3f889d1f9323b05f574f95e9ca0bc286134636a9204",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/1b87d10585c5fb87.woff",
+      "passed": true,
+      "status": 200,
+      "sha256": "6f41acc465a5d08ecea1f2796fc39c04b5bc3d9dcddfea331d70cbd7834aec71",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/3033f51ebdad2635",
+      "passed": true,
+      "status": 200,
+      "sha256": "d2ee2f62e7fe361af13988b116dfa62c38606e1ec5b8d2b2f9b1dd122324e45b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/41bd7119c4c547b4.css",
+      "passed": true,
+      "status": 200,
+      "sha256": "160d417d8a65e75a33e2d3f889d1f9323b05f574f95e9ca0bc286134636a9204",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/4b666f57431e70e9.woff2",
+      "passed": true,
+      "status": 200,
+      "sha256": "84987d1827022c63c2caabe78fac714fd0c51e173fe38563e57c3c68e9da2b1f",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/84dcc96a2df091ce.ico",
+      "passed": true,
+      "status": 200,
+      "sha256": "04d8439c0468667e049f902ebba98788b3b4c82128f8d325beec85ccb1bda5f6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/b86a2057e4cb7961.svg",
+      "passed": true,
+      "status": 200,
+      "sha256": "be5e84321afd4dbe54a6298997d13664027539270771d454a76f177206615f44",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/bbe2ca1dcc87cc96.svg",
+      "passed": true,
+      "status": 200,
+      "sha256": "6932d4acda203e2ea0e53b9b0d15f7d0ce1c8388dd2945d06b8c1975ddb384cc",
+      "method": "complete SHA-256",
+      "attempts": 2
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/c375cb9581bc7684.svg",
+      "passed": true,
+      "status": 200,
+      "sha256": "26af6dcf49a6ad70169683c5c94ee2542412cae04529e269ef0e49d1dbd5069e",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/ivol-app/visual-assets/ceac2f2dcbba0de2",
+      "passed": true,
+      "status": 200,
+      "sha256": "6f8fe41015e60424be7f910fe536c2dba01f607cb6dc31587eaf13033783bad0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/online-calculator-preview.jpg",
+      "passed": true,
+      "status": 200,
+      "sha256": "130cec76de2d95d100db4395a67e9babeb0ea0d05488bf843e3083e831da239b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/online-reference-cases.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "05eb9b6e60cc2d153bbe8228fe2f19c1583ec33e8fd1433ecc04711bc1d15931",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-calculator/description.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "402502de7f0e19c2274b109cfbbc3ab79d5eb3f2324c4549d3067672650e1fac",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-calculator/implied-volatility-online.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "21bbedc1781233f3c46143d94794de6a58d6b3079e1b49c47b2d9293bf08e17e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-calculator/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "0a12fd302db6df35794bd588b5d333c83885940c732b8d1099b5e1c468276edb",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-calculator/online-test-dom.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "5998996cab7b1fca11bec236130ef36c95f285276cc221aac97d9f484bca5c8e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-calculator/request-parameters.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "55a99206763bb099c326debdb7859675e2a28fd491893cfc45879ead256d84a3",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-monitor/description.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "cf4abb0f4c00554468b238016ebd2f3cd9c8b335afb1eb614233dc42eeeb4821",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-monitor/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "88cde79e397533be357966f40eafedeaae272b203290d09d199be95e51eb4226",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/options-monitor/online-ui.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "e982a3c23efc824fe9c8952dec6c50319f20754b9148be04093e7b9531b2b14d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/pnl-app/index.source.html.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "23c276c79fa1bd5853f9446d83bb8bd34757734491136884765a88e088575323",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/pnl-app/main-KHXKKBIE.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "86970b43c1046754eda7889afe7afa98765e7811d17bf07683b29ea47873c043",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/pnl-app/polyfills-FFHMD2TL.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "69dcea045643dd0de998a3cd0ccbbb46b46bff2651a87a56c73c28eb208e8f98",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/pnl-app/styles-EZGQV7MU.css",
+      "passed": true,
+      "status": 200,
+      "sha256": "7edfaf69a0e3b049a28f8429b877d7a3b925f31b816ab9f490311adb932bb35e",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/pnl-calculator/description.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "2d5a954ca9266fa2d70cfdd8cf53cfd55d164c338a961076fb1488912c3db9a5",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/pnl-calculator/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "022068a531c461c6fb1e26d37c1e747170403fff0d6282927700794fbebefd37",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/pnl-calculator/online-preview.jpg",
+      "passed": true,
+      "status": 200,
+      "sha256": "4d7c2281505e782accdd61a8d3e026c76a15f777abecce1a7f9abf81deef1423",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/pnl-calculator/online-ui.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "bbab8cd14e6db91b92e71e0fd4808fa5e30d405209cc437776bb65d421c99935",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/pnl-script-assets.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "508e0e6b4c77fe20470b5d00555caefd3ccf19b33070c8aab0d1f5f8561515ac",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/pnl-source-review.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "243a1c4c4380a8739024c8e558097a0a33135a88fce75d60a9fce06bfd641b2d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/portfolio-model.md",
+      "passed": true,
+      "status": 200,
+      "sha256": "f1de0052c1db93cc23be5647aba1fd999a1f03fb3ecc2a11e6766e0b6ae387f6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/portfolio-validation.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "399948b3a8fccad4c8d9c64cb5bf9d56146c861b670266c6fc2e15bfffc2c611",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/preview.jpg",
+      "passed": true,
+      "status": 200,
+      "sha256": "296ed161f1525eabaedb7ba67f834a57f48f95db3a6c2ecd7338c6b67d93772d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/probability-calculator/description.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "3f940aed104cea40baf7ab6c643b5c984b4ed53c4bd320bf35779d0aa2610a23",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/probability-calculator/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "300f24c04ff02f6fe5cb6e5b2aa22a2f0350d460c12df31c40431e001bf43175",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/probability-calculator/online-case.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "a7d9700e4f45747cb2a89f899dcda7a4a40b8886623571425f6e6ed172f53097",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/probability-methodology.md",
+      "passed": true,
+      "status": 200,
+      "sha256": "ce0d6a5e5a9dbe81db112b9491cfd54ac9199f296e0f7d27fe07193324ace6aa",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/probability-validation.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "147593154f7e9b2259cbb8cb438edbdb1a4fea21dd0e7b4b0cdd78e4a8fb23e8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/resource-manifest.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "3ae42f6861cbb06f3bf8c65910880f4a6ee4d7383ae115bd79423014978cba8c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/resources.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "1801aadbc853570116a7383eead5bef7f29a4d661bd510c7e8c402c23a57eaa9",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "oic-original/script-assets.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "a2f2970bc6d59c7dff7557370e2dbdd4d77ece56648abd88b195521b8e8bd608",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/source-review.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "530a0f3f541de5ebac6a665d8db1570d564614776fac4f2610605ce79770d17d",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/stock-monitor/description.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "bfa9e7b53eae598e4c6b4c6ea709bc06cd7016853c4d65680c2ba7cff90a5adc",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/stock-monitor/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "cdb1fbd2b36048789bfd163c2f11bf6d8fd9868fa28c145660bd6f381f96414c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/stock-monitor/online-ui.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "9242491a0273e287130da8b178598e33c35761bd668145b81d36ac0553c259cb",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/trending-options-volume/description.source.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "894faeae72844ec0971f676cb8707955f2eb900aaed5ac1cd78d60c47f4bb6b0",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/trending-options-volume/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "96a5427f5dd182da9ab709c4373c3ffaa84eb8dac4075e30bd1d216c9f1db470",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/trending-options-volume/online-ui.txt",
+      "passed": true,
+      "status": 200,
+      "sha256": "6e5eff1f4c6aff403e370ccda684a072471f61f03f1a124f95bb46b7846f7cad",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "oic-original/visual-assets.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "9fd1812c75e0872c8493dba4d9e3a1352a9e2aff7d2d7e2209ba8861b3bce019",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "preview.jpg",
+      "passed": true,
+      "status": 200,
+      "sha256": "1dcb13cedb636aa79491448fad95d013b6e739d42ecf0b286a311dc04a5c27d1",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "reconciliation/README.md",
+      "passed": true,
+      "status": 200,
+      "sha256": "b48066cd1e01d84e6df7831e2a6388b116dd7341d15fa1f580ec4719083155a2",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "reconciliation/browser-validation.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "6ba51e07527197f36d6cd309ac83c760988e69b112197b70e4f5fefbcb638124",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "reconciliation/fresh-american-preview.png",
+      "passed": true,
+      "status": 200,
+      "sha256": "00b1ffa21c6651938b9ad573b158f50b9f15b169919b2c5baa18f754eec319fb",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "reconciliation/fresh-original-cases.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "e6e4759355f80107f548c2630f80c598c3f6523c09cd4dda794e247965a0fd92",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "reconciliation/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "04c0d79eb4c9745b2579ed6bd00fcbef16e7c4a837d7739fa9e2eb9f3f15f258",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "reconciliation/live-attempts.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "a81fedd8d76928a8e2278abab6158f8ee6835cccd3ae3d4bf3955c87c20b5205",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "reconciliation/offline-position-preview.png",
+      "passed": true,
+      "status": 200,
+      "sha256": "559125f8a8f543eb482bbdbf05b25949fac75289e720334c4dfe5ce46283a0ca",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "reconciliation/results.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "804f04f312cdc457092b815cd74ad82bfec07fc2c76fd1e6b0819191984d929e",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "style.css",
+      "passed": true,
+      "status": 200,
+      "sha256": "f31eef756a25661552109ef5aa0658365481d7e3b8dfb38464d04adc92b269cc",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/advanced-tools-ui.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "3be673dacd2bafb49cf0bec4f001a087a83409fc90526d0db74b8c43b6856cc8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/advanced.css",
+      "passed": true,
+      "status": 200,
+      "sha256": "14736bd7ebef5cceb17109a4b645fee04ca6269a50295ec1936b2e4b024788ee",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/american-math.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "24da28174c05800e2720ede79bf0ca9fc874e7789a278617c37d6bfcc1172c33",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "tools/index.html",
+      "passed": true,
+      "status": 200,
+      "sha256": "ccd90f231c24e9cfcb250ecbb9a329f9ab54abfdcc1567b4f916cf7998af2611",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/market-example.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "ac982678b40a5dd74f185de493b971a502a9cdb25201cd5a39adff8c2ace48e8",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/market-template.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "9f529d688d4236380f1b2bfc650ec59e007e0525cf83557c4326df17587d4cd6",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/option-math.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "6ce5d0c13c4934459a7a86318d1ab033b92555a7fa0aef7ac1dcee8b2a2ddefd",
+      "method": "complete SHA-256",
+      "attempts": 1
+    },
+    {
+      "file": "tools/portfolio-math.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "37a7c8e40d6effb46a288805aba7555753652e343f418bfa545fdfbc854df80b",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/probability-math.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "e14101acd42b29047a94e0c4298a6bf3edba8b0598b85e49f56e515543f58c2c",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "tools/tools-ui.js",
+      "passed": true,
+      "status": 200,
+      "sha256": "f66f5cb39c3f7b344eadb5a8898321c02d4d068eda8ef82f14c820af9c8c8292",
+      "method": "complete SHA-256"
+    },
+    {
+      "file": "validation-report.json",
+      "passed": true,
+      "status": 200,
+      "sha256": "983f09fe04f90ca8bc6f361cdeb843a7bdfadf555427550501135f074f70154c",
+      "method": "complete SHA-256"
+    }
+  ]
+}

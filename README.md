@@ -4,6 +4,8 @@ Personal offline study archive for **Derivatives – Options & Futures**, with a
 
 ## Open the library
 
+**Live website:** [Derivatives — Options & Futures](https://copyninjasicca.github.io/coursera-derivatives-offline/) · [Calculators](https://copyninjasicca.github.io/coursera-derivatives-offline/tools/index.html)
+
 Run `downloads/derivatives-options-futures/Open Offline Course.command` on macOS, or serve the archive folder:
 
 ```sh
@@ -31,15 +33,15 @@ Local account configuration, credentials, environment files and machine-generate
 
 ## GitHub Pages deployment
 
-The repository is public, and GitHub Pages is configured to deploy with GitHub Actions. The website is **awaiting its first deployment**. Published videos, readings, questions and reference materials will be publicly accessible.
+The repository and website are public. GitHub Pages deploys with GitHub Actions. [The first deployment succeeded](https://github.com/copyninjasicca/coursera-derivatives-offline/actions/runs/37393810919) on 6 October 2026.
 
 Run **Actions → Publish course library to GitHub Pages → Run workflow** on `main`. The workflow deploys only `downloads/derivatives-options-futures` as the site root, including all media and seven independent tools. It does not upload the repository root or local account configuration. No additional token is needed.
 
-Expected project URL after a successful deployment: `https://copyninjasicca.github.io/coursera-derivatives-offline/`. GitHub's deployment output is the authoritative live URL. Deployment is manual so a push does not automatically publish materials.
+Live project URL: `https://copyninjasicca.github.io/coursera-derivatives-offline/`. GitHub's deployment output is the authoritative live URL. Deployment is manual so a push does not automatically publish materials.
 
 Run `python3 verify_pages.py` before deployment to check size, package hashes, relative asset links and credential patterns. The archive fits the 1 GB published-site limit. GitHub Pages also has a soft 100 GB monthly bandwidth limit; video viewing counts toward it.
 
-[Pages readiness evidence](PAGES-VALIDATION.md) records the package checks and a browser preview under the project URL path. Live verification remains pending publication.
+[Pages verification evidence](PAGES-VALIDATION.md) records local and live browser checks. [The live file report](PAGES-LIVE-VALIDATION.json) checks all 421 published files: full SHA-256 for 385 non-video files, and size/MIME/range/prefix checks for 36 MP4s (34 indexed lessons and two retained samples). Run `python3 verify_live_pages.py https://copyninjasicca.github.io/coursera-derivatives-offline/` to repeat the file checks. Video checks do not hash or decode whole videos.
 
 Progress remains in each browser's local storage. To move existing localhost progress to the hosted site, export progress and answers from the local library, then import that JSON on the hosted library. Hosting does not add cloud sync or server grading.
 
