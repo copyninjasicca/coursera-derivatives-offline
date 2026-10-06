@@ -39,6 +39,8 @@ Expected project URL after a successful deployment: `https://copyninjasicca.gith
 
 Run `python3 verify_pages.py` before deployment to check size, package hashes, relative asset links and credential patterns. The archive fits the 1 GB published-site limit. GitHub Pages also has a soft 100 GB monthly bandwidth limit; video viewing counts toward it.
 
+[Pages readiness evidence](PAGES-VALIDATION.md) records the package checks and a browser preview under the project URL path. Live verification remains pending publication.
+
 Progress remains in each browser's local storage. To move existing localhost progress to the hosted site, export progress and answers from the local library, then import that JSON on the hosted library. Hosting does not add cloud sync or server grading.
 
 Provider documentation: [custom Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [availability and public site visibility](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), and [size/bandwidth limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
