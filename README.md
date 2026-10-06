@@ -28,3 +28,17 @@ Run the four `test_*_math.cjs` files with Node.js. The probability test accepts 
 Builders: `build_offline.py`, `build_advanced_tools.py`, `build_oic_archive.py`, `reconcile_models.cjs`, `build_reconciliation.py`, and `audit_offline.py`. Python builders/audits use lxml, Pillow and pypdf. The checked-in HTML, scripts and media run without these build dependencies.
 
 Local account configuration, credentials, environment files and machine-generated caches are excluded from Git.
+
+## GitHub Pages deployment
+
+The deployment workflow is prepared but the website is **not live yet**. GitHub currently requires this account to upgrade or make the repository public before enabling Pages. A private source repository does not make a standard Pages website private: published course videos, readings, questions and reference materials would be publicly accessible.
+
+After choosing repository visibility/plan, select **Settings → Pages → Build and deployment → Source → GitHub Actions**, then run **Actions → Publish course library to GitHub Pages → Run workflow** on `main`. The workflow deploys only `downloads/derivatives-options-futures` as the site root, including all media and seven independent tools. It does not upload the repository root or local account configuration. No additional token is needed.
+
+Expected project URL after a successful deployment: `https://copyninjasicca.github.io/coursera-derivatives-offline/`. GitHub's deployment output is the authoritative live URL. Deployment is manual so a push does not automatically publish materials.
+
+Run `python3 verify_pages.py` before deployment to check size, package hashes, relative asset links and credential patterns. The archive fits the 1 GB published-site limit. GitHub Pages also has a soft 100 GB monthly bandwidth limit; video viewing counts toward it.
+
+Progress remains in each browser's local storage. To move existing localhost progress to the hosted site, export progress and answers from the local library, then import that JSON on the hosted library. Hosting does not add cloud sync or server grading.
+
+Provider documentation: [custom Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [availability and public site visibility](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), and [size/bandwidth limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).

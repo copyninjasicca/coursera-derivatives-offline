@@ -1,0 +1,48 @@
+name: Publish course library to GitHub Pages
+
+# Enable Pages (Settings → Pages → GitHub Actions) before running this.
+# Manual deployment keeps the private archive unpublished until visibility is decided.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Checkout library
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Validate complete static archive
+        run: python3 verify_pages.py
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload complete course library
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: downloads/derivatives-options-futures
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
