@@ -20,6 +20,6 @@ Served the unchanged archive at `http://127.0.0.1:8766/coursera-derivatives-offl
 
 ## Remaining publication gate
 
-The authenticated repository's Pages settings still state **“Upgrade or make this repository public to enable Pages.”** No visibility change, upgrade or deployment has been performed. A user decision is pending.
+The user approved making the repository public. GitHub identity verification completed, repository settings confirm public visibility, and Pages settings confirm the GitHub Actions source. The first deployment and live verification are pending.
 
 These checks establish local deployment readiness. They do not establish a live Pages deployment, GitHub media range-request behavior, or production asset accessibility. Those must be verified after the publishing gate is resolved.

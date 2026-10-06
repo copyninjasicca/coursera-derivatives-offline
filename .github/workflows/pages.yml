@@ -1,7 +1,7 @@
 name: Publish course library to GitHub Pages
 
 # Enable Pages (Settings → Pages → GitHub Actions) before running this.
-# Manual deployment keeps the private archive unpublished until visibility is decided.
+# Deploy manually after checking the archive; ordinary pushes do not publish it.
 on:
   workflow_dispatch:
 

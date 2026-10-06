@@ -19,7 +19,7 @@ Open <http://127.0.0.1:8765/index.html>. Keep the whole archive folder together.
 - Original OIC reference guides/resources, nine recorded original pricing cases, model validation and unresolved numerical differences.
 - Local study progress and answers with JSON export/import; no server grading or answer keys.
 
-Start with the archive's `completeness-report.html` and `reconciliation/index.html` for precise coverage and limitations. The independent models are not the original OIC/iVolatility server engines. Market examples are synthetic; no live feed or proprietary IVX is included. Original course and vendor materials remain subject to their respective owners' rights; this repository is a private personal study backup.
+Start with the archive's `completeness-report.html` and `reconciliation/index.html` for precise coverage and limitations. The independent models are not the original OIC/iVolatility server engines. Market examples are synthetic; no live feed or proprietary IVX is included. Original course and vendor materials remain subject to their respective owners' rights. This independent educational project is not affiliated with Coursera, Interactive Brokers, OIC or iVolatility.
 
 ## Validation and regeneration
 
@@ -31,9 +31,9 @@ Local account configuration, credentials, environment files and machine-generate
 
 ## GitHub Pages deployment
 
-The deployment workflow is prepared but the website is **not live yet**. GitHub currently requires this account to upgrade or make the repository public before enabling Pages. A private source repository does not make a standard Pages website private: published course videos, readings, questions and reference materials would be publicly accessible.
+The repository is public, and GitHub Pages is configured to deploy with GitHub Actions. The website is **awaiting its first deployment**. Published videos, readings, questions and reference materials will be publicly accessible.
 
-After choosing repository visibility/plan, select **Settings → Pages → Build and deployment → Source → GitHub Actions**, then run **Actions → Publish course library to GitHub Pages → Run workflow** on `main`. The workflow deploys only `downloads/derivatives-options-futures` as the site root, including all media and seven independent tools. It does not upload the repository root or local account configuration. No additional token is needed.
+Run **Actions → Publish course library to GitHub Pages → Run workflow** on `main`. The workflow deploys only `downloads/derivatives-options-futures` as the site root, including all media and seven independent tools. It does not upload the repository root or local account configuration. No additional token is needed.
 
 Expected project URL after a successful deployment: `https://copyninjasicca.github.io/coursera-derivatives-offline/`. GitHub's deployment output is the authoritative live URL. Deployment is manual so a push does not automatically publish materials.
 
