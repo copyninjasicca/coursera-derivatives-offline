@@ -57,3 +57,13 @@ A final scan of391 tracked text files found no configured email/password matches
 The final live Futures Contract Demo also played to47.924702s (duration293.105011s, readyState4, no error), displaying “In TWS, future symbols are”; the browser warning/error log was empty. Actual live observations are saved in `audit-evidence/final-live-video.json` and `final-live-position-export.json`.
 
 The verifier also passed isolated complete/truncated/aborted transfer regressions using its actual check function: a valid video prefix cannot make an incomplete or failed full transfer pass.
+
+
+## Report layout and final stylesheet deployment
+
+Report table cells now wrap long content, with reduced padding at the small-screen breakpoint. All 106 authored pages use a versioned stylesheet URL, and the builders preserve that version. Local audit and completeness reports both returned document width/scroll width1265px, with computed overflow-wrap:anywhere and no horizontal document overflow. The browser viewport override requested375px but returned1265px; it was reset. Subsequent default tab rendering returned360px: both audit and completeness reports were verified at width/scroll width360px on both local and public origins, with overflow-wrap:anywhere. No exact375px measurement is claimed. See `audit-evidence/report-responsive-validation.json`.
+
+Final local package:444 files /573,347,366 bytes,443 stored hashes,967 local links,2144 integrity checks, zero errors. The Git diff whitespace check passed. The final display update is commit `de43a19`, published by [run37405954388](https://github.com/copyninjasicca/coursera-derivatives-offline/actions/runs/37405954388), which succeeded (build35s, deploy19s, total1m2s).
+
+
+Public validation at2026-10-06T02:50:21.965594+00:00 passes all444 complete SHA-256 hashes, including36 entire MP4s and their range checks. This final run fetched108 modified files; previously verified complete hashes were retained only for unchanged expected hashes, including all video files. No failures remained. Local and live final narrow-screen screenshots were refreshed, and the default browser viewport was restored.

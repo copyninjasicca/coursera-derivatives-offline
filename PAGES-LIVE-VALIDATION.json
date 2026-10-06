@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-10-06T02:31:16.552560+00:00",
+  "checked_at": "2026-10-06T02:50:21.965594+00:00",
   "url": "https://copyninjasicca.github.io/coursera-derivatives-offline/",
   "passed": true,
   "files_checked": 444,
   "complete_hashes_checked": 444,
   "videos_range_checked": 36,
   "videos_complete_hashes_checked": 36,
-  "files_rechecked_this_run": 7,
+  "files_rechecked_this_run": 108,
   "limitations": [
     "Published MP4s were fully hashed; local decoding is separate."
   ],
@@ -91,7 +91,7 @@
       "file": "SHA256SUMS.txt",
       "passed": true,
       "status": 200,
-      "sha256": "ffcd6e2b59573dceaa4d91cab586caf88c10a04964e16fc131ed72419829574f",
+      "sha256": "ab722bc94fc04bc04f73e1ee69c0fc49fe3d046021e17c971126c71459ab0b63",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -107,9 +107,9 @@
       "file": "audit-report.html",
       "passed": true,
       "status": 200,
-      "sha256": "ba8594c91028e8dd4b18c03bad93fc61fe657c0020b5815b3ee1ef27a5ffcd3f",
+      "sha256": "b1f4c6a05f8211e49dd3003f0fde401b23a0febf768c610ba1fd82c81b21e42d",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 3
     },
     {
       "file": "audit-report.md",
@@ -203,7 +203,7 @@
       "file": "completeness-report.html",
       "passed": true,
       "status": 200,
-      "sha256": "472a9e5b89586bbe80b8e847a2ea44dcec55936327e6cff8ed621519f550e106",
+      "sha256": "886fcbe28aa1047d47a9a05d57083386a16cb14ac62dea39af0b5800c1ef3bd3",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -251,7 +251,7 @@
       "file": "external/all-that-glitters.html",
       "passed": true,
       "status": 200,
-      "sha256": "01678f156f6d3d79ddbdd1da370de42512bba035d6c8207f25dbff0eaa1a15e2",
+      "sha256": "44382890c8d7a6833447ac72635db665bb71862d8d1acb5561fc81f3106a42cb",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -267,9 +267,9 @@
       "file": "external/cme-futures-contract.html",
       "passed": true,
       "status": 200,
-      "sha256": "46705d005a3c9d121b65f8315a526173f66e93c8f87129b6889510d7872f9cf2",
+      "sha256": "490d0d91a9d6041a7b81e86559b632611fed2267a1c81064627ba8b891dd812b",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "external/cme-futures-contract.source.html",
@@ -283,7 +283,7 @@
       "file": "external/cme-futures-margin.html",
       "passed": true,
       "status": 200,
-      "sha256": "719fe62f161372e3d0970974f9f349f0c9a8bed2d6bb4b5ba0a9b93724775d5c",
+      "sha256": "8cb8ddd4c97c4ff8ccaef89af23494fd83676a2cd9e7d9d52926f82fd0aae5d0",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -299,7 +299,7 @@
       "file": "external/cme-introduction-to-futures.html",
       "passed": true,
       "status": 200,
-      "sha256": "b7788cd78bfe32a11f9b966317ba3bf07e01d0a4d3693cb089b322044c971da7",
+      "sha256": "a63c93b4415e04ede8c46c00ae0bd41a29d7c65003540bb8dd422cc143c6683b",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -323,7 +323,7 @@
       "file": "external/gold-silver-black-gold.html",
       "passed": true,
       "status": 200,
-      "sha256": "2f86f452edbea13bcf363be93a848c5913c5ebc3247132bf4f7c5b266b1b3255",
+      "sha256": "12809ed4557e77de896bc2f0e9d1bae135ba1474ed60b01c3452442452ac7004",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -339,7 +339,7 @@
       "file": "external/occ-learning.html",
       "passed": true,
       "status": 200,
-      "sha256": "0c30e090bf40d370f5794e7ace74c674f1c1463ae7e9c955862ea5d925b758d2",
+      "sha256": "e444e7cc3efc72bd56300d132005f33cc4bca99f03693515f876fe55b692f418",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -363,7 +363,7 @@
       "file": "external/oic-options-calculator-tutorial.html",
       "passed": true,
       "status": 200,
-      "sha256": "cc5450632a9eeb4f7fe5567a683301e438308540c961b64541395811574f5c44",
+      "sha256": "925c1bcf1f624a0ee8b2701c4ed916a267cd469265a0082a1706954ca6b03447",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -379,7 +379,7 @@
       "file": "index.html",
       "passed": true,
       "status": 200,
-      "sha256": "d070378e27198679e3b207cc1a17fe91b7cf3aed1df728a0be5aeaf36d22b162",
+      "sha256": "9a134c4489aa13c2e6a92a90dd6e4d96ae9551b25c993bcfb355b78ad61405b1",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -403,7 +403,7 @@
       "file": "module-01/exercises/019Z4/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "3172f844edb7d1bac438d4e7540713652fd5dda1b06495ed9c9c6ab40401823a",
+      "sha256": "2d040691cfaf945a491ed2e23040c471670c142238ae30af82937ab101f37b45",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -419,9 +419,9 @@
       "file": "module-01/exercises/V1PMU/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "ebd71a24c0bddb0a2f841a4650c1e4a5aad166eda4b4da1321e69a7979dcb2c7",
+      "sha256": "c68adb71a0b83ab9f75116a175446d944c409878ef9bba7d5554071531865839",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-01/exercises/V1PMU/questions.json",
@@ -435,7 +435,7 @@
       "file": "module-01/exercises/dYzlr/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "766598ae994e28480c8c7e732bf16eb4804ceef84effadb575dfcad5d05c1553",
+      "sha256": "9a0907237a37958f50dbc4aafa71645616d82290799242e0df7ec428fd3adb1b",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -451,9 +451,9 @@
       "file": "module-01/exercises/jUVGh/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "4b1ee8be425055e1c13654f055faa3d0ce09c1276791085846fab9de2cff5d23",
+      "sha256": "677da890eae2c529a85736b2cc7ab7478f99b855f3aa599cc7fd21650a893ce0",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-01/exercises/jUVGh/questions.json",
@@ -467,7 +467,7 @@
       "file": "module-01/exercises/l9fxu/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "fa16ad1bcda3ab5bc656a7b3f1defccb1a2389bfaccc2052bbe9ff252df59889",
+      "sha256": "9480deebb77ff84b0363dc2605928c88d62e87dfcd23c5e6ae95ed9994578e05",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -483,9 +483,9 @@
       "file": "module-01/exercises/uhJRv/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "98221dcb615d4f0b23279cadf64263d0f0c1c7c385c8625f588af60a2cc82b2b",
+      "sha256": "90c5c8eebc87c1d4403f07fbb88ec54f445400db1e8ead1ac1a507e171b23f0a",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-01/exercises/uhJRv/questions.json",
@@ -507,7 +507,7 @@
       "file": "module-01/readings/Q03sS/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "bb25b8e8ca49d70c118ce5a2e7d3761d1c493128d7211172552cc0d6f400d092",
+      "sha256": "29515ae7d2641446c21e1a8eb68724f7c1a1b400d34f67afd82912409536a29a",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -531,7 +531,7 @@
       "file": "module-01/videos/IcgXv/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "e249d0241d86f2a448a7b0fc1f3fbde854a3ae43e9a84a5cdb9f9f5ce5ed06b2",
+      "sha256": "5753cded1fac7b2a1008c0666a92caeb3e9bb8761289a95a30f938d65324bf71",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -577,7 +577,7 @@
       "file": "module-01/videos/Lg48Z/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "3681de1270b4cda91983384ed4e7e1fdc1f0083616eb15460606c51753c41447",
+      "sha256": "a37c7d4ab5213e181dcd15f92cef24c800dfdac57efeab1322f89ecbe4d4afc9",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -623,7 +623,7 @@
       "file": "module-01/videos/SHCPN/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "3785b2216b2cd9aaff9b0cbae2ea5a1e1184a91ca49357a973a693bfcf267dec",
+      "sha256": "14afb6717e1536c784a9513002e2ce04fbba0dc37898cfc17f7c8f5e77abca8c",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -669,7 +669,7 @@
       "file": "module-01/videos/VKnLf/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "72cdc0e35d4f3a30c21cb09235db4804f9dcd503a4fbdb3671f8e6d3a306bac9",
+      "sha256": "f480e8714ad1c49fc16ba347fd25844fe014e511c006708e4bd98a662300dfe5",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -715,9 +715,9 @@
       "file": "module-01/videos/uZR67/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "86043f7815e9dca09d1dcbeddd89e2f6a6cdcebd0b96d31b1b0b8bbda15f0467",
+      "sha256": "827d6b74b0abaa0790b59f13dde23215f5379f2ffbbd62047fa612dc1bfe30c5",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-01/videos/uZR67/subtitles-en.vtt",
@@ -753,7 +753,7 @@
       "file": "module-02/exercises/5O66G/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "5dc3d867fbf02535257227ccd1b62db565d12d06b74823cae9c0f9d0b6bcb071",
+      "sha256": "6b07fd0f1163d0cb0445893835daad7e12e5e811b27584415883a0038fb7ecb5",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -769,7 +769,7 @@
       "file": "module-02/exercises/bsiv5/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "d47abf13f63e3d339e1fa6415df2d67f4a28b73c44d750f7e15efc9655bdaed5",
+      "sha256": "ba6a529ff8b28d11bbedaf5e0e7bb0ad12b435d3104b6c3c08729f4a60d8f347",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -785,7 +785,7 @@
       "file": "module-02/exercises/dVSFT/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "931d1b9540b4500fe84e7b3cc68b6791054b6cdf1944fae28ed07f954671ddc3",
+      "sha256": "9c35bcc6ad3f8e32c672ec0f9e5c193d502129f2742868b8c5aea92d3aa286b6",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -801,7 +801,7 @@
       "file": "module-02/exercises/phTH3/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "6a00a87ce4750516911f8274e2e62ff195902da6d65006ea9d4fd48dcd09eb66",
+      "sha256": "e16faab86baafd5af6182b1bd24d48841ee89c676df1bc2e3a7410cc14260829",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -825,7 +825,7 @@
       "file": "module-02/readings/55ncS/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "83b324a75fddb862d9973ad6106e5e95fa0ed2bb90c3e0fee094aa38e17d238e",
+      "sha256": "497aacf6bc13c918d840742f524794c306af35d2cf690bda6cc19651f0df8dfa",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -849,7 +849,7 @@
       "file": "module-02/readings/Rnk8d/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "54ec62e4186486aec1b93878fcdb1b9d276075b58e834c59a36c523ef968da00",
+      "sha256": "44216f1039f572fd5337c699c4df83a0f6f6bf10d169d8742f8d3505fc9b56d4",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -873,7 +873,7 @@
       "file": "module-02/readings/Yo7Er/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "925e44e90d658e1799dfd93317ca7bf91a20295808216f916141a65b76ef7d2a",
+      "sha256": "640be421408189774c605b035a7df3e144ceb8d1983472b8ee0e9647ecd0dd75",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -897,7 +897,7 @@
       "file": "module-02/videos/3QwcO/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "9b91c3405faf2fd7e9c94cfda8f01c29419b7dadff2bbc9a136c98291f0082ae",
+      "sha256": "09d1faa4c42ed48bb3c2f3558fae59ecee8f7102846d4d2b4d241c26cd47bdbc",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -943,7 +943,7 @@
       "file": "module-02/videos/4f6yw/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "93fb52abe74fd8f492f717e310568678e096725bd3d2f095ab010b3f820c9ead",
+      "sha256": "758ea5ae131a23545ef3054a64fefaf65a29b1a3bc0dab3f70f23456db73bfdc",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -989,7 +989,7 @@
       "file": "module-02/videos/LxDKC/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "a40b2afc59326a26ea38fce2e8f54f0d3e0e041399f0c34413f286fad5760f69",
+      "sha256": "8f008ad4141030b6106d747bd6ad64285962e8321b57f0d8ba18d4364329d973",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1035,7 +1035,7 @@
       "file": "module-02/videos/hwwfE/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "5a35920a37ada97648ff2563e600476f52edbbef39e0e3a1dce40b0244383c2d",
+      "sha256": "4d484f17db28613fa284cf1ec6c0cd9128da730052f21254fb53d0636df35249",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1073,7 +1073,7 @@
       "file": "module-03/exercises/1qHGj/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "64cdc985d6d62107502823fd6ff3b9ec5d0b92ea1756b668a34abd744c3b8564",
+      "sha256": "e755e8a5aa5ab63d7f7b8560c0070bd276d27e6aa081f184d4cf31c45b8225ef",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1089,7 +1089,7 @@
       "file": "module-03/exercises/1w4bx/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "dbf91622823a4cf2f48e4f5f7957a90c2fc541931cb9d1cd2178f275baecbf17",
+      "sha256": "09718acb81fc8499104189d789a4792ef72ae13f5d2b7694f14d49a901d8b499",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1105,7 +1105,7 @@
       "file": "module-03/exercises/8BMQg/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "d36c8131882215be4581cb93278413fef60f59df942652a2be71a40a45ce5b9a",
+      "sha256": "864c8029e497e7f0534bfc0c8629f350ff7ced7951e42a055badf6c08005f945",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1121,7 +1121,7 @@
       "file": "module-03/exercises/Ae0Hf/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "6af4857b1f8eba0edb9a1cc610faeae20d000cecbb7ca2962a61eff9141089d6",
+      "sha256": "5b3c7da3181376006c70db0f356f4350d9d7c9fca13c40312a9f5cc7dd279b0e",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1137,7 +1137,7 @@
       "file": "module-03/exercises/KqZKt/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "e7105397e930ea4f1f4369cbbc12864c4ac7d6648c84f394ab5a5df33bee1475",
+      "sha256": "fccd6f96a16a47165f272d343c04a025e5b3d05998687c8b86b4238f86bc2aae",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1153,9 +1153,9 @@
       "file": "module-03/exercises/LmtfU/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "5e230f100ca263bc1799fb7465fd4d111fcd58d7804fe0ff9ea0472ce999a6ae",
+      "sha256": "1841fd9a3783e16984d08900cc545f1b3e545e49467e91a401fcca98cd36a893",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-03/exercises/LmtfU/questions.json",
@@ -1169,7 +1169,7 @@
       "file": "module-03/exercises/MsCT1/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "5ef451b97e22840a77d72ff20711413196db98439740f95cc0a28a73e9f620a7",
+      "sha256": "29972edb2e720a0702f836eee254aaa1f48a6b19e73d213a74f02bbb4d628ed2",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1185,7 +1185,7 @@
       "file": "module-03/exercises/VjaUv/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "bc6a7aa2b8cb192cd45e7aa4f0fb8aa8561c589d1b2482412b9068123378b1b8",
+      "sha256": "2e1f1d2bf9c9455c31d63024bccf1fb508698a84c785d78705d7aa62028b4d5f",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1201,9 +1201,9 @@
       "file": "module-03/exercises/qFWM6/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "8cf63100fcc928a863445f192a3afcd40e3b6044fa892fd131e0046552a60fe5",
+      "sha256": "690d1b0bf48ee9fa8d16e14cd3a26faef3a10de230e387314d38f0560d472474",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-03/exercises/qFWM6/questions.json",
@@ -1217,9 +1217,9 @@
       "file": "module-03/exercises/tkww0/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "efe4cc5ba58edd6f056798b714add5203915b455afb641bbc20700391c6c1645",
+      "sha256": "13afbee38bbe49fd81c162ffb5d5d106c31e15f463f5ee5a3efc55fa4c722b7a",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-03/exercises/tkww0/questions.json",
@@ -1233,9 +1233,9 @@
       "file": "module-03/exercises/wq1dm/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "1b2976924cd8d19babfae94c053f332eaf47977e21bfa94b87004c09a2df3e19",
+      "sha256": "83da244a6de22e976a37a7c835fa9d5bdbd94fa8cf7e1f9815167e0d1f72bb93",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-03/exercises/wq1dm/questions.json",
@@ -1265,7 +1265,7 @@
       "file": "module-03/readings/9R3l9/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "5010b436387efb4addc0e0dec3308bdfec40bbf63dd86bfd116db2fd1792d3f0",
+      "sha256": "4f8ff1b6c67ad9803870fb3abf99c293c8b27342d37d128541eb3f113906dcea",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1297,7 +1297,7 @@
       "file": "module-03/readings/AJzSB/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "932dc0544b8585e06c633936a6ce159c8cfa27bb1da420cf83661d775a2528cb",
+      "sha256": "6c72bfe1a3db3efeebacf7c66f274cc725a6d229e019077e173cf0660f317e83",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1329,7 +1329,7 @@
       "file": "module-03/readings/VmHW4/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "085ef45d6b0bb6c6987e4c6af68a3e62ff60dbc6c2b8cb5e8efeaddb5b75cb14",
+      "sha256": "9c90028d2b96e1ad17d2ecc278933058f951859b1dc7abb7a4142adfdf662275",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1361,7 +1361,7 @@
       "file": "module-03/readings/dKqe8/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "0a38c5c285e1e6a92c569f8aee63de67ad7359c5e141aadfcf1891af604f5a9e",
+      "sha256": "6574324fc7efe20c6b995e0174fceaab549b81b7e8adc47ec53f5a00001a0bce",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1385,7 +1385,7 @@
       "file": "module-03/readings/ozbIu/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "dffb1f35338250bf85ce78299dc184c1d8dc35f2190106c60229973393d3c9c6",
+      "sha256": "c3de37df9fa716cdac13a738211326c4543b3c5da619640b0ffc741a2185abed",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1417,7 +1417,7 @@
       "file": "module-03/readings/wHWtW/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "d6e284b3da9060cbf464f81781f77d16fdbc2620e98c62d0a9ac3a9fcb30fb8a",
+      "sha256": "10b23a0afc8fb24a9619771cae1bad6670540917cd3858508be5412b049467f6",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1441,9 +1441,9 @@
       "file": "module-03/videos/3GcpZ/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "8b3d482b3404d0e8f556997dd96a6c456197f9fa12504a3fa9fb4a63a2f79fb6",
+      "sha256": "f18aa178a89d4c9494d62a4a420b4a8f6f61590bc6e985c0da2cc73b7ebce2b8",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-03/videos/3GcpZ/subtitles-en.vtt",
@@ -1487,7 +1487,7 @@
       "file": "module-03/videos/4115z/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "b9c389c30db7b1cad0dfc5d186ac33aa9d278ab48c1346d99ee195e42d1d7226",
+      "sha256": "dbf5e985120894f98d2ea69ac0ffcbc7785b9fcb850a7b81b506b450997cb388",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1533,7 +1533,7 @@
       "file": "module-03/videos/HR8xQ/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "72e59d8d2dc46534b628b6132fbe9cadcf08e15f954b9211af56dfe841a264ce",
+      "sha256": "b7f848280301119bce38a0bef05cc71ed0652498e61f205d15148e8ef2ef4624",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1579,9 +1579,9 @@
       "file": "module-03/videos/JLYGJ/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "86599a73b2d5549111cb0237d2752f494c9cdad2ca74a58f33f6b40dfa9f53ac",
+      "sha256": "ff27e682251e041d87ad9afc9d4d8193139f09d9d9dd6aa3c5622fa0794599cb",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-03/videos/JLYGJ/subtitles-en.vtt",
@@ -1625,7 +1625,7 @@
       "file": "module-03/videos/WWhws/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "8ff689c2be4f14501f00874d0e4b9217b5e6add10f3f2c4e6450af1560f8d333",
+      "sha256": "4d56417ec39b85d3afd87034c550e042db00291e9ced148e02d11a5b384bf298",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1671,7 +1671,7 @@
       "file": "module-03/videos/ZmnOU/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "9a8d53f89b298bc39e63322e6b7395671a1518fe0bd78ef385303910b4e882f4",
+      "sha256": "335af1d680b4c5bc0bcbe9988769cace9ee8acbce1b16f7cba19385a54017e75",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1717,7 +1717,7 @@
       "file": "module-03/videos/cdneB/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "a91a555d4bba638639106efeaa5a3f31f302bebd4dc804ec2e6912d54282bf89",
+      "sha256": "0a270a267700cefefbfb848c0dad80fb2124b79fabfe69eba2dc3832b3475924",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1763,7 +1763,7 @@
       "file": "module-03/videos/cvjFE/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "bca1b358de92e227724f1ea85cd9d8e1e9b773d258967e6527d41ef6d9171a90",
+      "sha256": "65397c1ccb8d2bfc4763b12f67bb0be425c0367f60cdd0ac977e3b014c1e85f3",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1809,7 +1809,7 @@
       "file": "module-03/videos/njhi2/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "f50a71c37aff9c1fb545bb4f748c61018df8b4a1c562e030d1f8e03c08c53fa2",
+      "sha256": "28b432e0349420a68ef75271052e956db7877cda5344373666faad7264006bf2",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1855,9 +1855,9 @@
       "file": "module-03/videos/qp12Y/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "bdd7135fccb8aec4994376aabe0464adcfdd418f3bf7c4096df62a7d921fa75f",
+      "sha256": "f5de81b2b346887b4783a99b8aea2953774bffff6473c2b1efaf3349e93c2260",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-03/videos/qp12Y/subtitles-en.vtt",
@@ -1901,7 +1901,7 @@
       "file": "module-03/videos/sQsPT/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "5bbeba499f74319d8fd3ff84b4d0b5901524eb3106bf380d523d9ec036ab1738",
+      "sha256": "6548b1c5a3db54d40a33c5a8aa900a0f9e65cb1079c8eab0a3490f316ad7c763",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1939,9 +1939,9 @@
       "file": "module-04/exercises/7NdO8/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "cf7423380a1d90ab248669a58f033b43495a17b873bf250f1ace3615bba63981",
+      "sha256": "8a03c50ec5c249e68bea9445fa4a9e008b8e1330cec38479b6e4ac6562cfc630",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-04/exercises/7NdO8/questions.json",
@@ -1955,7 +1955,7 @@
       "file": "module-04/exercises/Cw2j3/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "0539ca4e630f67ebcaf60985bf97bca3e2c415ffb98cc6a4acf1fd637b73772b",
+      "sha256": "630f17a6711e4b52dab704d4ddf80f5efa292e151cbdac04c6de6036b5513b8e",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1971,7 +1971,7 @@
       "file": "module-04/exercises/GsXCw/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "fc7c7ebf95dbb4215af099a947b6b3b6df4e84c857638f0e06803b7d97b4f069",
+      "sha256": "ae3bf53592ba64ba55c0c4f0ae859e9de07e26a9198c0f6dfcc6887dd4f2be0f",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -1987,7 +1987,7 @@
       "file": "module-04/exercises/PYGSP/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "eb229d66c3f9b55330983d356829a331b080a5f7981eda862cb19fc214b5dd18",
+      "sha256": "917a626e5d85bf964a735da60d86d51f22d466049c694bdac2ea89afb5af48fb",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2003,7 +2003,7 @@
       "file": "module-04/exercises/zyzIS/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "f222ab9faf873d8b12f81d5c229aef15df51b8215ee82759f54b8304b06deefb",
+      "sha256": "02e3b998273da4e9948c003eef9fb98bb64250ea41c45406a698d07dfe8a96aa",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2027,7 +2027,7 @@
       "file": "module-04/readings/Oq2QV/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "7913c222f4990c7203b23d278772c828900d131d2c3209236881e44e1c61eb44",
+      "sha256": "544219f96a65c645e01c5cce46c5bb512324302079755bcb9cbb1cb25f9c49d8",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2059,7 +2059,7 @@
       "file": "module-04/readings/QAbaO/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "b56f009b36a04f0a610942e45c05f38ff56476a7348fe3a07e5ef9324a73752e",
+      "sha256": "731e45058adab0a13bd12f7dfa1d7f43e0d2900f7e59d4b49a31c7cba8158318",
       "method": "complete SHA-256",
       "attempts": 2
     },
@@ -2091,7 +2091,7 @@
       "file": "module-04/readings/pwE1L/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "0696a723b4562da5d8c3bddab820ccc7f0d5a690d03b93a632ef1bb5b0a9a47d",
+      "sha256": "985520d179421c74279e88c65f15c2f93fef5f7f9a4106f52e8730e34bc8c5be",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2115,9 +2115,9 @@
       "file": "module-04/videos/AcXHU/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "924c2d29dbcc6b436449123e1af3af327c248b5440be6951f71b15f30f3ffb82",
+      "sha256": "a36f97cb0f4ecbf24ff41fe41e0abf7b12b4a391ae23db2984e9879c027c7684",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-04/videos/AcXHU/subtitles-en.vtt",
@@ -2161,7 +2161,7 @@
       "file": "module-04/videos/StcFu/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "47111fe6495f60974a2b2def8f56ec950a4ffc9f799d4ea42218adee6e10ccd8",
+      "sha256": "6ef467e6e033dcb562271953b0d3690916aa1d3679262aede5995f16f560a80d",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2207,7 +2207,7 @@
       "file": "module-04/videos/TWCPS/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "bb858d1d9d35bc88f79d18a91cd47b74df858e4096de801145a49ce661aeca55",
+      "sha256": "373f9901a590d449418677dc5cb3cc929ba200f38dceeb8d664cbe935c4e1c72",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2253,7 +2253,7 @@
       "file": "module-04/videos/vrw2z/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "50d6cc4bf08797a42ea612acd86b7545d1a064fa3e2d40bb8e194176c7f2ff2d",
+      "sha256": "375850a80fa6627b1f881f711188caa07b080223f99e83f7bc73b68c43da31f9",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2299,7 +2299,7 @@
       "file": "module-04/videos/zrZ3Y/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "6e83c9af9b529396e8a15a68889485f8e1d11e342d131cb76bfd885504bedfa2",
+      "sha256": "270d757c2e16dda2eb81c42cb6161d5f79ade220c66df3159ea790ab4f036bf5",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2337,9 +2337,9 @@
       "file": "module-05/exercises/5lIrj/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "760b82ab57d706a9863ff6b5ebc4071cf1675fdc7e362f9af3edac3a86941c91",
+      "sha256": "3208b98c894663d6eff60688696dd3b9494844dfa35ff262760bf3e39b80bf15",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-05/exercises/5lIrj/questions.json",
@@ -2353,9 +2353,9 @@
       "file": "module-05/exercises/BQLZH/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "baac2a6af92aa7d24804d7003168be113aab7c3e585078103a0c28f05a1f3828",
+      "sha256": "277db9e0184a66ea6e37194cc5ab428ec669dd08e7f4285d02c62b309d1a122d",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 3
     },
     {
       "file": "module-05/exercises/BQLZH/questions.json",
@@ -2369,9 +2369,9 @@
       "file": "module-05/exercises/Nh1vl/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "f2504d77a6cd79325296a0b004e00541420e1ee01a7d683cc0b50e8b00332053",
+      "sha256": "e9244426129c561adbf246c7d3fcd998c13eabfd092b48c1414bd27bed58717f",
       "method": "complete SHA-256",
-      "attempts": 1
+      "attempts": 2
     },
     {
       "file": "module-05/exercises/Nh1vl/questions.json",
@@ -2385,9 +2385,9 @@
       "file": "module-05/exercises/Nj1tb/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "6c50957173e8de0c7ff74db7aa354b0d91f79ff40986a15af57d8b6cc1a5bb35",
+      "sha256": "a9437c8f99858d7c04c90de563995ff2017803435d218029510e80e3f873fb60",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-05/exercises/Nj1tb/questions.json",
@@ -2401,7 +2401,7 @@
       "file": "module-05/exercises/TSm1T/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "80ecb5806d2b44141004cdc3ec2e228506cdaa98f5ff3ce202fbe434969e6e79",
+      "sha256": "ecd0fa415ae37cc5d41bb22687a698511a0e803e5812b2caae5456229dad7d54",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2417,7 +2417,7 @@
       "file": "module-05/exercises/Y6qan/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "a82a403eac528952907f75c4a39629e027af467079996b06c0f5cd4e7b490515",
+      "sha256": "4f8f3cf965ae28919b6d78dbb895b7e7d002098c8474db229443b9d2f66ee4a5",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2433,7 +2433,7 @@
       "file": "module-05/exercises/ZR8FZ/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "551c02d956385dd14507b626584816cf189bf564d548875eaf20412033b570b9",
+      "sha256": "6f6169bd3240a8928a1b342dffe0d182fec80454c4fe79f2e86064a7b2e2a4bc",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2449,7 +2449,7 @@
       "file": "module-05/exercises/mM2bU/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "bc2f0c9c0fa9c0f4e0e8e9973fe7d25619f66d2826bbe44c31b9155b143d5e91",
+      "sha256": "1c30308af86455c6c7f07295a62f31feefd71904c2556f2071f8df6acdb9723d",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2473,7 +2473,7 @@
       "file": "module-05/readings/2AsvI/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "8f762cd22144ced70af5413fdb01e877d6aea0fc298adce0520b5ed872d21cd7",
+      "sha256": "4b0cb9d2286fd23a0d8559664d019feaa43b29541e746dc39f184478aebb8caf",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2497,7 +2497,7 @@
       "file": "module-05/readings/ZwdJE/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "5b8ea1f7c63803a6c79ea9abe0d123f27ee2d892cbb425407420224ab824ef44",
+      "sha256": "35575ea49ded50041fce8a489e93b4b1b8f8c0cb6badf7817f44ff71cf2b8167",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2521,9 +2521,9 @@
       "file": "module-05/readings/s0n03/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "abc82fb986b68ef58871dc6f8ce54cf5a27c381f751a3cbd4f62e38da562c8c2",
+      "sha256": "ae38ccecd6669dd61956d9b3358740a2ce019b83d3688a30ec5058ae883c0711",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-05/readings/s0n03/references.json",
@@ -2545,7 +2545,7 @@
       "file": "module-05/videos/1Zhmr/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "ceb7a8f36bfa7b820e063d6a559271d963251eb8ce1e186e7d81d008d66447e1",
+      "sha256": "f85fdb9375bb418343067a0f2d54cc0312aa12bcc8e26426854f50a9ee0a18fe",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2591,9 +2591,9 @@
       "file": "module-05/videos/2v5yO/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "38386f7ae6a8ac883909d4d79c183911505daa29ade533421e68e999aea81ac6",
+      "sha256": "33f991466ea51dfb6d75c09f6bf82ddd32142a452815a4883dcb0598979e5fce",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-05/videos/2v5yO/subtitles-en.vtt",
@@ -2637,7 +2637,7 @@
       "file": "module-05/videos/5gSxC/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "e62388839cc4af8344a86ed722970b1758c79bdc6c163d7eeab06c6482a1e589",
+      "sha256": "6a65fa4529515d8b99d856d96e2cda325ef41d713540e38e4a1c3cecf601c18c",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2683,9 +2683,9 @@
       "file": "module-05/videos/Q9QET/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "6497cc0ad4540414f2aa610f516b684486777d6f3f41568a85a242fcc8b28633",
+      "sha256": "0a9a68b0d5f0449a6b2177d91faa620b18736f1a1b384f140ee794eac589bd2b",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-05/videos/Q9QET/subtitles-en.vtt",
@@ -2729,7 +2729,7 @@
       "file": "module-05/videos/dKPvw/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "828423dbd594fcf573a2889b8843cf737e4001095118acb5dd938e201a6d2192",
+      "sha256": "8a28d28520bed3fa12a0054a4ebff7f142f811524875c514ae26b629f761b12f",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2775,7 +2775,7 @@
       "file": "module-05/videos/jNuPf/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "fb183860518e46e6a49f61adae51d306a863f776e964144007ad9de95102936f",
+      "sha256": "77a861d08d3e0b95155c36b28a25d8afab99ed8749009f24b92ebb7c4196fa51",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2821,7 +2821,7 @@
       "file": "module-05/videos/kMSPP/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "3144a425ec7e7e10def9b641611a5528317bc151eefbcbe17d613703e6a42e91",
+      "sha256": "76bb0db2e0a2b9d2194c60261ad1e440904c39b5a3e336646e5f65453e808a80",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2867,7 +2867,7 @@
       "file": "module-05/videos/kbuOV/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "2ea3ed2b48c2031283c2a044d62be743f1a64141d7e24eb66df9ebb33bd01899",
+      "sha256": "8f1f4c7700f35212ece47869e915eb8ad5f6f63cf563aac99db771c1a2efdc80",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -2913,9 +2913,9 @@
       "file": "module-05/videos/wDfmh/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "c3cf003e1e63781760265e7244bba3fda647a5686c01ac381a672439e9692b0e",
+      "sha256": "28df32891125011c72db5eb003313edebdc5d1b92ee3ba1826d7631d6ef8fced",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "module-05/videos/wDfmh/subtitles-en.vtt",
@@ -2983,7 +2983,7 @@
       "file": "oic-original/comparison.html",
       "passed": true,
       "status": 200,
-      "sha256": "b9580fd8b7c41e8211100eb378bbb26366dbd021db3d45bda8e40e46cb89cb22",
+      "sha256": "418c7f5602cf0f66fcc0e9f714e1d1a1f6b512901d5f8e24113adc5e54d10865",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3095,7 +3095,7 @@
       "file": "oic-original/historical-and-implied-volatility-new/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "d52440e2ba9907b75d48205f8a15283beaea8e51a35b0806507a033128671c67",
+      "sha256": "2b0d5a821074169cdf32d86bed567ab13b9cf4b9b62cb0cbd3ae46578d4cdc0d",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3111,7 +3111,7 @@
       "file": "oic-original/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "c411b50727727c77ef78089adeea1971b4328e54e5f649c9b3393ffdccb1a24e",
+      "sha256": "e154e31eb30799d0a75618eb939b082b7010c8b39a5721de1ac1bdb2d2c796ef",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3335,7 +3335,7 @@
       "file": "oic-original/options-calculator/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "75ed15a893e30b9cf6ab386f34d04c6543eaf5cddd880809249531cb1b651d5a",
+      "sha256": "cedee0b9aca8216b538ba1e710cb2b7bb1eadf5bf0d694a2dab845624460a9eb",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3367,7 +3367,7 @@
       "file": "oic-original/options-monitor/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "88cde79e397533be357966f40eafedeaae272b203290d09d199be95e51eb4226",
+      "sha256": "bfa546fa76504ed849cc9d5171c4d8cc16d7b3a00efcf4ec9339307fde4b11f4",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3423,7 +3423,7 @@
       "file": "oic-original/pnl-calculator/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "022068a531c461c6fb1e26d37c1e747170403fff0d6282927700794fbebefd37",
+      "sha256": "ac4266a0cc0cf1de855e3c57085894b44637ea01e21a8262be1e1a7f54b745a5",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3495,7 +3495,7 @@
       "file": "oic-original/probability-calculator/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "300f24c04ff02f6fe5cb6e5b2aa22a2f0350d460c12df31c40431e001bf43175",
+      "sha256": "6d8322866002777a4eaa90e42858248ca65424f53e002b156c8a1aa524b7e393",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3535,7 +3535,7 @@
       "file": "oic-original/resources.html",
       "passed": true,
       "status": 200,
-      "sha256": "1801aadbc853570116a7383eead5bef7f29a4d661bd510c7e8c402c23a57eaa9",
+      "sha256": "1d0e07bd0edbf7c6760c6ef14c80653fe1f8cc3aa9090e65df0b1da1db428a79",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3567,7 +3567,7 @@
       "file": "oic-original/stock-monitor/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "cdb1fbd2b36048789bfd163c2f11bf6d8fd9868fa28c145660bd6f381f96414c",
+      "sha256": "ff9749f147ddfbc084a3cd8be3ed96b5063aa53dd01298c34a3b18227dff2030",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3591,7 +3591,7 @@
       "file": "oic-original/trending-options-volume/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "96a5427f5dd182da9ab709c4373c3ffaa84eb8dac4075e30bd1d216c9f1db470",
+      "sha256": "ff9a70c6134ad9d6c608e635c324b62304aa8a87b5829707f081356aae25bf64",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3655,9 +3655,9 @@
       "file": "reconciliation/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "04c0d79eb4c9745b2579ed6bd00fcbef16e7c4a837d7739fa9e2eb9f3f15f258",
+      "sha256": "6f959cbfb5e620f4ef62569310cf937c8fc0d77e387c3270068ea05ac0146c5f",
       "method": "complete SHA-256",
-      "attempts": 2
+      "attempts": 1
     },
     {
       "file": "reconciliation/live-attempts.json",
@@ -3687,7 +3687,7 @@
       "file": "style.css",
       "passed": true,
       "status": 200,
-      "sha256": "f31eef756a25661552109ef5aa0658365481d7e3b8dfb38464d04adc92b269cc",
+      "sha256": "2388a15ce755a192d80d92cfc184fb096a85ff378489d6b23d2537d50361dce4",
       "method": "complete SHA-256",
       "attempts": 1
     },
@@ -3719,7 +3719,7 @@
       "file": "tools/index.html",
       "passed": true,
       "status": 200,
-      "sha256": "ccd90f231c24e9cfcb250ecbb9a329f9ab54abfdcc1567b4f916cf7998af2611",
+      "sha256": "6e429fe51cf902304353ee9f070b2ac7b6dc62086e9e3f2d58017eb7b4035cda",
       "method": "complete SHA-256",
       "attempts": 1
     },

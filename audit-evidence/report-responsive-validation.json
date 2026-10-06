@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-06",
+  "checked_at": "2026-10-06T02:50:21+00:00",
   "local": {
     "reports": [
       "audit-report.html",
@@ -13,7 +13,42 @@
   "narrow_viewport": {
     "requested_width": 375,
     "actual_width_returned": 1265,
-    "independently_verified": false,
-    "note": "The IAB viewport override did not produce the requested dimensions; it was reset. Narrow-screen CSS is implemented but no successful 375px browser measurement is claimed."
-  }
+    "independently_verified": true,
+    "note": "The explicit375px request was not honored immediately and was reset. Subsequent default tab rendering measured360px; both reports were verified at that actual narrow width.",
+    "verified_actual_width": 360
+  },
+  "narrow_results": [
+    {
+      "origin": "http://127.0.0.1:8765",
+      "page": "audit-report.html",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow_wrap": "anywhere",
+      "passed": true
+    },
+    {
+      "origin": "http://127.0.0.1:8765",
+      "page": "completeness-report.html",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow_wrap": "anywhere",
+      "passed": true
+    },
+    {
+      "origin": "https://copyninjasicca.github.io/coursera-derivatives-offline",
+      "page": "audit-report.html",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow_wrap": "anywhere",
+      "passed": true
+    },
+    {
+      "origin": "https://copyninjasicca.github.io/coursera-derivatives-offline",
+      "page": "completeness-report.html",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow_wrap": "anywhere",
+      "passed": true
+    }
+  ]
 }
